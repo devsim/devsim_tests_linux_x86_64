@@ -10,4 +10,7 @@
 ----------------------------------------
 
 
-global q 1.60217646e-19 coul {Electron Charge} global pi 3.141592653589793 {} Pi global m0 9.10938188e-31 kg {Electron Mass}
+can't find package sqlite3
+    while executing
+"package require sqlite3"
+    (file "sqlite1.tcl" line 15)

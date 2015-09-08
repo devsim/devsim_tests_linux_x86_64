@@ -33,13 +33,13 @@ Iteration: 0
     Region: "MySiRegion"	RelError: 1.00000e+00	AbsError: 1.00000e+00
       Equation: "PotentialEquation"	RelError: 1.00000e+00	AbsError: 1.00000e+00
 Iteration: 1
-  Device: "MyDevice"	RelError: 1.19615e-15	AbsError: 5.15052e-16
-    Region: "MyOxRegion"	RelError: 5.85894e-16	AbsError: 4.33562e-16
-      Equation: "PotentialEquation"	RelError: 5.85894e-16	AbsError: 4.33562e-16
-    Region: "MySiRegion"	RelError: 6.10251e-16	AbsError: 5.15052e-16
-      Equation: "PotentialEquation"	RelError: 6.10251e-16	AbsError: 5.15052e-16
+  Device: "MyDevice"	RelError: 1.45960e-15	AbsError: 5.40050e-16
+    Region: "MyOxRegion"	RelError: 7.29798e-16	AbsError: 5.40050e-16
+      Equation: "PotentialEquation"	RelError: 7.29798e-16	AbsError: 5.40050e-16
+    Region: "MySiRegion"	RelError: 7.29798e-16	AbsError: 5.40050e-16
+      Equation: "PotentialEquation"	RelError: 7.29798e-16	AbsError: 5.40050e-16
 5.108220000000004e-13
--5.10822e-13
+-5.108220000000001e-13
 PotentialEdgeFlux
 5.10822e-13
 5.10822e-13
@@ -75,11 +75,11 @@ Iteration: 0
     Region: "MySiRegion"	RelError: 4.80000e-01	AbsError: 2.40000e-01
       Equation: "PotentialEquation"	RelError: 4.80000e-01	AbsError: 2.40000e-01
 Iteration: 1
-  Device: "MyDevice"	RelError: 7.17849e-16	AbsError: 2.08224e-16
-    Region: "MyOxRegion"	RelError: 3.70809e-16	AbsError: 1.48324e-16
-      Equation: "PotentialEquation"	RelError: 3.70809e-16	AbsError: 1.48324e-16
-    Region: "MySiRegion"	RelError: 3.47039e-16	AbsError: 2.08224e-16
-      Equation: "PotentialEquation"	RelError: 3.47039e-16	AbsError: 2.08224e-16
+  Device: "MyDevice"	RelError: 8.55714e-16	AbsError: 1.96814e-16
+    Region: "MyOxRegion"	RelError: 4.70642e-16	AbsError: 1.92536e-16
+      Equation: "PotentialEquation"	RelError: 4.70642e-16	AbsError: 1.92536e-16
+    Region: "MySiRegion"	RelError: 3.85071e-16	AbsError: 1.96814e-16
+      Equation: "PotentialEquation"	RelError: 3.85071e-16	AbsError: 1.96814e-16
 PotentialEdgeFlux
 8.85000e-14
 8.85000e-14
@@ -107,11 +107,11 @@ Iteration: 0
     Region: "MySiRegion"	RelError: 3.24324e-01	AbsError: 2.40000e-01
       Equation: "PotentialEquation"	RelError: 3.24324e-01	AbsError: 2.40000e-01
 Iteration: 1
-  Device: "MyDevice"	RelError: 2.87808e-16	AbsError: 1.24826e-16
+  Device: "MyDevice"	RelError: 2.87808e-16	AbsError: 1.06489e-16
     Region: "MyOxRegion"	RelError: 1.43904e-16	AbsError: 1.06489e-16
       Equation: "PotentialEquation"	RelError: 1.43904e-16	AbsError: 1.06489e-16
-    Region: "MySiRegion"	RelError: 1.43904e-16	AbsError: 1.24826e-16
-      Equation: "PotentialEquation"	RelError: 1.43904e-16	AbsError: 1.24826e-16
+    Region: "MySiRegion"	RelError: 1.43904e-16	AbsError: 1.06489e-16
+      Equation: "PotentialEquation"	RelError: 1.43904e-16	AbsError: 1.06489e-16
 PotentialEdgeFlux
 5.10822e-13
 5.10822e-13

@@ -132,59 +132,59 @@ Region "Bulk" on device "resistor3d" has equations 0:4250
 Device "resistor3d" has equations 0:4250
 number of equations 4251
 drop tolerance_ 0.5 dropped 76225 kept 11241 outofrange 0 drop % 87.1481
-GMRES back vectors 50/50 linear iterations 70/100 relative tolerance 5.30499e-21/1e-20 linear convergence 0
+GMRES back vectors 50/50 linear iterations 64/100 relative tolerance 9.20813e-21/1e-20 linear convergence 0
 Iteration: 0
-  Device: "resistor3d"	RelError: 1.04818e-14	AbsError: 5.12000e+03
-    Region: "Bulk"	RelError: 1.04818e-14	AbsError: 5.12000e+03
+  Device: "resistor3d"	RelError: 1.04819e-14	AbsError: 5.12000e+03
+    Region: "Bulk"	RelError: 1.04819e-14	AbsError: 5.12000e+03
       Equation: "ElectronContinuityEquation"	RelError: 5.12000e-15	AbsError: 5.12000e+03
       Equation: "HoleContinuityEquation"	RelError: 5.11591e-15	AbsError: 5.11591e-13
-      Equation: "PotentialEquation"	RelError: 2.45852e-16	AbsError: 1.17237e-16
+      Equation: "PotentialEquation"	RelError: 2.45980e-16	AbsError: 1.17298e-16
 top	0.0	0.0	0.0	0.0
 bot	0.0	0.0	0.0	0.0
 Region "Bulk" on device "resistor3d" has equations 0:4250
 Device "resistor3d" has equations 0:4250
 number of equations 4251
 drop tolerance_ 0.5 dropped 76225 kept 11241 outofrange 0 drop % 87.1481
-GMRES back vectors 50/50 linear iterations 100/100 relative tolerance 26.0373/1e-20 linear convergence 1
+GMRES back vectors 50/50 linear iterations 100/100 relative tolerance 26.0926/1e-20 linear convergence 1
 Iteration: 0
-  Device: "resistor3d"	RelError: 7.90907e-02	AbsError: 1.11546e+03
-    Region: "Bulk"	RelError: 7.90907e-02	AbsError: 1.11546e+03
-      Equation: "ElectronContinuityEquation"	RelError: 1.11542e-15	AbsError: 1.11542e+03
-      Equation: "HoleContinuityEquation"	RelError: 3.02722e-15	AbsError: 3.02722e-13
+  Device: "resistor3d"	RelError: 7.90907e-02	AbsError: 1.13922e+03
+    Region: "Bulk"	RelError: 7.90907e-02	AbsError: 1.13922e+03
+      Equation: "ElectronContinuityEquation"	RelError: 1.13918e-15	AbsError: 1.13918e+03
+      Equation: "HoleContinuityEquation"	RelError: 3.62028e-15	AbsError: 3.62028e-13
       Equation: "PotentialEquation"	RelError: 7.90907e-02	AbsError: 4.09542e-02
 drop tolerance_ 0.5 dropped 76225 kept 11241 outofrange 0 drop % 87.1481
-GMRES back vectors 50/50 linear iterations 100/100 relative tolerance 0.508854/1e-20 linear convergence 1
+GMRES back vectors 50/50 linear iterations 100/100 relative tolerance 0.511772/1e-20 linear convergence 1
 Iteration: 1
-  Device: "resistor3d"	RelError: 5.60782e-02	AbsError: 1.48969e+03
-    Region: "Bulk"	RelError: 5.60782e-02	AbsError: 1.48969e+03
-      Equation: "ElectronContinuityEquation"	RelError: 1.48966e-15	AbsError: 1.48966e+03
-      Equation: "HoleContinuityEquation"	RelError: 4.79900e-15	AbsError: 4.79900e-13
+  Device: "resistor3d"	RelError: 5.60782e-02	AbsError: 1.25704e+03
+    Region: "Bulk"	RelError: 5.60782e-02	AbsError: 1.25704e+03
+      Equation: "ElectronContinuityEquation"	RelError: 1.25701e-15	AbsError: 1.25701e+03
+      Equation: "HoleContinuityEquation"	RelError: 3.74375e-15	AbsError: 3.74375e-13
       Equation: "PotentialEquation"	RelError: 5.60782e-02	AbsError: 3.07632e-02
 drop tolerance_ 0.5 dropped 76225 kept 11241 outofrange 0 drop % 87.1481
-GMRES back vectors 50/50 linear iterations 100/100 relative tolerance 0.359845/1e-20 linear convergence 1
+GMRES back vectors 50/50 linear iterations 100/100 relative tolerance 0.367832/1e-20 linear convergence 1
 Iteration: 2
-  Device: "resistor3d"	RelError: 4.46193e-02	AbsError: 9.29839e+02
-    Region: "Bulk"	RelError: 4.46193e-02	AbsError: 9.29839e+02
-      Equation: "ElectronContinuityEquation"	RelError: 9.29814e-16	AbsError: 9.29814e+02
-      Equation: "HoleContinuityEquation"	RelError: 2.48488e-15	AbsError: 2.48488e-13
+  Device: "resistor3d"	RelError: 4.46193e-02	AbsError: 6.26355e+02
+    Region: "Bulk"	RelError: 4.46193e-02	AbsError: 6.26355e+02
+      Equation: "ElectronContinuityEquation"	RelError: 6.26329e-16	AbsError: 6.26329e+02
+      Equation: "HoleContinuityEquation"	RelError: 1.64933e-15	AbsError: 1.64933e-13
       Equation: "PotentialEquation"	RelError: 4.46193e-02	AbsError: 2.55115e-02
 drop tolerance_ 0.5 dropped 76225 kept 11241 outofrange 0 drop % 87.1481
-GMRES back vectors 50/50 linear iterations 100/100 relative tolerance 0.109116/1e-20 linear convergence 1
+GMRES back vectors 50/50 linear iterations 100/100 relative tolerance 0.0868935/1e-20 linear convergence 1
 Iteration: 3
-  Device: "resistor3d"	RelError: 1.58883e-02	AbsError: 3.15479e+02
-    Region: "Bulk"	RelError: 1.58883e-02	AbsError: 3.15479e+02
-      Equation: "ElectronContinuityEquation"	RelError: 3.15470e-16	AbsError: 3.15470e+02
-      Equation: "HoleContinuityEquation"	RelError: 8.70877e-16	AbsError: 8.70877e-14
+  Device: "resistor3d"	RelError: 1.58883e-02	AbsError: 3.01953e+02
+    Region: "Bulk"	RelError: 1.58883e-02	AbsError: 3.01953e+02
+      Equation: "ElectronContinuityEquation"	RelError: 3.01944e-16	AbsError: 3.01944e+02
+      Equation: "HoleContinuityEquation"	RelError: 7.83239e-16	AbsError: 7.83239e-14
       Equation: "PotentialEquation"	RelError: 1.58883e-02	AbsError: 9.16533e-03
 drop tolerance_ 0.5 dropped 76225 kept 11241 outofrange 0 drop % 87.1481
-GMRES back vectors 50/50 linear iterations 100/100 relative tolerance 1.87077e-10/1e-20 linear convergence 1
+GMRES back vectors 50/50 linear iterations 100/100 relative tolerance 1.48608e-10/1e-20 linear convergence 1
 Iteration: 4
-  Device: "resistor3d"	RelError: 4.18477e-12	AbsError: 5.79158e+01
-    Region: "Bulk"	RelError: 4.18477e-12	AbsError: 5.79158e+01
-      Equation: "ElectronContinuityEquation"	RelError: 5.79158e-17	AbsError: 5.79158e+01
-      Equation: "HoleContinuityEquation"	RelError: 2.41458e-16	AbsError: 2.41458e-14
-      Equation: "PotentialEquation"	RelError: 4.18447e-12	AbsError: 2.18094e-12
-top	0.1	7.195107565491578e-5	3.597553782745789e-21	7.195107565491578e-5
+  Device: "resistor3d"	RelError: 3.40706e-12	AbsError: 1.45437e+02
+    Region: "Bulk"	RelError: 3.40706e-12	AbsError: 1.45437e+02
+      Equation: "ElectronContinuityEquation"	RelError: 1.45437e-16	AbsError: 1.45437e+02
+      Equation: "HoleContinuityEquation"	RelError: 2.25919e-16	AbsError: 2.25919e-14
+      Equation: "PotentialEquation"	RelError: 3.40669e-12	AbsError: 1.73626e-12
+top	0.1	7.195107565491577e-5	3.597553782745789e-21	7.195107565491577e-5
 bot	0.0	-7.195107565491578e-5	-3.5975537827457884e-21	-7.195107565491578e-5
 Volume 1.1278697942240101e-15
 ElementNodeVolume 1.127869794224001e-15

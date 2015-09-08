@@ -64,21 +64,21 @@ Iteration: 0
     Region: "right"	RelError: 1.00000e+00	AbsError: 9.49732e-03
       Equation: "Az_Equation"	RelError: 1.00000e+00	AbsError: 9.49732e-03
 Iteration: 1
-  Device: "twowire"	RelError: 3.80672e-10	AbsError: 2.93751e-16
-    Region: "air"	RelError: 3.80569e-10	AbsError: 2.93751e-16
-      Equation: "Az_Equation"	RelError: 3.80569e-10	AbsError: 2.93751e-16
-    Region: "left"	RelError: 4.98486e-14	AbsError: 2.86248e-16
-      Equation: "Az_Equation"	RelError: 4.98486e-14	AbsError: 2.86248e-16
-    Region: "right"	RelError: 5.25844e-14	AbsError: 2.91843e-16
-      Equation: "Az_Equation"	RelError: 5.25844e-14	AbsError: 2.91843e-16
+  Device: "twowire"	RelError: 4.46192e-10	AbsError: 3.38783e-16
+    Region: "air"	RelError: 4.46071e-10	AbsError: 3.35528e-16
+      Equation: "Az_Equation"	RelError: 4.46071e-10	AbsError: 3.35528e-16
+    Region: "left"	RelError: 5.89522e-14	AbsError: 3.38783e-16
+      Equation: "Az_Equation"	RelError: 5.89522e-14	AbsError: 3.38783e-16
+    Region: "right"	RelError: 6.11095e-14	AbsError: 3.38259e-16
+      Equation: "Az_Equation"	RelError: 6.11095e-14	AbsError: 3.38259e-16
 Iteration: 2
-  Device: "twowire"	RelError: 2.95746e-12	AbsError: 3.16091e-18
-    Region: "air"	RelError: 2.95656e-12	AbsError: 2.95924e-18
-      Equation: "Az_Equation"	RelError: 2.95656e-12	AbsError: 2.95924e-18
-    Region: "left"	RelError: 4.95148e-16	AbsError: 3.16091e-18
-      Equation: "Az_Equation"	RelError: 4.95148e-16	AbsError: 3.16091e-18
-    Region: "right"	RelError: 4.07969e-16	AbsError: 2.69944e-18
-      Equation: "Az_Equation"	RelError: 4.07969e-16	AbsError: 2.69944e-18
+  Device: "twowire"	RelError: 3.86683e-13	AbsError: 1.23059e-18
+    Region: "air"	RelError: 3.86395e-13	AbsError: 1.06707e-18
+      Equation: "Az_Equation"	RelError: 3.86395e-13	AbsError: 1.06707e-18
+    Region: "left"	RelError: 1.50819e-16	AbsError: 1.23059e-18
+      Equation: "Az_Equation"	RelError: 1.50819e-16	AbsError: 1.23059e-18
+    Region: "right"	RelError: 1.37768e-16	AbsError: 1.17543e-18
+      Equation: "Az_Equation"	RelError: 1.37768e-16	AbsError: 1.17543e-18
 ElementNodeVolume 2.002482e+02
 NodeVolume 4.004963e+02
 ElementNodeVolume 1.570720e-02

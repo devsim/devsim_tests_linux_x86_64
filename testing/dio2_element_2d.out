@@ -594,13 +594,13 @@ Iteration: 12
     Region: "MyRegion"	RelError: 2.32363e-02	AbsError: 6.92465e-06
       Equation: "PotentialEquation"	RelError: 2.32363e-02	AbsError: 6.92465e-06
 Iteration: 13
-  Device: "MyDevice"	RelError: 1.28497e-07	AbsError: 5.25537e-11
-    Region: "MyRegion"	RelError: 1.28497e-07	AbsError: 5.25537e-11
-      Equation: "PotentialEquation"	RelError: 1.28497e-07	AbsError: 5.25537e-11
+  Device: "MyDevice"	RelError: 1.28497e-07	AbsError: 5.25536e-11
+    Region: "MyRegion"	RelError: 1.28497e-07	AbsError: 5.25536e-11
+      Equation: "PotentialEquation"	RelError: 1.28497e-07	AbsError: 5.25536e-11
 Iteration: 14
-  Device: "MyDevice"	RelError: 8.70181e-13	AbsError: 1.60727e-16
-    Region: "MyRegion"	RelError: 8.70181e-13	AbsError: 1.60727e-16
-      Equation: "PotentialEquation"	RelError: 8.70181e-13	AbsError: 1.60727e-16
+  Device: "MyDevice"	RelError: 9.12893e-13	AbsError: 1.67952e-16
+    Region: "MyRegion"	RelError: 9.12893e-13	AbsError: 1.67952e-16
+      Equation: "PotentialEquation"	RelError: 9.12893e-13	AbsError: 1.67952e-16
 Warning: Replacing equation with equation of the same name.
 Region: MyRegion, Equation: PotentialEquation, Variable: Potential
 Potential
@@ -2097,35 +2097,35 @@ Region "air2" on device "MyDevice" has no equations.
 Device "MyDevice" has equations 0:1484
 number of equations 1485
 Iteration: 0
-  Device: "MyDevice"	RelError: 1.41844e+02	AbsError: 2.04077e+19
-    Region: "MyRegion"	RelError: 1.41844e+02	AbsError: 2.04077e+19
-      Equation: "ElectronContinuityEquation"	RelError: 9.97383e-01	AbsError: 1.03524e+19
-      Equation: "HoleContinuityEquation"	RelError: 9.97095e-01	AbsError: 1.00553e+19
-      Equation: "PotentialEquation"	RelError: 1.39850e+02	AbsError: 1.54354e-01
+  Device: "MyDevice"	RelError: 1.41852e+02	AbsError: 2.04076e+19
+    Region: "MyRegion"	RelError: 1.41852e+02	AbsError: 2.04076e+19
+      Equation: "ElectronContinuityEquation"	RelError: 9.97382e-01	AbsError: 1.03525e+19
+      Equation: "HoleContinuityEquation"	RelError: 9.97095e-01	AbsError: 1.00551e+19
+      Equation: "PotentialEquation"	RelError: 1.39858e+02	AbsError: 1.54358e-01
 Iteration: 1
-  Device: "MyDevice"	RelError: 2.33696e+01	AbsError: 4.94410e+19
-    Region: "MyRegion"	RelError: 2.33696e+01	AbsError: 4.94410e+19
-      Equation: "ElectronContinuityEquation"	RelError: 6.39518e+00	AbsError: 2.67405e+19
-      Equation: "HoleContinuityEquation"	RelError: 6.70447e+00	AbsError: 2.27005e+19
-      Equation: "PotentialEquation"	RelError: 1.02700e+01	AbsError: 1.53928e-01
+  Device: "MyDevice"	RelError: 2.33693e+01	AbsError: 4.94389e+19
+    Region: "MyRegion"	RelError: 2.33693e+01	AbsError: 4.94389e+19
+      Equation: "ElectronContinuityEquation"	RelError: 6.39518e+00	AbsError: 2.67415e+19
+      Equation: "HoleContinuityEquation"	RelError: 6.70369e+00	AbsError: 2.26974e+19
+      Equation: "PotentialEquation"	RelError: 1.02704e+01	AbsError: 1.53928e-01
 Iteration: 2
-  Device: "MyDevice"	RelError: 5.78840e+01	AbsError: 1.04000e+20
-    Region: "MyRegion"	RelError: 5.78840e+01	AbsError: 1.04000e+20
-      Equation: "ElectronContinuityEquation"	RelError: 2.29620e+01	AbsError: 5.74305e+19
-      Equation: "HoleContinuityEquation"	RelError: 1.17173e+01	AbsError: 4.65692e+19
-      Equation: "PotentialEquation"	RelError: 2.32047e+01	AbsError: 1.53523e-01
+  Device: "MyDevice"	RelError: 5.78926e+01	AbsError: 1.04102e+20
+    Region: "MyRegion"	RelError: 5.78926e+01	AbsError: 1.04102e+20
+      Equation: "ElectronContinuityEquation"	RelError: 2.29710e+01	AbsError: 5.74293e+19
+      Equation: "HoleContinuityEquation"	RelError: 1.17172e+01	AbsError: 4.66724e+19
+      Equation: "PotentialEquation"	RelError: 2.32043e+01	AbsError: 1.53522e-01
 Iteration: 3
-  Device: "MyDevice"	RelError: 1.05614e+03	AbsError: 2.88512e+20
-    Region: "MyRegion"	RelError: 1.05614e+03	AbsError: 2.88512e+20
-      Equation: "ElectronContinuityEquation"	RelError: 5.60307e+01	AbsError: 1.50555e+20
-      Equation: "HoleContinuityEquation"	RelError: 9.99000e+02	AbsError: 1.37957e+20
-      Equation: "PotentialEquation"	RelError: 1.10984e+00	AbsError: 1.53208e-01
+  Device: "MyDevice"	RelError: 1.05597e+03	AbsError: 2.89687e+20
+    Region: "MyRegion"	RelError: 1.05597e+03	AbsError: 2.89687e+20
+      Equation: "ElectronContinuityEquation"	RelError: 5.58610e+01	AbsError: 1.48796e+20
+      Equation: "HoleContinuityEquation"	RelError: 9.99000e+02	AbsError: 1.40891e+20
+      Equation: "PotentialEquation"	RelError: 1.10950e+00	AbsError: 1.53333e-01
 Iteration: 4
-  Device: "MyDevice"	RelError: 1.99989e+03	AbsError: 8.65957e+20
-    Region: "MyRegion"	RelError: 1.99989e+03	AbsError: 8.65957e+20
-      Equation: "ElectronContinuityEquation"	RelError: 9.99000e+02	AbsError: 2.03593e+20
-      Equation: "HoleContinuityEquation"	RelError: 9.99000e+02	AbsError: 6.62365e+20
-      Equation: "PotentialEquation"	RelError: 1.89157e+00	AbsError: 1.53121e-01
+  Device: "MyDevice"	RelError: 1.99940e+03	AbsError: 7.88072e+20
+    Region: "MyRegion"	RelError: 1.99940e+03	AbsError: 7.88072e+20
+      Equation: "ElectronContinuityEquation"	RelError: 9.99000e+02	AbsError: 3.51093e+20
+      Equation: "HoleContinuityEquation"	RelError: 9.99000e+02	AbsError: 4.36980e+20
+      Equation: "PotentialEquation"	RelError: 1.40500e+00	AbsError: 1.52811e-01
 Convergence failure!
 
 Region "MyRegion" on device "MyDevice" has equations 0:1484
@@ -2134,288 +2134,288 @@ Region "air2" on device "MyDevice" has no equations.
 Device "MyDevice" has equations 0:1484
 number of equations 1485
 Iteration: 0
-  Device: "MyDevice"	RelError: 6.45944e-13	AbsError: 1.02400e+04
-    Region: "MyRegion"	RelError: 6.45944e-13	AbsError: 1.02400e+04
-      Equation: "ElectronContinuityEquation"	RelError: 9.01133e-15	AbsError: 5.12000e+03
-      Equation: "HoleContinuityEquation"	RelError: 8.69142e-15	AbsError: 5.12000e+03
-      Equation: "PotentialEquation"	RelError: 6.28241e-13	AbsError: 2.39321e-16
-top	0.0	-3.366829893707289e-30	-1.3042174993919986e-14	-1.3042174993919989e-14
-bot	0.0	4.316369139839677e-14	3.895359086868877e-30	4.3163691398396776e-14
+  Device: "MyDevice"	RelError: 4.09081e-13	AbsError: 1.02400e+04
+    Region: "MyRegion"	RelError: 4.09081e-13	AbsError: 1.02400e+04
+      Equation: "ElectronContinuityEquation"	RelError: 9.95018e-15	AbsError: 5.12000e+03
+      Equation: "HoleContinuityEquation"	RelError: 8.78905e-15	AbsError: 5.12000e+03
+      Equation: "PotentialEquation"	RelError: 3.90342e-13	AbsError: 2.39237e-16
+top	0.0	-3.2608807012479674e-30	-1.3042174993919986e-14	-1.3042174993919989e-14
+bot	0.0	4.316369139839677e-14	3.832304713160568e-30	4.3163691398396776e-14
 Region "MyRegion" on device "MyDevice" has equations 0:1484
 Region "air1" on device "MyDevice" has no equations.
 Region "air2" on device "MyDevice" has no equations.
 Device "MyDevice" has equations 0:1484
 number of equations 1485
 Iteration: 0
-  Device: "MyDevice"	RelError: 3.35495e+01	AbsError: 2.04136e+17
-    Region: "MyRegion"	RelError: 3.35495e+01	AbsError: 2.04136e+17
-      Equation: "ElectronContinuityEquation"	RelError: 7.92023e-01	AbsError: 1.03524e+17
-      Equation: "HoleContinuityEquation"	RelError: 7.74401e-01	AbsError: 1.00612e+17
-      Equation: "PotentialEquation"	RelError: 3.19831e+01	AbsError: 4.10895e-02
+  Device: "MyDevice"	RelError: 3.35466e+01	AbsError: 2.04137e+17
+    Region: "MyRegion"	RelError: 3.35466e+01	AbsError: 2.04137e+17
+      Equation: "ElectronContinuityEquation"	RelError: 7.92727e-01	AbsError: 1.03524e+17
+      Equation: "HoleContinuityEquation"	RelError: 7.74401e-01	AbsError: 1.00614e+17
+      Equation: "PotentialEquation"	RelError: 3.19795e+01	AbsError: 4.10032e-02
 Iteration: 1
-  Device: "MyDevice"	RelError: 1.54044e+02	AbsError: 3.86983e+16
-    Region: "MyRegion"	RelError: 1.54044e+02	AbsError: 3.86983e+16
-      Equation: "ElectronContinuityEquation"	RelError: 6.90570e-01	AbsError: 1.25536e+16
-      Equation: "HoleContinuityEquation"	RelError: 7.54212e-01	AbsError: 2.61447e+16
-      Equation: "PotentialEquation"	RelError: 1.52600e+02	AbsError: 3.07845e-02
+  Device: "MyDevice"	RelError: 1.54245e+02	AbsError: 4.37211e+16
+    Region: "MyRegion"	RelError: 1.54245e+02	AbsError: 4.37211e+16
+      Equation: "ElectronContinuityEquation"	RelError: 6.89751e-01	AbsError: 1.25540e+16
+      Equation: "HoleContinuityEquation"	RelError: 7.54214e-01	AbsError: 3.11671e+16
+      Equation: "PotentialEquation"	RelError: 1.52801e+02	AbsError: 3.08081e-02
 Iteration: 2
-  Device: "MyDevice"	RelError: 1.51902e+00	AbsError: 1.60228e+15
-    Region: "MyRegion"	RelError: 1.51902e+00	AbsError: 1.60228e+15
-      Equation: "ElectronContinuityEquation"	RelError: 5.11754e-01	AbsError: 4.38102e+14
-      Equation: "HoleContinuityEquation"	RelError: 4.96210e-01	AbsError: 1.16418e+15
-      Equation: "PotentialEquation"	RelError: 5.11057e-01	AbsError: 2.44136e-02
+  Device: "MyDevice"	RelError: 1.51867e+00	AbsError: 1.60048e+15
+    Region: "MyRegion"	RelError: 1.51867e+00	AbsError: 1.60048e+15
+      Equation: "ElectronContinuityEquation"	RelError: 5.12227e-01	AbsError: 4.38106e+14
+      Equation: "HoleContinuityEquation"	RelError: 4.96207e-01	AbsError: 1.16238e+15
+      Equation: "PotentialEquation"	RelError: 5.10235e-01	AbsError: 2.44135e-02
 Iteration: 3
-  Device: "MyDevice"	RelError: 5.47506e-01	AbsError: 1.12328e+15
-    Region: "MyRegion"	RelError: 5.47506e-01	AbsError: 1.12328e+15
-      Equation: "ElectronContinuityEquation"	RelError: 2.68399e-01	AbsError: 5.21233e+13
-      Equation: "HoleContinuityEquation"	RelError: 8.19211e-02	AbsError: 1.07116e+15
-      Equation: "PotentialEquation"	RelError: 1.97185e-01	AbsError: 9.19094e-03
+  Device: "MyDevice"	RelError: 5.48465e-01	AbsError: 1.12365e+15
+    Region: "MyRegion"	RelError: 5.48465e-01	AbsError: 1.12365e+15
+      Equation: "ElectronContinuityEquation"	RelError: 2.68397e-01	AbsError: 5.24883e+13
+      Equation: "HoleContinuityEquation"	RelError: 8.19148e-02	AbsError: 1.07116e+15
+      Equation: "PotentialEquation"	RelError: 1.98153e-01	AbsError: 9.21969e-03
 Iteration: 4
-  Device: "MyDevice"	RelError: 5.56354e-01	AbsError: 1.11808e+15
-    Region: "MyRegion"	RelError: 5.56354e-01	AbsError: 1.11808e+15
-      Equation: "ElectronContinuityEquation"	RelError: 8.88516e-02	AbsError: 8.36104e+13
-      Equation: "HoleContinuityEquation"	RelError: 4.68536e-03	AbsError: 1.03447e+15
-      Equation: "PotentialEquation"	RelError: 4.62817e-01	AbsError: 6.60706e-05
+  Device: "MyDevice"	RelError: 5.56609e-01	AbsError: 1.11807e+15
+    Region: "MyRegion"	RelError: 5.56609e-01	AbsError: 1.11807e+15
+      Equation: "ElectronContinuityEquation"	RelError: 8.90901e-02	AbsError: 8.36102e+13
+      Equation: "HoleContinuityEquation"	RelError: 4.68531e-03	AbsError: 1.03446e+15
+      Equation: "PotentialEquation"	RelError: 4.62834e-01	AbsError: 6.60701e-05
 Iteration: 5
-  Device: "MyDevice"	RelError: 1.97784e-04	AbsError: 2.05524e+11
-    Region: "MyRegion"	RelError: 1.97784e-04	AbsError: 2.05524e+11
-      Equation: "ElectronContinuityEquation"	RelError: 1.27979e-04	AbsError: 1.64585e+10
-      Equation: "HoleContinuityEquation"	RelError: 7.97804e-06	AbsError: 1.89065e+11
-      Equation: "PotentialEquation"	RelError: 6.18270e-05	AbsError: 7.44579e-09
+  Device: "MyDevice"	RelError: 2.11092e-04	AbsError: 2.08265e+11
+    Region: "MyRegion"	RelError: 2.11092e-04	AbsError: 2.08265e+11
+      Equation: "ElectronContinuityEquation"	RelError: 1.27974e-04	AbsError: 1.63917e+10
+      Equation: "HoleContinuityEquation"	RelError: 7.97937e-06	AbsError: 1.91873e+11
+      Equation: "PotentialEquation"	RelError: 7.51387e-05	AbsError: 7.84139e-09
 Iteration: 6
-  Device: "MyDevice"	RelError: 3.20330e-09	AbsError: 1.21497e+07
-    Region: "MyRegion"	RelError: 3.20330e-09	AbsError: 1.21497e+07
-      Equation: "ElectronContinuityEquation"	RelError: 2.73762e-11	AbsError: 8.39767e+05
-      Equation: "HoleContinuityEquation"	RelError: 2.66740e-11	AbsError: 1.13099e+07
-      Equation: "PotentialEquation"	RelError: 3.14925e-09	AbsError: 7.10157e-13
+  Device: "MyDevice"	RelError: 2.44429e-09	AbsError: 3.93791e+07
+    Region: "MyRegion"	RelError: 2.44429e-09	AbsError: 3.93791e+07
+      Equation: "ElectronContinuityEquation"	RelError: 9.11280e-11	AbsError: 1.12089e+06
+      Equation: "HoleContinuityEquation"	RelError: 8.96652e-11	AbsError: 3.82582e+07
+      Equation: "PotentialEquation"	RelError: 2.26350e-09	AbsError: 2.32000e-12
 Iteration: 7
-  Device: "MyDevice"	RelError: 7.70707e-12	AbsError: 3.49203e+04
-    Region: "MyRegion"	RelError: 7.70707e-12	AbsError: 3.49203e+04
-      Equation: "ElectronContinuityEquation"	RelError: 5.33405e-14	AbsError: 4.39149e+03
-      Equation: "HoleContinuityEquation"	RelError: 3.59772e-14	AbsError: 3.05288e+04
-      Equation: "PotentialEquation"	RelError: 7.61775e-12	AbsError: 1.70389e-15
-top	0.1	1.0090126513593609e-14	6.717250291584002e-14	7.726262942943363e-14
-bot	0.0	-3.3066921480643316e-14	-1.4046793951566561e-14	-4.711371543220988e-14
+  Device: "MyDevice"	RelError: 1.91629e-12	AbsError: 1.68902e+04
+    Region: "MyRegion"	RelError: 1.91629e-12	AbsError: 1.68902e+04
+      Equation: "ElectronContinuityEquation"	RelError: 3.39344e-14	AbsError: 3.23982e+03
+      Equation: "HoleContinuityEquation"	RelError: 1.87339e-14	AbsError: 1.36504e+04
+      Equation: "PotentialEquation"	RelError: 1.86362e-12	AbsError: 6.81616e-16
+top	0.1	1.009012651359416e-14	1.8980075804160062e-14	2.907020231775422e-14
+bot	0.0	1.451410675677091e-14	-1.40467939515682e-14	4.673128052027092e-16
 Region "MyRegion" on device "MyDevice" has equations 0:1484
 Region "air1" on device "MyDevice" has no equations.
 Region "air2" on device "MyDevice" has no equations.
 Device "MyDevice" has equations 0:1484
 number of equations 1485
 Iteration: 0
-  Device: "MyDevice"	RelError: 8.90669e+00	AbsError: 2.17504e+17
-    Region: "MyRegion"	RelError: 8.90669e+00	AbsError: 2.17504e+17
-      Equation: "ElectronContinuityEquation"	RelError: 7.95310e-01	AbsError: 1.07465e+17
-      Equation: "HoleContinuityEquation"	RelError: 7.89474e-01	AbsError: 1.10039e+17
-      Equation: "PotentialEquation"	RelError: 7.32191e+00	AbsError: 4.11152e-02
+  Device: "MyDevice"	RelError: 8.90864e+00	AbsError: 2.17507e+17
+    Region: "MyRegion"	RelError: 8.90864e+00	AbsError: 2.17507e+17
+      Equation: "ElectronContinuityEquation"	RelError: 7.97192e-01	AbsError: 1.07465e+17
+      Equation: "HoleContinuityEquation"	RelError: 7.89474e-01	AbsError: 1.10042e+17
+      Equation: "PotentialEquation"	RelError: 7.32197e+00	AbsError: 4.13472e-02
 Iteration: 1
-  Device: "MyDevice"	RelError: 3.99932e+00	AbsError: 4.39928e+16
-    Region: "MyRegion"	RelError: 3.99932e+00	AbsError: 4.39928e+16
-      Equation: "ElectronContinuityEquation"	RelError: 6.88477e-01	AbsError: 1.31188e+16
-      Equation: "HoleContinuityEquation"	RelError: 7.74615e-01	AbsError: 3.08740e+16
-      Equation: "PotentialEquation"	RelError: 2.53623e+00	AbsError: 3.07920e-02
+  Device: "MyDevice"	RelError: 3.99920e+00	AbsError: 8.77683e+16
+    Region: "MyRegion"	RelError: 3.99920e+00	AbsError: 8.77683e+16
+      Equation: "ElectronContinuityEquation"	RelError: 6.88187e-01	AbsError: 1.31211e+16
+      Equation: "HoleContinuityEquation"	RelError: 7.74614e-01	AbsError: 7.46472e+16
+      Equation: "PotentialEquation"	RelError: 2.53639e+00	AbsError: 3.07759e-02
 Iteration: 2
-  Device: "MyDevice"	RelError: 7.57149e+00	AbsError: 1.68870e+15
-    Region: "MyRegion"	RelError: 7.57149e+00	AbsError: 1.68870e+15
-      Equation: "ElectronContinuityEquation"	RelError: 5.14358e-01	AbsError: 3.59779e+14
-      Equation: "HoleContinuityEquation"	RelError: 4.90695e-01	AbsError: 1.32892e+15
-      Equation: "PotentialEquation"	RelError: 6.56644e+00	AbsError: 2.51366e-02
+  Device: "MyDevice"	RelError: 7.57124e+00	AbsError: 1.68929e+15
+    Region: "MyRegion"	RelError: 7.57124e+00	AbsError: 1.68929e+15
+      Equation: "ElectronContinuityEquation"	RelError: 5.14126e-01	AbsError: 3.59778e+14
+      Equation: "HoleContinuityEquation"	RelError: 4.90697e-01	AbsError: 1.32951e+15
+      Equation: "PotentialEquation"	RelError: 6.56642e+00	AbsError: 2.51366e-02
 Iteration: 3
-  Device: "MyDevice"	RelError: 3.96144e-01	AbsError: 1.02185e+15
-    Region: "MyRegion"	RelError: 3.96144e-01	AbsError: 1.02185e+15
-      Equation: "ElectronContinuityEquation"	RelError: 2.80220e-01	AbsError: 4.12941e+13
-      Equation: "HoleContinuityEquation"	RelError: 8.26891e-02	AbsError: 9.80557e+14
-      Equation: "PotentialEquation"	RelError: 3.32348e-02	AbsError: 9.20000e-03
+  Device: "MyDevice"	RelError: 3.96073e-01	AbsError: 1.02172e+15
+    Region: "MyRegion"	RelError: 3.96073e-01	AbsError: 1.02172e+15
+      Equation: "ElectronContinuityEquation"	RelError: 2.80221e-01	AbsError: 4.11456e+13
+      Equation: "HoleContinuityEquation"	RelError: 8.26888e-02	AbsError: 9.80572e+14
+      Equation: "PotentialEquation"	RelError: 3.31634e-02	AbsError: 9.18038e-03
 Iteration: 4
-  Device: "MyDevice"	RelError: 1.23532e-01	AbsError: 9.37704e+14
-    Region: "MyRegion"	RelError: 1.23532e-01	AbsError: 9.37704e+14
-      Equation: "ElectronContinuityEquation"	RelError: 9.02340e-02	AbsError: 7.34980e+13
-      Equation: "HoleContinuityEquation"	RelError: 3.62878e-03	AbsError: 8.64206e+14
-      Equation: "PotentialEquation"	RelError: 2.96687e-02	AbsError: 5.90386e-05
+  Device: "MyDevice"	RelError: 1.23446e-01	AbsError: 9.37747e+14
+    Region: "MyRegion"	RelError: 1.23446e-01	AbsError: 9.37747e+14
+      Equation: "ElectronContinuityEquation"	RelError: 9.01469e-02	AbsError: 7.35200e+13
+      Equation: "HoleContinuityEquation"	RelError: 3.62880e-03	AbsError: 8.64227e+14
+      Equation: "PotentialEquation"	RelError: 2.96698e-02	AbsError: 5.90382e-05
 Iteration: 5
-  Device: "MyDevice"	RelError: 1.22081e-04	AbsError: 1.38671e+11
-    Region: "MyRegion"	RelError: 1.22081e-04	AbsError: 1.38671e+11
-      Equation: "ElectronContinuityEquation"	RelError: 1.13888e-04	AbsError: 9.52279e+09
-      Equation: "HoleContinuityEquation"	RelError: 5.28558e-06	AbsError: 1.29148e+11
-      Equation: "PotentialEquation"	RelError: 2.90701e-06	AbsError: 5.41034e-09
+  Device: "MyDevice"	RelError: 1.24098e-04	AbsError: 1.49194e+11
+    Region: "MyRegion"	RelError: 1.24098e-04	AbsError: 1.49194e+11
+      Equation: "ElectronContinuityEquation"	RelError: 1.13876e-04	AbsError: 2.23528e+10
+      Equation: "HoleContinuityEquation"	RelError: 5.29115e-06	AbsError: 1.26841e+11
+      Equation: "PotentialEquation"	RelError: 4.93057e-06	AbsError: 1.07058e-08
 Iteration: 6
-  Device: "MyDevice"	RelError: 6.79630e-10	AbsError: 1.97318e+07
-    Region: "MyRegion"	RelError: 6.79630e-10	AbsError: 1.97318e+07
-      Equation: "ElectronContinuityEquation"	RelError: 4.40888e-11	AbsError: 1.09255e+06
-      Equation: "HoleContinuityEquation"	RelError: 4.41201e-11	AbsError: 1.86392e+07
-      Equation: "PotentialEquation"	RelError: 5.91421e-10	AbsError: 1.14156e-12
+  Device: "MyDevice"	RelError: 4.49211e-10	AbsError: 2.27209e+07
+    Region: "MyRegion"	RelError: 4.49211e-10	AbsError: 2.27209e+07
+      Equation: "ElectronContinuityEquation"	RelError: 4.02301e-11	AbsError: 1.18566e+06
+      Equation: "HoleContinuityEquation"	RelError: 4.00284e-11	AbsError: 2.15352e+07
+      Equation: "PotentialEquation"	RelError: 3.68953e-10	AbsError: 1.03169e-12
 Iteration: 7
-  Device: "MyDevice"	RelError: 3.24111e-12	AbsError: 6.90760e+04
-    Region: "MyRegion"	RelError: 3.24111e-12	AbsError: 6.90760e+04
-      Equation: "ElectronContinuityEquation"	RelError: 2.27944e-13	AbsError: 6.11102e+03
-      Equation: "HoleContinuityEquation"	RelError: 2.22487e-13	AbsError: 6.29649e+04
-      Equation: "PotentialEquation"	RelError: 2.79068e-12	AbsError: 8.22090e-15
-top	0.2	4.734773785463351e-13	6.135123944294403e-13	1.0869897729757754e-12
-bot	0.0	-4.93732048978154e-13	-6.48122636450462e-13	-1.141854685428616e-12
+  Device: "MyDevice"	RelError: 1.28785e-12	AbsError: 1.06874e+05
+    Region: "MyRegion"	RelError: 1.28785e-12	AbsError: 1.06874e+05
+      Equation: "ElectronContinuityEquation"	RelError: 2.09574e-13	AbsError: 6.30445e+03
+      Equation: "HoleContinuityEquation"	RelError: 1.00715e-13	AbsError: 1.00569e+05
+      Equation: "PotentialEquation"	RelError: 9.77563e-13	AbsError: 3.97181e-15
+top	0.2	4.734773785462091e-13	6.520557327244802e-13	1.1255331112706894e-12
+bot	0.0	-5.974763598830729e-13	-6.481226364502103e-13	-1.2455989963332833e-12
 Region "MyRegion" on device "MyDevice" has equations 0:1484
 Region "air1" on device "MyDevice" has no equations.
 Region "air2" on device "MyDevice" has no equations.
 Device "MyDevice" has equations 0:1484
 number of equations 1485
 Iteration: 0
-  Device: "MyDevice"	RelError: 5.62880e+00	AbsError: 2.18453e+17
-    Region: "MyRegion"	RelError: 5.62880e+00	AbsError: 2.18453e+17
-      Equation: "ElectronContinuityEquation"	RelError: 7.94384e-01	AbsError: 1.07250e+17
-      Equation: "HoleContinuityEquation"	RelError: 7.91908e-01	AbsError: 1.11203e+17
-      Equation: "PotentialEquation"	RelError: 4.04250e+00	AbsError: 4.09910e-02
+  Device: "MyDevice"	RelError: 5.62995e+00	AbsError: 2.18439e+17
+    Region: "MyRegion"	RelError: 5.62995e+00	AbsError: 2.18439e+17
+      Equation: "ElectronContinuityEquation"	RelError: 7.95564e-01	AbsError: 1.07250e+17
+      Equation: "HoleContinuityEquation"	RelError: 7.91908e-01	AbsError: 1.11189e+17
+      Equation: "PotentialEquation"	RelError: 4.04248e+00	AbsError: 4.11300e-02
 Iteration: 1
-  Device: "MyDevice"	RelError: 1.32171e+02	AbsError: 3.37776e+16
-    Region: "MyRegion"	RelError: 1.32171e+02	AbsError: 3.37776e+16
-      Equation: "ElectronContinuityEquation"	RelError: 6.89799e-01	AbsError: 1.59320e+16
-      Equation: "HoleContinuityEquation"	RelError: 7.75448e-01	AbsError: 1.78456e+16
-      Equation: "PotentialEquation"	RelError: 1.30705e+02	AbsError: 3.07890e-02
+  Device: "MyDevice"	RelError: 1.32158e+02	AbsError: 4.94512e+16
+    Region: "MyRegion"	RelError: 1.32158e+02	AbsError: 4.94512e+16
+      Equation: "ElectronContinuityEquation"	RelError: 6.89289e-01	AbsError: 1.59319e+16
+      Equation: "HoleContinuityEquation"	RelError: 7.75445e-01	AbsError: 3.35193e+16
+      Equation: "PotentialEquation"	RelError: 1.30693e+02	AbsError: 3.07956e-02
 Iteration: 2
-  Device: "MyDevice"	RelError: 2.02374e+00	AbsError: 2.67303e+15
-    Region: "MyRegion"	RelError: 2.02374e+00	AbsError: 2.67303e+15
-      Equation: "ElectronContinuityEquation"	RelError: 5.13818e-01	AbsError: 9.24148e+14
-      Equation: "HoleContinuityEquation"	RelError: 4.95101e-01	AbsError: 1.74888e+15
+  Device: "MyDevice"	RelError: 2.02311e+00	AbsError: 2.67289e+15
+    Region: "MyRegion"	RelError: 2.02311e+00	AbsError: 2.67289e+15
+      Equation: "ElectronContinuityEquation"	RelError: 5.13193e-01	AbsError: 9.23996e+14
+      Equation: "HoleContinuityEquation"	RelError: 4.95101e-01	AbsError: 1.74890e+15
       Equation: "PotentialEquation"	RelError: 1.01482e+00	AbsError: 2.57943e-02
 Iteration: 3
-  Device: "MyDevice"	RelError: 4.21333e-01	AbsError: 8.44903e+14
-    Region: "MyRegion"	RelError: 4.21333e-01	AbsError: 8.44903e+14
-      Equation: "ElectronContinuityEquation"	RelError: 2.87873e-01	AbsError: 3.08516e+13
-      Equation: "HoleContinuityEquation"	RelError: 8.14543e-02	AbsError: 8.14052e+14
-      Equation: "PotentialEquation"	RelError: 5.20056e-02	AbsError: 9.19620e-03
+  Device: "MyDevice"	RelError: 4.21379e-01	AbsError: 8.44885e+14
+    Region: "MyRegion"	RelError: 4.21379e-01	AbsError: 8.44885e+14
+      Equation: "ElectronContinuityEquation"	RelError: 2.87875e-01	AbsError: 3.08317e+13
+      Equation: "HoleContinuityEquation"	RelError: 8.14531e-02	AbsError: 8.14053e+14
+      Equation: "PotentialEquation"	RelError: 5.20508e-02	AbsError: 9.20435e-03
 Iteration: 4
-  Device: "MyDevice"	RelError: 9.65286e-02	AbsError: 7.37165e+14
-    Region: "MyRegion"	RelError: 9.65286e-02	AbsError: 7.37165e+14
-      Equation: "ElectronContinuityEquation"	RelError: 9.04913e-02	AbsError: 7.11734e+13
-      Equation: "HoleContinuityEquation"	RelError: 2.67527e-03	AbsError: 6.65991e+14
-      Equation: "PotentialEquation"	RelError: 3.36204e-03	AbsError: 4.88519e-05
+  Device: "MyDevice"	RelError: 9.64666e-02	AbsError: 7.37762e+14
+    Region: "MyRegion"	RelError: 9.64666e-02	AbsError: 7.37762e+14
+      Equation: "ElectronContinuityEquation"	RelError: 9.04295e-02	AbsError: 7.11243e+13
+      Equation: "HoleContinuityEquation"	RelError: 2.67526e-03	AbsError: 6.66638e+14
+      Equation: "PotentialEquation"	RelError: 3.36184e-03	AbsError: 4.88446e-05
 Iteration: 5
-  Device: "MyDevice"	RelError: 9.71480e-05	AbsError: 9.29717e+11
-    Region: "MyRegion"	RelError: 9.71480e-05	AbsError: 9.29717e+11
-      Equation: "ElectronContinuityEquation"	RelError: 9.22303e-05	AbsError: 9.96882e+10
-      Equation: "HoleContinuityEquation"	RelError: 3.08211e-06	AbsError: 8.30029e+11
-      Equation: "PotentialEquation"	RelError: 1.83566e-06	AbsError: 4.19080e-08
+  Device: "MyDevice"	RelError: 9.82214e-05	AbsError: 1.60182e+12
+    Region: "MyRegion"	RelError: 9.82214e-05	AbsError: 1.60182e+12
+      Equation: "ElectronContinuityEquation"	RelError: 9.22757e-05	AbsError: 1.54879e+11
+      Equation: "HoleContinuityEquation"	RelError: 4.14553e-06	AbsError: 1.44694e+12
+      Equation: "PotentialEquation"	RelError: 1.80024e-06	AbsError: 1.01444e-07
 Iteration: 6
-  Device: "MyDevice"	RelError: 5.30225e-10	AbsError: 4.74223e+07
-    Region: "MyRegion"	RelError: 5.30225e-10	AbsError: 4.74223e+07
-      Equation: "ElectronContinuityEquation"	RelError: 1.66937e-10	AbsError: 1.17629e+07
-      Equation: "HoleContinuityEquation"	RelError: 1.65352e-10	AbsError: 3.56594e+07
-      Equation: "PotentialEquation"	RelError: 1.97935e-10	AbsError: 4.28309e-12
+  Device: "MyDevice"	RelError: 7.35877e-10	AbsError: 4.66102e+07
+    Region: "MyRegion"	RelError: 7.35877e-10	AbsError: 4.66102e+07
+      Equation: "ElectronContinuityEquation"	RelError: 2.05441e-10	AbsError: 7.54790e+06
+      Equation: "HoleContinuityEquation"	RelError: 2.04570e-10	AbsError: 3.90623e+07
+      Equation: "PotentialEquation"	RelError: 3.25867e-10	AbsError: 5.29729e-12
 Iteration: 7
-  Device: "MyDevice"	RelError: 6.54512e-13	AbsError: 1.41226e+05
-    Region: "MyRegion"	RelError: 6.54512e-13	AbsError: 1.41226e+05
-      Equation: "ElectronContinuityEquation"	RelError: 3.18868e-13	AbsError: 5.93240e+03
-      Equation: "HoleContinuityEquation"	RelError: 1.35429e-13	AbsError: 1.35294e+05
-      Equation: "PotentialEquation"	RelError: 2.00215e-13	AbsError: 6.02881e-15
-top	0.30000000000000004	2.1770837029991777e-11	2.924665328809345e-11	5.101749031808523e-11
-bot	0.0	-2.162463076172493e-11	-2.927462986076907e-11	-5.0899260622494007e-11
+  Device: "MyDevice"	RelError: 9.00516e-13	AbsError: 9.65258e+04
+    Region: "MyRegion"	RelError: 9.00516e-13	AbsError: 9.65258e+04
+      Equation: "ElectronContinuityEquation"	RelError: 3.00189e-13	AbsError: 8.25745e+03
+      Equation: "HoleContinuityEquation"	RelError: 2.40598e-13	AbsError: 8.82684e+04
+      Equation: "PotentialEquation"	RelError: 3.59728e-13	AbsError: 7.62086e-15
+top	0.30000000000000004	2.177083702998947e-11	2.9268920416131854e-11	5.1039757446121324e-11
+bot	0.0	-2.166590130876375e-11	-2.9274629860765815e-11	-5.0940531169529565e-11
 Region "MyRegion" on device "MyDevice" has equations 0:1484
 Region "air1" on device "MyDevice" has no equations.
 Region "air2" on device "MyDevice" has no equations.
 Device "MyDevice" has equations 0:1484
 number of equations 1485
 Iteration: 0
-  Device: "MyDevice"	RelError: 4.01735e+00	AbsError: 2.56379e+17
-    Region: "MyRegion"	RelError: 4.01735e+00	AbsError: 2.56379e+17
-      Equation: "ElectronContinuityEquation"	RelError: 7.94379e-01	AbsError: 1.28307e+17
-      Equation: "HoleContinuityEquation"	RelError: 7.92051e-01	AbsError: 1.28073e+17
-      Equation: "PotentialEquation"	RelError: 2.43091e+00	AbsError: 4.09833e-02
+  Device: "MyDevice"	RelError: 4.02020e+00	AbsError: 2.61032e+17
+    Region: "MyRegion"	RelError: 4.02020e+00	AbsError: 2.61032e+17
+      Equation: "ElectronContinuityEquation"	RelError: 7.94540e-01	AbsError: 1.28008e+17
+      Equation: "HoleContinuityEquation"	RelError: 7.92052e-01	AbsError: 1.33024e+17
+      Equation: "PotentialEquation"	RelError: 2.43361e+00	AbsError: 4.10003e-02
 Iteration: 1
-  Device: "MyDevice"	RelError: 6.14777e+00	AbsError: 4.13318e+16
-    Region: "MyRegion"	RelError: 6.14777e+00	AbsError: 4.13318e+16
-      Equation: "ElectronContinuityEquation"	RelError: 6.90885e-01	AbsError: 1.96094e+16
-      Equation: "HoleContinuityEquation"	RelError: 7.74485e-01	AbsError: 2.17224e+16
-      Equation: "PotentialEquation"	RelError: 4.68240e+00	AbsError: 3.07836e-02
+  Device: "MyDevice"	RelError: 6.16165e+00	AbsError: 3.87121e+16
+    Region: "MyRegion"	RelError: 6.16165e+00	AbsError: 3.87121e+16
+      Equation: "ElectronContinuityEquation"	RelError: 6.90767e-01	AbsError: 1.97390e+16
+      Equation: "HoleContinuityEquation"	RelError: 7.74607e-01	AbsError: 1.89731e+16
+      Equation: "PotentialEquation"	RelError: 4.69627e+00	AbsError: 3.07825e-02
 Iteration: 2
-  Device: "MyDevice"	RelError: 2.84027e+00	AbsError: 4.75062e+15
-    Region: "MyRegion"	RelError: 2.84027e+00	AbsError: 4.75062e+15
-      Equation: "ElectronContinuityEquation"	RelError: 5.12784e-01	AbsError: 2.07064e+15
-      Equation: "HoleContinuityEquation"	RelError: 5.01912e-01	AbsError: 2.67998e+15
-      Equation: "PotentialEquation"	RelError: 1.82557e+00	AbsError: 2.38011e-02
+  Device: "MyDevice"	RelError: 2.84105e+00	AbsError: 4.31059e+15
+    Region: "MyRegion"	RelError: 2.84105e+00	AbsError: 4.31059e+15
+      Equation: "ElectronContinuityEquation"	RelError: 5.12486e-01	AbsError: 2.07119e+15
+      Equation: "HoleContinuityEquation"	RelError: 5.00564e-01	AbsError: 2.23940e+15
+      Equation: "PotentialEquation"	RelError: 1.82800e+00	AbsError: 2.38548e-02
 Iteration: 3
-  Device: "MyDevice"	RelError: 4.61483e-01	AbsError: 1.03250e+15
-    Region: "MyRegion"	RelError: 4.61483e-01	AbsError: 1.03250e+15
-      Equation: "ElectronContinuityEquation"	RelError: 2.59773e-01	AbsError: 3.17039e+13
-      Equation: "HoleContinuityEquation"	RelError: 8.20660e-02	AbsError: 1.00079e+15
-      Equation: "PotentialEquation"	RelError: 1.19644e-01	AbsError: 9.19353e-03
+  Device: "MyDevice"	RelError: 4.57808e-01	AbsError: 1.02169e+15
+    Region: "MyRegion"	RelError: 4.57808e-01	AbsError: 1.02169e+15
+      Equation: "ElectronContinuityEquation"	RelError: 2.59431e-01	AbsError: 3.35197e+13
+      Equation: "HoleContinuityEquation"	RelError: 7.88279e-02	AbsError: 9.88174e+14
+      Equation: "PotentialEquation"	RelError: 1.19548e-01	AbsError: 9.18550e-03
 Iteration: 4
-  Device: "MyDevice"	RelError: 9.41646e-02	AbsError: 9.74400e+14
-    Region: "MyRegion"	RelError: 9.41646e-02	AbsError: 9.74400e+14
-      Equation: "ElectronContinuityEquation"	RelError: 8.57819e-02	AbsError: 7.78583e+13
-      Equation: "HoleContinuityEquation"	RelError: 3.57397e-03	AbsError: 8.96542e+14
-      Equation: "PotentialEquation"	RelError: 4.80878e-03	AbsError: 4.77178e-05
+  Device: "MyDevice"	RelError: 9.37928e-02	AbsError: 9.75319e+14
+    Region: "MyRegion"	RelError: 9.37928e-02	AbsError: 9.75319e+14
+      Equation: "ElectronContinuityEquation"	RelError: 8.54142e-02	AbsError: 7.79321e+13
+      Equation: "HoleContinuityEquation"	RelError: 3.56964e-03	AbsError: 8.97387e+14
+      Equation: "PotentialEquation"	RelError: 4.80900e-03	AbsError: 4.77319e-05
 Iteration: 5
-  Device: "MyDevice"	RelError: 9.53562e-05	AbsError: 2.00124e+12
-    Region: "MyRegion"	RelError: 9.53562e-05	AbsError: 2.00124e+12
-      Equation: "ElectronContinuityEquation"	RelError: 9.02509e-05	AbsError: 7.80209e+10
-      Equation: "HoleContinuityEquation"	RelError: 4.45756e-06	AbsError: 1.92322e+12
-      Equation: "PotentialEquation"	RelError: 6.47740e-07	AbsError: 4.97727e-08
+  Device: "MyDevice"	RelError: 9.45339e-05	AbsError: 3.13942e+11
+    Region: "MyRegion"	RelError: 9.45339e-05	AbsError: 3.13942e+11
+      Equation: "ElectronContinuityEquation"	RelError: 8.98328e-05	AbsError: 1.03382e+11
+      Equation: "HoleContinuityEquation"	RelError: 4.41699e-06	AbsError: 2.10561e+11
+      Equation: "PotentialEquation"	RelError: 2.84096e-07	AbsError: 2.44167e-08
 Iteration: 6
-  Device: "MyDevice"	RelError: 2.33704e-09	AbsError: 8.99124e+08
-    Region: "MyRegion"	RelError: 2.33704e-09	AbsError: 8.99124e+08
-      Equation: "ElectronContinuityEquation"	RelError: 9.38432e-10	AbsError: 2.60250e+07
-      Equation: "HoleContinuityEquation"	RelError: 9.51872e-10	AbsError: 8.73099e+08
-      Equation: "PotentialEquation"	RelError: 4.46731e-10	AbsError: 2.46433e-11
+  Device: "MyDevice"	RelError: 1.12302e-09	AbsError: 3.90106e+08
+    Region: "MyRegion"	RelError: 1.12302e-09	AbsError: 3.90106e+08
+      Equation: "ElectronContinuityEquation"	RelError: 3.54082e-10	AbsError: 4.07985e+07
+      Equation: "HoleContinuityEquation"	RelError: 3.53267e-10	AbsError: 3.49307e+08
+      Equation: "PotentialEquation"	RelError: 4.15667e-10	AbsError: 9.16340e-12
 Iteration: 7
-  Device: "MyDevice"	RelError: 1.23352e-12	AbsError: 6.35232e+05
-    Region: "MyRegion"	RelError: 1.23352e-12	AbsError: 6.35232e+05
-      Equation: "ElectronContinuityEquation"	RelError: 5.01367e-13	AbsError: 9.97034e+04
-      Equation: "HoleContinuityEquation"	RelError: 5.45764e-13	AbsError: 5.35529e+05
-      Equation: "PotentialEquation"	RelError: 1.86393e-13	AbsError: 1.22095e-14
-top	0.4	1.00030028570451e-9	1.319194210659714e-9	2.319494496364224e-9
-bot	0.0	-1.00084130842034e-9	-1.3197304627734544e-9	-2.3205717711937947e-9
+  Device: "MyDevice"	RelError: 1.07439e-12	AbsError: 5.36576e+05
+    Region: "MyRegion"	RelError: 1.07439e-12	AbsError: 5.36576e+05
+      Equation: "ElectronContinuityEquation"	RelError: 5.05764e-13	AbsError: 1.34999e+05
+      Equation: "HoleContinuityEquation"	RelError: 4.01875e-13	AbsError: 4.01576e+05
+      Equation: "PotentialEquation"	RelError: 1.66749e-13	AbsError: 1.21488e-14
+top	0.4	1.0003002857044542e-9	1.3193149833208364e-9	2.3196152690252906e-9
+bot	0.0	-1.001231548577661e-9	-1.3197304627733858e-9	-2.3209620113510468e-9
 Region "MyRegion" on device "MyDevice" has equations 0:1484
 Region "air1" on device "MyDevice" has no equations.
 Region "air2" on device "MyDevice" has no equations.
 Device "MyDevice" has equations 0:1484
 number of equations 1485
 Iteration: 0
-  Device: "MyDevice"	RelError: 2.57619e+01	AbsError: 2.81298e+17
-    Region: "MyRegion"	RelError: 2.57619e+01	AbsError: 2.81298e+17
-      Equation: "ElectronContinuityEquation"	RelError: 7.94671e-01	AbsError: 1.34714e+17
-      Equation: "HoleContinuityEquation"	RelError: 7.91978e-01	AbsError: 1.46584e+17
-      Equation: "PotentialEquation"	RelError: 2.41752e+01	AbsError: 4.10227e-02
+  Device: "MyDevice"	RelError: 2.45856e+01	AbsError: 2.73914e+17
+    Region: "MyRegion"	RelError: 2.45856e+01	AbsError: 2.73914e+17
+      Equation: "ElectronContinuityEquation"	RelError: 7.97230e-01	AbsError: 1.35306e+17
+      Equation: "HoleContinuityEquation"	RelError: 7.91972e-01	AbsError: 1.38608e+17
+      Equation: "PotentialEquation"	RelError: 2.29964e+01	AbsError: 4.13509e-02
 Iteration: 1
-  Device: "MyDevice"	RelError: 2.68427e+01	AbsError: 4.61570e+16
-    Region: "MyRegion"	RelError: 2.68427e+01	AbsError: 4.61570e+16
-      Equation: "ElectronContinuityEquation"	RelError: 6.88651e-01	AbsError: 2.43628e+16
-      Equation: "HoleContinuityEquation"	RelError: 7.76785e-01	AbsError: 2.17942e+16
-      Equation: "PotentialEquation"	RelError: 2.53772e+01	AbsError: 3.07848e-02
+  Device: "MyDevice"	RelError: 2.84701e+01	AbsError: 9.93464e+16
+    Region: "MyRegion"	RelError: 2.84701e+01	AbsError: 9.93464e+16
+      Equation: "ElectronContinuityEquation"	RelError: 6.89065e-01	AbsError: 2.42630e+16
+      Equation: "HoleContinuityEquation"	RelError: 7.76683e-01	AbsError: 7.50834e+16
+      Equation: "PotentialEquation"	RelError: 2.70043e+01	AbsError: 3.08037e-02
 Iteration: 2
-  Device: "MyDevice"	RelError: 2.38188e+00	AbsError: 5.90686e+15
-    Region: "MyRegion"	RelError: 2.38188e+00	AbsError: 5.90686e+15
-      Equation: "ElectronContinuityEquation"	RelError: 5.14232e-01	AbsError: 2.94315e+15
-      Equation: "HoleContinuityEquation"	RelError: 4.96233e-01	AbsError: 2.96371e+15
-      Equation: "PotentialEquation"	RelError: 1.37142e+00	AbsError: 2.48197e-02
+  Device: "MyDevice"	RelError: 2.39510e+00	AbsError: 7.30164e+15
+    Region: "MyRegion"	RelError: 2.39510e+00	AbsError: 7.30164e+15
+      Equation: "ElectronContinuityEquation"	RelError: 5.14892e-01	AbsError: 3.90969e+15
+      Equation: "HoleContinuityEquation"	RelError: 5.05378e-01	AbsError: 3.39195e+15
+      Equation: "PotentialEquation"	RelError: 1.37483e+00	AbsError: 2.47483e-02
 Iteration: 3
-  Device: "MyDevice"	RelError: 7.50220e-01	AbsError: 9.07083e+14
-    Region: "MyRegion"	RelError: 7.50220e-01	AbsError: 9.07083e+14
-      Equation: "ElectronContinuityEquation"	RelError: 2.74101e-01	AbsError: 1.47409e+13
-      Equation: "HoleContinuityEquation"	RelError: 7.90209e-02	AbsError: 8.92342e+14
-      Equation: "PotentialEquation"	RelError: 3.97098e-01	AbsError: 9.19383e-03
+  Device: "MyDevice"	RelError: 7.51186e-01	AbsError: 9.42213e+14
+    Region: "MyRegion"	RelError: 7.51186e-01	AbsError: 9.42213e+14
+      Equation: "ElectronContinuityEquation"	RelError: 2.74221e-01	AbsError: 1.31802e+13
+      Equation: "HoleContinuityEquation"	RelError: 7.89684e-02	AbsError: 9.29033e+14
+      Equation: "PotentialEquation"	RelError: 3.97996e-01	AbsError: 9.21461e-03
 Iteration: 4
-  Device: "MyDevice"	RelError: 9.10126e-02	AbsError: 7.83728e+14
-    Region: "MyRegion"	RelError: 9.10126e-02	AbsError: 7.83728e+14
-      Equation: "ElectronContinuityEquation"	RelError: 8.74382e-02	AbsError: 7.62533e+13
-      Equation: "HoleContinuityEquation"	RelError: 2.55347e-03	AbsError: 7.07475e+14
-      Equation: "PotentialEquation"	RelError: 1.02095e-03	AbsError: 4.09326e-05
+  Device: "MyDevice"	RelError: 9.12637e-02	AbsError: 7.84863e+14
+    Region: "MyRegion"	RelError: 9.12637e-02	AbsError: 7.84863e+14
+      Equation: "ElectronContinuityEquation"	RelError: 8.76915e-02	AbsError: 7.62703e+13
+      Equation: "HoleContinuityEquation"	RelError: 2.55181e-03	AbsError: 7.08593e+14
+      Equation: "PotentialEquation"	RelError: 1.02045e-03	AbsError: 4.09039e-05
 Iteration: 5
-  Device: "MyDevice"	RelError: 8.01041e-05	AbsError: 7.34710e+11
-    Region: "MyRegion"	RelError: 8.01041e-05	AbsError: 7.34710e+11
-      Equation: "ElectronContinuityEquation"	RelError: 7.73543e-05	AbsError: 5.47693e+11
-      Equation: "HoleContinuityEquation"	RelError: 2.55652e-06	AbsError: 1.87017e+11
-      Equation: "PotentialEquation"	RelError: 1.93304e-07	AbsError: 2.18228e-08
+  Device: "MyDevice"	RelError: 8.05951e-05	AbsError: 9.86403e+11
+    Region: "MyRegion"	RelError: 8.05951e-05	AbsError: 9.86403e+11
+      Equation: "ElectronContinuityEquation"	RelError: 7.69980e-05	AbsError: 3.42823e+11
+      Equation: "HoleContinuityEquation"	RelError: 2.87732e-06	AbsError: 6.43580e+11
+      Equation: "PotentialEquation"	RelError: 7.19847e-07	AbsError: 1.66663e-08
 Iteration: 6
-  Device: "MyDevice"	RelError: 4.41754e-10	AbsError: 1.25629e+08
-    Region: "MyRegion"	RelError: 4.41754e-10	AbsError: 1.25629e+08
-      Equation: "ElectronContinuityEquation"	RelError: 1.62788e-10	AbsError: 2.17094e+07
-      Equation: "HoleContinuityEquation"	RelError: 1.62630e-10	AbsError: 1.03920e+08
-      Equation: "PotentialEquation"	RelError: 1.16336e-10	AbsError: 4.20998e-12
+  Device: "MyDevice"	RelError: 9.42044e-10	AbsError: 3.07968e+08
+    Region: "MyRegion"	RelError: 9.42044e-10	AbsError: 3.07968e+08
+      Equation: "ElectronContinuityEquation"	RelError: 3.37534e-10	AbsError: 2.28183e+07
+      Equation: "HoleContinuityEquation"	RelError: 2.85285e-10	AbsError: 2.85150e+08
+      Equation: "PotentialEquation"	RelError: 3.19225e-10	AbsError: 7.39087e-12
 Iteration: 7
-  Device: "MyDevice"	RelError: 3.79036e-13	AbsError: 1.66209e+05
-    Region: "MyRegion"	RelError: 3.79036e-13	AbsError: 1.66209e+05
-      Equation: "ElectronContinuityEquation"	RelError: 1.24595e-13	AbsError: 5.04412e+04
-      Equation: "HoleContinuityEquation"	RelError: 1.31195e-13	AbsError: 1.15768e+05
-      Equation: "PotentialEquation"	RelError: 1.23246e-13	AbsError: 2.85346e-15
-top	0.5	4.592247962988045e-8	5.93484476355407e-8	1.0527092726542115e-7
-bot	0.0	-4.592634333169087e-8	-5.9353020347913445e-8	-1.0527936367960432e-7
+  Device: "MyDevice"	RelError: 4.54465e-13	AbsError: 5.18117e+04
+    Region: "MyRegion"	RelError: 4.54465e-13	AbsError: 5.18117e+04
+      Equation: "ElectronContinuityEquation"	RelError: 1.60176e-13	AbsError: 2.42708e+04
+      Equation: "HoleContinuityEquation"	RelError: 1.34798e-13	AbsError: 2.75410e+04
+      Equation: "PotentialEquation"	RelError: 1.59491e-13	AbsError: 3.72598e-15
+top	0.5	4.5922479629876844e-8	5.934867608567098e-8	1.0527115571554782e-7
+bot	0.0	-4.592717088819526e-8	-5.9353020347908475e-8	-1.0528019123610374e-7
 Electrons
 2.34942e+10
 2.33942e+10
@@ -6896,7 +6896,7 @@ ElectronCurrent
 1.40673e-04
 2.37909e-03
 -1.67454e-04
-2.08899e-04
+2.08900e-04
 3.52554e-03
 -2.00895e-04
 2.93530e-04
@@ -6982,7 +6982,7 @@ ElectronCurrent
 -5.15609e-05
 4.29725e-05
 1.13422e-03
--8.30425e-05
+-8.30426e-05
 7.23807e-05
 1.61178e-03
 -1.23500e-04
@@ -7164,8 +7164,8 @@ ElectronCurrent
 7.97812e-04
 -2.93637e-05
 2.56090e-05
-8.78738e-04
--5.44822e-05
+8.78739e-04
+-5.44823e-05
 4.92401e-05
 1.13616e-03
 -8.76701e-05
@@ -7197,7 +7197,7 @@ ElectronCurrent
 2.98488e-05
 8.79209e-04
 -5.54563e-05
-5.47342e-05
+5.47343e-05
 1.13675e-03
 -8.92113e-05
 8.95686e-05
@@ -7231,7 +7231,7 @@ ElectronCurrent
 6.16524e-05
 1.13748e-03
 -9.12416e-05
-9.94134e-05
+9.94135e-05
 1.61604e-03
 -1.35404e-04
 1.53425e-04
@@ -7253,7 +7253,7 @@ ElectronCurrent
 9.94472e-03
 3.52424e-04
 1.03308e-02
--9.92497e-06
+-9.92498e-06
 7.99496e-04
 -3.15392e-05
 4.18270e-05
@@ -7317,9 +7317,9 @@ ElectronCurrent
 1.03236e-02
 -1.09247e-05
 8.01571e-04
--3.46871e-05
+-3.46872e-05
 6.07849e-05
-8.82819e-04
+8.82820e-04
 -6.42000e-05
 9.56620e-05
 1.14121e-03
@@ -7350,7 +7350,7 @@ ElectronCurrent
 8.03143e-04
 -3.74410e-05
 7.42046e-05
-8.84526e-04
+8.84525e-04
 -6.91853e-05
 1.14014e-04
 1.14332e-03
@@ -7371,7 +7371,7 @@ ElectronCurrent
 6.97811e-03
 -1.62893e-04
 8.38562e-04
-8.76332e-03
+8.76331e-03
 -5.43679e-05
 8.54736e-04
 9.92497e-03
@@ -7380,9 +7380,9 @@ ElectronCurrent
 -1.31962e-05
 8.05324e-04
 -4.18018e-05
-9.14069e-05
+9.14070e-05
 8.86889e-04
--7.70302e-05
+-7.70303e-05
 1.38266e-04
 1.14623e-03
 -1.22782e-04
@@ -7413,7 +7413,7 @@ ElectronCurrent
 -4.92745e-05
 1.13880e-04
 8.90351e-04
--9.03641e-05
+-9.03643e-05
 1.71504e-04
 1.15045e-03
 -1.43103e-04
@@ -7439,12 +7439,12 @@ ElectronCurrent
 9.90140e-03
 1.21836e-03
 1.02872e-02
--2.01234e-05
+-2.01235e-05
 8.13685e-04
--6.33057e-05
+-6.33059e-05
 1.44283e-04
 8.95881e-04
--1.15157e-04
+-1.15158e-04
 2.19869e-04
 1.15709e-03
 -1.80378e-04
@@ -7459,7 +7459,7 @@ ElectronCurrent
 -3.96621e-04
 1.00913e-03
 5.12517e-03
--3.72606e-04
+-3.72605e-04
 1.30892e-03
 6.97204e-03
 -2.46391e-04
@@ -7470,22 +7470,22 @@ ElectronCurrent
 9.88053e-03
 1.51321e-03
 1.02659e-02
--2.94325e-05
+-2.94328e-05
 8.23085e-04
--9.19948e-05
-1.87833e-04
+-9.19951e-05
+1.87834e-04
 9.05871e-04
--1.65314e-04
+-1.65315e-04
 2.96232e-04
 1.16880e-03
--2.54658e-04
-4.52220e-04
+-2.54659e-04
+4.52221e-04
 1.65548e-03
--3.59376e-04
-6.71320e-04
+-3.59377e-04
+6.71321e-04
 2.43516e-03
 -4.64255e-04
-9.64636e-04
+9.64637e-04
 3.58480e-03
 -5.28716e-04
 1.32276e-03
@@ -7501,26 +7501,26 @@ ElectronCurrent
 9.84608e-03
 1.88576e-03
 1.02303e-02
--4.93772e-05
-8.42753e-04
--1.53126e-04
-2.54520e-04
-9.26533e-04
--2.71053e-04
-4.25129e-04
+-4.93776e-05
+8.42755e-04
+-1.53127e-04
+2.54522e-04
+9.26535e-04
+-2.71055e-04
+4.25130e-04
 1.19229e-03
--4.08866e-04
-6.55866e-04
+-4.08867e-04
+6.55868e-04
 1.68293e-03
--5.62703e-04
-9.64384e-04
-2.46580e-03
--7.07944e-04
-1.35954e-03
+-5.62704e-04
+9.64386e-04
+2.46579e-03
+-7.07945e-04
+1.35955e-03
 3.61372e-03
 -7.87499e-04
 1.82088e-03
-5.15131e-03
+5.15130e-03
 -7.22897e-04
 2.26976e-03
 6.95328e-03
@@ -7532,30 +7532,30 @@ ElectronCurrent
 9.78275e-03
 2.35706e-03
 1.01639e-02
--8.96475e-05
-8.87301e-04
--2.75902e-04
-3.58686e-04
-9.72810e-04
--4.81202e-04
-6.36490e-04
+-8.96490e-05
+8.87299e-04
+-2.75905e-04
+3.58688e-04
+9.72809e-04
+-4.81207e-04
+6.36494e-04
 1.24329e-03
--7.10678e-04
-9.89558e-04
+-7.10682e-04
+9.89564e-04
 1.73994e-03
--9.53039e-04
+-9.53041e-04
 1.43587e-03
 2.52601e-03
 -1.16588e-03
-1.97677e-03
-3.66661e-03
+1.97678e-03
+3.66660e-03
 -1.26437e-03
 2.57152e-03
 5.17578e-03
 -1.14377e-03
 3.10765e-03
 6.92332e-03
--7.71744e-04
+-7.71743e-04
 3.40714e-03
 8.56253e-03
 -2.67978e-04
@@ -7563,27 +7563,27 @@ ElectronCurrent
 9.65759e-03
 2.93476e-03
 1.00307e-02
--1.54429e-04
-9.83031e-04
--4.72271e-04
-5.07150e-04
-1.07132e-03
--8.13473e-04
-9.21412e-04
+-1.54432e-04
+9.83030e-04
+-4.72277e-04
+5.07154e-04
+1.07133e-03
+-8.13481e-04
+9.21420e-04
 1.34905e-03
--1.17982e-03
-1.42564e-03
+-1.17983e-03
+1.42565e-03
 1.85349e-03
 -1.54669e-03
-2.03414e-03
+2.03415e-03
 2.63972e-03
 -1.84538e-03
 2.73494e-03
-3.75919e-03
--1.95576e-03
+3.75918e-03
+-1.95575e-03
 3.46147e-03
 5.20998e-03
--1.74527e-03
+-1.74526e-03
 4.06737e-03
 6.85808e-03
 -1.18209e-03
@@ -7594,159 +7594,159 @@ ElectronCurrent
 9.41934e-03
 3.56603e-03
 9.77447e-03
--2.20048e-04
-1.15319e-03
--6.69463e-04
-6.86683e-04
-1.24508e-03
--1.14136e-03
-1.19641e-03
-1.53150e-03
--1.63072e-03
-1.80654e-03
-2.04271e-03
+-2.20051e-04
+1.15320e-03
+-6.69472e-04
+6.86689e-04
+1.24509e-03
+-1.14138e-03
+1.19642e-03
+1.53151e-03
+-1.63074e-03
+1.80656e-03
+2.04270e-03
 -2.09773e-03
-2.52374e-03
+2.52376e-03
 2.82028e-03
--2.45086e-03
-3.32245e-03
+-2.45087e-03
+3.32246e-03
 3.89572e-03
--2.54755e-03
+-2.54754e-03
 4.11868e-03
-5.24737e-03
+5.24736e-03
 -2.24665e-03
-4.75368e-03
+4.75367e-03
 6.74174e-03
 -1.52389e-03
-5.02610e-03
+5.02609e-03
 8.10853e-03
--5.35417e-04
+-5.35419e-04
 4.80373e-03
 9.03715e-03
 4.12861e-03
 9.36043e-03
--2.45618e-04
+-2.45624e-04
 1.39014e-03
--7.43867e-04
-8.85262e-04
-1.48542e-03
--1.25687e-03
-1.39487e-03
+-7.43879e-04
+8.85267e-04
+1.48543e-03
+-1.25689e-03
+1.39488e-03
 1.77895e-03
--1.77238e-03
-2.01181e-03
+-1.77240e-03
+2.01184e-03
 2.29135e-03
--2.24271e-03
-2.73442e-03
-3.04716e-03
--2.57312e-03
-3.52979e-03
-4.05510e-03
--2.63035e-03
+-2.24272e-03
+2.73444e-03
+3.04714e-03
+-2.57313e-03
+3.52980e-03
+4.05509e-03
+-2.63034e-03
 4.31371e-03
-5.27498e-03
--2.29544e-03
-4.94292e-03
+5.27497e-03
+-2.29543e-03
+4.94290e-03
 6.58020e-03
 -1.55622e-03
-5.24674e-03
+5.24673e-03
 7.75197e-03
 -5.48258e-04
 5.11053e-03
-8.55096e-03
+8.55097e-03
 4.54774e-03
 8.83153e-03
--2.21100e-04
-1.65623e-03
--6.66796e-04
+-2.21105e-04
+1.65624e-03
+-6.66812e-04
 1.10701e-03
-1.75360e-03
--1.11733e-03
-1.53810e-03
-2.05005e-03
--1.55675e-03
-2.08386e-03
-2.55576e-03
--1.94062e-03
-2.73647e-03
-3.27813e-03
+1.75362e-03
+-1.11735e-03
+1.53812e-03
+2.05007e-03
+-1.55678e-03
+2.08389e-03
+2.55577e-03
+-1.94063e-03
+2.73650e-03
+3.27812e-03
 -2.19055e-03
 3.46244e-03
-4.20549e-03
--2.20626e-03
+4.20547e-03
+-2.20624e-03
 4.18896e-03
-5.28442e-03
--1.90679e-03
-4.80155e-03
+5.28440e-03
+-1.90678e-03
+4.80153e-03
 6.40000e-03
 -1.29013e-03
-5.16790e-03
-7.38091e-03
--4.55032e-04
+5.16789e-03
+7.38092e-03
+-4.55036e-04
 5.19114e-03
 8.04846e-03
-4.85552e-03
+4.85553e-03
 8.28392e-03
 -1.62651e-04
-1.90047e-03
--4.88622e-04
-1.34207e-03
-1.99826e-03
--8.12666e-04
-1.65607e-03
-2.29334e-03
--1.12018e-03
-2.09480e-03
-2.78665e-03
--1.37817e-03
-2.64774e-03
-3.47174e-03
+1.90039e-03
+-4.88638e-04
+1.34202e-03
+1.99831e-03
+-8.12701e-04
+1.65608e-03
+2.29331e-03
+-1.12023e-03
+2.09483e-03
+2.78660e-03
+-1.37818e-03
+2.64778e-03
+3.47173e-03
 -1.53382e-03
 3.28529e-03
-4.32228e-03
--1.52516e-03
-3.94984e-03
-5.27794e-03
--1.30677e-03
-4.55492e-03
-6.23607e-03
--8.81527e-04
-4.99990e-03
-7.06170e-03
--3.10907e-04
-5.20051e-03
-7.62011e-03
-5.11797e-03
-7.81713e-03
--8.20351e-05
-2.03752e-03
--2.45559e-04
-1.37354e-03
-2.13529e-03
--4.06204e-04
-1.56160e-03
-2.42766e-03
--5.55619e-04
-1.87294e-03
-2.91166e-03
--6.77194e-04
-2.29866e-03
-3.57347e-03
--7.46110e-04
-2.81740e-03
-4.37991e-03
--7.35319e-04
-3.38906e-03
-5.26860e-03
--6.26070e-04
-3.95247e-03
-6.14447e-03
--4.21143e-04
-4.43224e-03
-6.89032e-03
--1.48446e-04
-4.75486e-03
-7.39186e-03
+4.32227e-03
+-1.52514e-03
+3.94985e-03
+5.27787e-03
+-1.30674e-03
+4.55487e-03
+6.23606e-03
+-8.81524e-04
+4.99983e-03
+7.06172e-03
+-3.10914e-04
+5.20054e-03
+7.62018e-03
+5.11803e-03
+7.81714e-03
+-8.19812e-05
+2.03771e-03
+-2.45616e-04
+1.37355e-03
+2.13531e-03
+-4.06249e-04
+1.56171e-03
+2.42782e-03
+-5.55652e-04
+1.87293e-03
+2.91163e-03
+-6.77187e-04
+2.29863e-03
+3.57343e-03
+-7.46166e-04
+2.81746e-03
+4.38000e-03
+-7.35257e-04
+3.38912e-03
+5.26870e-03
+-6.25998e-04
+3.95264e-03
+6.14474e-03
+-4.21121e-04
+4.43223e-03
+6.89031e-03
+-1.48503e-04
+4.75496e-03
+7.39202e-03
 4.86860e-03
 7.56869e-03
 0.00000e+00
@@ -7760,72 +7760,72 @@ ElectronCurrent
 0.00000e+00
 0.00000e+00
 HoleCurrent
--8.79141e-04
-8.79213e-04
-1.24286e-03
-8.84256e-04
--2.64754e-03
--8.72710e-04
+-8.79125e-04
+8.79085e-04
+1.24281e-03
+8.84246e-04
+-2.64757e-03
+-8.72716e-04
 2.45141e-03
--2.49598e-03
--2.62412e-03
+-2.49597e-03
+-2.62410e-03
 2.21076e-03
-2.46187e-03
-9.03820e-04
--4.45516e-03
--3.78697e-03
--4.39749e-03
+2.46189e-03
+9.03810e-04
+-4.45515e-03
+-3.78696e-03
+-4.39750e-03
 3.57694e-03
-2.50125e-03
-9.54812e-04
--6.36477e-03
--5.17237e-03
--6.22379e-03
-4.97828e-03
-2.59992e-03
-1.08646e-03
+2.50127e-03
+9.54921e-04
+-6.36476e-03
+-5.17241e-03
+-6.22378e-03
+4.97829e-03
+2.59993e-03
+1.08651e-03
 -8.53771e-03
--6.80082e-03
+-6.80077e-03
 -8.16471e-03
-6.45778e-03
-2.83488e-03
-1.44703e-03
--1.14316e-02
--9.10048e-03
+6.45779e-03
+2.83486e-03
+1.44696e-03
+-1.14315e-02
+-9.10052e-03
 -1.03227e-02
-8.11150e-03
-3.39083e-03
+8.11151e-03
+3.39085e-03
 2.53963e-03
 -1.65108e-02
 -1.34620e-02
 -1.27177e-02
 1.01345e-02
 4.69704e-03
-6.31076e-03
--2.91320e-02
--2.50471e-02
+6.31069e-03
+-2.91321e-02
+-2.50472e-02
 -1.41852e-02
 1.28108e-02
-7.63268e-03
-2.12237e-02
+7.63265e-03
+2.12238e-02
 -0.00000e+00
--1.50074e-02
--5.07053e-03
+-1.50075e-02
+-5.07054e-03
 1.57862e-02
 1.30132e-02
-1.61483e-02
+1.61484e-02
 -0.00000e+00
 -1.14186e-02
 -1.32642e-03
 1.20755e-02
 1.27757e-02
 1.48208e-02
-9.02036e-03
+9.02037e-03
 1.24310e-02
--8.55590e-04
+-8.55593e-04
 3.68704e-03
 -2.56628e-03
-2.69753e-03
+2.69754e-03
 3.69713e-03
 -4.27454e-03
 4.11134e-03
@@ -7838,18 +7838,18 @@ HoleCurrent
 4.03738e-03
 -9.17700e-03
 8.47154e-03
-4.50133e-03
+4.50132e-03
 -1.02483e-02
 9.98843e-03
 5.47061e-03
--9.75099e-03
+-9.75102e-03
 1.13944e-02
 7.27357e-03
--5.20870e-03
+-5.20871e-03
 1.19596e-02
-9.73329e-03
+9.73330e-03
 -1.58791e-03
-9.54979e-03
+9.54980e-03
 1.01612e-02
 6.80024e-03
 1.01378e-02
@@ -7860,60 +7860,60 @@ HoleCurrent
 4.63547e-03
 -4.03600e-03
 4.14339e-03
-4.66195e-03
--5.58904e-03
+4.66194e-03
+-5.58905e-03
 5.48528e-03
 4.72587e-03
 -7.02460e-03
-6.80382e-03
+6.80383e-03
 4.86832e-03
--8.17971e-03
+-8.17972e-03
 8.06080e-03
 5.16993e-03
 -8.68147e-03
 9.15784e-03
 5.76104e-03
--7.79211e-03
+-7.79213e-03
 9.84505e-03
 6.75879e-03
--4.71952e-03
-9.56362e-03
+-4.71953e-03
+9.56363e-03
 7.95479e-03
 -1.53551e-03
-7.56053e-03
+7.56054e-03
 8.31819e-03
 5.08369e-03
 8.36023e-03
 -7.06667e-04
 5.28409e-03
 -2.11313e-03
-2.57150e-03
+2.57151e-03
 5.28805e-03
 -3.49402e-03
 3.67738e-03
-5.30266e-03
+5.30267e-03
 -4.81254e-03
 4.76723e-03
 5.33765e-03
 -5.98960e-03
 5.81589e-03
 5.41446e-03
--6.85895e-03
-6.76943e-03
+-6.85896e-03
+6.76944e-03
 5.57330e-03
 -7.10127e-03
-7.51267e-03
+7.51268e-03
 5.87347e-03
--6.22905e-03
-7.81749e-03
+-6.22906e-03
+7.81750e-03
 6.35409e-03
--3.94670e-03
-7.31605e-03
+-3.94671e-03
+7.31606e-03
 6.89581e-03
 -1.32077e-03
 5.73069e-03
 7.09978e-03
-3.74664e-03
+3.74665e-03
 7.13458e-03
 -5.12873e-04
 5.66560e-03
@@ -7936,12 +7936,12 @@ HoleCurrent
 5.27267e-03
 5.91532e-03
 -4.34156e-03
-5.39157e-03
+5.39158e-03
 6.10997e-03
--2.80005e-03
+-2.80006e-03
 4.98877e-03
 6.32247e-03
--9.48877e-04
+-9.48878e-04
 3.96589e-03
 6.41127e-03
 2.68524e-03
@@ -7969,7 +7969,7 @@ HoleCurrent
 -2.41759e-03
 3.30551e-03
 5.99723e-03
--1.57141e-03
+-1.57142e-03
 3.08152e-03
 6.07019e-03
 -5.35711e-04
@@ -7985,7 +7985,7 @@ HoleCurrent
 -6.58149e-04
 1.46964e-03
 5.90432e-03
--9.01638e-04
+-9.01639e-04
 1.62654e-03
 5.90621e-03
 -1.11153e-03
@@ -8000,7 +8000,7 @@ HoleCurrent
 -1.09592e-03
 2.00306e-03
 5.95554e-03
--7.15130e-04
+-7.15131e-04
 1.90214e-03
 5.97918e-03
 -2.44566e-04
@@ -8008,7 +8008,7 @@ HoleCurrent
 5.99002e-03
 1.39407e-03
 5.99240e-03
--5.46329e-05
+-5.46330e-05
 5.92424e-03
 -1.63152e-04
 1.02864e-03
@@ -8025,16 +8025,16 @@ HoleCurrent
 -5.10558e-04
 1.27024e-03
 5.92939e-03
--5.16463e-04
+-5.16464e-04
 1.30522e-03
 5.93438e-03
--4.44930e-04
+-4.44931e-04
 1.30963e-03
 5.94184e-03
 -2.90980e-04
 1.26763e-03
 5.94969e-03
--9.96970e-05
+-9.96971e-05
 1.17585e-03
 5.95337e-03
 1.06079e-03
@@ -8051,7 +8051,7 @@ HoleCurrent
 8.70873e-04
 5.93136e-03
 -1.82428e-04
-8.95901e-04
+8.95902e-04
 5.93187e-03
 -2.05177e-04
 9.17386e-04
@@ -8065,7 +8065,7 @@ HoleCurrent
 -1.16842e-04
 9.15621e-04
 5.94024e-03
--4.00809e-05
+-4.00810e-05
 8.77457e-04
 5.94159e-03
 8.29582e-04
@@ -8078,25 +8078,25 @@ HoleCurrent
 -4.59335e-05
 6.64489e-04
 5.93335e-03
--6.28505e-05
+-6.28506e-05
 6.76404e-04
 5.93345e-03
 -7.73192e-05
 6.87573e-04
 5.93366e-03
--8.68991e-05
+-8.68992e-05
 6.97139e-04
 5.93407e-03
--8.77104e-05
+-8.77105e-05
 7.03503e-04
 5.93481e-03
--7.54482e-05
+-7.54483e-05
 7.04118e-04
 5.93590e-03
--4.94576e-05
+-4.94577e-05
 6.96149e-04
 5.93704e-03
--1.69796e-05
+-1.69797e-05
 6.79130e-04
 5.93759e-03
 6.57768e-04
@@ -8121,13 +8121,13 @@ HoleCurrent
 -4.04849e-05
 5.47161e-04
 5.93485e-03
--3.48096e-05
+-3.48097e-05
 5.47434e-04
 5.93535e-03
--2.28334e-05
+-2.28335e-05
 5.43513e-04
 5.93587e-03
--7.84372e-06
+-7.84373e-06
 5.35193e-04
 5.93612e-03
 5.24744e-04
@@ -8143,7 +8143,7 @@ HoleCurrent
 -1.48266e-05
 4.24708e-04
 5.93456e-03
--1.82290e-05
+-1.82291e-05
 4.27654e-04
 5.93460e-03
 -2.04691e-05
@@ -8168,7 +8168,7 @@ HoleCurrent
 -3.70597e-06
 3.35299e-04
 5.93470e-03
--6.10510e-06
+-6.10511e-06
 3.37213e-04
 5.93470e-03
 -8.34975e-06
@@ -8180,16 +8180,16 @@ HoleCurrent
 -1.15217e-05
 3.42310e-04
 5.93480e-03
--1.16116e-05
+-1.16117e-05
 3.43291e-04
 5.93490e-03
--9.97822e-06
+-9.97823e-06
 3.43366e-04
 5.93505e-03
--6.55078e-06
+-6.55079e-06
 3.42106e-04
 5.93520e-03
--2.25203e-06
+-2.25204e-06
 3.39452e-04
 5.93527e-03
 3.36116e-04
@@ -8211,7 +8211,7 @@ HoleCurrent
 -7.10716e-06
 2.73303e-04
 5.93486e-03
--7.16060e-06
+-7.16061e-06
 2.73934e-04
 5.93492e-03
 -6.15215e-06
@@ -8220,7 +8220,7 @@ HoleCurrent
 -4.04006e-06
 2.73165e-04
 5.93511e-03
--1.38924e-06
+-1.38925e-06
 2.71455e-04
 5.93516e-03
 2.69305e-04
@@ -8242,16 +8242,16 @@ HoleCurrent
 -4.75589e-06
 2.18613e-04
 5.93491e-03
--4.79057e-06
+-4.79058e-06
 2.19050e-04
 5.93495e-03
--4.11529e-06
+-4.11530e-06
 2.19081e-04
 5.93501e-03
 -2.70306e-06
 2.18514e-04
 5.93508e-03
--9.29676e-07
+-9.29677e-07
 2.17326e-04
 5.93511e-03
 2.15832e-04
@@ -8273,13 +8273,13 @@ HoleCurrent
 -3.41466e-06
 1.75067e-04
 5.93494e-03
--3.43895e-06
+-3.43896e-06
 1.75390e-04
 5.93498e-03
 -2.95386e-06
 1.75412e-04
 5.93502e-03
--1.94051e-06
+-1.94052e-06
 1.74991e-04
 5.93507e-03
 -6.67515e-07
@@ -8304,16 +8304,16 @@ HoleCurrent
 -2.60266e-06
 1.40305e-04
 5.93498e-03
--2.62080e-06
+-2.62081e-06
 1.40558e-04
 5.93500e-03
 -2.25091e-06
 1.40575e-04
 5.93504e-03
--1.47891e-06
+-1.47892e-06
 1.40245e-04
 5.93508e-03
--5.08792e-07
+-5.08793e-07
 1.39556e-04
 5.93510e-03
 1.38690e-04
@@ -8335,21 +8335,21 @@ HoleCurrent
 -2.08553e-06
 1.12516e-04
 5.93500e-03
--2.09983e-06
+-2.09984e-06
 1.12723e-04
 5.93503e-03
--1.80333e-06
+-1.80334e-06
 1.12736e-04
 5.93506e-03
 -1.18497e-06
 1.12466e-04
 5.93509e-03
--4.07707e-07
+-4.07708e-07
 1.11902e-04
 5.93510e-03
 1.11193e-04
 5.93511e-03
--1.88035e-07
+-1.88034e-07
 5.93501e-03
 -5.61350e-07
 8.90133e-05
@@ -8372,10 +8372,10 @@ HoleCurrent
 -1.50600e-06
 9.04681e-05
 5.93507e-03
--9.89680e-07
+-9.89681e-07
 9.02384e-05
 5.93510e-03
--3.40541e-07
+-3.40542e-07
 8.97593e-05
 5.93511e-03
 8.91565e-05
@@ -8385,7 +8385,7 @@ HoleCurrent
 -4.85210e-07
 7.13696e-05
 5.93503e-03
--7.99172e-07
+-7.99173e-07
 7.16736e-05
 5.93503e-03
 -1.09262e-06
@@ -8397,13 +8397,13 @@ HoleCurrent
 -1.50546e-06
 7.24813e-05
 5.93505e-03
--1.51553e-06
+-1.51554e-06
 7.26351e-05
 5.93506e-03
 -1.30140e-06
 7.26448e-05
 5.93509e-03
--8.55283e-07
+-8.55284e-07
 7.24433e-05
 5.93511e-03
 -2.94315e-07
@@ -8434,10 +8434,10 @@ HoleCurrent
 -1.15647e-06
 4.92574e-05
 5.93510e-03
--7.60076e-07
-4.90747e-05
+-7.60078e-07
+4.90748e-05
 5.93512e-03
--2.61566e-07
+-2.61567e-07
 4.86942e-05
 5.93513e-03
 4.82154e-05
@@ -8453,7 +8453,7 @@ HoleCurrent
 -8.96536e-07
 5.99715e-05
 5.93506e-03
--1.10135e-06
+-1.10136e-06
 6.02006e-05
 5.93507e-03
 -1.23512e-06
@@ -8465,10 +8465,10 @@ HoleCurrent
 -1.06753e-06
 6.05307e-05
 5.93511e-03
--7.01647e-07
+-7.01648e-07
 6.03637e-05
 5.93513e-03
--2.41467e-07
+-2.41468e-07
 6.00158e-05
 5.93514e-03
 5.95781e-05
@@ -8481,22 +8481,22 @@ HoleCurrent
 -5.94044e-07
 7.43733e-05
 5.93508e-03
--8.12133e-07
+-8.12134e-07
 7.45927e-05
 5.93508e-03
--9.97643e-07
+-9.97644e-07
 7.47977e-05
 5.93508e-03
 -1.11877e-06
 7.49721e-05
 5.93509e-03
--1.12608e-06
+-1.12609e-06
 7.50861e-05
 5.93510e-03
--9.66883e-07
+-9.66884e-07
 7.50931e-05
 5.93512e-03
--6.35527e-07
+-6.35528e-07
 7.49437e-05
 5.93514e-03
 -2.18722e-07
@@ -8521,13 +8521,13 @@ HoleCurrent
 -9.89731e-07
 9.31716e-05
 5.93511e-03
--9.96143e-07
+-9.96144e-07
 9.32709e-05
 5.93512e-03
--8.55278e-07
+-8.55279e-07
 9.32770e-05
 5.93513e-03
--5.62202e-07
+-5.62203e-07
 9.31468e-05
 5.93515e-03
 -1.93497e-07
@@ -8535,12 +8535,12 @@ HoleCurrent
 5.93516e-03
 9.25343e-05
 5.93516e-03
--9.18808e-08
+-9.18810e-08
 5.93512e-03
 -2.74291e-07
 1.15288e-04
 5.93512e-03
--4.51752e-07
+-4.51753e-07
 1.15454e-04
 5.93512e-03
 -6.17575e-07
@@ -8552,21 +8552,21 @@ HoleCurrent
 -8.50586e-07
 1.15894e-04
 5.93513e-03
--8.56028e-07
+-8.56029e-07
 1.15978e-04
 5.93514e-03
 -7.34940e-07
 1.15983e-04
 5.93515e-03
--4.83135e-07
+-4.83136e-07
 1.15873e-04
 5.93516e-03
--1.66295e-07
+-1.66296e-07
 1.15645e-04
 5.93517e-03
 1.15357e-04
 5.93517e-03
--7.62342e-08
+-7.62344e-08
 5.93515e-03
 -2.27580e-07
 1.43771e-04
@@ -8580,16 +8580,16 @@ HoleCurrent
 -6.29334e-07
 1.44159e-04
 5.93515e-03
--7.05602e-07
+-7.05601e-07
 1.44263e-04
 5.93515e-03
 -7.10046e-07
 1.44331e-04
 5.93516e-03
--6.09568e-07
+-6.09569e-07
 1.44335e-04
 5.93517e-03
--4.00755e-07
+-4.00756e-07
 1.44246e-04
 5.93518e-03
 -1.37952e-07
@@ -8597,7 +8597,7 @@ HoleCurrent
 5.93519e-03
 1.43827e-04
 5.93519e-03
--6.05970e-08
+-6.05971e-08
 5.93517e-03
 -1.80897e-07
 1.79294e-04
@@ -8617,7 +8617,7 @@ HoleCurrent
 -5.64193e-07
 1.79727e-04
 5.93519e-03
--4.84316e-07
+-4.84317e-07
 1.79730e-04
 5.93520e-03
 -3.18447e-07
@@ -8628,7 +8628,7 @@ HoleCurrent
 5.93521e-03
 1.79337e-04
 5.93521e-03
--4.57428e-08
+-4.57429e-08
 5.93520e-03
 -1.36552e-07
 2.23586e-04
@@ -8636,7 +8636,7 @@ HoleCurrent
 -2.24883e-07
 2.23662e-04
 5.93520e-03
--3.07391e-07
+-3.07392e-07
 2.23736e-04
 5.93521e-03
 -3.77499e-07
@@ -8673,7 +8673,7 @@ HoleCurrent
 -2.67888e-07
 2.78943e-04
 5.93523e-03
--3.00233e-07
+-3.00232e-07
 2.78983e-04
 5.93523e-03
 -3.01976e-07
@@ -8690,7 +8690,7 @@ HoleCurrent
 5.93525e-03
 2.78816e-04
 5.93525e-03
--2.14383e-08
+-2.14384e-08
 5.93525e-03
 -6.39956e-08
 3.47567e-04
@@ -8723,7 +8723,7 @@ HoleCurrent
 5.93527e-03
 -1.30244e-08
 5.93527e-03
--3.88780e-08
+-3.88781e-08
 4.33167e-04
 5.93527e-03
 -6.40179e-08
@@ -8744,7 +8744,7 @@ HoleCurrent
 -1.03740e-07
 4.33246e-04
 5.93528e-03
--6.82709e-08
+-6.82710e-08
 4.33234e-04
 5.93528e-03
 -2.35230e-08
@@ -8752,7 +8752,7 @@ HoleCurrent
 5.93528e-03
 4.33175e-04
 5.93528e-03
--7.20936e-09
+-7.20938e-09
 5.93528e-03
 -2.15194e-08
 5.39572e-04
@@ -8769,21 +8769,21 @@ HoleCurrent
 -6.65285e-08
 5.39608e-04
 5.93529e-03
--6.68469e-08
+-6.68470e-08
 5.39613e-04
 5.93529e-03
--5.73346e-08
+-5.73347e-08
 5.39613e-04
 5.93529e-03
 -3.77469e-08
 5.39607e-04
 5.93529e-03
--1.30107e-08
+-1.30108e-08
 5.39593e-04
 5.93529e-03
 5.39576e-04
 5.93529e-03
--3.61306e-09
+-3.61307e-09
 5.93529e-03
 -1.07842e-08
 6.71571e-04
@@ -8803,7 +8803,7 @@ HoleCurrent
 -3.34454e-08
 6.71590e-04
 5.93529e-03
--2.86774e-08
+-2.86775e-08
 6.71590e-04
 5.93529e-03
 -1.88902e-08
@@ -8837,7 +8837,7 @@ HoleCurrent
 -1.29965e-08
 8.34824e-04
 5.93530e-03
--8.56721e-09
+-8.56723e-09
 8.34823e-04
 5.93530e-03
 -2.95645e-09
@@ -8845,7 +8845,7 @@ HoleCurrent
 5.93530e-03
 8.34817e-04
 5.93530e-03
--6.86309e-10
+-6.86311e-10
 5.93530e-03
 -2.04818e-09
 1.03575e-03
@@ -8853,7 +8853,7 @@ HoleCurrent
 -3.37085e-09
 1.03575e-03
 5.93530e-03
--4.60208e-09
+-4.60209e-09
 1.03575e-03
 5.93530e-03
 -5.64075e-09
@@ -8868,7 +8868,7 @@ HoleCurrent
 -5.41854e-09
 1.03575e-03
 5.93530e-03
--3.57562e-09
+-3.57563e-09
 1.03575e-03
 5.93530e-03
 -1.23506e-09
@@ -8876,7 +8876,7 @@ HoleCurrent
 5.93530e-03
 1.03575e-03
 5.93530e-03
--2.74244e-10
+-2.74245e-10
 5.93530e-03
 -8.18344e-10
 1.28129e-03
@@ -8899,7 +8899,7 @@ HoleCurrent
 -2.15933e-09
 1.28129e-03
 5.93530e-03
--1.42722e-09
+-1.42723e-09
 1.28129e-03
 5.93530e-03
 -4.93643e-10
@@ -8907,7 +8907,7 @@ HoleCurrent
 5.93530e-03
 1.28129e-03
 5.93530e-03
--1.12139e-10
+-1.12140e-10
 5.93530e-03
 -3.34572e-10
 1.57809e-03
@@ -8930,26 +8930,26 @@ HoleCurrent
 -8.81497e-10
 1.57809e-03
 5.93530e-03
--5.84139e-10
+-5.84140e-10
 1.57809e-03
 5.93530e-03
--2.02444e-10
+-2.02445e-10
 1.57809e-03
 5.93530e-03
 1.57809e-03
 5.93530e-03
--5.14898e-11
+-5.14899e-11
 5.93530e-03
 -1.53582e-10
 1.93106e-03
 5.93530e-03
--2.52493e-10
+-2.52494e-10
 1.93106e-03
 5.93530e-03
 -3.44171e-10
 1.93106e-03
 5.93530e-03
--4.21009e-10
+-4.21010e-10
 1.93106e-03
 5.93530e-03
 -4.69689e-10
@@ -8964,7 +8964,7 @@ HoleCurrent
 -2.68884e-10
 1.93106e-03
 5.93530e-03
--9.34567e-11
+-9.34569e-11
 1.93106e-03
 5.93530e-03
 1.93106e-03
@@ -8995,7 +8995,7 @@ HoleCurrent
 -1.48800e-10
 2.34106e-03
 5.93530e-03
--5.19052e-11
+-5.19053e-11
 2.34106e-03
 5.93530e-03
 2.34106e-03
@@ -9023,23 +9023,23 @@ HoleCurrent
 -1.44436e-10
 2.80176e-03
 5.93530e-03
--9.67736e-11
+-9.67737e-11
 2.80176e-03
 5.93530e-03
--3.38736e-11
+-3.38737e-11
 2.80176e-03
 5.93530e-03
 2.80176e-03
 5.93530e-03
--1.36085e-11
+-1.36086e-11
 5.93530e-03
 -4.04616e-11
 3.29684e-03
 5.93530e-03
--6.60845e-11
+-6.60846e-11
 3.29684e-03
 5.93530e-03
--8.91680e-11
+-8.91681e-11
 3.29684e-03
 5.93530e-03
 -1.07595e-10
@@ -9057,7 +9057,7 @@ HoleCurrent
 -6.66880e-11
 3.29684e-03
 5.93530e-03
--2.33970e-11
+-2.33971e-11
 3.29684e-03
 5.93530e-03
 3.29684e-03
@@ -9067,13 +9067,13 @@ HoleCurrent
 -2.70775e-11
 3.79965e-03
 5.93530e-03
--4.40554e-11
+-4.40555e-11
 3.79965e-03
 5.93530e-03
--5.90879e-11
+-5.90880e-11
 3.79965e-03
 5.93530e-03
--7.07149e-11
+-7.07150e-11
 3.79965e-03
 5.93530e-03
 -7.68742e-11
@@ -9085,41 +9085,41 @@ HoleCurrent
 -6.36453e-11
 3.79965e-03
 5.93530e-03
--4.25972e-11
+-4.25973e-11
 3.79965e-03
 5.93530e-03
--1.49579e-11
+-1.49580e-11
 3.79965e-03
 5.93530e-03
 3.79965e-03
 5.93530e-03
--4.37616e-12
+-4.37602e-12
 5.93530e-03
--1.29660e-11
+-1.29661e-11
 3.81792e-03
 5.93530e-03
--2.10269e-11
+-2.10270e-11
 3.81792e-03
 5.93530e-03
--2.80603e-11
+-2.80602e-11
 3.81792e-03
 5.93530e-03
 -3.33568e-11
 3.81792e-03
 5.93530e-03
--3.59761e-11
+-3.59762e-11
 3.81792e-03
 5.93530e-03
--3.48888e-11
+-3.48886e-11
 3.81792e-03
 5.93530e-03
--2.93809e-11
+-2.93808e-11
 3.81792e-03
 5.93530e-03
 -1.96208e-11
 3.81792e-03
 5.93530e-03
--6.88873e-12
+-6.88897e-12
 3.81792e-03
 5.93530e-03
 3.81792e-03
