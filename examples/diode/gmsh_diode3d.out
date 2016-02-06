@@ -30,7 +30,6 @@ group Emitter has 120 nodes.
 Contact bot in region Bulk with 120 nodes
 group Base has 132 nodes.
 Contact top in region Bulk with 132 nodes
-Creating Node Solution Potential
 Region "Bulk" on device "diode3d" has equations 0:1416
 Device "diode3d" has equations 0:1416
 number of equations 1417
