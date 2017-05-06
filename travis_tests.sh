@@ -11,7 +11,7 @@ ANACONDA_PATH=${HOME}/anaconda
 #curl -L -O https://github.com/devsim/devsim/releases/download/${TAG}/${TAGTGZ}
 #tar xzf ${TAGTGZ} 
 yum install -y epel-release
-yum install -y cmake3
+yum install -y cmake3 perl
 
 if [ ! -d ${HOME}/anaconda ]; then
 ( cd ${HOME} && curl -O https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh  && bash Miniconda2-latest-Linux-x86_64.sh -b -p ${HOME}/anaconda )
