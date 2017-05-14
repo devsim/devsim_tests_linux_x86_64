@@ -26,9 +26,7 @@ Contact body in region bulk with 35 nodes
 Contact drain in region bulk with 13 nodes
 Contact gate in region gate with 11 nodes
 Contact source in region bulk with 13 nodes
-Interface bulk_oxide bulk oxide has 9 node pairs
 Adding interface bulk_oxide with 9, 9 nodes
-Interface gate_oxide gate oxide has 11 node pairs
 Adding interface gate_oxide with 11, 11 nodes
 Replacing Edge Model Bern01 in region bulk of material Silicon
 Replacing Edge Model Bern01:Potential@n0 in region bulk of material Silicon
