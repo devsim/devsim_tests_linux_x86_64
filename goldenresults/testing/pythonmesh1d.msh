@@ -1,0 +1,182 @@
+begin_device "toy"
+begin_coordinates
+0.000000000000000e+00	0.000000000000000e+00	0.000000000000000e+00
+1.000000000000000e+00	0.000000000000000e+00	0.000000000000000e+00
+2.000000000000000e+00	0.000000000000000e+00	0.000000000000000e+00
+3.000000000000000e+00	0.000000000000000e+00	0.000000000000000e+00
+4.000000000000000e+00	0.000000000000000e+00	0.000000000000000e+00
+5.000000000000000e+00	0.000000000000000e+00	0.000000000000000e+00
+6.000000000000000e+00	0.000000000000000e+00	0.000000000000000e+00
+7.000000000000000e+00	0.000000000000000e+00	0.000000000000000e+00
+8.000000000000000e+00	0.000000000000000e+00	0.000000000000000e+00
+9.000000000000000e+00	0.000000000000000e+00	0.000000000000000e+00
+1.000000000000000e+01	0.000000000000000e+00	0.000000000000000e+00
+end_coordinates
+
+begin_region "bot" "silicon"
+begin_nodes
+5
+6
+7
+8
+9
+10
+end_nodes
+
+begin_edges
+0	1
+1	2
+2	3
+3	4
+4	5
+end_edges
+
+begin_node_model "AtContactNode"
+BUILTIN
+end_node_model
+
+begin_node_model "NodeVolume"
+BUILTIN
+end_node_model
+
+begin_node_model "SurfaceArea"
+BUILTIN
+end_node_model
+
+begin_node_model "coordinate_index"
+DATAPARENT "x"
+end_node_model
+
+begin_node_model "node_index"
+DATAPARENT "x"
+end_node_model
+
+begin_node_model "x"
+BUILTIN
+end_node_model
+
+begin_node_model "y"
+DATAPARENT "x"
+end_node_model
+
+begin_node_model "z"
+DATAPARENT "x"
+end_node_model
+
+begin_edge_model "EdgeCouple"
+BUILTIN
+end_edge_model
+
+begin_edge_model "EdgeInverseLength"
+BUILTIN
+end_edge_model
+
+begin_edge_model "EdgeLength"
+BUILTIN
+end_edge_model
+
+begin_edge_model "edge_index"
+BUILTIN
+end_edge_model
+
+begin_edge_model "unitx"
+BUILTIN
+end_edge_model
+
+end_region
+
+begin_region "top" "silicon"
+begin_nodes
+0
+1
+2
+3
+4
+5
+end_nodes
+
+begin_edges
+0	1
+1	2
+2	3
+3	4
+4	5
+end_edges
+
+begin_node_model "AtContactNode"
+BUILTIN
+end_node_model
+
+begin_node_model "NodeVolume"
+BUILTIN
+end_node_model
+
+begin_node_model "SurfaceArea"
+BUILTIN
+end_node_model
+
+begin_node_model "coordinate_index"
+DATAPARENT "x"
+end_node_model
+
+begin_node_model "node_index"
+DATAPARENT "x"
+end_node_model
+
+begin_node_model "x"
+BUILTIN
+end_node_model
+
+begin_node_model "y"
+DATAPARENT "x"
+end_node_model
+
+begin_node_model "z"
+DATAPARENT "x"
+end_node_model
+
+begin_edge_model "EdgeCouple"
+BUILTIN
+end_edge_model
+
+begin_edge_model "EdgeInverseLength"
+BUILTIN
+end_edge_model
+
+begin_edge_model "EdgeLength"
+BUILTIN
+end_edge_model
+
+begin_edge_model "edge_index"
+BUILTIN
+end_edge_model
+
+begin_edge_model "unitx"
+BUILTIN
+end_edge_model
+
+end_region
+
+begin_contact "bot_contact" "bot" "metal"
+begin_nodes
+5
+end_nodes
+
+end_contact
+
+begin_contact "top_contact" "top" "metal"
+begin_nodes
+0
+end_nodes
+
+end_contact
+
+begin_interface "top_bot_interface" "top" "bot"
+begin_nodes
+5	0
+end_nodes
+
+end_interface
+
+end_device
+

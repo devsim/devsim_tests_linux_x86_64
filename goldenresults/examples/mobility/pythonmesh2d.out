@@ -1,0 +1,134 @@
+
+----------------------------------------
+
+ DEVSIM
+
+ Version: Beta 0.01
+
+ Copyright 2009-2016 Devsim LLC
+
+----------------------------------------
+
+
+2 dimension
+2847 coordinates
+Physical group name body_contact has 0 Tetrahedra.
+Physical group name body_contact has 0 Triangles.
+Physical group name body_contact has 49 Lines.
+Physical group name body_contact has 50 Points.
+Physical group name bulk has 0 Tetrahedra.
+Physical group name bulk has 4255 Triangles.
+Physical group name bulk has 6503 Lines.
+Physical group name bulk has 2249 Points.
+Physical group name bulk_oxide_interface has 0 Tetrahedra.
+Physical group name bulk_oxide_interface has 0 Triangles.
+Physical group name bulk_oxide_interface has 100 Lines.
+Physical group name bulk_oxide_interface has 101 Points.
+Physical group name drain_contact has 0 Tetrahedra.
+Physical group name drain_contact has 0 Triangles.
+Physical group name drain_contact has 27 Lines.
+Physical group name drain_contact has 28 Points.
+Physical group name gate has 0 Tetrahedra.
+Physical group name gate has 57 Triangles.
+Physical group name gate has 95 Lines.
+Physical group name gate has 39 Points.
+Physical group name gate_contact has 0 Tetrahedra.
+Physical group name gate_contact has 0 Triangles.
+Physical group name gate_contact has 4 Lines.
+Physical group name gate_contact has 5 Points.
+Physical group name gate_oxide_interface has 0 Tetrahedra.
+Physical group name gate_oxide_interface has 0 Triangles.
+Physical group name gate_oxide_interface has 5 Lines.
+Physical group name gate_oxide_interface has 6 Points.
+Physical group name oxide has 0 Tetrahedra.
+Physical group name oxide has 1207 Triangles.
+Physical group name oxide has 1872 Lines.
+Physical group name oxide has 666 Points.
+Physical group name source_contact has 0 Tetrahedra.
+Physical group name source_contact has 0 Triangles.
+Physical group name source_contact has 27 Lines.
+Physical group name source_contact has 28 Points.
+Device mos2da has 2847 coordinates with max index 2846
+group bulk has 2249 nodes.
+Region bulk has 2249 nodes.
+Region bulk has 2249 nodes.
+group gate has 39 nodes.
+Region gate has 39 nodes.
+Region gate has 39 nodes.
+group oxide has 666 nodes.
+Region oxide has 666 nodes.
+Region oxide has 666 nodes.
+group body_contact has 50 nodes.
+Contact body in region bulk with 50 nodes
+group drain_contact has 28 nodes.
+Contact drain in region bulk with 28 nodes
+group gate_contact has 5 nodes.
+Contact gate in region gate with 5 nodes
+group source_contact has 28 nodes.
+Contact source in region bulk with 28 nodes
+group bulk_oxide_interface has 101 nodes.
+Warning, contact "source" shares a node with interface "bulk_oxide"
+Warning, contact "drain" shares a node with interface "bulk_oxide"
+Adding interface bulk_oxide with 101, 101 nodes
+group gate_oxide_interface has 6 nodes.
+Adding interface gate_oxide with 6, 6 nodes
+Physical group name body_contact has 0 Tetrahedra.
+Physical group name body_contact has 0 Triangles.
+Physical group name body_contact has 49 Lines.
+Physical group name body_contact has 50 Points.
+Physical group name bulk has 0 Tetrahedra.
+Physical group name bulk has 4255 Triangles.
+Physical group name bulk has 6503 Lines.
+Physical group name bulk has 2249 Points.
+Physical group name bulk_oxide_interface has 0 Tetrahedra.
+Physical group name bulk_oxide_interface has 0 Triangles.
+Physical group name bulk_oxide_interface has 100 Lines.
+Physical group name bulk_oxide_interface has 101 Points.
+Physical group name drain_contact has 0 Tetrahedra.
+Physical group name drain_contact has 0 Triangles.
+Physical group name drain_contact has 27 Lines.
+Physical group name drain_contact has 28 Points.
+Physical group name gate has 0 Tetrahedra.
+Physical group name gate has 57 Triangles.
+Physical group name gate has 95 Lines.
+Physical group name gate has 39 Points.
+Physical group name gate_contact has 0 Tetrahedra.
+Physical group name gate_contact has 0 Triangles.
+Physical group name gate_contact has 4 Lines.
+Physical group name gate_contact has 5 Points.
+Physical group name gate_oxide_interface has 0 Tetrahedra.
+Physical group name gate_oxide_interface has 0 Triangles.
+Physical group name gate_oxide_interface has 5 Lines.
+Physical group name gate_oxide_interface has 6 Points.
+Physical group name oxide has 0 Tetrahedra.
+Physical group name oxide has 1207 Triangles.
+Physical group name oxide has 1872 Lines.
+Physical group name oxide has 666 Points.
+Physical group name source_contact has 0 Tetrahedra.
+Physical group name source_contact has 0 Triangles.
+Physical group name source_contact has 27 Lines.
+Physical group name source_contact has 28 Points.
+Device mos2db has 2847 coordinates with max index 2847
+group bulk has 2249 nodes.
+Region bulk has 2249 nodes.
+Region bulk has 2249 nodes.
+group gate has 39 nodes.
+Region gate has 39 nodes.
+Region gate has 39 nodes.
+group oxide has 666 nodes.
+Region oxide has 666 nodes.
+Region oxide has 666 nodes.
+group body_contact has 50 nodes.
+Contact body in region bulk with 50 nodes
+group drain_contact has 28 nodes.
+Contact drain in region bulk with 28 nodes
+group gate_contact has 5 nodes.
+Contact gate in region gate with 5 nodes
+group source_contact has 28 nodes.
+Contact source in region bulk with 28 nodes
+group bulk_oxide_interface has 101 nodes.
+Warning, contact "source" shares a node with interface "bulk_oxide"
+Warning, contact "drain" shares a node with interface "bulk_oxide"
+Adding interface bulk_oxide with 101, 101 nodes
+group gate_oxide_interface has 6 nodes.
+Adding interface gate_oxide with 6, 6 nodes

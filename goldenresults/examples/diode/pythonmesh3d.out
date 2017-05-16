@@ -1,0 +1,54 @@
+
+----------------------------------------
+
+ DEVSIM
+
+ Version: Beta 0.01
+
+ Copyright 2009-2016 Devsim LLC
+
+----------------------------------------
+
+
+3 dimension
+1417 coordinates
+Physical group name Base has 0 Tetrahedra.
+Physical group name Base has 223 Triangles.
+Physical group name Base has 354 Lines.
+Physical group name Base has 132 Points.
+Physical group name Bulk has 6701 Tetrahedra.
+Physical group name Bulk has 14066 Triangles.
+Physical group name Bulk has 8781 Lines.
+Physical group name Bulk has 1417 Points.
+Physical group name Emitter has 0 Tetrahedra.
+Physical group name Emitter has 201 Triangles.
+Physical group name Emitter has 320 Lines.
+Physical group name Emitter has 120 Points.
+Device gmsh_diode3da has 1417 coordinates with max index 1416
+group Bulk has 1417 nodes.
+Region bulk has 1417 nodes.
+Region bulk has 1417 nodes.
+group Emitter has 120 nodes.
+Contact bot in region bulk with 120 nodes
+group Base has 132 nodes.
+Contact top in region bulk with 132 nodes
+Physical group name Base has 0 Tetrahedra.
+Physical group name Base has 223 Triangles.
+Physical group name Base has 354 Lines.
+Physical group name Base has 132 Points.
+Physical group name Bulk has 6701 Tetrahedra.
+Physical group name Bulk has 14066 Triangles.
+Physical group name Bulk has 8781 Lines.
+Physical group name Bulk has 1417 Points.
+Physical group name Emitter has 0 Tetrahedra.
+Physical group name Emitter has 201 Triangles.
+Physical group name Emitter has 320 Lines.
+Physical group name Emitter has 120 Points.
+Device gmsh_diode3db has 1417 coordinates with max index 1417
+group Bulk has 1417 nodes.
+Region bulk has 1417 nodes.
+Region bulk has 1417 nodes.
+group Emitter has 120 nodes.
+Contact bot in region bulk with 120 nodes
+group Base has 132 nodes.
+Contact top in region bulk with 132 nodes

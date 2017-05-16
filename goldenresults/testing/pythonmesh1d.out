@@ -1,0 +1,66 @@
+
+----------------------------------------
+
+ DEVSIM
+
+ Version: Beta 0.01
+
+ Copyright 2009-2016 Devsim LLC
+
+----------------------------------------
+
+
+coordinates
+[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 2.0, 0.0, 0.0, 3.0, 0.0, 0.0, 4.0, 0.0, 0.0, 5.0, 0.0, 0.0, 6.0, 0.0, 0.0, 7.0, 0.0, 0.0, 8.0, 0.0, 0.0, 9.0, 0.0, 0.0, 10.0, 0.0, 0.0]
+
+elements
+[1, 0, 0, 1]
+[1, 0, 1, 2]
+[1, 0, 2, 3]
+[1, 0, 3, 4]
+[1, 0, 4, 5]
+[1, 1, 5, 6]
+[1, 1, 6, 7]
+[1, 1, 7, 8]
+[1, 1, 8, 9]
+[1, 1, 9, 10]
+[0, 2, 0]
+[0, 3, 10]
+[0, 4, 5]
+
+physical_names
+['top', 'bot', 'top_contact', 'bot_contact', 'top_bot_interface']
+
+Physical group name bot has 0 Tetrahedra.
+Physical group name bot has 0 Triangles.
+Physical group name bot has 5 Lines.
+Physical group name bot has 6 Points.
+Physical group name bot_contact has 0 Tetrahedra.
+Physical group name bot_contact has 0 Triangles.
+Physical group name bot_contact has 0 Lines.
+Physical group name bot_contact has 1 Points.
+Physical group name top has 0 Tetrahedra.
+Physical group name top has 0 Triangles.
+Physical group name top has 5 Lines.
+Physical group name top has 6 Points.
+Physical group name top_bot_interface has 0 Tetrahedra.
+Physical group name top_bot_interface has 0 Triangles.
+Physical group name top_bot_interface has 0 Lines.
+Physical group name top_bot_interface has 1 Points.
+Physical group name top_contact has 0 Tetrahedra.
+Physical group name top_contact has 0 Triangles.
+Physical group name top_contact has 0 Lines.
+Physical group name top_contact has 1 Points.
+Device toy has 11 coordinates with max index 10
+group bot has 6 nodes.
+Region bot has 6 nodes.
+Region bot has 6 nodes.
+group top has 6 nodes.
+Region top has 6 nodes.
+Region top has 6 nodes.
+group bot_contact has 1 nodes.
+Contact bot_contact in region bot with 1 nodes
+group top_contact has 1 nodes.
+Contact top_contact in region top with 1 nodes
+group top_bot_interface has 1 nodes.
+Adding interface top_bot_interface with 1, 1 nodes
