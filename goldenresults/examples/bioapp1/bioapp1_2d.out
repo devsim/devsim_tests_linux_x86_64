@@ -5,7 +5,7 @@
 
  Version: Beta 0.01
 
- Copyright 2009-2016 Devsim LLC
+ Copyright 2009-2017 Devsim LLC
 
 ----------------------------------------
 
@@ -39,22 +39,12 @@ Physical group name top has 0 Triangles.
 Physical group name top has 24 Lines.
 Physical group name top has 25 Points.
 Device disk has 21880 coordinates with max index 21880
-group dielectric has 861 nodes.
 Region dielectric has 861 nodes.
-Region dielectric has 861 nodes.
-group dna has 10746 nodes.
 Region dna has 10746 nodes.
-Region dna has 10746 nodes.
-group solution has 10832 nodes.
 Region solution has 10832 nodes.
-Region solution has 10832 nodes.
-group bot has 25 nodes.
 Contact bot in region solution with 25 nodes
-group top has 25 nodes.
 Contact top in region solution with 25 nodes
-group dielectric_solution has 119 nodes.
 Adding interface dielectric_solution with 119, 119 nodes
-group dna_solution has 440 nodes.
 Adding interface dna_solution with 440, 440 nodes
 Volume dna 6.37352947656e-20 2.00525455379e-13
 Volume dielectric 9.75667856982e-12 1.10357339749e-08

@@ -5,7 +5,7 @@
 
  Version: Beta 0.01
 
- Copyright 2009-2016 Devsim LLC
+ Copyright 2009-2017 Devsim LLC
 
 ----------------------------------------
 
@@ -23,12 +23,8 @@ Physical group name Emitter has 201 Triangles.
 Physical group name Emitter has 320 Lines.
 Physical group name Emitter has 120 Points.
 Device resistor3d has 1417 coordinates with max index 1417
-group Bulk has 1417 nodes.
 Region Bulk has 1417 nodes.
-Region Bulk has 1417 nodes.
-group Emitter has 120 nodes.
 Contact bot in region Bulk with 120 nodes
-group Base has 132 nodes.
 Contact top in region Bulk with 132 nodes
 Replacing Node Model contactcharge_node in region Bulk of material Silicon
 Replacing Edge Model contactcharge_edge in region Bulk of material Silicon

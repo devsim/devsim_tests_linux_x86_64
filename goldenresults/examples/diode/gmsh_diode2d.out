@@ -5,7 +5,7 @@
 
  Version: Beta 0.01
 
- Copyright 2009-2016 Devsim LLC
+ Copyright 2009-2017 Devsim LLC
 
 ----------------------------------------
 
@@ -23,12 +23,8 @@ Physical group name Emitter has 0 Triangles.
 Physical group name Emitter has 20 Lines.
 Physical group name Emitter has 21 Points.
 Device diode2d has 501 coordinates with max index 501
-group Bulk has 501 nodes.
 Region Bulk has 501 nodes.
-Region Bulk has 501 nodes.
-group Emitter has 21 nodes.
 Contact bot in region Bulk with 21 nodes
-group Base has 20 nodes.
 Contact top in region Bulk with 20 nodes
 Region "Bulk" on device "diode2d" has equations 0:500
 Device "diode2d" has equations 0:500

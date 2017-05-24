@@ -5,7 +5,7 @@
 
  Version: Beta 0.01
 
- Copyright 2009-2016 Devsim LLC
+ Copyright 2009-2017 Devsim LLC
 
 ----------------------------------------
 
@@ -35,20 +35,11 @@ Physical group name right has 624 Triangles.
 Physical group name right has 967 Lines.
 Physical group name right has 344 Points.
 Device twowire has 4510 coordinates with max index 4510
-group air has 3943 nodes.
 Region air has 3943 nodes.
-Region air has 3943 nodes.
-group left has 347 nodes.
 Region left has 347 nodes.
-Region left has 347 nodes.
-group right has 344 nodes.
 Region right has 344 nodes.
-Region right has 344 nodes.
-group bottom has 1 nodes.
 Contact bottom in region air with 1 nodes
-group air_left_interface has 62 nodes.
 Adding interface air_left with 62, 62 nodes
-group air_right_interface has 62 nodes.
 Adding interface air_right with 62, 62 nodes
 Region "air" on device "twowire" has equations 0:3942
 Region "left" on device "twowire" has equations 3943:4289

@@ -5,7 +5,7 @@
 
  Version: Beta 0.01
 
- Copyright 2009-2016 Devsim LLC
+ Copyright 2009-2017 Devsim LLC
 
 ----------------------------------------
 
@@ -52,15 +52,8 @@ Physical group name top_contact has 0 Triangles.
 Physical group name top_contact has 0 Lines.
 Physical group name top_contact has 1 Points.
 Device toy has 11 coordinates with max index 10
-group bot has 6 nodes.
 Region bot has 6 nodes.
-Region bot has 6 nodes.
-group top has 6 nodes.
 Region top has 6 nodes.
-Region top has 6 nodes.
-group bot_contact has 1 nodes.
 Contact bot_contact in region bot with 1 nodes
-group top_contact has 1 nodes.
 Contact top_contact in region top with 1 nodes
-group top_bot_interface has 1 nodes.
 Adding interface top_bot_interface with 1, 1 nodes
