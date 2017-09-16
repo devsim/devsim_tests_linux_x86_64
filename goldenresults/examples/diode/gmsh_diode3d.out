@@ -74,282 +74,282 @@ Iteration: 10
     Region: "Bulk"	RelError: 4.19686e-08	AbsError: 1.62468e-08
       Equation: "PotentialEquation"	RelError: 4.19686e-08	AbsError: 1.62468e-08
 Iteration: 11
-  Device: "diode3d"	RelError: 5.26938e-15	AbsError: 2.51185e-15
-    Region: "Bulk"	RelError: 5.26938e-15	AbsError: 2.51185e-15
-      Equation: "PotentialEquation"	RelError: 5.26938e-15	AbsError: 2.51185e-15
+  Device: "diode3d"	RelError: 5.27178e-15	AbsError: 2.51300e-15
+    Region: "Bulk"	RelError: 5.27178e-15	AbsError: 2.51300e-15
+      Equation: "PotentialEquation"	RelError: 5.27178e-15	AbsError: 2.51300e-15
 Warning: Replacing equation with equation of the same name.
 Region: Bulk, Equation: PotentialEquation, Variable: Potential
 Region "Bulk" on device "diode3d" has equations 0:4250
 Device "diode3d" has equations 0:4250
 number of equations 4251
 Iteration: 0
-  Device: "diode3d"	RelError: 6.35717e-09	AbsError: 1.02400e+04
-    Region: "Bulk"	RelError: 6.35717e-09	AbsError: 1.02400e+04
-      Equation: "ElectronContinuityEquation"	RelError: 2.90870e-09	AbsError: 5.12000e+03
-      Equation: "HoleContinuityEquation"	RelError: 3.44844e-09	AbsError: 5.12000e+03
-      Equation: "PotentialEquation"	RelError: 1.92548e-14	AbsError: 1.48080e-16
+  Device: "diode3d"	RelError: 6.35226e-09	AbsError: 1.02400e+04
+    Region: "Bulk"	RelError: 6.35226e-09	AbsError: 1.02400e+04
+      Equation: "ElectronContinuityEquation"	RelError: 2.89359e-09	AbsError: 5.12000e+03
+      Equation: "HoleContinuityEquation"	RelError: 3.45867e-09	AbsError: 5.12000e+03
+      Equation: "PotentialEquation"	RelError: 3.56967e-15	AbsError: 1.48399e-16
 Region "Bulk" on device "diode3d" has equations 0:4250
 Device "diode3d" has equations 0:4250
 number of equations 4251
 Iteration: 0
-  Device: "diode3d"	RelError: 8.26205e+02	AbsError: 2.07637e+17
-    Region: "Bulk"	RelError: 8.26205e+02	AbsError: 2.07637e+17
-      Equation: "ElectronContinuityEquation"	RelError: 7.77242e-01	AbsError: 1.03580e+17
-      Equation: "HoleContinuityEquation"	RelError: 7.77187e-01	AbsError: 1.04057e+17
-      Equation: "PotentialEquation"	RelError: 8.24651e+02	AbsError: 4.46438e-02
+  Device: "diode3d"	RelError: 8.72821e+02	AbsError: 2.07605e+17
+    Region: "Bulk"	RelError: 8.72821e+02	AbsError: 2.07605e+17
+      Equation: "ElectronContinuityEquation"	RelError: 7.77224e-01	AbsError: 1.03568e+17
+      Equation: "HoleContinuityEquation"	RelError: 7.77129e-01	AbsError: 1.04037e+17
+      Equation: "PotentialEquation"	RelError: 8.71266e+02	AbsError: 4.33298e-02
 Iteration: 1
-  Device: "diode3d"	RelError: 4.30525e+02	AbsError: 3.16093e+16
-    Region: "Bulk"	RelError: 4.30525e+02	AbsError: 3.16093e+16
-      Equation: "ElectronContinuityEquation"	RelError: 6.75140e-01	AbsError: 1.37794e+16
-      Equation: "HoleContinuityEquation"	RelError: 7.55068e-01	AbsError: 1.78298e+16
-      Equation: "PotentialEquation"	RelError: 4.29095e+02	AbsError: 3.32429e-02
+  Device: "diode3d"	RelError: 4.55443e+02	AbsError: 2.66493e+16
+    Region: "Bulk"	RelError: 4.55443e+02	AbsError: 2.66493e+16
+      Equation: "ElectronContinuityEquation"	RelError: 6.75110e-01	AbsError: 1.36616e+16
+      Equation: "HoleContinuityEquation"	RelError: 7.55038e-01	AbsError: 1.29877e+16
+      Equation: "PotentialEquation"	RelError: 4.54013e+02	AbsError: 3.26752e-02
 Iteration: 2
-  Device: "diode3d"	RelError: 4.20413e+00	AbsError: 2.10531e+16
-    Region: "Bulk"	RelError: 4.20413e+00	AbsError: 2.10531e+16
-      Equation: "ElectronContinuityEquation"	RelError: 4.93284e-01	AbsError: 1.69381e+15
-      Equation: "HoleContinuityEquation"	RelError: 4.80450e-01	AbsError: 1.93593e+16
-      Equation: "PotentialEquation"	RelError: 3.23039e+00	AbsError: 2.57897e-02
+  Device: "diode3d"	RelError: 4.14433e+00	AbsError: 1.99590e+16
+    Region: "Bulk"	RelError: 4.14433e+00	AbsError: 1.99590e+16
+      Equation: "ElectronContinuityEquation"	RelError: 4.93860e-01	AbsError: 1.66381e+15
+      Equation: "HoleContinuityEquation"	RelError: 4.80246e-01	AbsError: 1.82952e+16
+      Equation: "PotentialEquation"	RelError: 3.17022e+00	AbsError: 2.58174e-02
 Iteration: 3
-  Device: "diode3d"	RelError: 3.26698e+01	AbsError: 9.29794e+15
-    Region: "Bulk"	RelError: 3.26698e+01	AbsError: 9.29794e+15
-      Equation: "ElectronContinuityEquation"	RelError: 3.03311e-01	AbsError: 1.34438e+15
-      Equation: "HoleContinuityEquation"	RelError: 1.43295e-01	AbsError: 7.95356e+15
-      Equation: "PotentialEquation"	RelError: 3.22232e+01	AbsError: 1.25190e-02
+  Device: "diode3d"	RelError: 1.57330e+01	AbsError: 1.97433e+16
+    Region: "Bulk"	RelError: 1.57330e+01	AbsError: 1.97433e+16
+      Equation: "ElectronContinuityEquation"	RelError: 3.03229e-01	AbsError: 1.63797e+15
+      Equation: "HoleContinuityEquation"	RelError: 1.39005e-01	AbsError: 1.81053e+16
+      Equation: "PotentialEquation"	RelError: 1.52907e+01	AbsError: 1.18829e-02
 Iteration: 4
-  Device: "diode3d"	RelError: 1.10879e+00	AbsError: 7.35883e+15
-    Region: "Bulk"	RelError: 1.10879e+00	AbsError: 7.35883e+15
-      Equation: "ElectronContinuityEquation"	RelError: 8.49120e-02	AbsError: 7.80934e+14
-      Equation: "HoleContinuityEquation"	RelError: 1.13322e-02	AbsError: 6.57790e+15
-      Equation: "PotentialEquation"	RelError: 1.01255e+00	AbsError: 1.97293e-03
+  Device: "diode3d"	RelError: 1.07608e+00	AbsError: 4.18660e+15
+    Region: "Bulk"	RelError: 1.07608e+00	AbsError: 4.18660e+15
+      Equation: "ElectronContinuityEquation"	RelError: 8.79875e-02	AbsError: 1.71569e+14
+      Equation: "HoleContinuityEquation"	RelError: 1.14980e-02	AbsError: 4.01503e+15
+      Equation: "PotentialEquation"	RelError: 9.76595e-01	AbsError: 9.29052e-04
 Iteration: 5
-  Device: "diode3d"	RelError: 7.75782e-04	AbsError: 1.60787e+13
-    Region: "Bulk"	RelError: 7.75782e-04	AbsError: 1.60787e+13
-      Equation: "ElectronContinuityEquation"	RelError: 6.53678e-04	AbsError: 4.39882e+12
-      Equation: "HoleContinuityEquation"	RelError: 4.22375e-05	AbsError: 1.16799e+13
-      Equation: "PotentialEquation"	RelError: 7.98664e-05	AbsError: 1.08003e-05
+  Device: "diode3d"	RelError: 7.46968e-04	AbsError: 8.07007e+13
+    Region: "Bulk"	RelError: 7.46968e-04	AbsError: 8.07007e+13
+      Equation: "ElectronContinuityEquation"	RelError: 1.99539e-04	AbsError: 6.92084e+12
+      Equation: "HoleContinuityEquation"	RelError: 7.46756e-05	AbsError: 7.37799e+13
+      Equation: "PotentialEquation"	RelError: 4.72754e-04	AbsError: 4.17168e-06
 Iteration: 6
-  Device: "diode3d"	RelError: 7.36182e-08	AbsError: 2.78115e+10
-    Region: "Bulk"	RelError: 7.36182e-08	AbsError: 2.78115e+10
-      Equation: "ElectronContinuityEquation"	RelError: 2.04572e-08	AbsError: 9.43914e+09
-      Equation: "HoleContinuityEquation"	RelError: 2.00298e-08	AbsError: 1.83723e+10
-      Equation: "PotentialEquation"	RelError: 3.31311e-08	AbsError: 2.83697e-09
+  Device: "diode3d"	RelError: 1.85333e-07	AbsError: 1.89487e+10
+    Region: "Bulk"	RelError: 1.85333e-07	AbsError: 1.89487e+10
+      Equation: "ElectronContinuityEquation"	RelError: 2.85193e-08	AbsError: 1.22055e+10
+      Equation: "HoleContinuityEquation"	RelError: 2.86140e-08	AbsError: 6.74322e+09
+      Equation: "PotentialEquation"	RelError: 1.28200e-07	AbsError: 8.49351e-10
 Iteration: 7
-  Device: "diode3d"	RelError: 7.34779e-10	AbsError: 8.57965e+07
-    Region: "Bulk"	RelError: 7.34779e-10	AbsError: 8.57965e+07
-      Equation: "ElectronContinuityEquation"	RelError: 2.45712e-10	AbsError: 1.00647e+07
-      Equation: "HoleContinuityEquation"	RelError: 4.71463e-10	AbsError: 7.57319e+07
-      Equation: "PotentialEquation"	RelError: 1.76042e-11	AbsError: 2.05989e-12
-top	0.1	3.2829166198e-19	1.85431193544e-19	5.13722855524e-19
-bot	0.0	-3.59599447112e-19	-1.61838770346e-19	-5.21438217458e-19
+  Device: "diode3d"	RelError: 1.53970e-09	AbsError: 5.92989e+07
+    Region: "Bulk"	RelError: 1.53970e-09	AbsError: 5.92989e+07
+      Equation: "ElectronContinuityEquation"	RelError: 5.62854e-10	AbsError: 4.19332e+07
+      Equation: "HoleContinuityEquation"	RelError: 9.11902e-10	AbsError: 1.73657e+07
+      Equation: "PotentialEquation"	RelError: 6.49461e-11	AbsError: 2.21718e-12
+top	0.1	3.28291661981e-19	1.72789432493e-19	5.01081094473e-19
+bot	0.0	-3.62749924525e-19	-1.61838770345e-19	-5.2458869487e-19
 Region "Bulk" on device "diode3d" has equations 0:4250
 Device "diode3d" has equations 0:4250
 number of equations 4251
 Iteration: 0
-  Device: "diode3d"	RelError: 4.26637e+01	AbsError: 2.16402e+17
-    Region: "Bulk"	RelError: 4.26637e+01	AbsError: 2.16402e+17
-      Equation: "ElectronContinuityEquation"	RelError: 7.89961e-01	AbsError: 1.08829e+17
-      Equation: "HoleContinuityEquation"	RelError: 7.90167e-01	AbsError: 1.07574e+17
-      Equation: "PotentialEquation"	RelError: 4.10836e+01	AbsError: 4.96763e-02
+  Device: "diode3d"	RelError: 4.26719e+01	AbsError: 2.16542e+17
+    Region: "Bulk"	RelError: 4.26719e+01	AbsError: 2.16542e+17
+      Equation: "ElectronContinuityEquation"	RelError: 7.90008e-01	AbsError: 1.08830e+17
+      Equation: "HoleContinuityEquation"	RelError: 7.90272e-01	AbsError: 1.07712e+17
+      Equation: "PotentialEquation"	RelError: 4.10916e+01	AbsError: 4.76240e-02
 Iteration: 1
-  Device: "diode3d"	RelError: 1.82911e+01	AbsError: 2.86707e+16
-    Region: "Bulk"	RelError: 1.82911e+01	AbsError: 2.86707e+16
-      Equation: "ElectronContinuityEquation"	RelError: 6.85688e-01	AbsError: 1.56600e+16
-      Equation: "HoleContinuityEquation"	RelError: 7.69302e-01	AbsError: 1.30107e+16
-      Equation: "PotentialEquation"	RelError: 1.68361e+01	AbsError: 3.27618e-02
+  Device: "diode3d"	RelError: 2.40775e+01	AbsError: 2.88675e+16
+    Region: "Bulk"	RelError: 2.40775e+01	AbsError: 2.88675e+16
+      Equation: "ElectronContinuityEquation"	RelError: 6.85757e-01	AbsError: 1.58203e+16
+      Equation: "HoleContinuityEquation"	RelError: 7.68708e-01	AbsError: 1.30471e+16
+      Equation: "PotentialEquation"	RelError: 2.26230e+01	AbsError: 3.23764e-02
 Iteration: 2
-  Device: "diode3d"	RelError: 6.69115e+00	AbsError: 1.05662e+16
-    Region: "Bulk"	RelError: 6.69115e+00	AbsError: 1.05662e+16
-      Equation: "ElectronContinuityEquation"	RelError: 5.04076e-01	AbsError: 2.86256e+15
-      Equation: "HoleContinuityEquation"	RelError: 4.81664e-01	AbsError: 7.70361e+15
-      Equation: "PotentialEquation"	RelError: 5.70541e+00	AbsError: 2.58645e-02
+  Device: "diode3d"	RelError: 6.61459e+00	AbsError: 1.28256e+16
+    Region: "Bulk"	RelError: 6.61459e+00	AbsError: 1.28256e+16
+      Equation: "ElectronContinuityEquation"	RelError: 5.01528e-01	AbsError: 2.78362e+15
+      Equation: "HoleContinuityEquation"	RelError: 4.81317e-01	AbsError: 1.00420e+16
+      Equation: "PotentialEquation"	RelError: 5.63175e+00	AbsError: 2.58623e-02
 Iteration: 3
-  Device: "diode3d"	RelError: 5.00981e-01	AbsError: 6.39352e+15
-    Region: "Bulk"	RelError: 5.00981e-01	AbsError: 6.39352e+15
-      Equation: "ElectronContinuityEquation"	RelError: 3.04904e-01	AbsError: 3.29715e+15
-      Equation: "HoleContinuityEquation"	RelError: 1.53457e-01	AbsError: 3.09637e+15
-      Equation: "PotentialEquation"	RelError: 4.26193e-02	AbsError: 1.17948e-02
+  Device: "diode3d"	RelError: 4.95184e-01	AbsError: 1.06472e+16
+    Region: "Bulk"	RelError: 4.95184e-01	AbsError: 1.06472e+16
+      Equation: "ElectronContinuityEquation"	RelError: 3.04404e-01	AbsError: 2.34735e+15
+      Equation: "HoleContinuityEquation"	RelError: 1.45505e-01	AbsError: 8.29985e+15
+      Equation: "PotentialEquation"	RelError: 4.52747e-02	AbsError: 1.12349e-02
 Iteration: 4
-  Device: "diode3d"	RelError: 1.52312e-01	AbsError: 3.86622e+15
-    Region: "Bulk"	RelError: 1.52312e-01	AbsError: 3.86622e+15
-      Equation: "ElectronContinuityEquation"	RelError: 8.65767e-02	AbsError: 6.27566e+14
-      Equation: "HoleContinuityEquation"	RelError: 1.32080e-02	AbsError: 3.23865e+15
-      Equation: "PotentialEquation"	RelError: 5.25277e-02	AbsError: 1.21153e-03
+  Device: "diode3d"	RelError: 1.48333e-01	AbsError: 1.90130e+15
+    Region: "Bulk"	RelError: 1.48333e-01	AbsError: 1.90130e+15
+      Equation: "ElectronContinuityEquation"	RelError: 8.89274e-02	AbsError: 6.43949e+14
+      Equation: "HoleContinuityEquation"	RelError: 1.06248e-02	AbsError: 1.25735e+15
+      Equation: "PotentialEquation"	RelError: 4.87807e-02	AbsError: 1.40304e-03
 Iteration: 5
-  Device: "diode3d"	RelError: 5.27372e-04	AbsError: 2.18266e+13
-    Region: "Bulk"	RelError: 5.27372e-04	AbsError: 2.18266e+13
-      Equation: "ElectronContinuityEquation"	RelError: 3.65402e-04	AbsError: 3.93511e+12
-      Equation: "HoleContinuityEquation"	RelError: 1.14054e-04	AbsError: 1.78915e+13
-      Equation: "PotentialEquation"	RelError: 4.79165e-05	AbsError: 1.24365e-05
+  Device: "diode3d"	RelError: 3.85888e-04	AbsError: 3.01336e+13
+    Region: "Bulk"	RelError: 3.85888e-04	AbsError: 3.01336e+13
+      Equation: "ElectronContinuityEquation"	RelError: 2.19105e-04	AbsError: 6.21003e+12
+      Equation: "HoleContinuityEquation"	RelError: 5.11810e-05	AbsError: 2.39236e+13
+      Equation: "PotentialEquation"	RelError: 1.15602e-04	AbsError: 7.74344e-06
 Iteration: 6
-  Device: "diode3d"	RelError: 9.30528e-08	AbsError: 6.88410e+10
-    Region: "Bulk"	RelError: 9.30528e-08	AbsError: 6.88410e+10
-      Equation: "ElectronContinuityEquation"	RelError: 4.21488e-08	AbsError: 2.70705e+10
-      Equation: "HoleContinuityEquation"	RelError: 4.21378e-08	AbsError: 4.17706e+10
-      Equation: "PotentialEquation"	RelError: 8.76618e-09	AbsError: 1.42982e-09
+  Device: "diode3d"	RelError: 8.04848e-08	AbsError: 4.05615e+10
+    Region: "Bulk"	RelError: 8.04848e-08	AbsError: 4.05615e+10
+      Equation: "ElectronContinuityEquation"	RelError: 3.27037e-08	AbsError: 1.79986e+10
+      Equation: "HoleContinuityEquation"	RelError: 3.23566e-08	AbsError: 2.25630e+10
+      Equation: "PotentialEquation"	RelError: 1.54244e-08	AbsError: 2.43792e-09
 Iteration: 7
-  Device: "diode3d"	RelError: 4.99269e-10	AbsError: 5.67166e+07
-    Region: "Bulk"	RelError: 4.99269e-10	AbsError: 5.67166e+07
-      Equation: "ElectronContinuityEquation"	RelError: 1.92715e-10	AbsError: 3.46556e+07
-      Equation: "HoleContinuityEquation"	RelError: 3.02648e-10	AbsError: 2.20610e+07
-      Equation: "PotentialEquation"	RelError: 3.90680e-12	AbsError: 9.01537e-13
-top	0.2	1.51352992802e-17	7.53946149701e-18	2.26747607772e-17
-bot	0.0	-1.51902808556e-17	-7.46983068637e-18	-2.2660111542e-17
+  Device: "diode3d"	RelError: 5.15044e-10	AbsError: 5.42553e+07
+    Region: "Bulk"	RelError: 5.15044e-10	AbsError: 5.42553e+07
+      Equation: "ElectronContinuityEquation"	RelError: 1.92329e-10	AbsError: 4.56255e+07
+      Equation: "HoleContinuityEquation"	RelError: 3.17409e-10	AbsError: 8.62982e+06
+      Equation: "PotentialEquation"	RelError: 5.30511e-12	AbsError: 1.19664e-12
+top	0.2	1.51352992803e-17	7.54040488788e-18	2.26757041682e-17
+bot	0.0	-1.51928373203e-17	-7.46983068637e-18	-2.26626680067e-17
 Region "Bulk" on device "diode3d" has equations 0:4250
 Device "diode3d" has equations 0:4250
 number of equations 4251
 Iteration: 0
-  Device: "diode3d"	RelError: 2.28683e+01	AbsError: 2.35555e+17
-    Region: "Bulk"	RelError: 2.28683e+01	AbsError: 2.35555e+17
-      Equation: "ElectronContinuityEquation"	RelError: 7.94760e-01	AbsError: 1.18570e+17
-      Equation: "HoleContinuityEquation"	RelError: 7.92521e-01	AbsError: 1.16985e+17
-      Equation: "PotentialEquation"	RelError: 2.12810e+01	AbsError: 4.65164e-02
+  Device: "diode3d"	RelError: 2.26830e+01	AbsError: 2.35732e+17
+    Region: "Bulk"	RelError: 2.26830e+01	AbsError: 2.35732e+17
+      Equation: "ElectronContinuityEquation"	RelError: 7.96850e-01	AbsError: 1.18650e+17
+      Equation: "HoleContinuityEquation"	RelError: 7.92681e-01	AbsError: 1.17081e+17
+      Equation: "PotentialEquation"	RelError: 2.10935e+01	AbsError: 4.67022e-02
 Iteration: 1
-  Device: "diode3d"	RelError: 1.09414e+02	AbsError: 3.52893e+16
-    Region: "Bulk"	RelError: 1.09414e+02	AbsError: 3.52893e+16
-      Equation: "ElectronContinuityEquation"	RelError: 6.87005e-01	AbsError: 2.01804e+16
-      Equation: "HoleContinuityEquation"	RelError: 7.70421e-01	AbsError: 1.51090e+16
-      Equation: "PotentialEquation"	RelError: 1.07956e+02	AbsError: 3.18531e-02
+  Device: "diode3d"	RelError: 2.25935e+02	AbsError: 3.98115e+16
+    Region: "Bulk"	RelError: 2.25935e+02	AbsError: 3.98115e+16
+      Equation: "ElectronContinuityEquation"	RelError: 6.86579e-01	AbsError: 2.47119e+16
+      Equation: "HoleContinuityEquation"	RelError: 7.74031e-01	AbsError: 1.50996e+16
+      Equation: "PotentialEquation"	RelError: 2.24475e+02	AbsError: 3.20404e-02
 Iteration: 2
-  Device: "diode3d"	RelError: 1.70081e+01	AbsError: 9.36305e+15
-    Region: "Bulk"	RelError: 1.70081e+01	AbsError: 9.36305e+15
-      Equation: "ElectronContinuityEquation"	RelError: 5.02081e-01	AbsError: 6.59098e+15
-      Equation: "HoleContinuityEquation"	RelError: 4.81509e-01	AbsError: 2.77207e+15
-      Equation: "PotentialEquation"	RelError: 1.60245e+01	AbsError: 2.58437e-02
+  Device: "diode3d"	RelError: 1.67861e+01	AbsError: 2.13744e+16
+    Region: "Bulk"	RelError: 1.67861e+01	AbsError: 2.13744e+16
+      Equation: "ElectronContinuityEquation"	RelError: 5.02709e-01	AbsError: 1.82435e+16
+      Equation: "HoleContinuityEquation"	RelError: 4.81414e-01	AbsError: 3.13091e+15
+      Equation: "PotentialEquation"	RelError: 1.58020e+01	AbsError: 2.58262e-02
 Iteration: 3
-  Device: "diode3d"	RelError: 5.12518e-01	AbsError: 6.41612e+15
-    Region: "Bulk"	RelError: 5.12518e-01	AbsError: 6.41612e+15
-      Equation: "ElectronContinuityEquation"	RelError: 3.06133e-01	AbsError: 3.41533e+15
-      Equation: "HoleContinuityEquation"	RelError: 1.42738e-01	AbsError: 3.00080e+15
-      Equation: "PotentialEquation"	RelError: 6.36471e-02	AbsError: 1.11559e-02
+  Device: "diode3d"	RelError: 5.20508e-01	AbsError: 3.83172e+15
+    Region: "Bulk"	RelError: 5.20508e-01	AbsError: 3.83172e+15
+      Equation: "ElectronContinuityEquation"	RelError: 3.06086e-01	AbsError: 1.92636e+15
+      Equation: "HoleContinuityEquation"	RelError: 1.51981e-01	AbsError: 1.90536e+15
+      Equation: "PotentialEquation"	RelError: 6.24408e-02	AbsError: 1.93477e-02
 Iteration: 4
-  Device: "diode3d"	RelError: 1.92523e-01	AbsError: 2.95358e+15
-    Region: "Bulk"	RelError: 1.92523e-01	AbsError: 2.95358e+15
-      Equation: "ElectronContinuityEquation"	RelError: 8.97150e-02	AbsError: 1.55014e+15
-      Equation: "HoleContinuityEquation"	RelError: 1.05695e-02	AbsError: 1.40344e+15
-      Equation: "PotentialEquation"	RelError: 9.22386e-02	AbsError: 1.58614e-03
+  Device: "diode3d"	RelError: 1.88772e-01	AbsError: 3.37077e+15
+    Region: "Bulk"	RelError: 1.88772e-01	AbsError: 3.37077e+15
+      Equation: "ElectronContinuityEquation"	RelError: 8.68080e-02	AbsError: 1.29559e+15
+      Equation: "HoleContinuityEquation"	RelError: 1.25102e-02	AbsError: 2.07518e+15
+      Equation: "PotentialEquation"	RelError: 8.94534e-02	AbsError: 1.99021e-03
 Iteration: 5
-  Device: "diode3d"	RelError: 7.53054e-04	AbsError: 1.29894e+14
-    Region: "Bulk"	RelError: 7.53054e-04	AbsError: 1.29894e+14
-      Equation: "ElectronContinuityEquation"	RelError: 4.60688e-04	AbsError: 2.57652e+13
-      Equation: "HoleContinuityEquation"	RelError: 1.42244e-04	AbsError: 1.04128e+14
-      Equation: "PotentialEquation"	RelError: 1.50122e-04	AbsError: 1.27775e-05
+  Device: "diode3d"	RelError: 4.03951e-04	AbsError: 5.16178e+13
+    Region: "Bulk"	RelError: 4.03951e-04	AbsError: 5.16178e+13
+      Equation: "ElectronContinuityEquation"	RelError: 1.93315e-04	AbsError: 4.35532e+13
+      Equation: "HoleContinuityEquation"	RelError: 1.68847e-04	AbsError: 8.06462e+12
+      Equation: "PotentialEquation"	RelError: 4.17898e-05	AbsError: 1.69445e-05
 Iteration: 6
-  Device: "diode3d"	RelError: 7.37185e-07	AbsError: 1.02124e+11
-    Region: "Bulk"	RelError: 7.37185e-07	AbsError: 1.02124e+11
-      Equation: "ElectronContinuityEquation"	RelError: 3.02827e-07	AbsError: 7.56839e+10
-      Equation: "HoleContinuityEquation"	RelError: 2.80515e-07	AbsError: 2.64404e+10
-      Equation: "PotentialEquation"	RelError: 1.53843e-07	AbsError: 2.72086e-08
+  Device: "diode3d"	RelError: 1.98359e-07	AbsError: 3.53598e+10
+    Region: "Bulk"	RelError: 1.98359e-07	AbsError: 3.53598e+10
+      Equation: "ElectronContinuityEquation"	RelError: 6.71287e-08	AbsError: 2.31666e+10
+      Equation: "HoleContinuityEquation"	RelError: 6.76508e-08	AbsError: 1.21931e+10
+      Equation: "PotentialEquation"	RelError: 6.35791e-08	AbsError: 1.12446e-08
 Iteration: 7
-  Device: "diode3d"	RelError: 2.68499e-09	AbsError: 1.26942e+09
-    Region: "Bulk"	RelError: 2.68499e-09	AbsError: 1.26942e+09
-      Equation: "ElectronContinuityEquation"	RelError: 1.18807e-09	AbsError: 9.25804e+07
-      Equation: "HoleContinuityEquation"	RelError: 1.18418e-09	AbsError: 1.17684e+09
-      Equation: "PotentialEquation"	RelError: 3.12747e-10	AbsError: 3.04631e-11
-top	0.3	6.83003935287e-16	3.37968751322e-16	1.02097268661e-15
-bot	0.0	-6.83555117594e-16	-3.37470954652e-16	-1.02102607225e-15
+  Device: "diode3d"	RelError: 3.10629e-10	AbsError: 9.37047e+07
+    Region: "Bulk"	RelError: 3.10629e-10	AbsError: 9.37047e+07
+      Equation: "ElectronContinuityEquation"	RelError: 1.03652e-10	AbsError: 7.00106e+07
+      Equation: "HoleContinuityEquation"	RelError: 1.01378e-10	AbsError: 2.36941e+07
+      Equation: "PotentialEquation"	RelError: 1.05599e-10	AbsError: 2.70077e-12
+top	0.3	6.83003935286e-16	3.37974890167e-16	1.02097882545e-15
+bot	0.0	-6.83519269374e-16	-3.37470954652e-16	-1.02099022403e-15
 Region "Bulk" on device "diode3d" has equations 0:4250
 Device "diode3d" has equations 0:4250
 number of equations 4251
 Iteration: 0
-  Device: "diode3d"	RelError: 3.58086e+01	AbsError: 2.73809e+17
-    Region: "Bulk"	RelError: 3.58086e+01	AbsError: 2.73809e+17
-      Equation: "ElectronContinuityEquation"	RelError: 7.98668e-01	AbsError: 1.41825e+17
-      Equation: "HoleContinuityEquation"	RelError: 7.94427e-01	AbsError: 1.31984e+17
-      Equation: "PotentialEquation"	RelError: 3.42155e+01	AbsError: 4.60534e-02
+  Device: "diode3d"	RelError: 3.37108e+01	AbsError: 2.68376e+17
+    Region: "Bulk"	RelError: 3.37108e+01	AbsError: 2.68376e+17
+      Equation: "ElectronContinuityEquation"	RelError: 7.95797e-01	AbsError: 1.40565e+17
+      Equation: "HoleContinuityEquation"	RelError: 7.94074e-01	AbsError: 1.27812e+17
+      Equation: "PotentialEquation"	RelError: 3.21209e+01	AbsError: 4.75207e-02
 Iteration: 1
-  Device: "diode3d"	RelError: 2.39197e+02	AbsError: 9.84361e+16
-    Region: "Bulk"	RelError: 2.39197e+02	AbsError: 9.84361e+16
-      Equation: "ElectronContinuityEquation"	RelError: 6.84956e-01	AbsError: 3.58957e+16
-      Equation: "HoleContinuityEquation"	RelError: 7.73763e-01	AbsError: 6.25405e+16
-      Equation: "PotentialEquation"	RelError: 2.37738e+02	AbsError: 3.16909e-02
+  Device: "diode3d"	RelError: 1.44585e+02	AbsError: 1.02364e+17
+    Region: "Bulk"	RelError: 1.44585e+02	AbsError: 1.02364e+17
+      Equation: "ElectronContinuityEquation"	RelError: 6.95267e-01	AbsError: 3.13287e+16
+      Equation: "HoleContinuityEquation"	RelError: 7.72787e-01	AbsError: 7.10349e+16
+      Equation: "PotentialEquation"	RelError: 1.43117e+02	AbsError: 3.76729e-02
 Iteration: 2
-  Device: "diode3d"	RelError: 2.02903e+01	AbsError: 8.79527e+15
-    Region: "Bulk"	RelError: 2.02903e+01	AbsError: 8.79527e+15
-      Equation: "ElectronContinuityEquation"	RelError: 5.02757e-01	AbsError: 5.07656e+15
-      Equation: "HoleContinuityEquation"	RelError: 4.86680e-01	AbsError: 3.71870e+15
-      Equation: "PotentialEquation"	RelError: 1.93008e+01	AbsError: 2.58834e-02
+  Device: "diode3d"	RelError: 2.00247e+01	AbsError: 2.76377e+16
+    Region: "Bulk"	RelError: 2.00247e+01	AbsError: 2.76377e+16
+      Equation: "ElectronContinuityEquation"	RelError: 5.08022e-01	AbsError: 1.94793e+16
+      Equation: "HoleContinuityEquation"	RelError: 5.10835e-01	AbsError: 8.15834e+15
+      Equation: "PotentialEquation"	RelError: 1.90058e+01	AbsError: 2.58699e-02
 Iteration: 3
-  Device: "diode3d"	RelError: 5.91263e-01	AbsError: 7.91485e+15
-    Region: "Bulk"	RelError: 5.91263e-01	AbsError: 7.91485e+15
-      Equation: "ElectronContinuityEquation"	RelError: 3.05837e-01	AbsError: 4.59248e+15
-      Equation: "HoleContinuityEquation"	RelError: 1.46231e-01	AbsError: 3.32237e+15
-      Equation: "PotentialEquation"	RelError: 1.39196e-01	AbsError: 1.07091e-02
+  Device: "diode3d"	RelError: 7.35249e-01	AbsError: 1.04763e+16
+    Region: "Bulk"	RelError: 7.35249e-01	AbsError: 1.04763e+16
+      Equation: "ElectronContinuityEquation"	RelError: 3.06462e-01	AbsError: 2.99621e+15
+      Equation: "HoleContinuityEquation"	RelError: 1.50242e-01	AbsError: 7.48009e+15
+      Equation: "PotentialEquation"	RelError: 2.78546e-01	AbsError: 2.13470e-02
 Iteration: 4
-  Device: "diode3d"	RelError: 1.88329e-01	AbsError: 5.35324e+15
-    Region: "Bulk"	RelError: 1.88329e-01	AbsError: 5.35324e+15
-      Equation: "ElectronContinuityEquation"	RelError: 8.76215e-02	AbsError: 3.71031e+15
-      Equation: "HoleContinuityEquation"	RelError: 1.18276e-02	AbsError: 1.64294e+15
-      Equation: "PotentialEquation"	RelError: 8.88800e-02	AbsError: 3.27553e-03
+  Device: "diode3d"	RelError: 1.86802e-01	AbsError: 4.17562e+15
+    Region: "Bulk"	RelError: 1.86802e-01	AbsError: 4.17562e+15
+      Equation: "ElectronContinuityEquation"	RelError: 9.07483e-02	AbsError: 1.40462e+15
+      Equation: "HoleContinuityEquation"	RelError: 1.40784e-02	AbsError: 2.77100e+15
+      Equation: "PotentialEquation"	RelError: 8.19755e-02	AbsError: 8.83340e-03
 Iteration: 5
-  Device: "diode3d"	RelError: 4.82529e-04	AbsError: 8.76667e+13
-    Region: "Bulk"	RelError: 4.82529e-04	AbsError: 8.76667e+13
-      Equation: "ElectronContinuityEquation"	RelError: 1.51302e-04	AbsError: 4.68495e+13
-      Equation: "HoleContinuityEquation"	RelError: 2.23145e-04	AbsError: 4.08172e+13
-      Equation: "PotentialEquation"	RelError: 1.08081e-04	AbsError: 1.52579e-05
+  Device: "diode3d"	RelError: 1.91889e-03	AbsError: 7.40658e+13
+    Region: "Bulk"	RelError: 1.91889e-03	AbsError: 7.40658e+13
+      Equation: "ElectronContinuityEquation"	RelError: 3.15836e-04	AbsError: 3.65265e+13
+      Equation: "HoleContinuityEquation"	RelError: 1.52380e-03	AbsError: 3.75393e+13
+      Equation: "PotentialEquation"	RelError: 7.92553e-05	AbsError: 1.22707e-05
 Iteration: 6
-  Device: "diode3d"	RelError: 2.12149e-07	AbsError: 7.73229e+10
-    Region: "Bulk"	RelError: 2.12149e-07	AbsError: 7.73229e+10
-      Equation: "ElectronContinuityEquation"	RelError: 5.33758e-08	AbsError: 5.31426e+10
-      Equation: "HoleContinuityEquation"	RelError: 6.51524e-08	AbsError: 2.41802e+10
-      Equation: "PotentialEquation"	RelError: 9.36205e-08	AbsError: 1.01188e-08
+  Device: "diode3d"	RelError: 7.17161e-07	AbsError: 2.21921e+11
+    Region: "Bulk"	RelError: 7.17161e-07	AbsError: 2.21921e+11
+      Equation: "ElectronContinuityEquation"	RelError: 2.99744e-07	AbsError: 1.59644e+11
+      Equation: "HoleContinuityEquation"	RelError: 2.99345e-07	AbsError: 6.22771e+10
+      Equation: "PotentialEquation"	RelError: 1.18072e-07	AbsError: 8.59322e-09
 Iteration: 7
-  Device: "diode3d"	RelError: 1.32308e-09	AbsError: 2.72052e+08
-    Region: "Bulk"	RelError: 1.32308e-09	AbsError: 2.72052e+08
-      Equation: "ElectronContinuityEquation"	RelError: 3.83033e-10	AbsError: 1.21098e+08
-      Equation: "HoleContinuityEquation"	RelError: 3.81577e-10	AbsError: 1.50954e+08
-      Equation: "PotentialEquation"	RelError: 5.58466e-10	AbsError: 1.87789e-11
-top	0.4	3.07499041974e-14	1.52170607852e-14	4.59669649827e-14
-bot	0.0	-3.07536894689e-14	-1.52132831694e-14	-4.59669726383e-14
+  Device: "diode3d"	RelError: 1.32100e-09	AbsError: 8.59636e+08
+    Region: "Bulk"	RelError: 1.32100e-09	AbsError: 8.59636e+08
+      Equation: "ElectronContinuityEquation"	RelError: 6.06325e-10	AbsError: 6.05031e+08
+      Equation: "HoleContinuityEquation"	RelError: 5.92902e-10	AbsError: 2.54605e+08
+      Equation: "PotentialEquation"	RelError: 1.21773e-10	AbsError: 1.57042e-11
+top	0.4	3.07499041974e-14	1.52170573499e-14	4.59669615473e-14
+bot	0.0	-3.07536499915e-14	-1.52132831694e-14	-4.59669331609e-14
 Region "Bulk" on device "diode3d" has equations 0:4250
 Device "diode3d" has equations 0:4250
 number of equations 4251
 Iteration: 0
-  Device: "diode3d"	RelError: 8.34535e+01	AbsError: 3.22857e+17
-    Region: "Bulk"	RelError: 8.34535e+01	AbsError: 3.22857e+17
-      Equation: "ElectronContinuityEquation"	RelError: 7.95871e-01	AbsError: 1.59638e+17
-      Equation: "HoleContinuityEquation"	RelError: 7.99844e-01	AbsError: 1.63219e+17
-      Equation: "PotentialEquation"	RelError: 8.18578e+01	AbsError: 5.15336e-02
+  Device: "diode3d"	RelError: 7.56126e+01	AbsError: 3.38933e+17
+    Region: "Bulk"	RelError: 7.56126e+01	AbsError: 3.38933e+17
+      Equation: "ElectronContinuityEquation"	RelError: 7.95658e-01	AbsError: 1.50408e+17
+      Equation: "HoleContinuityEquation"	RelError: 7.98212e-01	AbsError: 1.88525e+17
+      Equation: "PotentialEquation"	RelError: 7.40188e+01	AbsError: 4.88011e-02
 Iteration: 1
-  Device: "diode3d"	RelError: 1.97143e+02	AbsError: 1.84123e+17
-    Region: "Bulk"	RelError: 1.97143e+02	AbsError: 1.84123e+17
-      Equation: "ElectronContinuityEquation"	RelError: 6.95619e-01	AbsError: 8.24327e+16
-      Equation: "HoleContinuityEquation"	RelError: 8.04259e-01	AbsError: 1.01690e+17
-      Equation: "PotentialEquation"	RelError: 1.95643e+02	AbsError: 3.66956e-02
+  Device: "diode3d"	RelError: 1.43263e+02	AbsError: 2.20042e+17
+    Region: "Bulk"	RelError: 1.43263e+02	AbsError: 2.20042e+17
+      Equation: "ElectronContinuityEquation"	RelError: 6.86889e-01	AbsError: 7.09192e+16
+      Equation: "HoleContinuityEquation"	RelError: 7.98450e-01	AbsError: 1.49122e+17
+      Equation: "PotentialEquation"	RelError: 1.41777e+02	AbsError: 3.35265e-02
 Iteration: 2
-  Device: "diode3d"	RelError: 6.27517e+00	AbsError: 2.24239e+16
-    Region: "Bulk"	RelError: 6.27517e+00	AbsError: 2.24239e+16
-      Equation: "ElectronContinuityEquation"	RelError: 5.06335e-01	AbsError: 1.37599e+16
-      Equation: "HoleContinuityEquation"	RelError: 5.64506e-01	AbsError: 8.66406e+15
-      Equation: "PotentialEquation"	RelError: 5.20432e+00	AbsError: 2.59867e-02
+  Device: "diode3d"	RelError: 3.39121e+00	AbsError: 2.80622e+16
+    Region: "Bulk"	RelError: 3.39121e+00	AbsError: 2.80622e+16
+      Equation: "ElectronContinuityEquation"	RelError: 5.06840e-01	AbsError: 1.54268e+16
+      Equation: "HoleContinuityEquation"	RelError: 5.18645e-01	AbsError: 1.26354e+16
+      Equation: "PotentialEquation"	RelError: 2.36572e+00	AbsError: 2.58766e-02
 Iteration: 3
-  Device: "diode3d"	RelError: 1.27722e+00	AbsError: 1.61354e+16
-    Region: "Bulk"	RelError: 1.27722e+00	AbsError: 1.61354e+16
-      Equation: "ElectronContinuityEquation"	RelError: 3.12621e-01	AbsError: 1.25643e+16
-      Equation: "HoleContinuityEquation"	RelError: 1.80304e-01	AbsError: 3.57114e+15
-      Equation: "PotentialEquation"	RelError: 7.84293e-01	AbsError: 1.81551e-02
+  Device: "diode3d"	RelError: 1.07836e+00	AbsError: 1.18908e+16
+    Region: "Bulk"	RelError: 1.07836e+00	AbsError: 1.18908e+16
+      Equation: "ElectronContinuityEquation"	RelError: 3.08852e-01	AbsError: 8.73970e+15
+      Equation: "HoleContinuityEquation"	RelError: 1.46940e-01	AbsError: 3.15113e+15
+      Equation: "PotentialEquation"	RelError: 6.22565e-01	AbsError: 1.43379e-02
 Iteration: 4
-  Device: "diode3d"	RelError: 1.86777e-01	AbsError: 5.57219e+15
-    Region: "Bulk"	RelError: 1.86777e-01	AbsError: 5.57219e+15
-      Equation: "ElectronContinuityEquation"	RelError: 8.47529e-02	AbsError: 4.45330e+15
-      Equation: "HoleContinuityEquation"	RelError: 1.64358e-02	AbsError: 1.11888e+15
-      Equation: "PotentialEquation"	RelError: 8.55879e-02	AbsError: 2.63095e-03
+  Device: "diode3d"	RelError: 1.76230e-01	AbsError: 3.85582e+15
+    Region: "Bulk"	RelError: 1.76230e-01	AbsError: 3.85582e+15
+      Equation: "ElectronContinuityEquation"	RelError: 8.90517e-02	AbsError: 2.25110e+15
+      Equation: "HoleContinuityEquation"	RelError: 9.59909e-03	AbsError: 1.60472e+15
+      Equation: "PotentialEquation"	RelError: 7.75794e-02	AbsError: 2.55486e-03
 Iteration: 5
-  Device: "diode3d"	RelError: 9.73926e-04	AbsError: 1.16625e+14
-    Region: "Bulk"	RelError: 9.73926e-04	AbsError: 1.16625e+14
-      Equation: "ElectronContinuityEquation"	RelError: 6.43116e-04	AbsError: 8.54402e+13
-      Equation: "HoleContinuityEquation"	RelError: 1.49908e-04	AbsError: 3.11846e+13
-      Equation: "PotentialEquation"	RelError: 1.80902e-04	AbsError: 4.18613e-06
+  Device: "diode3d"	RelError: 1.01633e-03	AbsError: 9.14755e+13
+    Region: "Bulk"	RelError: 1.01633e-03	AbsError: 9.14755e+13
+      Equation: "ElectronContinuityEquation"	RelError: 4.15635e-04	AbsError: 5.02583e+13
+      Equation: "HoleContinuityEquation"	RelError: 1.43702e-04	AbsError: 4.12172e+13
+      Equation: "PotentialEquation"	RelError: 4.56995e-04	AbsError: 1.05750e-05
 Iteration: 6
-  Device: "diode3d"	RelError: 2.44701e-07	AbsError: 1.42497e+11
-    Region: "Bulk"	RelError: 2.44701e-07	AbsError: 1.42497e+11
-      Equation: "ElectronContinuityEquation"	RelError: 9.57822e-08	AbsError: 9.49543e+10
-      Equation: "HoleContinuityEquation"	RelError: 9.57246e-08	AbsError: 4.75426e+10
-      Equation: "PotentialEquation"	RelError: 5.31944e-08	AbsError: 4.72946e-09
+  Device: "diode3d"	RelError: 3.30204e-07	AbsError: 5.78683e+10
+    Region: "Bulk"	RelError: 3.30204e-07	AbsError: 5.78683e+10
+      Equation: "ElectronContinuityEquation"	RelError: 5.15275e-08	AbsError: 4.19112e+10
+      Equation: "HoleContinuityEquation"	RelError: 5.36555e-08	AbsError: 1.59570e+10
+      Equation: "PotentialEquation"	RelError: 2.25021e-07	AbsError: 1.02831e-08
 Iteration: 7
-  Device: "diode3d"	RelError: 9.49542e-10	AbsError: 3.74133e+08
-    Region: "Bulk"	RelError: 9.49542e-10	AbsError: 3.74133e+08
-      Equation: "ElectronContinuityEquation"	RelError: 3.05899e-10	AbsError: 7.05661e+07
-      Equation: "HoleContinuityEquation"	RelError: 3.04437e-10	AbsError: 3.03567e+08
-      Equation: "PotentialEquation"	RelError: 3.39207e-10	AbsError: 7.87445e-12
-top	0.5	1.38026422406e-12	6.83986485583e-13	2.06425070964e-12
-bot	0.0	-1.38029346626e-12	-6.83957220121e-13	-2.06425068638e-12
+  Device: "diode3d"	RelError: 4.34044e-10	AbsError: 2.55049e+08
+    Region: "Bulk"	RelError: 4.34044e-10	AbsError: 2.55049e+08
+      Equation: "ElectronContinuityEquation"	RelError: 1.66315e-10	AbsError: 1.65656e+08
+      Equation: "HoleContinuityEquation"	RelError: 1.67141e-10	AbsError: 8.93933e+07
+      Equation: "PotentialEquation"	RelError: 1.00589e-10	AbsError: 4.29555e-12
+top	0.5	1.38026422406e-12	6.83986485161e-13	2.06425070922e-12
+bot	0.0	-1.38029347122e-12	-6.83957220121e-13	-2.06425069135e-12
