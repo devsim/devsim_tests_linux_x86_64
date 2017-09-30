@@ -247,14 +247,14 @@ Device: mymos Region: gate Equation: PotentialEquation EDGE Model: PotentialEdge
 Device: mymos Region: gate Equation: PotentialEquation EDGE Model: PotentialEdgeFlux:Holes@n1 MISSING
 Device: mymos Region: gate Equation: PotentialEquation NODE Model: PotentialNodeCharge:Potential MISSING
 Iteration: 0
-  Device: "mymos"	RelError: 3.69705e-09	AbsError: 1.31603e+09
-    Region: "bulk"	RelError: 3.69705e-09	AbsError: 1.31603e+09
-      Equation: "ElectronContinuityEquation"	RelError: 2.30681e-09	AbsError: 5.80741e+04
-      Equation: "HoleContinuityEquation"	RelError: 1.05335e-09	AbsError: 1.31598e+09
-      Equation: "PotentialEquation"	RelError: 3.36891e-10	AbsError: 1.74688e-10
+  Device: "mymos"	RelError: 3.06494e-09	AbsError: 1.07939e+09
+    Region: "bulk"	RelError: 3.06494e-09	AbsError: 1.07939e+09
+      Equation: "ElectronContinuityEquation"	RelError: 1.92766e-09	AbsError: 3.00486e+06
+      Equation: "HoleContinuityEquation"	RelError: 8.79310e-10	AbsError: 1.07639e+09
+      Equation: "PotentialEquation"	RelError: 2.57967e-10	AbsError: 1.33763e-10
     Region: "gate"	RelError: 8.38018e-16	AbsError: 8.04246e+03
       Equation: "ElectronContinuityEquation"	RelError: 8.04246e-17	AbsError: 8.04246e+03
       Equation: "HoleContinuityEquation"	RelError: 6.66216e-16	AbsError: 6.66216e-16
       Equation: "PotentialEquation"	RelError: 9.13775e-17	AbsError: 5.44678e-17
-    Region: "oxide"	RelError: 5.97371e-16	AbsError: 2.52702e-16
-      Equation: "PotentialEquation"	RelError: 5.97371e-16	AbsError: 2.52702e-16
+    Region: "oxide"	RelError: 5.34476e-16	AbsError: 2.37525e-16
+      Equation: "PotentialEquation"	RelError: 5.34476e-16	AbsError: 2.37525e-16
