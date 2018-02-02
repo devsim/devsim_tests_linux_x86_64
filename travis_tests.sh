@@ -41,7 +41,7 @@ progname="\$0"
 curdir=\`dirname "\$progname"\`
 ANACONDA_PATH=${ANACONDA_PATH}
 export LD_LIBRARY_PATH=\${ANACONDA_PATH}/lib
-export TCL_LIBRARY=\${ANACONDA_PATH}/lib/tcl8.5
+#export TCL_LIBRARY=\${ANACONDA_PATH}/lib/tcl8.5
 # sequential really speeds things up
 export MKL_NUM_THREADS=1
 \${curdir}/../${DEVSIM_TCL} \$*
