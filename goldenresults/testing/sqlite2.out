@@ -10,11 +10,11 @@
 ----------------------------------------
 
 
-('1.60217646e-19', 'coul', 'Electron Charge')
-('2', '', '')
-('1.60217646e-19', 'coul', 'Electron Charge')
-('2', '', '')
-('1.60217646e-19', 'coul', 'Electron Charge')
-('1', '', '')
-('1.60217646e-19', 'coul', 'Electron Charge')
-('1', '', '')
+(u'1.60217646e-19', u'coul', u'Electron Charge')
+(u'2', u'', u'')
+(u'1.60217646e-19', u'coul', u'Electron Charge')
+(u'2', u'', u'')
+(u'1.60217646e-19', u'coul', u'Electron Charge')
+(u'1', u'', u'')
+(u'1.60217646e-19', u'coul', u'Electron Charge')
+(u'1', u'', u'')
