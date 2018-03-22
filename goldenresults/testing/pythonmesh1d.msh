@@ -35,6 +35,10 @@ begin_node_model "AtContactNode"
 BUILTIN
 end_node_model
 
+begin_node_model "ContactSurfaceArea"
+DATAPARENT "SurfaceArea"
+end_node_model
+
 begin_node_model "NodeVolume"
 BUILTIN
 end_node_model
@@ -105,6 +109,10 @@ end_edges
 
 begin_node_model "AtContactNode"
 BUILTIN
+end_node_model
+
+begin_node_model "ContactSurfaceArea"
+DATAPARENT "SurfaceArea"
 end_node_model
 
 begin_node_model "NodeVolume"

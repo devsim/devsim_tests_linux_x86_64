@@ -5866,6 +5866,10 @@ begin_node_model "AtContactNode"
 BUILTIN
 end_node_model
 
+begin_node_model "ContactSurfaceArea"
+DATAPARENT "SurfaceArea"
+end_node_model
+
 begin_node_model "NSurfaceNormal_x"
 DATAPARENT "SurfaceArea"
 end_node_model
@@ -12576,6 +12580,10 @@ end_node_model
 
 begin_node_model "BodyDoping"
 COMMAND node_model -device "mymos" -region "bulk" -display_type "scalar" -name "BodyDoping" -equation "((-1e+19) * 5.000000000000000e-01 * erfc((-(y - 1.000000000000000e-04) * pow(1.000000000000000e-10,(-1)))));"
+end_node_model
+
+begin_node_model "ContactSurfaceArea"
+DATAPARENT "SurfaceArea"
 end_node_model
 
 begin_node_model "DrainDoping"
@@ -27041,6 +27049,10 @@ begin_node_model "AtContactNode"
 BUILTIN
 end_node_model
 
+begin_node_model "ContactSurfaceArea"
+DATAPARENT "SurfaceArea"
+end_node_model
+
 begin_node_model "Electrons"
 DATA
 1.000000000000000e+20
@@ -28548,6 +28560,10 @@ end_triangles
 
 begin_node_model "AtContactNode"
 BUILTIN
+end_node_model
+
+begin_node_model "ContactSurfaceArea"
+DATAPARENT "SurfaceArea"
 end_node_model
 
 begin_node_model "NSurfaceNormal_x"

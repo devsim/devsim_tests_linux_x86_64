@@ -16,6 +16,7 @@ Adding 4 triangles  with 0 duplicate removed
 Contact bot in region MyRegion with 2 nodes
 Contact top in region MyRegion with 2 nodes
 Not replacing built in Node model AtContactNode
+Not replacing built in Node model ContactSurfaceArea
 Not replacing built in Edge model EdgeCouple
 Not replacing built in Edge model EdgeInverseLength
 Not replacing built in Edge model EdgeLength

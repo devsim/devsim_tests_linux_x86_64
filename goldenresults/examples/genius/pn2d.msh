@@ -2095,6 +2095,10 @@ begin_node_model "AtContactNode"
 BUILTIN
 end_node_model
 
+begin_node_model "ContactSurfaceArea"
+DATAPARENT "SurfaceArea"
+end_node_model
+
 begin_node_model "NSurfaceNormal_x"
 DATAPARENT "SurfaceArea"
 end_node_model
