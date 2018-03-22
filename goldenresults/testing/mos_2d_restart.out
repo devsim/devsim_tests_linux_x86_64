@@ -238,7 +238,7 @@ Replacing Node Model chole_gate in region gate of material Silicon
 Replacing Node Model gatenodemodel in region gate of material Silicon
 Replacing Node Model gatenodemodel:Potential in region gate of material Silicon
 Warning: Replacing Contact Equation with Contact Equation of the same name.
-Contact: gate, Equation: PotentialEquation, Variable: Potential
+Contact: gate, Equation: PotentialEquation
 Replacing Node Model contactcharge_node in region bulk of material Silicon
 Replacing Edge Model contactcharge_edge in region bulk of material Silicon
 Replacing Node Model celec_drain in region bulk of material Silicon
@@ -246,7 +246,7 @@ Replacing Node Model chole_drain in region bulk of material Silicon
 Replacing Node Model drainnodemodel in region bulk of material Silicon
 Replacing Node Model drainnodemodel:Potential in region bulk of material Silicon
 Warning: Replacing Contact Equation with Contact Equation of the same name.
-Contact: drain, Equation: PotentialEquation, Variable: Potential
+Contact: drain, Equation: PotentialEquation
 Replacing Node Model contactcharge_node in region bulk of material Silicon
 Replacing Edge Model contactcharge_edge in region bulk of material Silicon
 Replacing Node Model celec_source in region bulk of material Silicon
@@ -254,7 +254,7 @@ Replacing Node Model chole_source in region bulk of material Silicon
 Replacing Node Model sourcenodemodel in region bulk of material Silicon
 Replacing Node Model sourcenodemodel:Potential in region bulk of material Silicon
 Warning: Replacing Contact Equation with Contact Equation of the same name.
-Contact: source, Equation: PotentialEquation, Variable: Potential
+Contact: source, Equation: PotentialEquation
 Replacing Node Model contactcharge_node in region bulk of material Silicon
 Replacing Edge Model contactcharge_edge in region bulk of material Silicon
 Replacing Node Model celec_body in region bulk of material Silicon
@@ -262,7 +262,7 @@ Replacing Node Model chole_body in region bulk of material Silicon
 Replacing Node Model bodynodemodel in region bulk of material Silicon
 Replacing Node Model bodynodemodel:Potential in region bulk of material Silicon
 Warning: Replacing Contact Equation with Contact Equation of the same name.
-Contact: body, Equation: PotentialEquation, Variable: Potential
+Contact: body, Equation: PotentialEquation
 Replacing Interface Node Model continuousPotential in interface bulk_oxide of material 
 Replacing Interface Node Model continuousPotential:Potential@r0 in interface bulk_oxide of material 
 Replacing Interface Node Model continuousPotential:Potential@r1 in interface bulk_oxide of material 
@@ -334,9 +334,9 @@ Replacing Node Model gatenodeholes:Holes in region gate of material Silicon
 Replacing Edge Model gatenodeelectroncurrent in region gate of material Silicon
 Replacing Edge Model gatenodeholecurrent in region gate of material Silicon
 Warning: Replacing Contact Equation with Contact Equation of the same name.
-Contact: gate, Equation: ElectronContinuityEquation, Variable: Electrons
+Contact: gate, Equation: ElectronContinuityEquation
 Warning: Replacing Contact Equation with Contact Equation of the same name.
-Contact: gate, Equation: HoleContinuityEquation, Variable: Holes
+Contact: gate, Equation: HoleContinuityEquation
 Replacing Node Model PotentialNodeCharge in region bulk of material Silicon
 Replacing Node Model PotentialNodeCharge:Electrons in region bulk of material Silicon
 Replacing Node Model PotentialNodeCharge:Holes in region bulk of material Silicon
@@ -398,9 +398,9 @@ Replacing Node Model drainnodeholes:Holes in region bulk of material Silicon
 Replacing Edge Model drainnodeelectroncurrent in region bulk of material Silicon
 Replacing Edge Model drainnodeholecurrent in region bulk of material Silicon
 Warning: Replacing Contact Equation with Contact Equation of the same name.
-Contact: drain, Equation: ElectronContinuityEquation, Variable: Electrons
+Contact: drain, Equation: ElectronContinuityEquation
 Warning: Replacing Contact Equation with Contact Equation of the same name.
-Contact: drain, Equation: HoleContinuityEquation, Variable: Holes
+Contact: drain, Equation: HoleContinuityEquation
 Replacing Node Model sourcenodeelectrons in region bulk of material Silicon
 Replacing Node Model sourcenodeholes in region bulk of material Silicon
 Replacing Node Model sourcenodeelectrons:Electrons in region bulk of material Silicon
@@ -408,9 +408,9 @@ Replacing Node Model sourcenodeholes:Holes in region bulk of material Silicon
 Replacing Edge Model sourcenodeelectroncurrent in region bulk of material Silicon
 Replacing Edge Model sourcenodeholecurrent in region bulk of material Silicon
 Warning: Replacing Contact Equation with Contact Equation of the same name.
-Contact: source, Equation: ElectronContinuityEquation, Variable: Electrons
+Contact: source, Equation: ElectronContinuityEquation
 Warning: Replacing Contact Equation with Contact Equation of the same name.
-Contact: source, Equation: HoleContinuityEquation, Variable: Holes
+Contact: source, Equation: HoleContinuityEquation
 Replacing Node Model bodynodeelectrons in region bulk of material Silicon
 Replacing Node Model bodynodeholes in region bulk of material Silicon
 Replacing Node Model bodynodeelectrons:Electrons in region bulk of material Silicon
@@ -418,9 +418,9 @@ Replacing Node Model bodynodeholes:Holes in region bulk of material Silicon
 Replacing Edge Model bodynodeelectroncurrent in region bulk of material Silicon
 Replacing Edge Model bodynodeholecurrent in region bulk of material Silicon
 Warning: Replacing Contact Equation with Contact Equation of the same name.
-Contact: body, Equation: ElectronContinuityEquation, Variable: Electrons
+Contact: body, Equation: ElectronContinuityEquation
 Warning: Replacing Contact Equation with Contact Equation of the same name.
-Contact: body, Equation: HoleContinuityEquation, Variable: Holes
+Contact: body, Equation: HoleContinuityEquation
 Region "air" on device "mymos" has no equations.
 Region "bulk" on device "mymos" has equations 0:6824
 Region "gate" on device "mymos" has equations 6825:7220

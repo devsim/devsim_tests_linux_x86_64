@@ -249,11 +249,11 @@ Replacing Triangle Edge Model ElectricField_mag:Potential@en2 in region bulk of 
 Warning: Replacing equation with equation of the same name.
 Region: bulk, Equation: ElectronContinuityEquation, Variable: Electrons
 Warning: Replacing Contact Equation with Contact Equation of the same name.
-Contact: body, Equation: ElectronContinuityEquation, Variable: Electrons
+Contact: body, Equation: ElectronContinuityEquation
 Warning: Replacing Contact Equation with Contact Equation of the same name.
-Contact: drain, Equation: ElectronContinuityEquation, Variable: Electrons
+Contact: drain, Equation: ElectronContinuityEquation
 Warning: Replacing Contact Equation with Contact Equation of the same name.
-Contact: source, Equation: ElectronContinuityEquation, Variable: Electrons
+Contact: source, Equation: ElectronContinuityEquation
 Region "bulk" on device "mos2d" has equations 0:6746
 Region "gate" on device "mos2d" has equations 6747:6863
 Region "oxide" on device "mos2d" has equations 6864:7529

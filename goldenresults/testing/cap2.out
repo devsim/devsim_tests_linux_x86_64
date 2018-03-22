@@ -155,13 +155,13 @@ Equation: PotentialEquation
 Options: {'volume_model': u'', 'element_model': u'', 'name': u'PotentialEquation', 'region': u'MySiRegion', 'variable_name': u'Potential', 'node_model': u'', 'edge_model': u'PotentialEdgeFlux', 'edge_volume_model': u'', 'device': u'MyDevice', 'time_node_model': u''}
 Contact: bot
 Contact Equation: PotentialEquation
-Options: {'element_model': u'', 'edge_current_model': u'', 'element_current_model': u'', 'node_charge_model': u'', 'element_charge_model': u'', 'node_current_model': u'', 'circuit_node': u'', 'edge_model': u'', 'node_model': u'bottomnode_model', 'edge_charge_model': u'contactcharge_edge_bottom', 'contact': u'bot', 'variable_name': u'Potential', 'device': u'MyDevice', 'name': u'PotentialEquation'}
+Options: {'element_model': u'', 'edge_current_model': u'', 'element_current_model': u'', 'node_charge_model': u'', 'element_charge_model': u'', 'node_current_model': u'', 'circuit_node': u'', 'edge_model': u'', 'node_model': u'bottomnode_model', 'edge_charge_model': u'contactcharge_edge_bottom', 'contact': u'bot', 'device': u'MyDevice', 'name': u'PotentialEquation'}
 Contact: top
 Contact Equation: PotentialEquation
-Options: {'element_model': u'', 'edge_current_model': u'', 'element_current_model': u'', 'node_charge_model': u'', 'element_charge_model': u'', 'node_current_model': u'', 'circuit_node': u'', 'edge_model': u'', 'node_model': u'topnode_model', 'edge_charge_model': u'contactcharge_edge_top', 'contact': u'top', 'variable_name': u'Potential', 'device': u'MyDevice', 'name': u'PotentialEquation'}
+Options: {'element_model': u'', 'edge_current_model': u'', 'element_current_model': u'', 'node_charge_model': u'', 'element_charge_model': u'', 'node_current_model': u'', 'circuit_node': u'', 'edge_model': u'', 'node_model': u'topnode_model', 'edge_charge_model': u'contactcharge_edge_top', 'contact': u'top', 'device': u'MyDevice', 'name': u'PotentialEquation'}
 Interface: MySiOx
 Interface Equation: PotentialEquation
-Options: {'interface_model': u'continuousPotential', 'name': u'PotentialEquation', 'interface': u'MySiOx', 'variable_name': u'Potential', 'device': u'MyDevice', 'type': u'continuous'}
+Options: {'interface_model': u'continuousPotential', 'name': u'PotentialEquation', 'interface': u'MySiOx', 'name0': u'PotentialEquation', 'name1': u'PotentialEquation', 'device': u'MyDevice', 'type': u'continuous'}
 
 
 Region: MyOxRegion
@@ -204,3 +204,4 @@ while evaluating node model test on Device: MyDevice on Region: MySiRegion
 There was a Invalid floating point exception while evaluating log((-1))
 while evaluating model test: expression log((-1)) evaluates to invalid
 DEVSIM FATAL
+The DEVSIM FATAL message is part of the test.  The FPE exception was caught and the program will terminate normally.
