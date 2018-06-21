@@ -33,16 +33,16 @@ Iteration: 0
       Equation: "PotentialEquation"	RelError: 1.00000e+00	AbsError: 1.00000e+00
   Circuit: 	RelError: 1.00000e+00	AbsError: 2.00000e+00
 Iteration: 1
-  Device: "MyDevice"	RelError: 3.07179e-16	AbsError: 6.43614e-17
-    Region: "MyRegion"	RelError: 3.07179e-16	AbsError: 6.43614e-17
-      Equation: "PotentialEquation"	RelError: 3.07179e-16	AbsError: 6.43614e-17
+  Device: "MyDevice"	RelError: 1.70655e-16	AbsError: 1.02393e-16
+    Region: "MyRegion"	RelError: 1.70655e-16	AbsError: 1.02393e-16
+      Equation: "PotentialEquation"	RelError: 1.70655e-16	AbsError: 1.02393e-16
   Circuit: 	RelError: 0.00000e+00	AbsError: 0.00000e+00
 Circuit Solution:
 1	1
 V1.I	0
 topbias	1
 3.451499999999999e-13
--3.4514999999999995e-13
+-3.4515e-13
 Region "MyRegion" on device "MyDevice" has equations 0:10
 Device "MyDevice" has equations 0:10
 0	18446744073709551615	ground

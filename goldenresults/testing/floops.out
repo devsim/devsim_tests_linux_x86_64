@@ -40,8 +40,8 @@ Iteration: 0
     Region: "MyRegion"	RelError: 1.00000e+00	AbsError: 2.50000e+01
       Equation: "PotentialEquation"	RelError: 1.00000e+00	AbsError: 2.50000e+01
 Iteration: 1
-  Device: "MyDevice"	RelError: 9.36165e-17	AbsError: 1.17021e-15
-    Region: "MyRegion"	RelError: 9.36165e-17	AbsError: 1.17021e-15
-      Equation: "PotentialEquation"	RelError: 9.36165e-17	AbsError: 1.17021e-15
+  Device: "MyDevice"	RelError: 0.00000e+00	AbsError: 0.00000e+00
+    Region: "MyRegion"	RelError: 0.00000e+00	AbsError: 0.00000e+00
+      Equation: "PotentialEquation"	RelError: 0.00000e+00	AbsError: 0.00000e+00
 4.3143749999999996e-12
 -4.3143749999999996e-12
