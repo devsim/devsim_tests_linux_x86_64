@@ -3,7 +3,7 @@
 
  DEVSIM
 
- Version: Beta 0.01
+ Version: 1.0.0
 
  Copyright 2009-2018 Devsim LLC
 
@@ -127,8 +127,8 @@ Iteration: 0
       Equation: "ElectronContinuityEquation"	RelError: 5.41009e-15	AbsError: 1.03083e+02
       Equation: "HoleContinuityEquation"	RelError: 3.63233e-15	AbsError: 1.05187e+02
       Equation: "PotentialEquation"	RelError: 2.30624e-13	AbsError: 4.63395e-17
-top	0.0	-1.8005844531e-30	6.98125824195e-16	6.98125824195e-16
-bot	0.0	1.97202537456e-15	2.74100427653e-30	1.97202537456e-15
+top	0.0	-1.8005844530977207e-30	6.981258241950007e-16	6.981258241949989e-16
+bot	0.0	1.9720253745612595e-15	2.7410042765318653e-30	1.9720253745612623e-15
 Region "MyRegion" on device "MyDevice" has equations 0:1484
 Region "air1" on device "MyDevice" has no equations.
 Region "air2" on device "MyDevice" has no equations.
@@ -176,8 +176,8 @@ Iteration: 6
       Equation: "ElectronContinuityEquation"	RelError: 7.93357e-12	AbsError: 5.98400e+02
       Equation: "HoleContinuityEquation"	RelError: 9.84052e-13	AbsError: 3.07724e+03
       Equation: "PotentialEquation"	RelError: 2.93415e-12	AbsError: 3.13251e-16
-top	0.1	1.00901265136e-14	1.47429635822e-14	2.48330900958e-14
-bot	0.0	-1.31021365886e-14	-1.40467930267e-14	-2.71489296153e-14
+top	0.1	1.0090126513594513e-14	1.4742963582232503e-14	2.4833090095827016e-14
+bot	0.0	-1.3102136588585005e-14	-1.4046793026714924e-14	-2.714892961529993e-14
 Region "MyRegion" on device "MyDevice" has equations 0:1484
 Region "air1" on device "MyDevice" has no equations.
 Region "air2" on device "MyDevice" has no equations.
@@ -225,8 +225,8 @@ Iteration: 6
       Equation: "ElectronContinuityEquation"	RelError: 4.57096e-12	AbsError: 3.07077e+02
       Equation: "HoleContinuityEquation"	RelError: 4.02292e-13	AbsError: 1.77144e+03
       Equation: "PotentialEquation"	RelError: 9.68795e-14	AbsError: 1.46629e-16
-top	0.2	4.73477378546e-13	6.56420002839e-13	1.12989738139e-12
-bot	0.0	-4.79799689707e-13	-6.48122590414e-13	-1.12792228012e-12
+top	0.2	4.734773785462463e-13	6.564200028390378e-13	1.1298973813852842e-12
+bot	0.0	-4.797996897068781e-13	-6.481225904139334e-13	-1.1279222801208114e-12
 Region "MyRegion" on device "MyDevice" has equations 0:1484
 Region "air1" on device "MyDevice" has no equations.
 Region "air2" on device "MyDevice" has no equations.
@@ -274,8 +274,8 @@ Iteration: 6
       Equation: "ElectronContinuityEquation"	RelError: 2.22846e-12	AbsError: 4.41425e+02
       Equation: "HoleContinuityEquation"	RelError: 1.27874e-13	AbsError: 1.06602e+03
       Equation: "PotentialEquation"	RelError: 1.27195e-14	AbsError: 1.66380e-16
-top	0.3	2.177083703e-11	2.93478989806e-11	5.11187360106e-11
-bot	0.0	-2.18394193285e-11	-2.92746276117e-11	-5.11140469402e-11
+top	0.30000000000000004	2.1770837029989515e-11	2.934789898056989e-11	5.111873601055941e-11
+bot	0.0	-2.1839419328465026e-11	-2.9274627611746484e-11	-5.111404694021151e-11
 Region "MyRegion" on device "MyDevice" has equations 0:1484
 Region "air1" on device "MyDevice" has no equations.
 Region "air2" on device "MyDevice" has no equations.
@@ -323,8 +323,8 @@ Iteration: 6
       Equation: "ElectronContinuityEquation"	RelError: 2.41919e-12	AbsError: 2.67896e+02
       Equation: "HoleContinuityEquation"	RelError: 2.52793e-13	AbsError: 1.70266e+03
       Equation: "PotentialEquation"	RelError: 9.89156e-15	AbsError: 9.99822e-17
-top	0.4	1.0003002857e-09	1.32028851398e-09	2.32058879969e-09
-bot	0.0	-1.00085469699e-09	-1.31973035269e-09	-2.32058504968e-09
+top	0.4	1.0003002857039366e-09	1.320288513983945e-09	2.3205887996878818e-09
+bot	0.0	-1.0008546969936129e-09	-1.319730352690414e-09	-2.3205850496840267e-09
 Region "MyRegion" on device "MyDevice" has equations 0:1484
 Region "air1" on device "MyDevice" has no equations.
 Region "air2" on device "MyDevice" has no equations.
@@ -372,5 +372,5 @@ Iteration: 6
       Equation: "ElectronContinuityEquation"	RelError: 2.21598e-12	AbsError: 1.96662e+02
       Equation: "HoleContinuityEquation"	RelError: 9.45027e-14	AbsError: 1.10551e+03
       Equation: "PotentialEquation"	RelError: 8.93175e-16	AbsError: 9.41742e-17
-top	0.5	4.59224796297e-08	5.93574365092e-08	1.05279916139e-07
-bot	0.0	-4.59269011642e-08	-5.93530149433e-08	-1.05279916107e-07
+top	0.5	4.592247962966425e-08	5.935743650918844e-08	1.052799161388527e-07
+bot	0.0	-4.592690116417809e-08	-5.9353014943288163e-08	-1.0527991610746626e-07

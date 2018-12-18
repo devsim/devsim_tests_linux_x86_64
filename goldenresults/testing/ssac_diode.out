@@ -3,7 +3,7 @@
 
  DEVSIM
 
- Version: Beta 0.01
+ Version: 1.0.0
 
  Copyright 2009-2018 Devsim LLC
 
@@ -160,7 +160,7 @@ number of equations 773
 Circuit AC Solution:
 V1.I	(2.48635e-07,1.30918e-06)
 topbias	(1,0)
-capacitance 0.0 2.0836211044660445e-7
+capacitance 0.0 2.0836211044660466e-7
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground
@@ -246,7 +246,7 @@ number of equations 773
 Circuit AC Solution:
 V1.I	(4.97302e-07,1.3891e-06)
 topbias	(1,0)
-capacitance 0.1 2.2108213140849593e-7
+capacitance 0.1 2.2108213140849574e-7
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground
@@ -332,7 +332,7 @@ number of equations 773
 Circuit AC Solution:
 V1.I	(-7.24674e-06,1.48531e-06)
 topbias	(1,0)
-capacitance 0.2 2.363947716076654e-7
+capacitance 0.2 2.3639477160766547e-7
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground
@@ -411,7 +411,7 @@ number of equations 773
 Circuit AC Solution:
 V1.I	(-0.000332047,1.6044e-06)
 topbias	(1,0)
-capacitance 0.30000000000000004 2.5534792398339795e-7
+capacitance 0.30000000000000004 2.5534792398339774e-7
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground
@@ -490,7 +490,7 @@ number of equations 773
 Circuit AC Solution:
 V1.I	(-0.0149804,1.75732e-06)
 topbias	(1,0)
-capacitance 0.4 2.796869624618668e-7
+capacitance 0.4 2.79686962461866e-7
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground
@@ -569,10 +569,10 @@ number of equations 773
 Circuit AC Solution:
 V1.I	(-0.674229,1.96414e-06)
 topbias	(1,0)
-capacitance 0.5 3.126031058943046e-7
+capacitance 0.5 3.126031058943038e-7
 V1.I	dcop	-0.017715050494073774
 V1.I	dcop_prev	-0.00039325487185079886
-V1.I	ssac_imag	1.9641415828929767e-6
+V1.I	ssac_imag	1.9641415828929716e-6
 V1.I	ssac_real	-0.674229103234458
 topbias	dcop	0.5
 topbias	dcop_prev	0.4

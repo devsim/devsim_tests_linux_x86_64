@@ -3,7 +3,7 @@
 
  DEVSIM
 
- Version: Beta 0.01
+ Version: 1.0.0
 
  Copyright 2009-2018 Devsim LLC
 
@@ -533,5 +533,5 @@ Iteration: 1
   Device: "MyDevice"	RelError: 4.90743e-12	AbsError: 5.96816e-13
     Region: "air"	RelError: 4.90743e-12	AbsError: 5.96816e-13
       Equation: "PotentialEquation"	RelError: 4.90743e-12	AbsError: 5.96816e-13
-3.35017166004e-12
--3.35017166004e-12
+3.350171660038572e-12
+-3.3501716600385716e-12

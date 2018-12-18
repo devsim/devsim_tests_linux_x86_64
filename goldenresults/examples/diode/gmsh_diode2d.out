@@ -3,7 +3,7 @@
 
  DEVSIM
 
- Version: Beta 0.01
+ Version: 1.0.0
 
  Copyright 2009-2018 Devsim LLC
 
@@ -101,8 +101,8 @@ Iteration: 0
       Equation: "ElectronContinuityEquation"	RelError: 2.10666e-13	AbsError: 1.82935e+02
       Equation: "HoleContinuityEquation"	RelError: 1.81681e-13	AbsError: 1.54008e+02
       Equation: "PotentialEquation"	RelError: 7.80399e-16	AbsError: 5.03531e-17
-top	0.0	-7.48783722271e-30	2.56381230267e-15	2.56381230267e-15
-bot	0.0	7.5607257299e-15	8.536139034e-30	7.5607257299e-15
+top	0.0	-7.487837222706068e-30	2.5638123026739858e-15	2.5638123026739783e-15
+bot	0.0	7.56072572989636e-15	8.536139034004665e-30	7.560725729896367e-15
 Region "Bulk" on device "diode2d" has equations 0:1502
 Device "diode2d" has equations 0:1502
 number of equations 1503
@@ -148,8 +148,8 @@ Iteration: 6
       Equation: "ElectronContinuityEquation"	RelError: 2.37834e-12	AbsError: 1.46213e+02
       Equation: "HoleContinuityEquation"	RelError: 3.09549e-13	AbsError: 4.69532e+03
       Equation: "PotentialEquation"	RelError: 8.89183e-15	AbsError: 9.81800e-17
-top	0.1	2.84714308542e-14	1.03188836941e-14	3.87903145483e-14
-bot	0.0	-2.96580170438e-14	-1.38931668733e-14	-4.3551183917e-14
+top	0.1	2.847143085417014e-14	1.0318883694123409e-14	3.8790314548293555e-14
+bot	0.0	-2.96580170437843e-14	-1.3893166873250734e-14	-4.3551183917035034e-14
 Region "Bulk" on device "diode2d" has equations 0:1502
 Device "diode2d" has equations 0:1502
 number of equations 1503
@@ -195,8 +195,8 @@ Iteration: 6
       Equation: "ElectronContinuityEquation"	RelError: 2.26926e-12	AbsError: 2.50551e+02
       Equation: "HoleContinuityEquation"	RelError: 4.14229e-13	AbsError: 1.45470e+04
       Equation: "PotentialEquation"	RelError: 1.31051e-14	AbsError: 4.29705e-16
-top	0.2	1.31489550306e-12	6.50704201792e-13	1.96559970485e-12
-bot	0.0	-1.32368147826e-12	-6.42393761743e-13	-1.96607524e-12
+top	0.2	1.3148955030627814e-12	6.50704201791666e-13	1.9655997048544474e-12
+bot	0.0	-1.3236814782565934e-12	-6.423937617428274e-13	-1.966075239999421e-12
 Region "Bulk" on device "diode2d" has equations 0:1502
 Device "diode2d" has equations 0:1502
 number of equations 1503
@@ -242,8 +242,8 @@ Iteration: 6
       Equation: "ElectronContinuityEquation"	RelError: 2.17530e-12	AbsError: 1.34837e+02
       Equation: "HoleContinuityEquation"	RelError: 3.43021e-13	AbsError: 5.74668e+03
       Equation: "PotentialEquation"	RelError: 1.94821e-13	AbsError: 1.82652e-16
-top	0.3	5.94369902525e-11	2.91195785067e-11	8.85565687592e-11
-bot	0.0	-5.9482513002e-11	-2.90715893355e-11	-8.85541023375e-11
+top	0.30000000000000004	5.943699025250206e-11	2.911957850670999e-11	8.855656875921205e-11
+bot	0.0	-5.948251300196805e-11	-2.907158933554776e-11	-8.855410233751581e-11
 Region "Bulk" on device "diode2d" has equations 0:1502
 Device "diode2d" has equations 0:1502
 number of equations 1503
@@ -289,8 +289,8 @@ Iteration: 6
       Equation: "ElectronContinuityEquation"	RelError: 2.00230e-12	AbsError: 2.15830e+02
       Equation: "HoleContinuityEquation"	RelError: 1.78492e-13	AbsError: 1.95207e+03
       Equation: "PotentialEquation"	RelError: 6.45321e-13	AbsError: 5.57792e-17
-top	0.4	2.68110868464e-09	1.31315590318e-09	3.99426458782e-09
-bot	0.0	-2.6814940516e-09	-1.31277163078e-09	-3.99426568239e-09
+top	0.4	2.6811086846423067e-09	1.3131559031800315e-09	3.994264587822338e-09
+bot	0.0	-2.681494051604063e-09	-1.3127716307810486e-09	-3.9942656823851115e-09
 Region "Bulk" on device "diode2d" has equations 0:1502
 Device "diode2d" has equations 0:1502
 number of equations 1503
@@ -336,5 +336,5 @@ Iteration: 6
       Equation: "ElectronContinuityEquation"	RelError: 1.44623e-12	AbsError: 1.91343e+02
       Equation: "HoleContinuityEquation"	RelError: 3.34393e-13	AbsError: 1.88862e+03
       Equation: "PotentialEquation"	RelError: 8.59780e-16	AbsError: 4.53388e-17
-top	0.5	1.20631681239e-07	5.91247794104e-08	1.7975646065e-07
-bot	0.0	-1.2063493583e-07	-5.91215253469e-08	-1.79756461177e-07
+top	0.5	1.206316812391788e-07	5.912477941042349e-08	1.797564606496023e-07
+bot	0.0	-1.2063493583028448e-07	-5.9121525346881256e-08	-1.7975646117716575e-07

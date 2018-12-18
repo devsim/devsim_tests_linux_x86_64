@@ -3,7 +3,7 @@
 
  DEVSIM
 
- Version: Beta 0.01
+ Version: 1.0.0
 
  Copyright 2009-2018 Devsim LLC
 
@@ -162,8 +162,6 @@ Options: {'circuit_node': '', 'contact': 'top', 'device': 'MyDevice', 'edge_char
 Interface: MySiOx
 Interface Equation: PotentialEquation
 Options: {'device': 'MyDevice', 'interface': 'MySiOx', 'interface_model': 'continuousPotential', 'name': 'PotentialEquation', 'name0': 'PotentialEquation', 'name1': 'PotentialEquation', 'type': 'continuous'}
-
-
 Region: MyOxRegion
 Region: MySiRegion
 Contact: bot

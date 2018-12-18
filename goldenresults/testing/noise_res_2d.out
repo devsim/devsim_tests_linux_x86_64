@@ -3,7 +3,7 @@
 
  DEVSIM
 
- Version: Beta 0.01
+ Version: 1.0.0
 
  Copyright 2009-2018 Devsim LLC
 
@@ -226,8 +226,8 @@ Device: MyDevice	Region: MyRegion	Creating: V1.I_ElectronContinuityEquation_real
 Device: MyDevice	Region: MyRegion	Creating: V1.I_ElectronContinuityEquation_imag
 Device: MyDevice	Region: MyRegion	Creating: V1.I_PotentialEquation_real
 Device: MyDevice	Region: MyRegion	Creating: V1.I_PotentialEquation_imag
-Setting V1.I = (-6.4,-3.81061e-19)
-Setting topbias = (1,-2.81e-23)
+Setting V1.I = (-6.4,-3.80894e-19)
+Setting topbias = (1,-2.65547e-23)
 Noise Iteration:
 number of equations 244
-9.547760076196007e-20
+9.547760076196005e-20

@@ -3,7 +3,7 @@
 
  DEVSIM
 
- Version: Beta 0.01
+ Version: 1.0.0
 
  Copyright 2009-2018 Devsim LLC
 
@@ -426,12 +426,12 @@ GND	18446744073709551615	ground
 V1.I	0	mna
 topbias	1	default
 Circuit  has equations 22:23
-Setting V1.I = (-0.64,-2.06029e-24)
+Setting V1.I = (-0.64,-2.06628e-24)
 Setting topbias = (1,0)
 AC Iteration:
 number of equations 24
 Circuit AC Solution:
-V1.I	(-0.64,-2.06029e-24)
+V1.I	(-0.64,-2.06628e-24)
 topbias	(1,0)
 Region "MyRegion" on device "MyDevice" has equations 0:21
 Device "MyDevice" has equations 0:21
@@ -454,12 +454,12 @@ GND	18446744073709551615	ground
 V1.I	0	mna
 topbias	1	default
 Circuit  has equations 22:23
-Setting V1.I = (-0.64,-2.04944e-21)
+Setting V1.I = (-0.64,-2.04562e-21)
 Setting topbias = (1,0)
 AC Iteration:
 number of equations 24
 Circuit AC Solution:
-V1.I	(-0.64,-2.04944e-21)
+V1.I	(-0.64,-2.04562e-21)
 topbias	(1,0)
 Region "MyRegion" on device "MyDevice" has equations 0:21
 Device "MyDevice" has equations 0:21
@@ -468,12 +468,12 @@ GND	18446744073709551615	ground
 V1.I	0	mna
 topbias	1	default
 Circuit  has equations 22:23
-Setting V1.I = (-0.64,-2.05272e-20)
+Setting V1.I = (-0.64,-2.05882e-20)
 Setting topbias = (1,0)
 AC Iteration:
 number of equations 24
 Circuit AC Solution:
-V1.I	(-0.64,-2.05272e-20)
+V1.I	(-0.64,-2.05882e-20)
 topbias	(1,0)
 Region "MyRegion" on device "MyDevice" has equations 0:21
 Device "MyDevice" has equations 0:21
@@ -482,12 +482,12 @@ GND	18446744073709551615	ground
 V1.I	0	mna
 topbias	1	default
 Circuit  has equations 22:23
-Setting V1.I = (-0.64,-2.05641e-19)
+Setting V1.I = (-0.64,-2.05153e-19)
 Setting topbias = (1,0)
 AC Iteration:
 number of equations 24
 Circuit AC Solution:
-V1.I	(-0.64,-2.05641e-19)
+V1.I	(-0.64,-2.05153e-19)
 topbias	(1,0)
 Region "MyRegion" on device "MyDevice" has equations 0:21
 Device "MyDevice" has equations 0:21
@@ -496,12 +496,12 @@ GND	18446744073709551615	ground
 V1.I	0	mna
 topbias	1	default
 Circuit  has equations 22:23
-Setting V1.I = (-0.64,-2.03909e-18)
+Setting V1.I = (-0.64,-2.04299e-18)
 Setting topbias = (1,0)
 AC Iteration:
 number of equations 24
 Circuit AC Solution:
-V1.I	(-0.64,-2.03909e-18)
+V1.I	(-0.64,-2.04299e-18)
 topbias	(1,0)
 Region "MyRegion" on device "MyDevice" has equations 0:21
 Device "MyDevice" has equations 0:21
@@ -524,12 +524,12 @@ GND	18446744073709551615	ground
 V1.I	0	mna
 topbias	1	default
 Circuit  has equations 22:23
-Setting V1.I = (-0.64,-2.05609e-16)
+Setting V1.I = (-0.64,-2.05935e-16)
 Setting topbias = (1,0)
 AC Iteration:
 number of equations 24
 Circuit AC Solution:
-V1.I	(-0.64,-2.05609e-16)
+V1.I	(-0.64,-2.05935e-16)
 topbias	(1,0)
 Region "MyRegion" on device "MyDevice" has equations 0:21
 Device "MyDevice" has equations 0:21
@@ -538,12 +538,12 @@ GND	18446744073709551615	ground
 V1.I	0	mna
 topbias	1	default
 Circuit  has equations 22:23
-Setting V1.I = (-0.64,-2.0465e-15)
+Setting V1.I = (-0.64,-2.05538e-15)
 Setting topbias = (1,0)
 AC Iteration:
 number of equations 24
 Circuit AC Solution:
-V1.I	(-0.64,-2.0465e-15)
+V1.I	(-0.64,-2.05538e-15)
 topbias	(1,0)
 Region "MyRegion" on device "MyDevice" has equations 0:21
 Device "MyDevice" has equations 0:21
@@ -552,12 +552,12 @@ GND	18446744073709551615	ground
 V1.I	0	mna
 topbias	1	default
 Circuit  has equations 22:23
-Setting V1.I = (-0.64,-2.04939e-14)
+Setting V1.I = (-0.64,-2.03126e-14)
 Setting topbias = (1,0)
 AC Iteration:
 number of equations 24
 Circuit AC Solution:
-V1.I	(-0.64,-2.04939e-14)
+V1.I	(-0.64,-2.03126e-14)
 topbias	(1,0)
 Region "MyRegion" on device "MyDevice" has equations 0:21
 Device "MyDevice" has equations 0:21
@@ -566,12 +566,12 @@ GND	18446744073709551615	ground
 V1.I	0	mna
 topbias	1	default
 Circuit  has equations 22:23
-Setting V1.I = (-0.64,-1.05781e-13)
+Setting V1.I = (-0.64,-1.05388e-13)
 Setting topbias = (1,0)
 AC Iteration:
 number of equations 24
 Circuit AC Solution:
-V1.I	(-0.64,-1.05781e-13)
+V1.I	(-0.64,-1.05388e-13)
 topbias	(1,0)
 Region "MyRegion" on device "MyDevice" has equations 0:21
 Device "MyDevice" has equations 0:21
@@ -589,7 +589,7 @@ V1.I	(-0.64,-2.20197e-14)
 topbias	(1,0)
 V1.I	dcop	-0.0640000000000064
 V1.I	dcop_prev	-0.05760000000000575
-V1.I	ssac_imag	-2.2019687235896153e-14
+V1.I	ssac_imag	-2.2019687235896156e-14
 V1.I	ssac_real	-0.6400000000002783
 topbias	dcop	0.1
 topbias	dcop_prev	0.09
