@@ -3,9 +3,9 @@
 
  DEVSIM
 
- Version: 1.0.0
+ Version: 1.1.0
 
- Copyright 2009-2018 Devsim LLC
+ Copyright 2009-2019 Devsim LLC
 
 ----------------------------------------
 
@@ -220,23 +220,17 @@ Iteration: 4
 Iteration: 5
   Device: "MyDevice"	RelError: 5.89673e-06	AbsError: 3.90767e+09
     Region: "MyRegion"	RelError: 5.89673e-06	AbsError: 3.90767e+09
-      Equation: "ECE"	RelError: 1.24059e-08	AbsError: 4.11119e+08
+      Equation: "ECE"	RelError: 1.24060e-08	AbsError: 4.11117e+08
       Equation: "HCE"	RelError: 5.87541e-06	AbsError: 3.49655e+09
-      Equation: "PE"	RelError: 8.91619e-09	AbsError: 4.35571e-10
+      Equation: "PE"	RelError: 8.91622e-09	AbsError: 4.35571e-10
 Iteration: 6
-  Device: "MyDevice"	RelError: 1.42766e-12	AbsError: 1.35476e+05
-    Region: "MyRegion"	RelError: 1.42766e-12	AbsError: 1.35476e+05
-      Equation: "ECE"	RelError: 5.61856e-13	AbsError: 1.35274e+05
-      Equation: "HCE"	RelError: 6.49735e-13	AbsError: 2.01566e+02
-      Equation: "PE"	RelError: 2.16074e-13	AbsError: 1.73055e-14
-Iteration: 7
-  Device: "MyDevice"	RelError: 6.51201e-13	AbsError: 2.69523e+04
-    Region: "MyRegion"	RelError: 6.51201e-13	AbsError: 2.69523e+04
-      Equation: "ECE"	RelError: 2.18471e-13	AbsError: 2.68693e+04
-      Equation: "HCE"	RelError: 3.49027e-13	AbsError: 8.29774e+01
-      Equation: "PE"	RelError: 8.37035e-14	AbsError: 6.63985e-15
-top	0.1	6.255831980071485e-26	2.0103372799999996e-28	6.275935352871486e-26
-bot	0.0	-9.924820372630265e-25	-2.0096812764278556e-28	-9.926830053906692e-25
+  Device: "MyDevice"	RelError: 5.26777e-14	AbsError: 1.08803e+02
+    Region: "MyRegion"	RelError: 5.26777e-14	AbsError: 1.08803e+02
+      Equation: "ECE"	RelError: 4.90059e-15	AbsError: 8.71509e+01
+      Equation: "HCE"	RelError: 4.74707e-14	AbsError: 2.16518e+01
+      Equation: "PE"	RelError: 3.06396e-16	AbsError: 4.41912e-17
+top	0.1	6.255831980073866e-26	2.0090111999999998e-28	6.275922092073866e-26
+bot	0.0	-6.288048476175528e-26	-2.0096812764259902e-28	-6.308145288939788e-26
 Region "MyRegion" on device "MyDevice" has equations 0:80
 Device "MyDevice" has equations 0:80
 number of equations 81
@@ -273,17 +267,17 @@ Iteration: 4
 Iteration: 5
   Device: "MyDevice"	RelError: 8.67297e-06	AbsError: 1.23629e+10
     Region: "MyRegion"	RelError: 8.67297e-06	AbsError: 1.23629e+10
-      Equation: "ECE"	RelError: 3.08641e-08	AbsError: 1.36172e+09
+      Equation: "ECE"	RelError: 3.08647e-08	AbsError: 1.36170e+09
       Equation: "HCE"	RelError: 8.60076e-06	AbsError: 1.10012e+10
-      Equation: "PE"	RelError: 4.13376e-08	AbsError: 1.37567e-09
+      Equation: "PE"	RelError: 4.13380e-08	AbsError: 1.37568e-09
 Iteration: 6
-  Device: "MyDevice"	RelError: 3.22715e-13	AbsError: 2.80393e+04
-    Region: "MyRegion"	RelError: 3.22715e-13	AbsError: 2.80393e+04
-      Equation: "ECE"	RelError: 1.55583e-13	AbsError: 2.80030e+04
-      Equation: "HCE"	RelError: 8.23091e-14	AbsError: 3.63372e+01
-      Equation: "PE"	RelError: 8.48233e-14	AbsError: 5.02718e-15
-top	0.2	2.541015140249758e-24	9.499241471999997e-27	2.550514381721758e-24
-bot	0.0	-2.001235778916156e-24	-9.498294320304681e-27	-2.0107340732364608e-24
+  Device: "MyDevice"	RelError: 1.78441e-13	AbsError: 2.48005e+02
+    Region: "MyRegion"	RelError: 1.78441e-13	AbsError: 2.48005e+02
+      Equation: "ECE"	RelError: 5.36402e-15	AbsError: 1.00269e+02
+      Equation: "HCE"	RelError: 1.71397e-13	AbsError: 1.47736e+02
+      Equation: "PE"	RelError: 1.68009e-15	AbsError: 4.00171e-17
+top	0.2	2.541015140249663e-24	9.497384959999999e-27	2.550512525209663e-24
+bot	0.0	-2.5417873145873853e-24	-9.498294320313403e-27	-2.551285608907699e-24
 Region "MyRegion" on device "MyDevice" has equations 0:80
 Device "MyDevice" has equations 0:80
 number of equations 81
@@ -320,17 +314,17 @@ Iteration: 4
 Iteration: 5
   Device: "MyDevice"	RelError: 1.19312e-05	AbsError: 3.65960e+10
     Region: "MyRegion"	RelError: 1.19312e-05	AbsError: 3.65960e+10
-      Equation: "ECE"	RelError: 9.89003e-08	AbsError: 4.22188e+09
+      Equation: "ECE"	RelError: 9.89004e-08	AbsError: 4.22188e+09
       Equation: "HCE"	RelError: 1.16458e-05	AbsError: 3.23742e+10
       Equation: "PE"	RelError: 1.86493e-07	AbsError: 4.09611e-09
 Iteration: 6
-  Device: "MyDevice"	RelError: 7.95074e-13	AbsError: 1.18162e+04
-    Region: "MyRegion"	RelError: 7.95074e-13	AbsError: 1.18162e+04
-      Equation: "ECE"	RelError: 3.49302e-14	AbsError: 1.03207e+04
-      Equation: "HCE"	RelError: 7.53971e-13	AbsError: 1.49550e+03
-      Equation: "PE"	RelError: 6.17276e-15	AbsError: 1.18434e-15
-top	0.30000000000000004	9.807419809725419e-23	4.3992704e-25	9.85141251372542e-23
-bot	0.0	-9.807480239954963e-23	-4.399283144846421e-25	-9.851473071403427e-23
+  Device: "MyDevice"	RelError: 7.30980e-13	AbsError: 1.61493e+03
+    Region: "MyRegion"	RelError: 7.30980e-13	AbsError: 1.61493e+03
+      Equation: "ECE"	RelError: 1.00415e-14	AbsError: 1.59543e+02
+      Equation: "HCE"	RelError: 7.11602e-13	AbsError: 1.45538e+03
+      Equation: "PE"	RelError: 9.33686e-15	AbsError: 1.94832e-16
+top	0.30000000000000004	9.807419809724351e-23	4.399318138879999e-25	9.851412991113151e-23
+bot	0.0	-9.807480239954963e-23	-4.399283144845909e-25	-9.851473071403422e-23
 Region "MyRegion" on device "MyDevice" has equations 0:80
 Device "MyDevice" has equations 0:80
 number of equations 81
@@ -371,19 +365,19 @@ Iteration: 5
       Equation: "HCE"	RelError: 1.37407e-05	AbsError: 8.11195e+10
       Equation: "PE"	RelError: 3.01945e-07	AbsError: 1.05711e-08
 Iteration: 6
-  Device: "MyDevice"	RelError: 2.16302e-12	AbsError: 1.62584e+04
-    Region: "MyRegion"	RelError: 2.16302e-12	AbsError: 1.62584e+04
-      Equation: "ECE"	RelError: 3.41734e-14	AbsError: 6.15205e+03
-      Equation: "HCE"	RelError: 2.08048e-12	AbsError: 1.01064e+04
-      Equation: "PE"	RelError: 4.83680e-14	AbsError: 2.19912e-15
+  Device: "MyDevice"	RelError: 2.23379e-12	AbsError: 1.16685e+04
+    Region: "MyRegion"	RelError: 2.23379e-12	AbsError: 1.16685e+04
+      Equation: "ECE"	RelError: 3.93477e-14	AbsError: 1.39275e+03
+      Equation: "HCE"	RelError: 2.15624e-12	AbsError: 1.02757e+04
+      Equation: "PE"	RelError: 3.81941e-14	AbsError: 1.33718e-15
 Iteration: 7
-  Device: "MyDevice"	RelError: 4.48559e-13	AbsError: 2.12066e+04
-    Region: "MyRegion"	RelError: 4.48559e-13	AbsError: 2.12066e+04
-      Equation: "ECE"	RelError: 1.84408e-13	AbsError: 2.07330e+04
-      Equation: "HCE"	RelError: 2.37302e-13	AbsError: 4.73644e+02
-      Equation: "PE"	RelError: 2.68497e-14	AbsError: 5.74267e-15
-top	0.4	3.606529267044455e-21	2.0368161271808e-23	3.626897428316263e-21
-bot	0.0	-3.606529692783529e-21	-2.036816184059371e-23	-3.626897854624123e-21
+  Device: "MyDevice"	RelError: 3.14216e-15	AbsError: 6.85925e+01
+    Region: "MyRegion"	RelError: 3.14216e-15	AbsError: 6.85925e+01
+      Equation: "ECE"	RelError: 1.07529e-15	AbsError: 6.15165e+01
+      Equation: "HCE"	RelError: 1.93742e-15	AbsError: 7.07596e+00
+      Equation: "PE"	RelError: 1.29453e-16	AbsError: 2.69873e-17
+top	0.4	3.6065292670448834e-21	2.036816180224e-23	3.626897428847123e-21
+bot	0.0	-3.606529968575129e-21	-2.0368161840596692e-23	-3.626898130415725e-21
 Region "MyRegion" on device "MyDevice" has equations 0:80
 Device "MyDevice" has equations 0:80
 number of equations 81
@@ -424,19 +418,19 @@ Iteration: 5
       Equation: "HCE"	RelError: 1.28239e-05	AbsError: 1.49523e+11
       Equation: "PE"	RelError: 1.75673e-07	AbsError: 2.09130e-08
 Iteration: 6
-  Device: "MyDevice"	RelError: 4.95973e-12	AbsError: 8.53475e+04
-    Region: "MyRegion"	RelError: 4.95973e-12	AbsError: 8.53475e+04
-      Equation: "ECE"	RelError: 4.24739e-13	AbsError: 4.42213e+04
-      Equation: "HCE"	RelError: 4.50206e-12	AbsError: 4.11261e+04
-      Equation: "PE"	RelError: 3.29312e-14	AbsError: 1.02424e-14
+  Device: "MyDevice"	RelError: 4.26404e-12	AbsError: 4.61682e+04
+    Region: "MyRegion"	RelError: 4.26404e-12	AbsError: 4.61682e+04
+      Equation: "ECE"	RelError: 1.49520e-13	AbsError: 6.53771e+03
+      Equation: "HCE"	RelError: 4.06823e-12	AbsError: 3.96305e+04
+      Equation: "PE"	RelError: 4.62895e-14	AbsError: 5.51055e-15
 Iteration: 7
-  Device: "MyDevice"	RelError: 9.65767e-13	AbsError: 5.00907e+04
-    Region: "MyRegion"	RelError: 9.65767e-13	AbsError: 5.00907e+04
-      Equation: "ECE"	RelError: 3.83750e-13	AbsError: 4.83001e+04
-      Equation: "HCE"	RelError: 5.54484e-13	AbsError: 1.79060e+03
-      Equation: "PE"	RelError: 2.75333e-14	AbsError: 1.21061e-14
-top	0.5	1.2411266035708895e-19	9.4276608935936e-22	1.250554264464483e-19
-bot	0.0	-1.2411266048574788e-19	-9.42766093190386e-22	-1.2505542657893828e-19
+  Device: "MyDevice"	RelError: 3.43444e-15	AbsError: 1.18498e+02
+    Region: "MyRegion"	RelError: 3.43444e-15	AbsError: 1.18498e+02
+      Equation: "ECE"	RelError: 1.46179e-15	AbsError: 1.12416e+02
+      Equation: "HCE"	RelError: 1.88719e-15	AbsError: 6.08173e+00
+      Equation: "PE"	RelError: 8.54614e-17	AbsError: 3.37715e-17
+top	0.5	1.241126603570536e-19	9.42766091481088e-22	1.250554264485347e-19
+bot	0.0	-1.2411266085347002e-19	-9.427660931900587e-22	-1.2505542694666008e-19
 Region "MyRegion" on device "MyDevice" has equations 0:80
 Device "MyDevice" has equations 0:80
 number of equations 81
@@ -477,19 +471,19 @@ Iteration: 5
       Equation: "HCE"	RelError: 7.77881e-06	AbsError: 1.51583e+11
       Equation: "PE"	RelError: 1.21934e-07	AbsError: 2.69582e-08
 Iteration: 6
-  Device: "MyDevice"	RelError: 4.15594e-12	AbsError: 1.02188e+05
-    Region: "MyRegion"	RelError: 4.15594e-12	AbsError: 1.02188e+05
-      Equation: "ECE"	RelError: 4.37793e-13	AbsError: 5.22196e+04
-      Equation: "HCE"	RelError: 3.68851e-12	AbsError: 4.99680e+04
-      Equation: "PE"	RelError: 2.96303e-14	AbsError: 1.29660e-14
+  Device: "MyDevice"	RelError: 3.49482e-12	AbsError: 5.81890e+04
+    Region: "MyRegion"	RelError: 3.49482e-12	AbsError: 5.81890e+04
+      Equation: "ECE"	RelError: 3.53369e-13	AbsError: 1.12095e+04
+      Equation: "HCE"	RelError: 3.10301e-12	AbsError: 4.69795e+04
+      Equation: "PE"	RelError: 3.84441e-14	AbsError: 8.60138e-15
 Iteration: 7
-  Device: "MyDevice"	RelError: 4.58639e-13	AbsError: 3.18354e+04
-    Region: "MyRegion"	RelError: 4.58639e-13	AbsError: 3.18354e+04
-      Equation: "ECE"	RelError: 1.68051e-13	AbsError: 3.06092e+04
-      Equation: "HCE"	RelError: 2.78945e-13	AbsError: 1.22619e+03
-      Equation: "PE"	RelError: 1.16443e-14	AbsError: 5.37273e-15
-top	0.6	3.8994522278703875e-18	4.358656280396185e-20	3.94303879067435e-18
-bot	0.0	-3.899452228493085e-18	-4.3586562802842255e-20	-3.9430387912959275e-18
+  Device: "MyDevice"	RelError: 2.30312e-15	AbsError: 8.21768e+01
+    Region: "MyRegion"	RelError: 2.30312e-15	AbsError: 8.21768e+01
+      Equation: "ECE"	RelError: 8.88818e-16	AbsError: 7.74025e+01
+      Equation: "HCE"	RelError: 1.33945e-15	AbsError: 4.77433e+00
+      Equation: "PE"	RelError: 7.48505e-17	AbsError: 3.03322e-17
+top	0.6	3.899452227870542e-18	4.3586562802900984e-20	3.943038790673443e-18
+bot	0.0	-3.89945222748185e-18	-4.3586562802844656e-20	-3.943038790284694e-18
 Region "MyRegion" on device "MyDevice" has equations 0:80
 Device "MyDevice" has equations 0:80
 number of equations 81
@@ -530,19 +524,13 @@ Iteration: 5
       Equation: "HCE"	RelError: 2.00487e-06	AbsError: 4.90872e+10
       Equation: "PE"	RelError: 4.31235e-08	AbsError: 1.30896e-08
 Iteration: 6
-  Device: "MyDevice"	RelError: 1.18773e-12	AbsError: 2.48305e+05
-    Region: "MyRegion"	RelError: 1.18773e-12	AbsError: 2.48305e+05
-      Equation: "ECE"	RelError: 2.36681e-13	AbsError: 2.36298e+05
-      Equation: "HCE"	RelError: 9.17932e-13	AbsError: 1.20077e+04
-      Equation: "PE"	RelError: 3.31178e-14	AbsError: 1.55889e-14
-Iteration: 7
-  Device: "MyDevice"	RelError: 6.64090e-13	AbsError: 2.50702e+04
-    Region: "MyRegion"	RelError: 6.64090e-13	AbsError: 2.50702e+04
-      Equation: "ECE"	RelError: 2.53189e-13	AbsError: 2.18203e+04
-      Equation: "HCE"	RelError: 3.93334e-13	AbsError: 3.24988e+03
-      Equation: "PE"	RelError: 1.75666e-14	AbsError: 8.23732e-15
-top	0.7	1.0781409735826699e-16	2.0038768626333613e-18	1.0981797422090035e-16
-bot	0.0	-1.0781409679191052e-16	-2.0038768626402723e-18	-1.098179736545508e-16
+  Device: "MyDevice"	RelError: 7.30757e-13	AbsError: 9.27882e+03
+    Region: "MyRegion"	RelError: 7.30757e-13	AbsError: 9.27882e+03
+      Equation: "ECE"	RelError: 4.36734e-13	AbsError: 2.76106e+03
+      Equation: "HCE"	RelError: 2.87610e-13	AbsError: 6.51776e+03
+      Equation: "PE"	RelError: 6.41293e-15	AbsError: 1.94657e-15
+top	0.7	1.0781409735825566e-16	2.0038768626439697e-18	1.0981797422089963e-16
+bot	0.0	-1.0781409735783489e-16	-2.0038768626404814e-18	-1.0981797422047537e-16
 Region "MyRegion" on device "MyDevice" has equations 0:80
 Device "MyDevice" has equations 0:80
 number of equations 81
@@ -583,13 +571,13 @@ Iteration: 5
       Equation: "HCE"	RelError: 2.13789e-07	AbsError: 1.75723e+10
       Equation: "PE"	RelError: 3.42364e-08	AbsError: 1.31248e-08
 Iteration: 6
-  Device: "MyDevice"	RelError: 8.14123e-13	AbsError: 1.33545e+04
-    Region: "MyRegion"	RelError: 8.14123e-13	AbsError: 1.33545e+04
-      Equation: "ECE"	RelError: 7.43449e-13	AbsError: 1.01961e+04
-      Equation: "HCE"	RelError: 6.54862e-14	AbsError: 3.15848e+03
-      Equation: "PE"	RelError: 5.18786e-15	AbsError: 1.98881e-15
-top	0.7999999999999999	2.2761768887963478e-15	8.709144647039669e-17	2.3632683352667444e-15
-bot	0.0	-2.2761768887669394e-15	-8.709144647051098e-17	-2.3632683352374504e-15
+  Device: "MyDevice"	RelError: 7.96433e-13	AbsError: 1.29555e+04
+    Region: "MyRegion"	RelError: 7.96433e-13	AbsError: 1.29555e+04
+      Equation: "ECE"	RelError: 7.45357e-13	AbsError: 1.01005e+04
+      Equation: "HCE"	RelError: 4.57615e-14	AbsError: 2.85502e+03
+      Equation: "PE"	RelError: 5.31434e-15	AbsError: 2.03730e-15
+top	0.7999999999999999	2.2761768887962665e-15	8.709144647050703e-17	2.3632683352667736e-15
+bot	0.0	-2.2761768887968167e-15	-8.709144647050801e-17	-2.3632683352673246e-15
 Region "MyRegion" on device "MyDevice" has equations 0:80
 Device "MyDevice" has equations 0:80
 number of equations 81
@@ -630,19 +618,19 @@ Iteration: 5
       Equation: "HCE"	RelError: 1.11263e-06	AbsError: 2.60358e+11
       Equation: "PE"	RelError: 1.59613e-07	AbsError: 7.19125e-08
 Iteration: 6
-  Device: "MyDevice"	RelError: 1.54335e-12	AbsError: 1.48423e+05
-    Region: "MyRegion"	RelError: 1.54335e-12	AbsError: 1.48423e+05
-      Equation: "ECE"	RelError: 5.45804e-13	AbsError: 5.69180e+04
-      Equation: "HCE"	RelError: 9.65910e-13	AbsError: 9.15048e+04
-      Equation: "PE"	RelError: 3.16327e-14	AbsError: 1.43056e-14
+  Device: "MyDevice"	RelError: 1.53213e-12	AbsError: 1.47387e+05
+    Region: "MyRegion"	RelError: 1.53213e-12	AbsError: 1.47387e+05
+      Equation: "ECE"	RelError: 5.41829e-13	AbsError: 5.65035e+04
+      Equation: "HCE"	RelError: 9.58915e-13	AbsError: 9.08833e+04
+      Equation: "PE"	RelError: 3.13858e-14	AbsError: 1.41939e-14
 Iteration: 7
-  Device: "MyDevice"	RelError: 1.29245e-14	AbsError: 4.90144e+03
-    Region: "MyRegion"	RelError: 1.29245e-14	AbsError: 4.90144e+03
-      Equation: "ECE"	RelError: 5.51937e-15	AbsError: 3.73241e+03
-      Equation: "HCE"	RelError: 6.98767e-15	AbsError: 1.16902e+03
-      Equation: "PE"	RelError: 4.17486e-16	AbsError: 2.00062e-16
-top	0.8999999999999999	2.1902345647528952e-14	2.1699629946102752e-15	2.4072308642139226e-14
-bot	0.0	-2.190234564752764e-14	-2.1699629946102744e-15	-2.4072308642137914e-14
+  Device: "MyDevice"	RelError: 9.13976e-16	AbsError: 2.51260e+02
+    Region: "MyRegion"	RelError: 9.13976e-16	AbsError: 2.51260e+02
+      Equation: "ECE"	RelError: 3.93539e-16	AbsError: 1.76145e+02
+      Equation: "HCE"	RelError: 4.55476e-16	AbsError: 7.51156e+01
+      Equation: "PE"	RelError: 6.49601e-17	AbsError: 2.95276e-17
+top	0.8999999999999999	2.1902345647528744e-14	2.1699629946102346e-15	2.407230864213898e-14
+bot	0.0	-2.190234564752819e-14	-2.1699629946102476e-15	-2.4072308642138437e-14
 n
 1.00000e+03
 6.46936e+16

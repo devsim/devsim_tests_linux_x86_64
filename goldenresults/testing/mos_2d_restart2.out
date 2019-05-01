@@ -3,9 +3,9 @@
 
  DEVSIM
 
- Version: 1.0.0
+ Version: 1.1.0
 
- Copyright 2009-2018 Devsim LLC
+ Copyright 2009-2019 Devsim LLC
 
 ----------------------------------------
 
@@ -247,14 +247,14 @@ Device: mymos Region: gate Equation: PotentialEquation EDGE Model: PotentialEdge
 Device: mymos Region: gate Equation: PotentialEquation EDGE Model: PotentialEdgeFlux:Holes@n1 MISSING
 Device: mymos Region: gate Equation: PotentialEquation NODE Model: PotentialNodeCharge:Potential MISSING
 Iteration: 0
-  Device: "mymos"	RelError: 1.31660e-14	AbsError: 8.04246e+03
-    Region: "bulk"	RelError: 1.20279e-14	AbsError: 4.21763e+03
-      Equation: "ElectronContinuityEquation"	RelError: 5.60799e-15	AbsError: 2.33225e+03
-      Equation: "HoleContinuityEquation"	RelError: 5.94470e-15	AbsError: 1.88538e+03
-      Equation: "PotentialEquation"	RelError: 4.75213e-16	AbsError: 1.96541e-16
-    Region: "gate"	RelError: 8.38018e-16	AbsError: 8.04246e+03
-      Equation: "ElectronContinuityEquation"	RelError: 8.04246e-17	AbsError: 8.04246e+03
-      Equation: "HoleContinuityEquation"	RelError: 6.66216e-16	AbsError: 6.66216e-16
-      Equation: "PotentialEquation"	RelError: 9.13775e-17	AbsError: 5.44678e-17
-    Region: "oxide"	RelError: 3.00095e-16	AbsError: 1.23495e-16
-      Equation: "PotentialEquation"	RelError: 3.00095e-16	AbsError: 1.23495e-16
+  Device: "mymos"	RelError: 1.26445e-14	AbsError: 8.04245e+03
+    Region: "bulk"	RelError: 1.14894e-14	AbsError: 5.52743e+03
+      Equation: "ElectronContinuityEquation"	RelError: 6.06390e-15	AbsError: 2.95320e+03
+      Equation: "HoleContinuityEquation"	RelError: 4.92933e-15	AbsError: 2.57423e+03
+      Equation: "PotentialEquation"	RelError: 4.96199e-16	AbsError: 1.98602e-16
+    Region: "gate"	RelError: 8.61472e-16	AbsError: 8.04245e+03
+      Equation: "ElectronContinuityEquation"	RelError: 8.04245e-17	AbsError: 8.04245e+03
+      Equation: "HoleContinuityEquation"	RelError: 6.90867e-16	AbsError: 6.91075e-16
+      Equation: "PotentialEquation"	RelError: 9.01804e-17	AbsError: 5.37535e-17
+    Region: "oxide"	RelError: 2.93583e-16	AbsError: 1.20815e-16
+      Equation: "PotentialEquation"	RelError: 2.93583e-16	AbsError: 1.20815e-16
