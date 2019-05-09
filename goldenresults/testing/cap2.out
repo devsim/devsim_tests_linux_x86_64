@@ -1,15 +1,3 @@
-
-----------------------------------------
-
- DEVSIM
-
- Version: 1.1.0
-
- Copyright 2009-2019 Devsim LLC
-
-----------------------------------------
-
-
 mid
 bot
  (region: MySiRegion)
@@ -33,7 +21,7 @@ Iteration: 1
       Equation: "PotentialEquation"	RelError: 4.58067e-16	AbsError: 3.19466e-16
     Region: "MySiRegion"	RelError: 4.31711e-16	AbsError: 3.19466e-16
       Equation: "PotentialEquation"	RelError: 4.31711e-16	AbsError: 3.19466e-16
-5.10822e-13
+5.108220000000004e-13
 -5.10822e-13
 PotentialEdgeFlux
 5.10822e-13
@@ -87,7 +75,7 @@ PotentialEdgeFlux
 8.85000e-14
 8.85000e-14
 8.85000e-14
-8.85e-14
+8.849999999999998e-14
 -8.85e-14
 Device "MyDevice" Region "MyOxRegion" shadows global parameter update Permittivity
 Device "MyDevice" Region "MySiRegion" shadows global parameter update Permittivity
@@ -145,23 +133,23 @@ Potential
 2.96000e-01
 1.48000e-01
 0.00000e+00
-5.10822e-13
+5.108220000000004e-13
 -5.10822e-13
 Region: MyOxRegion
 Equation: PotentialEquation
-Options: {'volume_model': u'', 'element_model': u'', 'name': u'PotentialEquation', 'region': u'MyOxRegion', 'variable_name': u'Potential', 'node_model': u'', 'edge_model': u'PotentialEdgeFlux', 'edge_volume_model': u'', 'device': u'MyDevice', 'time_node_model': u''}
+Options: {'device': 'MyDevice', 'edge_model': 'PotentialEdgeFlux', 'edge_volume_model': '', 'element_model': '', 'name': 'PotentialEquation', 'node_model': '', 'region': 'MyOxRegion', 'time_node_model': '', 'variable_name': 'Potential', 'volume_model': ''}
 Region: MySiRegion
 Equation: PotentialEquation
-Options: {'volume_model': u'', 'element_model': u'', 'name': u'PotentialEquation', 'region': u'MySiRegion', 'variable_name': u'Potential', 'node_model': u'', 'edge_model': u'PotentialEdgeFlux', 'edge_volume_model': u'', 'device': u'MyDevice', 'time_node_model': u''}
+Options: {'device': 'MyDevice', 'edge_model': 'PotentialEdgeFlux', 'edge_volume_model': '', 'element_model': '', 'name': 'PotentialEquation', 'node_model': '', 'region': 'MySiRegion', 'time_node_model': '', 'variable_name': 'Potential', 'volume_model': ''}
 Contact: bot
 Contact Equation: PotentialEquation
-Options: {'element_model': u'', 'edge_current_model': u'', 'element_current_model': u'', 'node_charge_model': u'', 'element_charge_model': u'', 'node_current_model': u'', 'circuit_node': u'', 'edge_model': u'', 'node_model': u'bottomnode_model', 'edge_charge_model': u'contactcharge_edge_bottom', 'contact': u'bot', 'device': u'MyDevice', 'name': u'PotentialEquation'}
+Options: {'circuit_node': '', 'contact': 'bot', 'device': 'MyDevice', 'edge_charge_model': 'contactcharge_edge_bottom', 'edge_current_model': '', 'edge_model': '', 'element_charge_model': '', 'element_current_model': '', 'element_model': '', 'name': 'PotentialEquation', 'node_charge_model': '', 'node_current_model': '', 'node_model': 'bottomnode_model'}
 Contact: top
 Contact Equation: PotentialEquation
-Options: {'element_model': u'', 'edge_current_model': u'', 'element_current_model': u'', 'node_charge_model': u'', 'element_charge_model': u'', 'node_current_model': u'', 'circuit_node': u'', 'edge_model': u'', 'node_model': u'topnode_model', 'edge_charge_model': u'contactcharge_edge_top', 'contact': u'top', 'device': u'MyDevice', 'name': u'PotentialEquation'}
+Options: {'circuit_node': '', 'contact': 'top', 'device': 'MyDevice', 'edge_charge_model': 'contactcharge_edge_top', 'edge_current_model': '', 'edge_model': '', 'element_charge_model': '', 'element_current_model': '', 'element_model': '', 'name': 'PotentialEquation', 'node_charge_model': '', 'node_current_model': '', 'node_model': 'topnode_model'}
 Interface: MySiOx
 Interface Equation: PotentialEquation
-Options: {'interface_model': u'continuousPotential', 'name': u'PotentialEquation', 'interface': u'MySiOx', 'name0': u'PotentialEquation', 'name1': u'PotentialEquation', 'device': u'MyDevice', 'type': u'continuous'}
+Options: {'device': 'MyDevice', 'interface': 'MySiOx', 'interface_model': 'continuousPotential', 'name': 'PotentialEquation', 'name0': 'PotentialEquation', 'name1': 'PotentialEquation', 'type': 'continuous'}
 
 
 Region: MyOxRegion

@@ -1,20 +1,8 @@
-
-----------------------------------------
-
- DEVSIM
-
- Version: 1.1.0
-
- Copyright 2009-2019 Devsim LLC
-
-----------------------------------------
-
-
-(u'1.60217646e-19', u'coul', u'Electron Charge')
-(u'2', u'', u'')
-(u'1.60217646e-19', u'coul', u'Electron Charge')
-(u'2', u'', u'')
-(u'1.60217646e-19', u'coul', u'Electron Charge')
-(u'1', u'', u'')
-(u'1.60217646e-19', u'coul', u'Electron Charge')
-(u'1', u'', u'')
+('1.60217646e-19', 'coul', 'Electron Charge')
+('2', '', '')
+('1.60217646e-19', 'coul', 'Electron Charge')
+('2', '', '')
+('1.60217646e-19', 'coul', 'Electron Charge')
+('1', '', '')
+('1.60217646e-19', 'coul', 'Electron Charge')
+('1', '', '')
