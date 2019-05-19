@@ -4,8 +4,6 @@ Adding 0 triangles  with 0 duplicate removed
 Contact bot in region MyRegion with 1 nodes
 Contact top in region MyRegion with 1 nodes
 MyDevice MyRegion
-3.4515e-13
-1.6e-19
 Region "MyRegion" on device "MyDevice" has equations 0:10
 Device "MyDevice" has equations 0:10
 number of equations 11

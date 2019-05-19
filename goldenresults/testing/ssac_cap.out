@@ -2,8 +2,6 @@ bot
  (region: MyRegion)
  (contact: top)
  (contact: bot)
-3.4515e-13
-1.6e-19
 Region "MyRegion" on device "MyDevice" has equations 0:10
 Device "MyDevice" has equations 0:10
 0	18446744073709551615	ground

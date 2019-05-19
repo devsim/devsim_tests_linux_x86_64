@@ -2,10 +2,6 @@ bot
  (region: MyRegion)
  (contact: top)
  (contact: bot)
-MyDevice1
-MyDevice2
-MyDevice1
-MyDevice2
 Region "MyRegion" on device "MyDevice1" has equations 0:10
 Device "MyDevice1" has equations 0:10
 Region "MyRegion" on device "MyDevice2" has equations 11:21
@@ -77,13 +73,11 @@ IntrinsicElectrons
 1.00000e+16
 1.00000e+16
 1.00000e+16
-MyDevice1
 Warning: Replacing equation with equation of the same name.
 Region: MyRegion, Equation: PotentialEquation, Variable: Potential
-MyDevice2
 Warning: Replacing equation with equation of the same name.
 Region: MyRegion, Equation: PotentialEquation, Variable: Potential
-topbias 0.0
+topbias 0.000000
 Region "MyRegion" on device "MyDevice1" has equations 0:21
 Device "MyDevice1" has equations 0:21
 Region "MyRegion" on device "MyDevice2" has equations 22:43
@@ -115,25 +109,23 @@ Iteration: 1
   Circuit: 	RelError: 5.92906e-28	AbsError: 5.92906e-38
 Circuit Solution:
 cnode1	-8.20415e-29
-MyDevice1
 Contact: top
-Electron 0.0
+Electron 0
 Hole 0
-Total 0.0
+Total 0
 Contact: bot
-Electron 0.0
+Electron 0
 Hole 0
-Total 0.0
-MyDevice2
+Total 0
 Contact: top
-Electron 0.0
+Electron 0
 Hole 0
-Total 0.0
+Total 0
 Contact: bot
-Electron 0.0
+Electron 0
 Hole 0
-Total 0.0
-topbias 0.01
+Total 0
+topbias 0.010000
 Region "MyRegion" on device "MyDevice1" has equations 0:21
 Device "MyDevice1" has equations 0:21
 Region "MyRegion" on device "MyDevice2" has equations 22:43
@@ -165,25 +157,23 @@ Iteration: 1
   Circuit: 	RelError: 7.53041e-15	AbsError: 3.76520e-17
 Circuit Solution:
 cnode1	0.005
-MyDevice1
 Contact: top
-Electron 0.003200000000000281
+Electron 0.0032
 Hole 0
-Total 0.003200000000000281
+Total 0.0032
 Contact: bot
-Electron -0.003200000000000311
+Electron -0.0032
 Hole 0
-Total -0.003200000000000311
-MyDevice2
+Total -0.0032
 Contact: top
-Electron 0.003200000000000314
+Electron 0.0032
 Hole 0
-Total 0.003200000000000314
+Total 0.0032
 Contact: bot
-Electron -0.003200000000000311
+Electron -0.0032
 Hole 0
-Total -0.003200000000000311
-topbias 0.02
+Total -0.0032
+topbias 0.020000
 Region "MyRegion" on device "MyDevice1" has equations 0:21
 Device "MyDevice1" has equations 0:21
 Region "MyRegion" on device "MyDevice2" has equations 22:43
@@ -215,25 +205,23 @@ Iteration: 1
   Circuit: 	RelError: 1.54978e-15	AbsError: 1.54978e-17
 Circuit Solution:
 cnode1	0.01
-MyDevice1
 Contact: top
-Electron 0.00640000000000066
+Electron 0.0064
 Hole 0
-Total 0.00640000000000066
+Total 0.0064
 Contact: bot
-Electron -0.006400000000000589
+Electron -0.0064
 Hole 0
-Total -0.006400000000000589
-MyDevice2
+Total -0.0064
 Contact: top
-Electron 0.00640000000000066
+Electron 0.0064
 Hole 0
-Total 0.00640000000000066
+Total 0.0064
 Contact: bot
-Electron -0.006400000000000589
+Electron -0.0064
 Hole 0
-Total -0.006400000000000589
-topbias 0.03
+Total -0.0064
+topbias 0.030000
 Region "MyRegion" on device "MyDevice1" has equations 0:21
 Device "MyDevice1" has equations 0:21
 Region "MyRegion" on device "MyDevice2" has equations 22:43
@@ -265,25 +253,23 @@ Iteration: 1
   Circuit: 	RelError: 2.68764e-15	AbsError: 4.03146e-17
 Circuit Solution:
 cnode1	0.015
-MyDevice1
 Contact: top
-Electron 0.009600000000000976
+Electron 0.0096
 Hole 0
-Total 0.009600000000000976
+Total 0.0096
 Contact: bot
-Electron -0.009600000000000967
+Electron -0.0096
 Hole 0
-Total -0.009600000000000967
-MyDevice2
+Total -0.0096
 Contact: top
-Electron 0.009600000000000943
+Electron 0.0096
 Hole 0
-Total 0.009600000000000943
+Total 0.0096
 Contact: bot
-Electron -0.009600000000000934
+Electron -0.0096
 Hole 0
-Total -0.009600000000000934
-topbias 0.04
+Total -0.0096
+topbias 0.040000
 Region "MyRegion" on device "MyDevice1" has equations 0:21
 Device "MyDevice1" has equations 0:21
 Region "MyRegion" on device "MyDevice2" has equations 22:43
@@ -315,25 +301,23 @@ Iteration: 1
   Circuit: 	RelError: 6.34989e-16	AbsError: 1.26998e-17
 Circuit Solution:
 cnode1	0.02
-MyDevice1
 Contact: top
-Electron 0.01280000000000129
+Electron 0.0128
 Hole 0
-Total 0.01280000000000129
+Total 0.0128
 Contact: bot
-Electron -0.01280000000000131
+Electron -0.0128
 Hole 0
-Total -0.01280000000000131
-MyDevice2
+Total -0.0128
 Contact: top
-Electron 0.01280000000000132
+Electron 0.0128
 Hole 0
-Total 0.01280000000000132
+Total 0.0128
 Contact: bot
-Electron -0.012800000000001277
+Electron -0.0128
 Hole 0
-Total -0.012800000000001277
-topbias 0.05
+Total -0.0128
+topbias 0.050000
 Region "MyRegion" on device "MyDevice1" has equations 0:21
 Device "MyDevice1" has equations 0:21
 Region "MyRegion" on device "MyDevice2" has equations 22:43
@@ -365,25 +349,23 @@ Iteration: 1
   Circuit: 	RelError: 4.10850e-15	AbsError: 1.02713e-16
 Circuit Solution:
 cnode1	0.025
-MyDevice1
 Contact: top
-Electron 0.016000000000001634
+Electron 0.016
 Hole 0
-Total 0.016000000000001634
+Total 0.016
 Contact: bot
-Electron -0.01600000000000159
+Electron -0.016
 Hole 0
-Total -0.01600000000000159
-MyDevice2
+Total -0.016
 Contact: top
-Electron 0.016000000000001572
+Electron 0.016
 Hole 0
-Total 0.016000000000001572
+Total 0.016
 Contact: bot
-Electron -0.01600000000000162
+Electron -0.016
 Hole 0
-Total -0.01600000000000162
-topbias 0.06
+Total -0.016
+topbias 0.060000
 Region "MyRegion" on device "MyDevice1" has equations 0:21
 Device "MyDevice1" has equations 0:21
 Region "MyRegion" on device "MyDevice2" has equations 22:43
@@ -415,25 +397,23 @@ Iteration: 1
   Circuit: 	RelError: 2.49846e-15	AbsError: 7.49538e-17
 Circuit Solution:
 cnode1	0.03
-MyDevice1
 Contact: top
-Electron 0.019200000000001917
+Electron 0.0192
 Hole 0
-Total 0.019200000000001917
+Total 0.0192
 Contact: bot
-Electron -0.01920000000000197
+Electron -0.0192
 Hole 0
-Total -0.01920000000000197
-MyDevice2
+Total -0.0192
 Contact: top
-Electron 0.019200000000001917
+Electron 0.0192
 Hole 0
-Total 0.019200000000001917
+Total 0.0192
 Contact: bot
-Electron -0.0192000000000019
+Electron -0.0192
 Hole 0
-Total -0.0192000000000019
-topbias 0.07
+Total -0.0192
+topbias 0.070000
 Region "MyRegion" on device "MyDevice1" has equations 0:21
 Device "MyDevice1" has equations 0:21
 Region "MyRegion" on device "MyDevice2" has equations 22:43
@@ -465,25 +445,23 @@ Iteration: 1
   Circuit: 	RelError: 3.57162e-16	AbsError: 1.25007e-17
 Circuit Solution:
 cnode1	0.035
-MyDevice1
 Contact: top
-Electron 0.02240000000000223
+Electron 0.0224
 Hole 0
-Total 0.02240000000000223
+Total 0.0224
 Contact: bot
-Electron -0.022400000000002213
+Electron -0.0224
 Hole 0
-Total -0.022400000000002213
-MyDevice2
+Total -0.0224
 Contact: top
-Electron 0.02240000000000223
+Electron 0.0224
 Hole 0
-Total 0.02240000000000223
+Total 0.0224
 Contact: bot
-Electron -0.022400000000002213
+Electron -0.0224
 Hole 0
-Total -0.022400000000002213
-topbias 0.08
+Total -0.0224
+topbias 0.080000
 Region "MyRegion" on device "MyDevice1" has equations 0:21
 Device "MyDevice1" has equations 0:21
 Region "MyRegion" on device "MyDevice2" has equations 22:43
@@ -515,25 +493,23 @@ Iteration: 1
   Circuit: 	RelError: 9.33145e-16	AbsError: 3.73258e-17
 Circuit Solution:
 cnode1	0.04
-MyDevice1
 Contact: top
-Electron 0.025600000000002614
+Electron 0.0256
 Hole 0
-Total 0.025600000000002614
+Total 0.0256
 Contact: bot
-Electron -0.025600000000002555
+Electron -0.0256
 Hole 0
-Total -0.025600000000002555
-MyDevice2
+Total -0.0256
 Contact: top
-Electron 0.025600000000002513
+Electron 0.0256
 Hole 0
-Total 0.025600000000002513
+Total 0.0256
 Contact: bot
-Electron -0.02560000000000252
+Electron -0.0256
 Hole 0
-Total -0.02560000000000252
-topbias 0.09
+Total -0.0256
+topbias 0.090000
 Region "MyRegion" on device "MyDevice1" has equations 0:21
 Device "MyDevice1" has equations 0:21
 Region "MyRegion" on device "MyDevice2" has equations 22:43
@@ -565,25 +541,23 @@ Iteration: 1
   Circuit: 	RelError: 1.40768e-15	AbsError: 6.33455e-17
 Circuit Solution:
 cnode1	0.045
-MyDevice1
 Contact: top
-Electron 0.028800000000002924
+Electron 0.0288
 Hole 0
-Total 0.028800000000002924
+Total 0.0288
 Contact: bot
-Electron -0.0288000000000029
+Electron -0.0288
 Hole 0
-Total -0.0288000000000029
-MyDevice2
+Total -0.0288
 Contact: top
-Electron 0.028800000000002796
+Electron 0.0288
 Hole 0
-Total 0.028800000000002796
+Total 0.0288
 Contact: bot
-Electron -0.028800000000002834
+Electron -0.0288
 Hole 0
-Total -0.028800000000002834
-topbias 0.10
+Total -0.0288
+topbias 0.100000
 Region "MyRegion" on device "MyDevice1" has equations 0:21
 Device "MyDevice1" has equations 0:21
 Region "MyRegion" on device "MyDevice2" has equations 22:43
@@ -615,114 +589,19 @@ Iteration: 1
   Circuit: 	RelError: 8.66737e-16	AbsError: 4.33369e-17
 Circuit Solution:
 cnode1	0.05
-MyDevice1
 Contact: top
-Electron 0.032000000000003206
+Electron 0.032
 Hole 0
-Total 0.032000000000003206
+Total 0.032
 Contact: bot
-Electron -0.03200000000000324
+Electron -0.032
 Hole 0
-Total -0.03200000000000324
-MyDevice2
+Total -0.032
 Contact: top
-Electron 0.03200000000000317
+Electron 0.032
 Hole 0
-Total 0.03200000000000317
+Total 0.032
 Contact: bot
-Electron -0.032000000000003144
+Electron -0.032
 Hole 0
-Total -0.032000000000003144
-device MyDevice1 MyRegion
-
-topnodeelectroncurrent:Electrons@n0
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
-ElectronCurrent:Electrons@n0
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
-topnodeelectroncurrent:Electrons@n1
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-ElectronCurrent:Electrons@n1
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-device MyDevice2 MyRegion
-
-topnodeelectroncurrent:Electrons@n0
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
-ElectronCurrent:Electrons@n0
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
--1.50274e-17
-topnodeelectroncurrent:Electrons@n1
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-ElectronCurrent:Electrons@n1
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-1.82274e-17
-0.064
+Total -0.032

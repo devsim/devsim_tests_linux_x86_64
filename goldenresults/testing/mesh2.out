@@ -10,6 +10,8 @@ Interface MySiOx MySiRegion MyOxRegion has 1 node pairs
 Adding interface MySiOx with 1, 1 nodes
 MyDevice MyOxRegion
 MyDevice MySiRegion
+Warning: Replacing Contact Equation with Contact Equation of the same name.
+Contact: top, Equation: PotentialEquation
 Region "MyOxRegion" on device "MyDevice" has equations 0:5
 Region "MySiRegion" on device "MyDevice" has equations 6:11
 Device "MyDevice" has equations 0:11
@@ -40,18 +42,6 @@ PotentialEdgeFlux
 5.10822e-13
 5.10822e-13
 5.10822e-13
-PotentialEdgeFlux
-4.60200e-14
-4.60200e-14
-4.60200e-14
-4.60200e-14
-4.60200e-14
-PotentialEdgeFlux
-1.30980e-13
-1.30980e-13
-1.30980e-13
-1.30980e-13
-1.30980e-13
 Region "MyOxRegion" on device "MyDevice" has equations 0:5
 Region "MySiRegion" on device "MyDevice" has equations 6:11
 Device "MyDevice" has equations 0:11
@@ -68,20 +58,20 @@ Iteration: 1
       Equation: "PotentialEquation"	RelError: 3.47039e-16	AbsError: 1.06964e-16
     Region: "MySiRegion"	RelError: 2.13928e-16	AbsError: 1.08390e-16
       Equation: "PotentialEquation"	RelError: 2.13928e-16	AbsError: 1.08390e-16
-PotentialEdgeFlux
-8.85000e-14
-8.85000e-14
-8.85000e-14
-8.85000e-14
-8.85000e-14
-PotentialEdgeFlux
-8.85000e-14
-8.85000e-14
-8.85000e-14
-8.85000e-14
-8.85000e-14
 8.849999999999998e-14
 -8.85e-14
+PotentialEdgeFlux
+8.85000e-14
+8.85000e-14
+8.85000e-14
+8.85000e-14
+8.85000e-14
+PotentialEdgeFlux
+8.85000e-14
+8.85000e-14
+8.85000e-14
+8.85000e-14
+8.85000e-14
 Device "MyDevice" Region "MyOxRegion" shadows global parameter update Permittivity
 Device "MyDevice" Region "MySiRegion" shadows global parameter update Permittivity
 Region "MyOxRegion" on device "MyDevice" has equations 0:5
@@ -100,6 +90,8 @@ Iteration: 1
       Equation: "PotentialEquation"	RelError: 3.95340e-16	AbsError: 1.17021e-16
     Region: "MySiRegion"	RelError: 6.48917e-17	AbsError: 5.13942e-17
       Equation: "PotentialEquation"	RelError: 6.48917e-17	AbsError: 5.13942e-17
+5.108220000000004e-13
+-5.10822e-13
 PotentialEdgeFlux
 5.10822e-13
 5.10822e-13
@@ -138,5 +130,3 @@ Potential
 2.96000e-01
 1.48000e-01
 0.00000e+00
-5.108220000000004e-13
--5.10822e-13

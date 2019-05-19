@@ -143,7 +143,7 @@ Equation: PotentialEquation
 Options: {'device': 'MyDevice', 'edge_model': 'PotentialEdgeFlux', 'edge_volume_model': '', 'element_model': '', 'name': 'PotentialEquation', 'node_model': '', 'region': 'MySiRegion', 'time_node_model': '', 'variable_name': 'Potential', 'volume_model': ''}
 Contact: bot
 Contact Equation: PotentialEquation
-Options: {'circuit_node': '', 'contact': 'bot', 'device': 'MyDevice', 'edge_charge_model': 'contactcharge_edge_bottom', 'edge_current_model': '', 'edge_model': '', 'element_charge_model': '', 'element_current_model': '', 'element_model': '', 'name': 'PotentialEquation', 'node_charge_model': '', 'node_current_model': '', 'node_model': 'bottomnode_model'}
+Options: {'circuit_node': '', 'contact': 'bot', 'device': 'MyDevice', 'edge_charge_model': 'contactcharge_edge_bottom', 'edge_current_model': '', 'edge_model': '', 'element_charge_model': '', 'element_current_model': '', 'element_model': '', 'name': 'PotentialEquation', 'node_charge_model': '', 'node_current_model': '', 'node_model': 'botnode_model'}
 Contact: top
 Contact Equation: PotentialEquation
 Options: {'circuit_node': '', 'contact': 'top', 'device': 'MyDevice', 'edge_charge_model': 'contactcharge_edge_top', 'edge_current_model': '', 'edge_model': '', 'element_charge_model': '', 'element_current_model': '', 'element_model': '', 'name': 'PotentialEquation', 'node_charge_model': '', 'node_current_model': '', 'node_model': 'topnode_model'}
@@ -182,8 +182,3 @@ Iteration: 0
       Equation: "PotentialEquation"	RelError: 9.88350e-17	AbsError: 5.85103e-17
     Region: "MySiRegion"	RelError: 6.48917e-17	AbsError: 5.13942e-17
       Equation: "PotentialEquation"	RelError: 6.48917e-17	AbsError: 5.13942e-17
-while evaluating node model test on Device: MyDevice on Region: MySiRegion
-There was a Invalid floating point exception while evaluating log((-1))
-while evaluating model test: expression log((-1)) evaluates to invalid
-DEVSIM FATAL
-The DEVSIM FATAL message is part of the test.  The FPE exception was caught and the program will terminate normally.

@@ -30,17 +30,9 @@ Replacing Edge Model ElectricField:Potential@n1 in region bulk of material Silic
 Replacing Triangle Edge Model ElectricField_x in region bulk of material Silicon
 Replacing Triangle Edge Model ElectricField_y in region bulk of material Silicon
 Replacing Edge Model ElectronCurrent in region bulk of material Silicon
-Replacing Edge Model ElectronCurrent:Electrons@n0 in region bulk of material Silicon
-Replacing Edge Model ElectronCurrent:Electrons@n1 in region bulk of material Silicon
-Replacing Edge Model ElectronCurrent:Potential@n0 in region bulk of material Silicon
-Replacing Edge Model ElectronCurrent:Potential@n1 in region bulk of material Silicon
 Replacing Edge Model Electrons@n0 in region bulk of material Silicon
 Replacing Edge Model Electrons@n1 in region bulk of material Silicon
 Replacing Edge Model HoleCurrent in region bulk of material Silicon
-Replacing Edge Model HoleCurrent:Holes@n0 in region bulk of material Silicon
-Replacing Edge Model HoleCurrent:Holes@n1 in region bulk of material Silicon
-Replacing Edge Model HoleCurrent:Potential@n0 in region bulk of material Silicon
-Replacing Edge Model HoleCurrent:Potential@n1 in region bulk of material Silicon
 Replacing Edge Model Holes@n0 in region bulk of material Silicon
 Replacing Edge Model Holes@n1 in region bulk of material Silicon
 Replacing Node Model IntrinsicCharge in region bulk of material Silicon
@@ -68,10 +60,8 @@ Replacing Node Model SourceDoping in region bulk of material Silicon
 Replacing Node Model USRH in region bulk of material Silicon
 Replacing Node Model USRH:Electrons in region bulk of material Silicon
 Replacing Node Model USRH:Holes in region bulk of material Silicon
-Replacing Edge Model bodynodeelectroncurrent in region bulk of material Silicon
 Replacing Node Model bodynodeelectrons in region bulk of material Silicon
 Replacing Node Model bodynodeelectrons:Electrons in region bulk of material Silicon
-Replacing Edge Model bodynodeholecurrent in region bulk of material Silicon
 Replacing Node Model bodynodeholes in region bulk of material Silicon
 Replacing Node Model bodynodeholes:Holes in region bulk of material Silicon
 Replacing Node Model bodynodemodel in region bulk of material Silicon
@@ -82,20 +72,14 @@ Replacing Node Model celec_source in region bulk of material Silicon
 Replacing Node Model chole_body in region bulk of material Silicon
 Replacing Node Model chole_drain in region bulk of material Silicon
 Replacing Node Model chole_source in region bulk of material Silicon
-Replacing Edge Model contactcharge_edge in region bulk of material Silicon
-Replacing Node Model contactcharge_node in region bulk of material Silicon
-Replacing Edge Model drainnodeelectroncurrent in region bulk of material Silicon
 Replacing Node Model drainnodeelectrons in region bulk of material Silicon
 Replacing Node Model drainnodeelectrons:Electrons in region bulk of material Silicon
-Replacing Edge Model drainnodeholecurrent in region bulk of material Silicon
 Replacing Node Model drainnodeholes in region bulk of material Silicon
 Replacing Node Model drainnodeholes:Holes in region bulk of material Silicon
 Replacing Node Model drainnodemodel in region bulk of material Silicon
 Replacing Node Model drainnodemodel:Potential in region bulk of material Silicon
-Replacing Edge Model sourcenodeelectroncurrent in region bulk of material Silicon
 Replacing Node Model sourcenodeelectrons in region bulk of material Silicon
 Replacing Node Model sourcenodeelectrons:Electrons in region bulk of material Silicon
-Replacing Edge Model sourcenodeholecurrent in region bulk of material Silicon
 Replacing Node Model sourcenodeholes in region bulk of material Silicon
 Replacing Node Model sourcenodeholes:Holes in region bulk of material Silicon
 Replacing Node Model sourcenodemodel in region bulk of material Silicon
@@ -113,17 +97,9 @@ Replacing Edge Model ElectricField in region gate of material Silicon
 Replacing Edge Model ElectricField:Potential@n0 in region gate of material Silicon
 Replacing Edge Model ElectricField:Potential@n1 in region gate of material Silicon
 Replacing Edge Model ElectronCurrent in region gate of material Silicon
-Replacing Edge Model ElectronCurrent:Electrons@n0 in region gate of material Silicon
-Replacing Edge Model ElectronCurrent:Electrons@n1 in region gate of material Silicon
-Replacing Edge Model ElectronCurrent:Potential@n0 in region gate of material Silicon
-Replacing Edge Model ElectronCurrent:Potential@n1 in region gate of material Silicon
 Replacing Edge Model Electrons@n0 in region gate of material Silicon
 Replacing Edge Model Electrons@n1 in region gate of material Silicon
 Replacing Edge Model HoleCurrent in region gate of material Silicon
-Replacing Edge Model HoleCurrent:Holes@n0 in region gate of material Silicon
-Replacing Edge Model HoleCurrent:Holes@n1 in region gate of material Silicon
-Replacing Edge Model HoleCurrent:Potential@n0 in region gate of material Silicon
-Replacing Edge Model HoleCurrent:Potential@n1 in region gate of material Silicon
 Replacing Edge Model Holes@n0 in region gate of material Silicon
 Replacing Edge Model Holes@n1 in region gate of material Silicon
 Replacing Node Model IntrinsicCharge in region gate of material Silicon
@@ -152,12 +128,8 @@ Replacing Node Model USRH:Electrons in region gate of material Silicon
 Replacing Node Model USRH:Holes in region gate of material Silicon
 Replacing Node Model celec_gate in region gate of material Silicon
 Replacing Node Model chole_gate in region gate of material Silicon
-Replacing Edge Model contactcharge_edge in region gate of material Silicon
-Replacing Node Model contactcharge_node in region gate of material Silicon
-Replacing Edge Model gatenodeelectroncurrent in region gate of material Silicon
 Replacing Node Model gatenodeelectrons in region gate of material Silicon
 Replacing Node Model gatenodeelectrons:Electrons in region gate of material Silicon
-Replacing Edge Model gatenodeholecurrent in region gate of material Silicon
 Replacing Node Model gatenodeholes in region gate of material Silicon
 Replacing Node Model gatenodeholes:Holes in region gate of material Silicon
 Replacing Node Model gatenodemodel in region gate of material Silicon
@@ -219,32 +191,24 @@ Replacing Edge Model PotentialEdgeFlux:Potential@n0 in region oxide of material 
 Replacing Edge Model PotentialEdgeFlux:Potential@n1 in region oxide of material Oxide
 Warning: Replacing equation with equation of the same name.
 Region: oxide, Equation: PotentialEquation, Variable: Potential
-Replacing Node Model contactcharge_node in region gate of material Silicon
-Replacing Edge Model contactcharge_edge in region gate of material Silicon
 Replacing Node Model celec_gate in region gate of material Silicon
 Replacing Node Model chole_gate in region gate of material Silicon
 Replacing Node Model gatenodemodel in region gate of material Silicon
 Replacing Node Model gatenodemodel:Potential in region gate of material Silicon
 Warning: Replacing Contact Equation with Contact Equation of the same name.
 Contact: gate, Equation: PotentialEquation
-Replacing Node Model contactcharge_node in region bulk of material Silicon
-Replacing Edge Model contactcharge_edge in region bulk of material Silicon
 Replacing Node Model celec_drain in region bulk of material Silicon
 Replacing Node Model chole_drain in region bulk of material Silicon
 Replacing Node Model drainnodemodel in region bulk of material Silicon
 Replacing Node Model drainnodemodel:Potential in region bulk of material Silicon
 Warning: Replacing Contact Equation with Contact Equation of the same name.
 Contact: drain, Equation: PotentialEquation
-Replacing Node Model contactcharge_node in region bulk of material Silicon
-Replacing Edge Model contactcharge_edge in region bulk of material Silicon
 Replacing Node Model celec_source in region bulk of material Silicon
 Replacing Node Model chole_source in region bulk of material Silicon
 Replacing Node Model sourcenodemodel in region bulk of material Silicon
 Replacing Node Model sourcenodemodel:Potential in region bulk of material Silicon
 Warning: Replacing Contact Equation with Contact Equation of the same name.
 Contact: source, Equation: PotentialEquation
-Replacing Node Model contactcharge_node in region bulk of material Silicon
-Replacing Edge Model contactcharge_edge in region bulk of material Silicon
 Replacing Node Model celec_body in region bulk of material Silicon
 Replacing Node Model chole_body in region bulk of material Silicon
 Replacing Node Model bodynodemodel in region bulk of material Silicon
@@ -267,43 +231,20 @@ Replacing Node Model PotentialNodeCharge:Holes in region gate of material Silico
 Warning: Replacing equation with equation of the same name.
 Region: gate, Equation: PotentialEquation, Variable: Potential
 Replacing Edge Model vdiff in region gate of material Silicon
-EDGEMODEL mymos gate vdiff "((Potential@n0 - Potential@n1) * pow(V_t,(-1)))"
 Replacing Edge Model vdiff:Potential@n0 in region gate of material Silicon
-EDGEMODEL mymos gate vdiff:Potential@n0 "pow(V_t,(-1))"
 Replacing Edge Model vdiff:Potential@n1 in region gate of material Silicon
-EDGEMODEL mymos gate vdiff:Potential@n1 "(-vdiff:Potential@n0)"
 Replacing Edge Model Bern01 in region gate of material Silicon
-EDGEMODEL mymos gate Bern01 "B(vdiff)"
 Replacing Edge Model Bern01:Potential@n0 in region gate of material Silicon
-EDGEMODEL mymos gate Bern01:Potential@n0 "(dBdx(vdiff) * vdiff:Potential@n0)"
 Replacing Edge Model Bern01:Potential@n1 in region gate of material Silicon
-EDGEMODEL mymos gate Bern01:Potential@n1 "(-Bern01:Potential@n0)"
 Replacing Edge Model Bern10 in region gate of material Silicon
-EDGEMODEL mymos gate Bern10 "(Bern01 + vdiff)"
 Replacing Edge Model Bern10:Potential@n0 in region gate of material Silicon
-EDGEMODEL mymos gate Bern10:Potential@n0 "(Bern01:Potential@n0 + vdiff:Potential@n0)"
 Replacing Edge Model Bern10:Potential@n1 in region gate of material Silicon
-EDGEMODEL mymos gate Bern10:Potential@n1 "(Bern01:Potential@n1 + vdiff:Potential@n1)"
 Replacing Edge Model ElectronCurrent in region gate of material Silicon
-EDGEMODEL mymos gate ElectronCurrent "(ElectronCharge * V_t * mu_n * ((Electrons@n1 * Bern10) - (Bern01 * Electrons@n0)) * EdgeInverseLength)"
-Replacing Edge Model ElectronCurrent:Electrons@n0 in region gate of material Silicon
-EDGEMODEL mymos gate ElectronCurrent:Electrons@n0 "((ElectronCharge * V_t * mu_n * (-(Bern01 * Electrons@n0) + (Bern10 * Electrons@n1)) * EdgeInverseLength:Electrons@n0) + (ElectronCharge * V_t * mu_n * (-Bern01 - (Bern01:Electrons@n0 * Electrons@n0) + (Bern10 * Electrons@n1:Electrons@n0) + (Bern10:Electrons@n0 * Electrons@n1)) * EdgeInverseLength))"
-Replacing Edge Model ElectronCurrent:Electrons@n1 in region gate of material Silicon
-EDGEMODEL mymos gate ElectronCurrent:Electrons@n1 "((ElectronCharge * V_t * mu_n * (-(Bern01 * Electrons@n0) + (Bern10 * Electrons@n1)) * EdgeInverseLength:Electrons@n1) + (ElectronCharge * V_t * mu_n * (-(Bern01 * Electrons@n0:Electrons@n1) - (Bern01:Electrons@n1 * Electrons@n0) + (Bern10:Electrons@n1 * Electrons@n1) + Bern10) * EdgeInverseLength))"
-Replacing Edge Model ElectronCurrent:Potential@n0 in region gate of material Silicon
-EDGEMODEL mymos gate ElectronCurrent:Potential@n0 "((ElectronCharge * V_t * mu_n * (-(Bern01 * Electrons@n0) + (Bern10 * Electrons@n1)) * EdgeInverseLength:Potential@n0) + (ElectronCharge * V_t * mu_n * (-(Bern01 * Electrons@n0:Potential@n0) - (Bern01:Potential@n0 * Electrons@n0) + (Bern10 * Electrons@n1:Potential@n0) + (Bern10:Potential@n0 * Electrons@n1)) * EdgeInverseLength))"
-Replacing Edge Model ElectronCurrent:Potential@n1 in region gate of material Silicon
-EDGEMODEL mymos gate ElectronCurrent:Potential@n1 "((ElectronCharge * V_t * mu_n * (-(Bern01 * Electrons@n0) + (Bern10 * Electrons@n1)) * EdgeInverseLength:Potential@n1) + (ElectronCharge * V_t * mu_n * (-(Bern01 * Electrons@n0:Potential@n1) - (Bern01:Potential@n1 * Electrons@n0) + (Bern10 * Electrons@n1:Potential@n1) + (Bern10:Potential@n1 * Electrons@n1)) * EdgeInverseLength))"
+Replacing Edge Model ElectronCurrent in region gate of material Silicon
+Replacing Edge Model ElectronCurrent in region gate of material Silicon
 Replacing Edge Model HoleCurrent in region gate of material Silicon
-EDGEMODEL mymos gate HoleCurrent "(-ElectronCharge * V_t * mu_p * ((Holes@n1 * Bern01) - (Bern10 * Holes@n0)) * EdgeInverseLength)"
-Replacing Edge Model HoleCurrent:Holes@n0 in region gate of material Silicon
-EDGEMODEL mymos gate HoleCurrent:Holes@n0 "(-(ElectronCharge * V_t * mu_p * (-(Bern10 * Holes@n0) + (Bern01 * Holes@n1)) * EdgeInverseLength:Holes@n0) - (ElectronCharge * V_t * mu_p * (-Bern10 - (Bern10:Holes@n0 * Holes@n0) + (Bern01 * Holes@n1:Holes@n0) + (Bern01:Holes@n0 * Holes@n1)) * EdgeInverseLength))"
-Replacing Edge Model HoleCurrent:Holes@n1 in region gate of material Silicon
-EDGEMODEL mymos gate HoleCurrent:Holes@n1 "(-(ElectronCharge * V_t * mu_p * (-(Bern10 * Holes@n0) + (Bern01 * Holes@n1)) * EdgeInverseLength:Holes@n1) - (ElectronCharge * V_t * mu_p * (-(Bern10 * Holes@n0:Holes@n1) - (Bern10:Holes@n1 * Holes@n0) + (Bern01:Holes@n1 * Holes@n1) + Bern01) * EdgeInverseLength))"
-Replacing Edge Model HoleCurrent:Potential@n0 in region gate of material Silicon
-EDGEMODEL mymos gate HoleCurrent:Potential@n0 "(-(ElectronCharge * V_t * mu_p * (-(Bern10 * Holes@n0) + (Bern01 * Holes@n1)) * EdgeInverseLength:Potential@n0) - (ElectronCharge * V_t * mu_p * (-(Bern10 * Holes@n0:Potential@n0) - (Bern10:Potential@n0 * Holes@n0) + (Bern01 * Holes@n1:Potential@n0) + (Bern01:Potential@n0 * Holes@n1)) * EdgeInverseLength))"
-Replacing Edge Model HoleCurrent:Potential@n1 in region gate of material Silicon
-EDGEMODEL mymos gate HoleCurrent:Potential@n1 "(-(ElectronCharge * V_t * mu_p * (-(Bern10 * Holes@n0) + (Bern01 * Holes@n1)) * EdgeInverseLength:Potential@n1) - (ElectronCharge * V_t * mu_p * (-(Bern10 * Holes@n0:Potential@n1) - (Bern10:Potential@n1 * Holes@n0) + (Bern01 * Holes@n1:Potential@n1) + (Bern01:Potential@n1 * Holes@n1)) * EdgeInverseLength))"
+Replacing Edge Model HoleCurrent in region gate of material Silicon
+Replacing Edge Model HoleCurrent in region gate of material Silicon
 Replacing Node Model NCharge in region gate of material Silicon
 Replacing Node Model NCharge:Electrons in region gate of material Silicon
 Replacing Node Model PCharge in region gate of material Silicon
@@ -319,8 +260,6 @@ Replacing Node Model gatenodeelectrons in region gate of material Silicon
 Replacing Node Model gatenodeholes in region gate of material Silicon
 Replacing Node Model gatenodeelectrons:Electrons in region gate of material Silicon
 Replacing Node Model gatenodeholes:Holes in region gate of material Silicon
-Replacing Edge Model gatenodeelectroncurrent in region gate of material Silicon
-Replacing Edge Model gatenodeholecurrent in region gate of material Silicon
 Warning: Replacing Contact Equation with Contact Equation of the same name.
 Contact: gate, Equation: ElectronContinuityEquation
 Warning: Replacing Contact Equation with Contact Equation of the same name.
@@ -331,43 +270,20 @@ Replacing Node Model PotentialNodeCharge:Holes in region bulk of material Silico
 Warning: Replacing equation with equation of the same name.
 Region: bulk, Equation: PotentialEquation, Variable: Potential
 Replacing Edge Model vdiff in region bulk of material Silicon
-EDGEMODEL mymos bulk vdiff "((Potential@n0 - Potential@n1) * pow(V_t,(-1)))"
 Replacing Edge Model vdiff:Potential@n0 in region bulk of material Silicon
-EDGEMODEL mymos bulk vdiff:Potential@n0 "pow(V_t,(-1))"
 Replacing Edge Model vdiff:Potential@n1 in region bulk of material Silicon
-EDGEMODEL mymos bulk vdiff:Potential@n1 "(-vdiff:Potential@n0)"
 Replacing Edge Model Bern01 in region bulk of material Silicon
-EDGEMODEL mymos bulk Bern01 "B(vdiff)"
 Replacing Edge Model Bern01:Potential@n0 in region bulk of material Silicon
-EDGEMODEL mymos bulk Bern01:Potential@n0 "(dBdx(vdiff) * vdiff:Potential@n0)"
 Replacing Edge Model Bern01:Potential@n1 in region bulk of material Silicon
-EDGEMODEL mymos bulk Bern01:Potential@n1 "(-Bern01:Potential@n0)"
 Replacing Edge Model Bern10 in region bulk of material Silicon
-EDGEMODEL mymos bulk Bern10 "(Bern01 + vdiff)"
 Replacing Edge Model Bern10:Potential@n0 in region bulk of material Silicon
-EDGEMODEL mymos bulk Bern10:Potential@n0 "(Bern01:Potential@n0 + vdiff:Potential@n0)"
 Replacing Edge Model Bern10:Potential@n1 in region bulk of material Silicon
-EDGEMODEL mymos bulk Bern10:Potential@n1 "(Bern01:Potential@n1 + vdiff:Potential@n1)"
 Replacing Edge Model ElectronCurrent in region bulk of material Silicon
-EDGEMODEL mymos bulk ElectronCurrent "(ElectronCharge * V_t * mu_n * ((Electrons@n1 * Bern10) - (Bern01 * Electrons@n0)) * EdgeInverseLength)"
-Replacing Edge Model ElectronCurrent:Electrons@n0 in region bulk of material Silicon
-EDGEMODEL mymos bulk ElectronCurrent:Electrons@n0 "((ElectronCharge * V_t * mu_n * (-(Bern01 * Electrons@n0) + (Bern10 * Electrons@n1)) * EdgeInverseLength:Electrons@n0) + (ElectronCharge * V_t * mu_n * (-Bern01 - (Bern01:Electrons@n0 * Electrons@n0) + (Bern10 * Electrons@n1:Electrons@n0) + (Bern10:Electrons@n0 * Electrons@n1)) * EdgeInverseLength))"
-Replacing Edge Model ElectronCurrent:Electrons@n1 in region bulk of material Silicon
-EDGEMODEL mymos bulk ElectronCurrent:Electrons@n1 "((ElectronCharge * V_t * mu_n * (-(Bern01 * Electrons@n0) + (Bern10 * Electrons@n1)) * EdgeInverseLength:Electrons@n1) + (ElectronCharge * V_t * mu_n * (-(Bern01 * Electrons@n0:Electrons@n1) - (Bern01:Electrons@n1 * Electrons@n0) + (Bern10:Electrons@n1 * Electrons@n1) + Bern10) * EdgeInverseLength))"
-Replacing Edge Model ElectronCurrent:Potential@n0 in region bulk of material Silicon
-EDGEMODEL mymos bulk ElectronCurrent:Potential@n0 "((ElectronCharge * V_t * mu_n * (-(Bern01 * Electrons@n0) + (Bern10 * Electrons@n1)) * EdgeInverseLength:Potential@n0) + (ElectronCharge * V_t * mu_n * (-(Bern01 * Electrons@n0:Potential@n0) - (Bern01:Potential@n0 * Electrons@n0) + (Bern10 * Electrons@n1:Potential@n0) + (Bern10:Potential@n0 * Electrons@n1)) * EdgeInverseLength))"
-Replacing Edge Model ElectronCurrent:Potential@n1 in region bulk of material Silicon
-EDGEMODEL mymos bulk ElectronCurrent:Potential@n1 "((ElectronCharge * V_t * mu_n * (-(Bern01 * Electrons@n0) + (Bern10 * Electrons@n1)) * EdgeInverseLength:Potential@n1) + (ElectronCharge * V_t * mu_n * (-(Bern01 * Electrons@n0:Potential@n1) - (Bern01:Potential@n1 * Electrons@n0) + (Bern10 * Electrons@n1:Potential@n1) + (Bern10:Potential@n1 * Electrons@n1)) * EdgeInverseLength))"
+Replacing Edge Model ElectronCurrent in region bulk of material Silicon
+Replacing Edge Model ElectronCurrent in region bulk of material Silicon
 Replacing Edge Model HoleCurrent in region bulk of material Silicon
-EDGEMODEL mymos bulk HoleCurrent "(-ElectronCharge * V_t * mu_p * ((Holes@n1 * Bern01) - (Bern10 * Holes@n0)) * EdgeInverseLength)"
-Replacing Edge Model HoleCurrent:Holes@n0 in region bulk of material Silicon
-EDGEMODEL mymos bulk HoleCurrent:Holes@n0 "(-(ElectronCharge * V_t * mu_p * (-(Bern10 * Holes@n0) + (Bern01 * Holes@n1)) * EdgeInverseLength:Holes@n0) - (ElectronCharge * V_t * mu_p * (-Bern10 - (Bern10:Holes@n0 * Holes@n0) + (Bern01 * Holes@n1:Holes@n0) + (Bern01:Holes@n0 * Holes@n1)) * EdgeInverseLength))"
-Replacing Edge Model HoleCurrent:Holes@n1 in region bulk of material Silicon
-EDGEMODEL mymos bulk HoleCurrent:Holes@n1 "(-(ElectronCharge * V_t * mu_p * (-(Bern10 * Holes@n0) + (Bern01 * Holes@n1)) * EdgeInverseLength:Holes@n1) - (ElectronCharge * V_t * mu_p * (-(Bern10 * Holes@n0:Holes@n1) - (Bern10:Holes@n1 * Holes@n0) + (Bern01:Holes@n1 * Holes@n1) + Bern01) * EdgeInverseLength))"
-Replacing Edge Model HoleCurrent:Potential@n0 in region bulk of material Silicon
-EDGEMODEL mymos bulk HoleCurrent:Potential@n0 "(-(ElectronCharge * V_t * mu_p * (-(Bern10 * Holes@n0) + (Bern01 * Holes@n1)) * EdgeInverseLength:Potential@n0) - (ElectronCharge * V_t * mu_p * (-(Bern10 * Holes@n0:Potential@n0) - (Bern10:Potential@n0 * Holes@n0) + (Bern01 * Holes@n1:Potential@n0) + (Bern01:Potential@n0 * Holes@n1)) * EdgeInverseLength))"
-Replacing Edge Model HoleCurrent:Potential@n1 in region bulk of material Silicon
-EDGEMODEL mymos bulk HoleCurrent:Potential@n1 "(-(ElectronCharge * V_t * mu_p * (-(Bern10 * Holes@n0) + (Bern01 * Holes@n1)) * EdgeInverseLength:Potential@n1) - (ElectronCharge * V_t * mu_p * (-(Bern10 * Holes@n0:Potential@n1) - (Bern10:Potential@n1 * Holes@n0) + (Bern01 * Holes@n1:Potential@n1) + (Bern01:Potential@n1 * Holes@n1)) * EdgeInverseLength))"
+Replacing Edge Model HoleCurrent in region bulk of material Silicon
+Replacing Edge Model HoleCurrent in region bulk of material Silicon
 Replacing Node Model NCharge in region bulk of material Silicon
 Replacing Node Model NCharge:Electrons in region bulk of material Silicon
 Replacing Node Model PCharge in region bulk of material Silicon
@@ -383,8 +299,6 @@ Replacing Node Model drainnodeelectrons in region bulk of material Silicon
 Replacing Node Model drainnodeholes in region bulk of material Silicon
 Replacing Node Model drainnodeelectrons:Electrons in region bulk of material Silicon
 Replacing Node Model drainnodeholes:Holes in region bulk of material Silicon
-Replacing Edge Model drainnodeelectroncurrent in region bulk of material Silicon
-Replacing Edge Model drainnodeholecurrent in region bulk of material Silicon
 Warning: Replacing Contact Equation with Contact Equation of the same name.
 Contact: drain, Equation: ElectronContinuityEquation
 Warning: Replacing Contact Equation with Contact Equation of the same name.
@@ -393,8 +307,6 @@ Replacing Node Model sourcenodeelectrons in region bulk of material Silicon
 Replacing Node Model sourcenodeholes in region bulk of material Silicon
 Replacing Node Model sourcenodeelectrons:Electrons in region bulk of material Silicon
 Replacing Node Model sourcenodeholes:Holes in region bulk of material Silicon
-Replacing Edge Model sourcenodeelectroncurrent in region bulk of material Silicon
-Replacing Edge Model sourcenodeholecurrent in region bulk of material Silicon
 Warning: Replacing Contact Equation with Contact Equation of the same name.
 Contact: source, Equation: ElectronContinuityEquation
 Warning: Replacing Contact Equation with Contact Equation of the same name.
@@ -403,8 +315,6 @@ Replacing Node Model bodynodeelectrons in region bulk of material Silicon
 Replacing Node Model bodynodeholes in region bulk of material Silicon
 Replacing Node Model bodynodeelectrons:Electrons in region bulk of material Silicon
 Replacing Node Model bodynodeholes:Holes in region bulk of material Silicon
-Replacing Edge Model bodynodeelectroncurrent in region bulk of material Silicon
-Replacing Edge Model bodynodeholecurrent in region bulk of material Silicon
 Warning: Replacing Contact Equation with Contact Equation of the same name.
 Contact: body, Equation: ElectronContinuityEquation
 Warning: Replacing Contact Equation with Contact Equation of the same name.
@@ -416,14 +326,14 @@ Region "oxide" on device "mymos" has equations 7221:7352
 Device "mymos" has equations 0:7352
 number of equations 7353
 Iteration: 0
-  Device: "mymos"	RelError: 1.26445e-14	AbsError: 8.04245e+03
-    Region: "bulk"	RelError: 1.14894e-14	AbsError: 5.52743e+03
-      Equation: "ElectronContinuityEquation"	RelError: 6.06390e-15	AbsError: 2.95320e+03
-      Equation: "HoleContinuityEquation"	RelError: 4.92933e-15	AbsError: 2.57423e+03
-      Equation: "PotentialEquation"	RelError: 4.96199e-16	AbsError: 1.98602e-16
-    Region: "gate"	RelError: 8.61472e-16	AbsError: 8.04245e+03
-      Equation: "ElectronContinuityEquation"	RelError: 8.04245e-17	AbsError: 8.04245e+03
-      Equation: "HoleContinuityEquation"	RelError: 6.90867e-16	AbsError: 6.91075e-16
-      Equation: "PotentialEquation"	RelError: 9.01804e-17	AbsError: 5.37535e-17
-    Region: "oxide"	RelError: 2.93583e-16	AbsError: 1.20815e-16
-      Equation: "PotentialEquation"	RelError: 2.93583e-16	AbsError: 1.20815e-16
+  Device: "mymos"	RelError: 1.27299e-13	AbsError: 4.91520e+04
+    Region: "bulk"	RelError: 2.40004e-14	AbsError: 8.16199e+03
+      Equation: "ElectronContinuityEquation"	RelError: 6.55360e-16	AbsError: 6.55294e+03
+      Equation: "HoleContinuityEquation"	RelError: 6.55360e-16	AbsError: 1.60905e+03
+      Equation: "PotentialEquation"	RelError: 2.26897e-14	AbsError: 2.92426e-15
+    Region: "gate"	RelError: 5.21408e-14	AbsError: 4.91520e+04
+      Equation: "ElectronContinuityEquation"	RelError: 4.91520e-16	AbsError: 4.91520e+04
+      Equation: "HoleContinuityEquation"	RelError: 4.91520e-16	AbsError: 4.91668e-16
+      Equation: "PotentialEquation"	RelError: 5.11578e-14	AbsError: 3.04934e-14
+    Region: "oxide"	RelError: 5.11578e-14	AbsError: 3.04934e-14
+      Equation: "PotentialEquation"	RelError: 5.11578e-14	AbsError: 3.04934e-14

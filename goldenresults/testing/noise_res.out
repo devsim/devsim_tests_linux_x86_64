@@ -89,14 +89,14 @@ Iteration: 1
 Circuit Solution:
 V1.I	-9.86076e-27
 topbias	0
-Device: MyDevice Contact: bot
-	Electron 0.0
-	Hole 0
-	Total 0.0
-Device: MyDevice Contact: top
-	Electron -5.30432e-11
-	Hole 0
-	Total -5.30432e-11
+Contact: top
+Electron -5.30432e-11
+Hole 0
+Total -5.30432e-11
+Contact: bot
+Electron 0
+Hole 0
+Total 0
 Region "MyRegion" on device "MyDevice" has equations 0:41
 Device "MyDevice" has equations 0:41
 0	18446744073709551615	ground
@@ -120,14 +120,14 @@ Iteration: 1
 Circuit Solution:
 V1.I	-640
 topbias	0.001
-Device: MyDevice Contact: bot
-	Electron -640.0000000001044
-	Hole 0
-	Total -640.0000000001044
-Device: MyDevice Contact: top
-	Electron 639.9999999999965
-	Hole 0
-	Total 639.9999999999965
+Contact: top
+Electron 640
+Hole 0
+Total 640
+Contact: bot
+Electron -640
+Hole 0
+Total -640
 Region "MyRegion" on device "MyDevice" has equations 0:41
 Device "MyDevice" has equations 0:41
 0	18446744073709551615	ground

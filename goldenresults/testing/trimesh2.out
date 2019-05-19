@@ -49,10 +49,8 @@ Replacing Edge Model PotentialEdgeFlux:Potential@n0 in region MyRegion of materi
 Replacing Edge Model PotentialEdgeFlux:Potential@n1 in region MyRegion of material Si
 Replacing Node Model topnode_model in region MyRegion of material Si
 Replacing Node Model topnode_model:Potential in region MyRegion of material Si
-Replacing Edge Model contactcharge_edge_top in region MyRegion of material Si
-Replacing Node Model bottomnode_model in region MyRegion of material Si
-Replacing Node Model bottomnode_model:Potential in region MyRegion of material Si
-Replacing Edge Model contactcharge_edge_bottom in region MyRegion of material Si
+Replacing Node Model botnode_model in region MyRegion of material Si
+Replacing Node Model botnode_model:Potential in region MyRegion of material Si
 Region "MyRegion" on device "MyDevice" has equations 0:5
 Device "MyDevice" has equations 0:5
 number of equations 6
