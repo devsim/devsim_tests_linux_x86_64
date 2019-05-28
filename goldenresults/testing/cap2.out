@@ -182,3 +182,33 @@ Iteration: 0
       Equation: "PotentialEquation"	RelError: 9.88350e-17	AbsError: 5.85103e-17
     Region: "MySiRegion"	RelError: 6.48917e-17	AbsError: 5.13942e-17
       Equation: "PotentialEquation"	RelError: 6.48917e-17	AbsError: 5.13942e-17
+ElectricField
+5.20000e-01
+5.20000e-01
+5.20000e-01
+5.20000e-01
+5.20000e-01
+testcopy1
+0.00000e+00
+0.00000e+00
+0.00000e+00
+0.00000e+00
+0.00000e+00
+testcopy1
+5.20000e-01
+5.20000e-01
+5.20000e-01
+5.20000e-01
+5.20000e-01
+testcopy1
+-1.00000e+00
+5.20000e-01
+5.20000e-01
+5.20000e-01
+2.00000e+00
+testcopy2
+1.52000e+00
+0.00000e+00
+0.00000e+00
+0.00000e+00
+-1.48000e+00
