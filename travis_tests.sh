@@ -9,7 +9,6 @@ ANACONDA_PATH=${HOME}/anaconda
 
 #curl -L -O https://github.com/devsim/devsim/releases/download/${TAG}/${TAGTGZ}
 #tar xzf ${TAGTGZ} 
-UTILITY_PATH=$(source ${ANACONDA_PATH}/bin/activate python37_devsim && echo ${CONDA_PREFIX}/bin)
 
 cat << EOF > bin/devsim_py37
 #!/bin/bash
@@ -25,11 +24,8 @@ export PYTHONPATH="\${curdir}"/../${DEVSIM_LIB}
 python "\$@"
 EOF
 chmod +x bin/devsim_py37
-
-ln -sf ${TAGDIR}/testing .
-ln -sf ${TAGDIR}/examples .
-
+cp CMakeLists.txt ${TAGDIR}/
 rm -rf run && mkdir run
-(cd run && ../bin/cmake -DDEVSIM_TEST_GOLDENDIR=${BASEDIR}/goldenresults -DDEVSIM_PY3_TEST_EXE=${BASEDIR}/bin/devsim_py37 ..)
-(cd run && ../bin/ctest -j4)
+(cd run && cmake -DDEVSIM_TEST_GOLDENDIR=${BASEDIR}/goldenresults -DDEVSIM_PY3_TEST_EXE=${BASEDIR}/bin/devsim_py37 ../${TAGDIR})
+(cd run && ctest -j4)
 
