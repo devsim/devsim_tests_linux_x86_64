@@ -9,6 +9,7 @@ DEVSIM_LIB=${TAGDIR}/lib
 #curl -L -O https://github.com/devsim/devsim/releases/download/${TAG}/${TAGTGZ}
 #tar xzf ${TAGTGZ} 
 
+mkdir -p bin
 cat << EOF > bin/devsim_py37
 #!/bin/bash
 set -e
