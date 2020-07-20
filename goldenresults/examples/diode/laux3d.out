@@ -125,3 +125,186 @@ Replacing Tetrahedron Edge Model ElectricField_z in region Bulk of material Sili
  [0. 0. 0.]
  [0. 0. 0.]
  [0. 0. 0.]]
+0 ElectricField_node0_x
+1 ElectricField_node0_y
+2 ElectricField_node0_z
+3 ElectricField_node0_x:Potential@en0
+4 ElectricField_node0_y:Potential@en0
+5 ElectricField_node0_z:Potential@en0
+6 ElectricField_node0_x:Potential@en1
+7 ElectricField_node0_y:Potential@en1
+8 ElectricField_node0_z:Potential@en1
+9 ElectricField_node0_x:Potential@en2
+10 ElectricField_node0_y:Potential@en2
+11 ElectricField_node0_z:Potential@en2
+12 ElectricField_node0_x:Potential@en3
+13 ElectricField_node0_y:Potential@en3
+14 ElectricField_node0_z:Potential@en3
+0.0
+[[ 25.55544512  27.95724793 -81.94344116]
+ [ 25.55544512  27.95724793 -81.94344116]
+ [ 25.55544512  27.95724793 -81.94344116]
+ [ 25.55544512  27.95724793 -81.94344116]
+ [ 25.55544512  27.95724793 -81.94344116]
+ [ 25.55544512  27.95724793 -81.94344116]]
+[[ 25.55544512  27.95724793 -81.94344116]
+ [ 25.55544512  27.95724793 -81.94344116]
+ [ 25.55544512  27.95724793 -81.94344116]
+ [ 25.55544512  27.95724793 -81.94344116]
+ [ 25.55544512  27.95724793 -81.94344116]
+ [ 25.55544512  27.95724793 -81.94344116]]
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+0 ElectricField_node1_x
+1 ElectricField_node1_y
+2 ElectricField_node1_z
+3 ElectricField_node1_x:Potential@en0
+4 ElectricField_node1_y:Potential@en0
+5 ElectricField_node1_z:Potential@en0
+6 ElectricField_node1_x:Potential@en1
+7 ElectricField_node1_y:Potential@en1
+8 ElectricField_node1_z:Potential@en1
+9 ElectricField_node1_x:Potential@en2
+10 ElectricField_node1_y:Potential@en2
+11 ElectricField_node1_z:Potential@en2
+12 ElectricField_node1_x:Potential@en3
+13 ElectricField_node1_y:Potential@en3
+14 ElectricField_node1_z:Potential@en3
+0.0
+[[ 25.55544512  27.95724793 -81.94344116]
+ [ 25.55544512  27.95724793 -81.94344116]
+ [ 25.55544512  27.95724793 -81.94344116]
+ [ 25.55544512  27.95724793 -81.94344116]
+ [ 25.55544512  27.95724793 -81.94344116]
+ [ 25.55544512  27.95724793 -81.94344116]]
+[[ 25.55544512  27.95724793 -81.94344116]
+ [ 25.55544512  27.95724793 -81.94344116]
+ [ 25.55544512  27.95724793 -81.94344116]
+ [ 25.55544512  27.95724793 -81.94344116]
+ [ 25.55544512  27.95724793 -81.94344116]
+ [ 25.55544512  27.95724793 -81.94344116]]
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+Replacing Tetrahedron Edge Model scalar_efield in region Bulk of material Silicon
+Replacing Tetrahedron Edge Model scalar_efield_n0 in region Bulk of material Silicon
+Replacing Tetrahedron Edge Model scalar_efield_n1 in region Bulk of material Silicon
+Replacing Tetrahedron Edge Model node_index@en0 in region Bulk of material Silicon
+Replacing Tetrahedron Edge Model node_index@en1 in region Bulk of material Silicon
+Replacing Tetrahedron Edge Model node_index@en2 in region Bulk of material Silicon
+Replacing Tetrahedron Edge Model node_index@en3 in region Bulk of material Silicon
+Replacing Tetrahedron Edge Model sx in region Bulk of material Silicon
+Replacing Tetrahedron Edge Model sy in region Bulk of material Silicon
+Replacing Tetrahedron Edge Model sz in region Bulk of material Silicon
+Replacing Tetrahedron Edge Model ElectronCurrent_x in region Bulk of material Silicon
+Replacing Tetrahedron Edge Model ElectronCurrent_y in region Bulk of material Silicon
+Replacing Tetrahedron Edge Model ElectronCurrent_z in region Bulk of material Silicon
+0 ElectronCurrent_x
+1 ElectronCurrent_y
+2 ElectronCurrent_z
+3 ElectronCurrent_x:Potential@en0
+4 ElectronCurrent_y:Potential@en0
+5 ElectronCurrent_z:Potential@en0
+6 ElectronCurrent_x:Potential@en1
+7 ElectronCurrent_y:Potential@en1
+8 ElectronCurrent_z:Potential@en1
+9 ElectronCurrent_x:Potential@en2
+10 ElectronCurrent_y:Potential@en2
+11 ElectronCurrent_z:Potential@en2
+12 ElectronCurrent_x:Potential@en3
+13 ElectronCurrent_y:Potential@en3
+14 ElectronCurrent_z:Potential@en3
+0.0
+[[ 5.82060697e-05 -1.13368584e-04  1.22693321e-02]
+ [ 5.72356456e-05 -1.14354479e-04  1.22671159e-02]
+ [ 5.72656544e-05 -1.14324562e-04  1.22672245e-02]
+ [ 6.03081449e-05 -1.11133211e-04  1.22671159e-02]
+ [ 6.03381538e-05 -1.11103294e-04  1.22672245e-02]
+ [ 5.93677297e-05 -1.12089189e-04  1.22650083e-02]]
+[[ 5.82060697e-05 -1.13368584e-04  1.22693321e-02]
+ [ 5.72356456e-05 -1.14354479e-04  1.22671159e-02]
+ [ 5.72656544e-05 -1.14324562e-04  1.22672245e-02]
+ [ 6.03081449e-05 -1.11133211e-04  1.22671159e-02]
+ [ 6.03381538e-05 -1.11103294e-04  1.22672245e-02]
+ [ 5.93677297e-05 -1.12089189e-04  1.22650083e-02]]
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+0 ElectronCurrent_node0_x
+1 ElectronCurrent_node0_y
+2 ElectronCurrent_node0_z
+3 ElectronCurrent_node0_x:Potential@en0
+4 ElectronCurrent_node0_y:Potential@en0
+5 ElectronCurrent_node0_z:Potential@en0
+6 ElectronCurrent_node0_x:Potential@en1
+7 ElectronCurrent_node0_y:Potential@en1
+8 ElectronCurrent_node0_z:Potential@en1
+9 ElectronCurrent_node0_x:Potential@en2
+10 ElectronCurrent_node0_y:Potential@en2
+11 ElectronCurrent_node0_z:Potential@en2
+12 ElectronCurrent_node0_x:Potential@en3
+13 ElectronCurrent_node0_y:Potential@en3
+14 ElectronCurrent_node0_z:Potential@en3
+0.0
+[[ 5.51335703e-05 -1.16589852e-04  1.22693321e-02]
+ [ 5.51335703e-05 -1.16589852e-04  1.22693321e-02]
+ [ 5.51335703e-05 -1.16589852e-04  1.22693321e-02]
+ [ 6.12785690e-05 -1.10147316e-04  1.22693321e-02]
+ [ 6.12785690e-05 -1.10147316e-04  1.22693321e-02]
+ [ 5.93377208e-05 -1.12119106e-04  1.22648997e-02]]
+[[ 5.51335703e-05 -1.16589852e-04  1.22693321e-02]
+ [ 5.51335703e-05 -1.16589852e-04  1.22693321e-02]
+ [ 5.51335703e-05 -1.16589852e-04  1.22693321e-02]
+ [ 6.12785690e-05 -1.10147316e-04  1.22693321e-02]
+ [ 6.12785690e-05 -1.10147316e-04  1.22693321e-02]
+ [ 5.93377208e-05 -1.12119106e-04  1.22648997e-02]]
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+0 ElectronCurrent_node1_x
+1 ElectronCurrent_node1_y
+2 ElectronCurrent_node1_z
+3 ElectronCurrent_node1_x:Potential@en0
+4 ElectronCurrent_node1_y:Potential@en0
+5 ElectronCurrent_node1_z:Potential@en0
+6 ElectronCurrent_node1_x:Potential@en1
+7 ElectronCurrent_node1_y:Potential@en1
+8 ElectronCurrent_node1_z:Potential@en1
+9 ElectronCurrent_node1_x:Potential@en2
+10 ElectronCurrent_node1_y:Potential@en2
+11 ElectronCurrent_node1_z:Potential@en2
+12 ElectronCurrent_node1_x:Potential@en3
+13 ElectronCurrent_node1_y:Potential@en3
+14 ElectronCurrent_node1_z:Potential@en3
+0.0
+[[ 6.12785690e-05 -1.10147316e-04  1.22693321e-02]
+ [ 5.93377208e-05 -1.12119106e-04  1.22648997e-02]
+ [ 5.93977386e-05 -1.12059272e-04  1.22651170e-02]
+ [ 5.93377208e-05 -1.12119106e-04  1.22648997e-02]
+ [ 5.93977386e-05 -1.12059272e-04  1.22651170e-02]
+ [ 5.93977386e-05 -1.12059272e-04  1.22651170e-02]]
+[[ 6.12785690e-05 -1.10147316e-04  1.22693321e-02]
+ [ 5.93377208e-05 -1.12119106e-04  1.22648997e-02]
+ [ 5.93977386e-05 -1.12059272e-04  1.22651170e-02]
+ [ 5.93377208e-05 -1.12119106e-04  1.22648997e-02]
+ [ 5.93977386e-05 -1.12059272e-04  1.22651170e-02]
+ [ 5.93977386e-05 -1.12059272e-04  1.22651170e-02]]
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]

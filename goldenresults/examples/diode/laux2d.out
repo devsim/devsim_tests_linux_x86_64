@@ -96,3 +96,101 @@ Replacing Edge Model vdiff:Potential@n1 in region Bulk of material Silicon
 [[0. 0.]
  [0. 0.]
  [0. 0.]]
+0 ElectricField_node0_x
+1 ElectricField_node0_y
+2 ElectricField_node0_x:Potential@en0
+3 ElectricField_node0_y:Potential@en0
+4 ElectricField_node0_x:Potential@en1
+5 ElectricField_node0_y:Potential@en1
+6 ElectricField_node0_x:Potential@en2
+7 ElectricField_node0_y:Potential@en2
+0.0
+[[  0.         -26.54151391]
+ [  0.         -26.54151391]
+ [  0.         -26.54151391]]
+[[  0.         -26.54151391]
+ [  0.         -26.54151391]
+ [  0.         -26.54151391]]
+[[0. 0.]
+ [0. 0.]
+ [0. 0.]]
+0 ElectricField_node1_x
+1 ElectricField_node1_y
+2 ElectricField_node1_x:Potential@en0
+3 ElectricField_node1_y:Potential@en0
+4 ElectricField_node1_x:Potential@en1
+5 ElectricField_node1_y:Potential@en1
+6 ElectricField_node1_x:Potential@en2
+7 ElectricField_node1_y:Potential@en2
+0.0
+[[ 4.08677510e-15 -2.65415139e+01]
+ [ 4.08677510e-15 -2.65415139e+01]
+ [ 0.00000000e+00 -2.65415139e+01]]
+[[ 4.08677510e-15 -2.65415139e+01]
+ [ 4.08677510e-15 -2.65415139e+01]
+ [ 0.00000000e+00 -2.65415139e+01]]
+[[0. 0.]
+ [0. 0.]
+ [0. 0.]]
+Replacing Triangle Edge Model scalar_efield in region Bulk of material Silicon
+Replacing Triangle Edge Model scalar_efield_n0 in region Bulk of material Silicon
+Replacing Triangle Edge Model scalar_efield_n1 in region Bulk of material Silicon
+Replacing Triangle Edge Model node_index@en0 in region Bulk of material Silicon
+Replacing Triangle Edge Model node_index@en1 in region Bulk of material Silicon
+Replacing Triangle Edge Model node_index@en2 in region Bulk of material Silicon
+Replacing Triangle Edge Model sx in region Bulk of material Silicon
+Replacing Triangle Edge Model sy in region Bulk of material Silicon
+0 ElectronCurrent_x
+1 ElectronCurrent_y
+2 ElectronCurrent_x:Potential@en0
+3 ElectronCurrent_y:Potential@en0
+4 ElectronCurrent_x:Potential@en1
+5 ElectronCurrent_y:Potential@en1
+6 ElectronCurrent_x:Potential@en2
+7 ElectronCurrent_y:Potential@en2
+0.0
+[[8.19733665e-19 1.20454936e-02]
+ [9.16421903e-19 1.20454936e-02]
+ [0.00000000e+00 1.20454936e-02]]
+[[8.19733665e-19 1.20454936e-02]
+ [9.16421903e-19 1.20454936e-02]
+ [0.00000000e+00 1.20454936e-02]]
+[[0. 0.]
+ [0. 0.]
+ [0. 0.]]
+0 ElectronCurrent_node0_x
+1 ElectronCurrent_node0_y
+2 ElectronCurrent_node0_x:Potential@en0
+3 ElectronCurrent_node0_y:Potential@en0
+4 ElectronCurrent_node0_x:Potential@en1
+5 ElectronCurrent_node0_y:Potential@en1
+6 ElectronCurrent_node0_x:Potential@en2
+7 ElectronCurrent_node0_y:Potential@en2
+0.0
+[[0.         0.01204549]
+ [0.         0.01204549]
+ [0.         0.01204549]]
+[[0.         0.01204549]
+ [0.         0.01204549]
+ [0.         0.01204549]]
+[[0. 0.]
+ [0. 0.]
+ [0. 0.]]
+0 ElectronCurrent_node1_x
+1 ElectronCurrent_node1_y
+2 ElectronCurrent_node1_x:Potential@en0
+3 ElectronCurrent_node1_y:Potential@en0
+4 ElectronCurrent_node1_x:Potential@en1
+5 ElectronCurrent_node1_y:Potential@en1
+6 ElectronCurrent_node1_x:Potential@en2
+7 ElectronCurrent_node1_y:Potential@en2
+0.0
+[[1.20406909e-18 1.20454936e-02]
+ [1.20406909e-18 1.20454936e-02]
+ [0.00000000e+00 1.20454936e-02]]
+[[1.20406909e-18 1.20454936e-02]
+ [1.20406909e-18 1.20454936e-02]
+ [0.00000000e+00 1.20454936e-02]]
+[[0. 0.]
+ [0. 0.]
+ [0. 0.]]
