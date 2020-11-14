@@ -8,6 +8,6 @@ if [ ! -d ${HOME}/anaconda ]; then
 fi
 
 ${HOME}/anaconda/bin/conda install -y --name base cmake
-${HOME}/anaconda/bin/conda create  -y --name python37_devsim python=3.7
-${HOME}/anaconda/bin/conda install -y --name python37_devsim numpy mkl cmake
+${HOME}/anaconda/bin/conda create  -y --name python38_devsim python=3.8
+${HOME}/anaconda/bin/conda install -y --name python38_devsim numpy mkl cmake
 
