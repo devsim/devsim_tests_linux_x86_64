@@ -204,8 +204,11 @@ Iteration: 0
       Equation: "PotentialEquation"	RelError: 2.26897e-14	AbsError: 2.92426e-15
     Region: "gate"	RelError: 5.21408e-14	AbsError: 4.91520e+04
       Equation: "ElectronContinuityEquation"	RelError: 4.91520e-16	AbsError: 4.91520e+04
+	RelErrorNode: 129	AbsErrorNode: 129
       Equation: "HoleContinuityEquation"	RelError: 4.91520e-16	AbsError: 4.91668e-16
+	RelErrorNode: 47	AbsErrorNode: 47
       Equation: "PotentialEquation"	RelError: 5.11578e-14	AbsError: 3.04934e-14
+	RelErrorNode: 131	AbsErrorNode: 131
     Region: "oxide"	RelError: 5.11578e-14	AbsError: 3.04934e-14
       Equation: "PotentialEquation"	RelError: 5.11578e-14	AbsError: 3.04934e-14
 Could not find a model by the name of EdgeInverseLength:Potential, using 0.0

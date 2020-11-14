@@ -9,5 +9,5 @@ fi
 
 ${HOME}/anaconda/bin/conda install -y --name base cmake
 ${HOME}/anaconda/bin/conda create  -y --name python37_devsim python=3.7
-${HOME}/anaconda/bin/conda install -y --name python37_devsim numpy mkl
+${HOME}/anaconda/bin/conda install -y --name python37_devsim numpy mkl cmake
 

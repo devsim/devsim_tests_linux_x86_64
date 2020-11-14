@@ -1,0 +1,88 @@
+Adding 35 nodes
+Adding 146 edges with 0 duplicates removed
+Adding 192 triangles  with 0 duplicate removed
+Adding 80 tetrahedra  with 0 duplicate removed
+Contact bot in region bulk with 9 nodes
+Contact top in region bulk with 11 nodes
+Region "bulk" on device "test" has equations 0:34
+Device "test" has equations 0:34
+0	18446744073709551615	ground
+1	0	default
+GND	18446744073709551615	ground
+V1.I	1	mna
+topbias	2	default
+Circuit  has equations 35:37
+creating solution dcop with 3 nodes
+number of equations 38
+creating solution dcop_prev with 3 nodes
+Iteration: 0
+  Device: "test"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+    Region: "bulk"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+      Equation: "PotentialEquation"	RelError: 1.00000e+00	AbsError: 1.00000e+00
+  Circuit: 	RelError: 1.00000e+00	AbsError: 2.00000e+00
+Iteration: 1
+  Device: "test"	RelError: 1.07149e-15	AbsError: 5.35747e-16
+    Region: "bulk"	RelError: 1.07149e-15	AbsError: 5.35747e-16
+      Equation: "PotentialEquation"	RelError: 1.07149e-15	AbsError: 5.35747e-16
+  Circuit: 	RelError: 0.00000e+00	AbsError: 0.00000e+00
+Circuit Solution:
+1	1
+V1.I	0
+topbias	1
+2.070900000000004e-14
+-2.0709000000000007e-14
+Region "bulk" on device "test" has equations 0:34
+Device "test" has equations 0:34
+0	18446744073709551615	ground
+1	0	default
+GND	18446744073709551615	ground
+V1.I	1	mna
+topbias	2	default
+Circuit  has equations 35:37
+creating solution ssac_real with 3 nodes
+creating solution ssac_imag with 3 nodes
+Device: test	Region: bulk	Creating: Potential_Real
+Device: test	Region: bulk	Creating: Potential_Imag
+Setting 1 = (1,0)
+Setting V1.I = (0,-1.30118e-16)
+Setting topbias = (1,-1.30118e-13)
+AC Iteration:
+number of equations 38
+Circuit AC Solution:
+1	(1,0)
+V1.I	(0,-1.30118e-16)
+topbias	(1,-1.30118e-13)
+Region "bulk" on device "test" has equations 0:34
+Device "test" has equations 0:34
+0	18446744073709551615	ground
+1	0	default
+GND	18446744073709551615	ground
+V1.I	1	mna
+topbias	2	default
+Circuit  has equations 35:37
+Setting 1 = (1,0)
+Setting V1.I = (-0.000628678,-0.000483158)
+Setting topbias = (0.371322,-0.483158)
+AC Iteration:
+number of equations 38
+Circuit AC Solution:
+1	(1,0)
+V1.I	(-0.000628678,-0.000483158)
+topbias	(0.371322,-0.483158)
+Region "bulk" on device "test" has equations 0:34
+Device "test" has equations 0:34
+0	18446744073709551615	ground
+1	0	default
+GND	18446744073709551615	ground
+V1.I	1	mna
+topbias	2	default
+Circuit  has equations 35:37
+Setting 1 = (1,0)
+Setting V1.I = (-0.001,-7.6853e-09)
+Setting topbias = (5.90639e-11,-7.6853e-06)
+AC Iteration:
+number of equations 38
+Circuit AC Solution:
+1	(1,0)
+V1.I	(-0.001,-7.6853e-09)
+topbias	(5.90639e-11,-7.6853e-06)
