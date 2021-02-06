@@ -527,9 +527,9 @@ Iteration: 0
       Equation: "PotentialEquation"	RelError: 1.00000e+00	AbsError: 1.00000e+00
   Circuit: 	RelError: 1.00000e+00	AbsError: 2.00000e+00
 Iteration: 1
-  Device: "MyDevice"	RelError: 4.63960e-12	AbsError: 5.64232e-13
-    Region: "air"	RelError: 4.63960e-12	AbsError: 5.64232e-13
-      Equation: "PotentialEquation"	RelError: 4.63960e-12	AbsError: 5.64232e-13
+  Device: "MyDevice"	RelError: 4.63985e-12	AbsError: 5.64263e-13
+    Region: "air"	RelError: 4.63985e-12	AbsError: 5.64263e-13
+      Equation: "PotentialEquation"	RelError: 4.63985e-12	AbsError: 5.64263e-13
   Circuit: 	RelError: 0.00000e+00	AbsError: 0.00000e+00
 Circuit Solution:
 1	1

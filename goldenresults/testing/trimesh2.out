@@ -8,6 +8,7 @@ Not replacing built in Node model ContactSurfaceArea
 Not replacing built in Edge model EdgeCouple
 Not replacing built in Edge model EdgeInverseLength
 Not replacing built in Edge model EdgeLength
+Not replacing built in Edge model EdgeNodeVolume
 Not replacing built in Node model NSurfaceNormal_x
 Not replacing built in Node model NSurfaceNormal_y
 Not replacing built in Node model NodeVolume

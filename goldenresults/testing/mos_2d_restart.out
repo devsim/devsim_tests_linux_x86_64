@@ -326,14 +326,14 @@ Region "oxide" on device "mymos" has equations 7221:7352
 Device "mymos" has equations 0:7352
 number of equations 7353
 Iteration: 0
-  Device: "mymos"	RelError: 1.27299e-13	AbsError: 4.91520e+04
-    Region: "bulk"	RelError: 2.40004e-14	AbsError: 8.16199e+03
+  Device: "mymos"	RelError: 1.27485e-13	AbsError: 4.91520e+04
+    Region: "bulk"	RelError: 2.41656e-14	AbsError: 8.16199e+03
       Equation: "ElectronContinuityEquation"	RelError: 6.55360e-16	AbsError: 6.55294e+03
       Equation: "HoleContinuityEquation"	RelError: 6.55360e-16	AbsError: 1.60905e+03
-      Equation: "PotentialEquation"	RelError: 2.26897e-14	AbsError: 2.92426e-15
-    Region: "gate"	RelError: 5.21408e-14	AbsError: 4.91520e+04
+      Equation: "PotentialEquation"	RelError: 2.28549e-14	AbsError: 2.91542e-15
+    Region: "gate"	RelError: 5.21511e-14	AbsError: 4.91520e+04
       Equation: "ElectronContinuityEquation"	RelError: 4.91520e-16	AbsError: 4.91520e+04
       Equation: "HoleContinuityEquation"	RelError: 4.91520e-16	AbsError: 4.91668e-16
-      Equation: "PotentialEquation"	RelError: 5.11578e-14	AbsError: 3.04934e-14
-    Region: "oxide"	RelError: 5.11578e-14	AbsError: 3.04934e-14
-      Equation: "PotentialEquation"	RelError: 5.11578e-14	AbsError: 3.04934e-14
+      Equation: "PotentialEquation"	RelError: 5.11680e-14	AbsError: 3.04996e-14
+    Region: "oxide"	RelError: 5.11680e-14	AbsError: 3.04996e-14
+      Equation: "PotentialEquation"	RelError: 5.11680e-14	AbsError: 3.04996e-14
