@@ -1,1 +1,1 @@
-{'copyright': 'Copyright © 2009-2021 DEVSIM LLC', 'direct_solver': 'mkl_pardiso', 'extended_precision': True, 'license': 'Apache License, Version 2.0', 'version': '1.5.0', 'website': 'https://devsim.org'}
+{'copyright': 'Copyright © 2009-2021 DEVSIM LLC', 'direct_solver': 'mkl_pardiso', 'extended_precision': True, 'license': 'Apache License, Version 2.0', 'version': '1.5.1', 'website': 'https://devsim.org'}

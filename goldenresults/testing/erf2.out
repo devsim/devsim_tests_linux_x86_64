@@ -1,0 +1,94 @@
+bot
+ (region: MyRegion)
+ (contact: top)
+ (contact: bot)
+
+erf_inv
+0.00000e+00
+8.88560e-02
+1.79143e-01
+2.72463e-01
+3.70807e-01
+4.76936e-01
+5.95116e-01
+7.32869e-01
+9.06194e-01
+1.16309e+00
+inf
+
+while evaluating node model d_erf_inv_dx on Device: MyDevice on Region: MyRegion
+There was a Divide-by-zero floating point exception while evaluating derf_invdx(x)
+while evaluating model d_erf_inv_dx: expression derf_invdx(x) evaluates to invalid
+
+erfc_inv
+inf
+1.16309e+00
+9.06194e-01
+7.32869e-01
+5.95116e-01
+4.76936e-01
+3.70807e-01
+2.72463e-01
+1.79143e-01
+8.88560e-02
+0.00000e+00
+
+while evaluating node model d_erfc_inv_dx on Device: MyDevice on Region: MyRegion
+There was a Divide-by-zero floating point exception while evaluating derfc_invdx(x)
+while evaluating model d_erfc_inv_dx: expression derfc_invdx(x) evaluates to invalid
+Replacing Node Model erf_inv in region MyRegion of material Si
+
+erf_inv
+-4.76380e-01
+-3.70400e-01
+-2.72176e-01
+-1.78960e-01
+-8.87667e-02
+0.00000e+00
+8.87667e-02
+1.78960e-01
+2.72176e-01
+3.70400e-01
+4.76380e-01
+Replacing Node Model d_erf_inv_dx in region MyRegion of material Si
+
+d_erf_inv_dx
+1.11088e+00
+1.01553e+00
+9.53417e-01
+9.14154e-01
+8.92344e-01
+8.85341e-01
+8.92344e-01
+9.14154e-01
+9.53417e-01
+1.01553e+00
+1.11088e+00
+Replacing Node Model erfc_inv in region MyRegion of material Si
+
+erfc_inv
+2.75106e+00
+9.06194e-01
+5.95242e-01
+3.71011e-01
+1.79418e-01
+3.54491e-04
+-1.78686e-01
+-3.70197e-01
+-5.94233e-01
+-9.04584e-01
+-2.34763e+00
+Replacing Node Model d_erfc_inv_dx in region MyRegion of material Si
+
+d_erfc_inv_dx
+-3.42966e+03
+-4.02712e+00
+-2.52484e+00
+-2.03300e+00
+-1.82952e+00
+-1.77157e+00
+-1.82904e+00
+-2.03178e+00
+-2.52181e+00
+-4.01540e+00
+-4.38449e+02
