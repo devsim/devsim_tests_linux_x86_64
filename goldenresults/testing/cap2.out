@@ -167,11 +167,11 @@ Iteration: 0
       Equation: "PotentialEquation"	RelError: 9.88350e-17	AbsError: 5.85103e-17
     Region: "MySiRegion"	RelError: 6.48917e-17	AbsError: 5.13942e-17
       Equation: "PotentialEquation"	RelError: 6.48917e-17	AbsError: 5.13942e-17
-(1.0, 0.948, 0.896, 0.844, 0.792, 0.74)
-(1.1, 1.1, 1.1, 1.1, 1.1, 1.1)
-(1.1, 1.1, 1.1, 0.0, 1.1, 1.1)
-(0.0, 0.0, 0.0, 8.0, 0.0, 0.0)
-(1.0, 0.948, 0.896, 0.844, 0.792, 0.74)
+array('d', [1.0, 0.948, 0.896, 0.844, 0.792, 0.74])
+array('d', [1.1, 1.1, 1.1, 1.1, 1.1, 1.1])
+array('d', [1.1, 1.1, 1.1, 0.0, 1.1, 1.1])
+array('d', [0.0, 0.0, 0.0, 8.0, 0.0, 0.0])
+array('d', [1.0, 0.948, 0.896, 0.844, 0.792, 0.74])
 Region "MyOxRegion" on device "MyDevice" has equations 0:5
 Region "MySiRegion" on device "MyDevice" has equations 6:11
 Device "MyDevice" has equations 0:11
@@ -212,3 +212,16 @@ testcopy2
 0.00000e+00
 0.00000e+00
 -1.48000e+00
+array('d', [0.0, 0.0, 0.0, 8.0, 0.0, 0.0])
+array('d', [1.0, 0.0, 0.0, 8.0, 0.0, 0.0])
+array('d', [1.0, 2.0, 0.0, 8.0, 0.0, 0.0])
+b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+array('d', [0.0, 0.0, 0.0, 0.0, 0.0, 0.0])
+array('i', [-1, -1, -1, -1, -1, -1])
+array('d', [-1.0, -1.0, -1.0, -1.0, -1.0, -1.0])
+b'\x00\x00\x00\x00\x00\x00\xf0\xbf\x00\x00\x00\x00\x00\x00\xf0\xbf\x00\x00\x00\x00\x00\x00\xf0\xbf\x00\x00\x00\x00\x00\x00\xf0\xbf\x00\x00\x00\x00\x00\x00\xf0\xbf\x00\x00\x00\x00\x00\x00\xf0\xbf'
+array('d', [-1.0, -1.0, -1.0, -1.0, -1.0, -1.0])
+array('i', [1, 1, 1, 1, 1, 1])
+array('d', [1.0, 1.0, 1.0, 1.0, 1.0, 1.0])
+array('Q', [1, 1, 1, 1, 1, 1])
+array('d', [5e-324, 5e-324, 5e-324, 5e-324, 5e-324, 5e-324])
