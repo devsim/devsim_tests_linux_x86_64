@@ -5,9 +5,6 @@ bot
  (region: MySi2)
  (interface: MyInt)
  (contact: bot)
-Region "MySi1" on device "MyDevice" has equations 0:5
-Region "MySi2" on device "MyDevice" has equations 6:11
-Device "MyDevice" has equations 0:11
 number of equations 12
 Iteration: 0
   Device: "MyDevice"	RelError: 0.00000e+00	AbsError: 0.00000e+00
@@ -47,9 +44,6 @@ Warning: Replacing equation with equation of the same name.
 Region: MySi1, Equation: PotentialEquation, Variable: Potential
 Warning: Replacing equation with equation of the same name.
 Region: MySi2, Equation: PotentialEquation, Variable: Potential
-Region "MySi1" on device "MyDevice" has equations 0:11
-Region "MySi2" on device "MyDevice" has equations 12:23
-Device "MyDevice" has equations 0:23
 number of equations 24
 Iteration: 0
   Device: "MyDevice"	RelError: 5.17866e-04	AbsError: 1.00000e+04
@@ -75,9 +69,6 @@ Contact: bot
 Electron 0
 Hole 0
 Total 0
-Region "MySi1" on device "MyDevice" has equations 0:11
-Region "MySi2" on device "MyDevice" has equations 12:23
-Device "MyDevice" has equations 0:23
 number of equations 24
 Iteration: 0
   Device: "MyDevice"	RelError: 2.00000e+00	AbsError: 3.20000e+04
@@ -103,9 +94,6 @@ Contact: bot
 Electron -0.0064
 Hole 0
 Total -0.0064
-Region "MySi1" on device "MyDevice" has equations 0:11
-Region "MySi2" on device "MyDevice" has equations 12:23
-Device "MyDevice" has equations 0:23
 number of equations 24
 Iteration: 0
   Device: "MyDevice"	RelError: 1.00000e+00	AbsError: 3.20000e+04
@@ -131,9 +119,6 @@ Contact: bot
 Electron -0.0128
 Hole 0
 Total -0.0128
-Region "MySi1" on device "MyDevice" has equations 0:11
-Region "MySi2" on device "MyDevice" has equations 12:23
-Device "MyDevice" has equations 0:23
 number of equations 24
 Iteration: 0
   Device: "MyDevice"	RelError: 6.66667e-01	AbsError: 3.20000e+04
@@ -159,9 +144,6 @@ Contact: bot
 Electron -0.0192
 Hole 0
 Total -0.0192
-Region "MySi1" on device "MyDevice" has equations 0:11
-Region "MySi2" on device "MyDevice" has equations 12:23
-Device "MyDevice" has equations 0:23
 number of equations 24
 Iteration: 0
   Device: "MyDevice"	RelError: 5.00000e-01	AbsError: 3.20000e+04
@@ -187,9 +169,6 @@ Contact: bot
 Electron -0.0256
 Hole 0
 Total -0.0256
-Region "MySi1" on device "MyDevice" has equations 0:11
-Region "MySi2" on device "MyDevice" has equations 12:23
-Device "MyDevice" has equations 0:23
 number of equations 24
 Iteration: 0
   Device: "MyDevice"	RelError: 4.00000e-01	AbsError: 3.20000e+04
@@ -215,9 +194,6 @@ Contact: bot
 Electron -0.032
 Hole 0
 Total -0.032
-Region "MySi1" on device "MyDevice" has equations 0:11
-Region "MySi2" on device "MyDevice" has equations 12:23
-Device "MyDevice" has equations 0:23
 number of equations 24
 Iteration: 0
   Device: "MyDevice"	RelError: 3.33333e-01	AbsError: 3.20000e+04
@@ -243,9 +219,6 @@ Contact: bot
 Electron -0.0384
 Hole 0
 Total -0.0384
-Region "MySi1" on device "MyDevice" has equations 0:11
-Region "MySi2" on device "MyDevice" has equations 12:23
-Device "MyDevice" has equations 0:23
 number of equations 24
 Iteration: 0
   Device: "MyDevice"	RelError: 2.85714e-01	AbsError: 3.20000e+04
@@ -271,9 +244,6 @@ Contact: bot
 Electron -0.0448
 Hole 0
 Total -0.0448
-Region "MySi1" on device "MyDevice" has equations 0:11
-Region "MySi2" on device "MyDevice" has equations 12:23
-Device "MyDevice" has equations 0:23
 number of equations 24
 Iteration: 0
   Device: "MyDevice"	RelError: 2.50000e-01	AbsError: 3.20000e+04
@@ -299,9 +269,6 @@ Contact: bot
 Electron -0.0512
 Hole 0
 Total -0.0512
-Region "MySi1" on device "MyDevice" has equations 0:11
-Region "MySi2" on device "MyDevice" has equations 12:23
-Device "MyDevice" has equations 0:23
 number of equations 24
 Iteration: 0
   Device: "MyDevice"	RelError: 2.22222e-01	AbsError: 3.20000e+04
@@ -327,9 +294,6 @@ Contact: bot
 Electron -0.0576
 Hole 0
 Total -0.0576
-Region "MySi1" on device "MyDevice" has equations 0:11
-Region "MySi2" on device "MyDevice" has equations 12:23
-Device "MyDevice" has equations 0:23
 number of equations 24
 Iteration: 0
   Device: "MyDevice"	RelError: 2.00000e-01	AbsError: 3.20000e+04

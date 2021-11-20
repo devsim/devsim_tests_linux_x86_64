@@ -151,11 +151,6 @@ Replacing Interface Node Model continuousPotential:Potential@r1 in interface bul
 Replacing Interface Node Model continuousPotential in interface gate_oxide of material 
 Replacing Interface Node Model continuousPotential:Potential@r0 in interface gate_oxide of material 
 Replacing Interface Node Model continuousPotential:Potential@r1 in interface gate_oxide of material 
-Region "air" on device "mymos" has no equations.
-Region "bulk" on device "mymos" has equations 0:6824
-Region "gate" on device "mymos" has equations 6825:7220
-Region "oxide" on device "mymos" has equations 7221:7352
-Device "mymos" has equations 0:7352
 number of equations 7353
 Device: mymos Region: gate  Contact: gate Contact Equation: ElectronContinuityEquation EDGE Model: gatenodeelectrons:Holes MISSING
 Device: mymos Region: gate  Contact: gate Contact Equation: ElectronContinuityEquation EDGE Model: gatenodeelectrons:Potential MISSING

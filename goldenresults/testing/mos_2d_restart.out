@@ -319,11 +319,6 @@ Warning: Replacing Contact Equation with Contact Equation of the same name.
 Contact: body, Equation: ElectronContinuityEquation
 Warning: Replacing Contact Equation with Contact Equation of the same name.
 Contact: body, Equation: HoleContinuityEquation
-Region "air" on device "mymos" has no equations.
-Region "bulk" on device "mymos" has equations 0:6824
-Region "gate" on device "mymos" has equations 6825:7220
-Region "oxide" on device "mymos" has equations 7221:7352
-Device "mymos" has equations 0:7352
 number of equations 7353
 Iteration: 0
   Device: "mymos"	RelError: 1.27485e-13	AbsError: 4.91520e+04

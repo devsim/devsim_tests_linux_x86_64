@@ -26,10 +26,6 @@ Adding 41 edges with 19 duplicates removed
 Adding 20 triangles  with 0 duplicate removed
 Contact bot in region MyRegion with 11 nodes
 Contact top in region MyRegion with 3 nodes
-Region "MyRegion" on device "MyDevice" has equations 0:494
-Region "air1" on device "MyDevice" has no equations.
-Region "air2" on device "MyDevice" has no equations.
-Device "MyDevice" has equations 0:494
 number of equations 495
 Iteration: 0
   Device: "MyDevice"	RelError: 1.00000e+00	AbsError: 1.18567e-01
@@ -93,10 +89,6 @@ Iteration: 14
       Equation: "PotentialEquation"	RelError: 5.37236e-13	AbsError: 9.92059e-17
 Warning: Replacing equation with equation of the same name.
 Region: MyRegion, Equation: PotentialEquation, Variable: Potential
-Region "MyRegion" on device "MyDevice" has equations 0:1484
-Region "air1" on device "MyDevice" has no equations.
-Region "air2" on device "MyDevice" has no equations.
-Device "MyDevice" has equations 0:1484
 number of equations 1485
 Iteration: 0
   Device: "MyDevice"	RelError: 3.27229e-13	AbsError: 1.02400e+04
@@ -104,10 +96,6 @@ Iteration: 0
       Equation: "ElectronContinuityEquation"	RelError: 1.02843e-14	AbsError: 5.12000e+03
       Equation: "HoleContinuityEquation"	RelError: 1.02479e-14	AbsError: 5.12000e+03
       Equation: "PotentialEquation"	RelError: 3.06697e-13	AbsError: 1.36997e-16
-Region "MyRegion" on device "MyDevice" has equations 0:1484
-Region "air1" on device "MyDevice" has no equations.
-Region "air2" on device "MyDevice" has no equations.
-Device "MyDevice" has equations 0:1484
 number of equations 1485
 Iteration: 0
   Device: "MyDevice"	RelError: 2.75688e-13	AbsError: 1.84190e+02
@@ -117,10 +105,6 @@ Iteration: 0
       Equation: "PotentialEquation"	RelError: 2.68184e-13	AbsError: 5.60099e-17
 top	0.0	-1.3574740283850424e-30	6.451088526750008e-16	6.451088526749994e-16
 bot	0.0	1.8458157505893387e-15	2.275704596936087e-30	1.845815750589341e-15
-Region "MyRegion" on device "MyDevice" has equations 0:1484
-Region "air1" on device "MyDevice" has no equations.
-Region "air2" on device "MyDevice" has no equations.
-Device "MyDevice" has equations 0:1484
 number of equations 1485
 Iteration: 0
   Device: "MyDevice"	RelError: 3.35500e+01	AbsError: 2.04061e+17
@@ -166,10 +150,6 @@ Iteration: 6
       Equation: "PotentialEquation"	RelError: 2.82321e-12	AbsError: 3.01838e-16
 top	0.1	1.0090126513594423e-14	1.4902014496792506e-14	2.4992141010386927e-14
 bot	0.0	-9.37895268141335e-15	-1.4046793026714927e-14	-2.3425745708128278e-14
-Region "MyRegion" on device "MyDevice" has equations 0:1484
-Region "air1" on device "MyDevice" has no equations.
-Region "air2" on device "MyDevice" has no equations.
-Device "MyDevice" has equations 0:1484
 number of equations 1485
 Iteration: 0
   Device: "MyDevice"	RelError: 8.90547e+00	AbsError: 2.17497e+17
@@ -215,10 +195,6 @@ Iteration: 6
       Equation: "PotentialEquation"	RelError: 8.82968e-14	AbsError: 1.41272e-16
 top	0.2	4.734773785462517e-13	6.563139688959978e-13	1.1297913474422495e-12
 bot	0.0	-4.795472704589344e-13	-6.481225904139331e-13	-1.1276698608728676e-12
-Region "MyRegion" on device "MyDevice" has equations 0:1484
-Region "air1" on device "MyDevice" has no equations.
-Region "air2" on device "MyDevice" has no equations.
-Device "MyDevice" has equations 0:1484
 number of equations 1485
 Iteration: 0
   Device: "MyDevice"	RelError: 5.62852e+00	AbsError: 2.18416e+17
@@ -264,10 +240,6 @@ Iteration: 6
       Equation: "PotentialEquation"	RelError: 1.16942e-14	AbsError: 1.48781e-16
 top	0.30000000000000004	2.1770837029988543e-11	2.9348005014512935e-11	5.111884204450148e-11
 bot	0.0	-2.1839293118841053e-11	-2.927462761174652e-11	-5.111392073058757e-11
-Region "MyRegion" on device "MyDevice" has equations 0:1484
-Region "air1" on device "MyDevice" has no equations.
-Region "air2" on device "MyDevice" has no equations.
-Device "MyDevice" has equations 0:1484
 number of equations 1485
 Iteration: 0
   Device: "MyDevice"	RelError: 4.01193e+00	AbsError: 2.50983e+17
@@ -313,10 +285,6 @@ Iteration: 6
       Equation: "PotentialEquation"	RelError: 9.66591e-15	AbsError: 9.92312e-17
 top	0.4	1.0003002857039393e-09	1.3202883451476714e-09	2.3205886308516106e-09
 bot	0.0	-1.0008544445743649e-09	-1.319730352690415e-09	-2.32058479726478e-09
-Region "MyRegion" on device "MyDevice" has equations 0:1484
-Region "air1" on device "MyDevice" has no equations.
-Region "air2" on device "MyDevice" has no equations.
-Device "MyDevice" has equations 0:1484
 number of equations 1485
 Iteration: 0
   Device: "MyDevice"	RelError: 2.45921e+01	AbsError: 2.73099e+17
@@ -362,10 +330,6 @@ Iteration: 6
       Equation: "PotentialEquation"	RelError: 6.84254e-16	AbsError: 1.10809e-16
 top	0.5	4.592247962966216e-08	5.93574361231845e-08	1.0527991575284665e-07
 bot	0.0	-4.592689854483539e-08	-5.9353014943288005e-08	-1.0527991348812338e-07
-Region "MyRegion" on device "MyDevice" has equations 0:1484
-Region "air1" on device "MyDevice" has no equations.
-Region "air2" on device "MyDevice" has no equations.
-Device "MyDevice" has equations 0:1484
 number of equations 1485
 Iteration: 0
   Device: "MyDevice"	RelError: 2.86315e+00	AbsError: 2.93223e+19
@@ -548,10 +512,6 @@ Iteration: 29
       Equation: "HoleContinuityEquation"	RelError: 5.48115e+03	AbsError: 4.15318e+19
       Equation: "PotentialEquation"	RelError: 3.32091e-02	AbsError: 1.37744e-01
 False
-Region "MyRegion" on device "MyDevice" has equations 0:1484
-Region "air1" on device "MyDevice" has no equations.
-Region "air2" on device "MyDevice" has no equations.
-Device "MyDevice" has equations 0:1484
 number of equations 1485
 Iteration: 0
   Device: "MyDevice"	RelError: 2.22483e+00	AbsError: 3.08655e+17

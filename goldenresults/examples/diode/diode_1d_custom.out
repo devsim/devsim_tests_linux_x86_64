@@ -469,8 +469,6 @@ NetDoping
 1.00000e+18
 1.00000e+18
 1.00000e+18
-Region "MyRegion" on device "MyDevice" has equations 0:464
-Device "MyDevice" has equations 0:464
 number of equations 465
 Iteration: 0
   Device: "MyDevice"	RelError: 1.00000e+00	AbsError: 8.88882e-02
@@ -522,8 +520,6 @@ Iteration: 11
       Equation: "PotentialEquation"	RelError: 9.66527e-11	AbsError: 7.81762e-12
 Warning: Replacing equation with equation of the same name.
 Region: MyRegion, Equation: PotentialEquation, Variable: Potential
-Region "MyRegion" on device "MyDevice" has equations 0:1394
-Device "MyDevice" has equations 0:1394
 number of equations 1395
 Iteration: 0
   Device: "MyDevice"	RelError: 2.15753e-13	AbsError: 1.02400e+04
@@ -533,8 +529,6 @@ Iteration: 0
       Equation: "PotentialEquation"	RelError: 1.99500e-13	AbsError: 1.20767e-16
 Replacing Node Model topnodemodel in region MyRegion of material Si
 Replacing Node Model topnodemodel:Potential in region MyRegion of material Si
-Region "MyRegion" on device "MyDevice" has equations 0:1394
-Device "MyDevice" has equations 0:1394
 number of equations 1395
 Iteration: 0
   Device: "MyDevice"	RelError: 1.02111e-13	AbsError: 3.49132e+02
@@ -544,8 +538,6 @@ Iteration: 0
       Equation: "PotentialEquation"	RelError: 9.57127e-14	AbsError: 4.22378e-17
 top	0.0	-1.104672081533864e-24	-2.1558854434500004e-09	-2.1558854434500016e-09
 bot	0.0	-4.7046820549940125e-08	-2.0451104162455877e-24	-4.7046820549940125e-08
-Region "MyRegion" on device "MyDevice" has equations 0:1394
-Device "MyDevice" has equations 0:1394
 number of equations 1395
 Iteration: 0
   Device: "MyDevice"	RelError: 3.68696e+02	AbsError: 2.08298e+17
@@ -591,8 +583,6 @@ Iteration: 6
       Equation: "PotentialEquation"	RelError: 5.79723e-14	AbsError: 1.03908e-16
 top	0.1	2.775905363080393e-09	1.1314722596688752e-07	1.1592313132996792e-07
 bot	0.0	-1.1737266843262372e-07	-1.3881215552428542e-09	-1.1876078998786658e-07
-Region "MyRegion" on device "MyDevice" has equations 0:1394
-Device "MyDevice" has equations 0:1394
 number of equations 1395
 Iteration: 0
   Device: "MyDevice"	RelError: 5.64909e+01	AbsError: 2.20974e+17
@@ -638,8 +628,6 @@ Iteration: 6
       Equation: "PotentialEquation"	RelError: 1.12570e-14	AbsError: 4.03971e-17
 top	0.2	1.2832944285759447e-07	1.0080071751381564e-06	1.136336617995751e-06
 bot	0.0	-1.0351389802923312e-06	-6.417201268020005e-08	-1.0993109929725313e-06
-Region "MyRegion" on device "MyDevice" has equations 0:1394
-Device "MyDevice" has equations 0:1394
 number of equations 1395
 Iteration: 0
   Device: "MyDevice"	RelError: 3.31314e+01	AbsError: 2.36183e+17
@@ -685,8 +673,6 @@ Iteration: 6
       Equation: "PotentialEquation"	RelError: 1.06323e-15	AbsError: 3.41641e-17
 top	0.30000000000000004	5.806848290162499e-06	1.0124612479256645e-05	1.5931460769419144e-05
 bot	0.0	-1.3084139124353541e-05	-2.90373085354621e-06	-1.5987869977899753e-05
-Region "MyRegion" on device "MyDevice" has equations 0:1394
-Device "MyDevice" has equations 0:1394
 number of equations 1395
 Iteration: 0
   Device: "MyDevice"	RelError: 2.69772e+02	AbsError: 2.55019e+17
@@ -732,8 +718,6 @@ Iteration: 6
       Equation: "PotentialEquation"	RelError: 1.72839e-14	AbsError: 3.68647e-17
 top	0.4	0.000262212527169107	0.00018654040521116932	0.0004487529323802763
 bot	0.0	-0.00031770168648369084	-0.00013111905584502437	-0.0004488207423287152
-Region "MyRegion" on device "MyDevice" has equations 0:1394
-Device "MyDevice" has equations 0:1394
 number of equations 1395
 Iteration: 0
   Device: "MyDevice"	RelError: 1.75289e+02	AbsError: 2.79354e+17

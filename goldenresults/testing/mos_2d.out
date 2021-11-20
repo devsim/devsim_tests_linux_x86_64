@@ -94,11 +94,6 @@ Interface bulk_oxide bulk oxide has 9 node pairs
 Adding interface bulk_oxide with 9, 9 nodes
 Interface gate_oxide gate oxide has 11 node pairs
 Adding interface gate_oxide with 11, 11 nodes
-Region "air" on device "mymos" has no equations.
-Region "bulk" on device "mymos" has equations 0:2274
-Region "gate" on device "mymos" has equations 2275:2406
-Region "oxide" on device "mymos" has equations 2407:2538
-Device "mymos" has equations 0:2538
 number of equations 2539
 Iteration: 0
   Device: "mymos"	RelError: 3.00000e+00	AbsError: 2.61575e-01
@@ -244,11 +239,6 @@ Iteration: 17
       Equation: "PotentialEquation"	RelError: 2.07552e-16	AbsError: 1.23716e-16
     Region: "oxide"	RelError: 1.97044e-16	AbsError: 1.17451e-16
       Equation: "PotentialEquation"	RelError: 1.97044e-16	AbsError: 1.17451e-16
-Region "air" on device "mymos" has no equations.
-Region "bulk" on device "mymos" has equations 0:2274
-Region "gate" on device "mymos" has equations 2275:2406
-Region "oxide" on device "mymos" has equations 2407:2538
-Device "mymos" has equations 0:2538
 number of equations 2539
 Iteration: 0
   Device: "mymos"	RelError: 5.32039e-16	AbsError: 1.22087e-16
@@ -270,11 +260,6 @@ Replacing Edge Model ElectronCurrent in region bulk of material Silicon
 Replacing Edge Model ElectronCurrent in region bulk of material Silicon
 Replacing Edge Model HoleCurrent in region bulk of material Silicon
 Replacing Edge Model HoleCurrent in region bulk of material Silicon
-Region "air" on device "mymos" has no equations.
-Region "bulk" on device "mymos" has equations 0:6824
-Region "gate" on device "mymos" has equations 6825:7220
-Region "oxide" on device "mymos" has equations 7221:7352
-Device "mymos" has equations 0:7352
 number of equations 7353
 Iteration: 0
   Device: "mymos"	RelError: 9.86377e-13	AbsError: 4.19840e+04

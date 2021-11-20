@@ -2,13 +2,6 @@ bot
  (region: MyRegion)
  (contact: top)
  (contact: bot)
-Region "MyRegion" on device "MyDevice" has equations 0:20
-Device "MyDevice" has equations 0:20
-0	18446744073709551615	ground
-GND	18446744073709551615	ground
-V1.I	0	mna
-topbias	1	default
-Circuit  has equations 21:22
 creating solution dcop with 2 nodes
 number of equations 23
 creating solution dcop_prev with 2 nodes
@@ -17,9 +10,6 @@ Iteration: 0
     Region: "MyRegion"	RelError: 0.00000e+00	AbsError: 0.00000e+00
       Equation: "PotentialEquation"	RelError: 0.00000e+00	AbsError: 0.00000e+00
   Circuit: 	RelError: 0.00000e+00	AbsError: 0.00000e+00
-Circuit Solution:
-V1.I	0
-topbias	0
 Potential
 0.00000e+00
 0.00000e+00
@@ -66,13 +56,6 @@ IntrinsicElectrons
 1.00000e+17
 Warning: Replacing equation with equation of the same name.
 Region: MyRegion, Equation: PotentialEquation, Variable: Potential
-Region "MyRegion" on device "MyDevice" has equations 0:41
-Device "MyDevice" has equations 0:41
-0	18446744073709551615	ground
-GND	18446744073709551615	ground
-V1.I	0	mna
-topbias	1	default
-Circuit  has equations 42:43
 number of equations 44
 Iteration: 0
   Device: "MyDevice"	RelError: 2.46933e-06	AbsError: 9.92000e+02
@@ -86,9 +69,6 @@ Iteration: 1
       Equation: "ElectronContinuityEquation"	RelError: 1.27304e-16	AbsError: 1.27304e+01
       Equation: "PotentialEquation"	RelError: 1.82739e-08	AbsError: 1.82739e-18
   Circuit: 	RelError: 6.40949e-15	AbsError: 6.40949e-25
-Circuit Solution:
-V1.I	-9.86076e-27
-topbias	0
 Contact: top
 Electron -5.30432e-11
 Hole 0
@@ -97,13 +77,6 @@ Contact: bot
 Electron 0
 Hole 0
 Total 0
-Region "MyRegion" on device "MyDevice" has equations 0:41
-Device "MyDevice" has equations 0:41
-0	18446744073709551615	ground
-GND	18446744073709551615	ground
-V1.I	0	mna
-topbias	1	default
-Circuit  has equations 42:43
 number of equations 44
 Iteration: 0
   Device: "MyDevice"	RelError: 1.00000e+00	AbsError: 1.13347e+01
@@ -117,9 +90,6 @@ Iteration: 1
       Equation: "ElectronContinuityEquation"	RelError: 3.00121e-16	AbsError: 3.00121e+01
       Equation: "PotentialEquation"	RelError: 3.31205e-14	AbsError: 1.12228e-17
   Circuit: 	RelError: 1.18568e-14	AbsError: 7.58834e-12
-Circuit Solution:
-V1.I	-640
-topbias	0.001
 Contact: top
 Electron 640
 Hole 0
@@ -128,13 +98,6 @@ Contact: bot
 Electron -640
 Hole 0
 Total -640
-Region "MyRegion" on device "MyDevice" has equations 0:41
-Device "MyDevice" has equations 0:41
-0	18446744073709551615	ground
-GND	18446744073709551615	ground
-V1.I	0	mna
-topbias	1	default
-Circuit  has equations 42:43
 number of equations 44
 Iteration: 0
   Device: "MyDevice"	RelError: 5.14145e-14	AbsError: 2.02817e+01
@@ -142,16 +105,6 @@ Iteration: 0
       Equation: "ElectronContinuityEquation"	RelError: 2.02817e-16	AbsError: 2.02817e+01
       Equation: "PotentialEquation"	RelError: 5.12117e-14	AbsError: 1.34916e-17
   Circuit: 	RelError: 8.32081e-15	AbsError: 5.32532e-12
-Circuit Solution:
-V1.I	-640
-topbias	0.001
-Region "MyRegion" on device "MyDevice" has equations 0:41
-Device "MyDevice" has equations 0:41
-0	18446744073709551615	ground
-GND	18446744073709551615	ground
-V1.I	0	mna
-topbias	1	default
-Circuit  has equations 42:43
 Circuit output V1.I has equation 42.
 creating solution noise_V1.I_real with 2 nodes
 creating solution noise_V1.I_imag with 2 nodes
@@ -159,8 +112,6 @@ Device: MyDevice	Region: MyRegion	Creating: V1.I_ElectronContinuityEquation_real
 Device: MyDevice	Region: MyRegion	Creating: V1.I_ElectronContinuityEquation_imag
 Device: MyDevice	Region: MyRegion	Creating: V1.I_PotentialEquation_real
 Device: MyDevice	Region: MyRegion	Creating: V1.I_PotentialEquation_imag
-Setting V1.I = (-640000,4.44089e-16)
-Setting topbias = (1,0)
 Noise Iteration:
 number of equations 44
 Replacing Node Model V1.I_ElectronContinuityEquation_real_gradx in region MyRegion of material Si

@@ -37,10 +37,6 @@ Adding interface dna_solution with 440, 440 nodes
 Volume dna 6.373529476563929e-20 2.0052545537930616e-13
 Volume dielectric 9.756678569823221e-12 1.1035733974877949e-08
 Volume solution 3.977731347627863e-11 5.160562609001867e-08
-Region "dielectric" on device "disk" has equations 0:860
-Region "dna" on device "disk" has equations 861:11606
-Region "solution" on device "disk" has equations 11607:44102
-Device "disk" has equations 0:44102
 number of equations 44103
 Iteration: 0
   Device: "disk"	RelError: 3.38649e+00	AbsError: 2.02298e+17
@@ -92,10 +88,6 @@ Iteration: 4
       Equation: "AnionContinuityEquation"	RelError: 1.88290e-12	AbsError: 1.08040e+06
       Equation: "CationContinuityEquation"	RelError: 1.77397e-12	AbsError: 1.01772e+06
       Equation: "PotentialEquation"	RelError: 1.86127e-10	AbsError: 2.41243e-13
-Region "dielectric" on device "disk" has equations 0:860
-Region "dna" on device "disk" has equations 861:11606
-Region "solution" on device "disk" has equations 11607:44102
-Device "disk" has equations 0:44102
 number of equations 44103
 Iteration: 0
   Device: "disk"	RelError: 3.33815e+03	AbsError: 1.34188e+19

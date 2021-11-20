@@ -508,10 +508,6 @@ Adding 321 edges with 159 duplicates removed
 Adding 160 triangles  with 0 duplicate removed
 Contact bot in region air with 334 nodes
 Contact top in region air with 162 nodes
-Region "air" on device "MyDevice" has equations 0:8280
-Region "m1" on device "MyDevice" has no equations.
-Region "m2" on device "MyDevice" has no equations.
-Device "MyDevice" has equations 0:8280
 number of equations 8281
 Iteration: 0
   Device: "MyDevice"	RelError: 1.00000e+00	AbsError: 1.00000e+00
