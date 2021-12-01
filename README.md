@@ -1,6 +1,6 @@
-Please see preinstall.sh for installing prerequisites from the Anaconda Python distribution.
+Please see ``preinstall.sh`` for installing prerequisites from the Anaconda Python distribution.
 
-Please see travis_tests.sh for an example of how to setup and run the tests.
+Please see ``travis_tests.sh`` for an example of how to setup and run the tests.
 
 Results are sensitive to the CPU and system libraries that may be installed in your Linux distribution.
 
