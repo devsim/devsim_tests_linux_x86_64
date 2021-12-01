@@ -26,7 +26,7 @@ Iteration: 0
   Circuit: 	RelError: 4.00008e-05	AbsError: 4.79981e-05
 Iteration: 1
   Circuit: 	RelError: 1.81906e-16	AbsError: 1.90519e-16
-Charge Relative Error 3.99996e-05
+Charge Relative Error 4.00008e-10
 Circuit Solution
 1	0.000000000000000e+00
 2	9.999400019999439e-01
@@ -36,7 +36,7 @@ Iteration: 0
   Circuit: 	RelError: 4.00008e-05	AbsError: 4.79962e-05
 Iteration: 1
   Circuit: 	RelError: 3.63827e-16	AbsError: 4.36549e-16
-Charge Relative Error 3.99996e-05
+Charge Relative Error 4.00008e-10
 Circuit Solution
 1	0.000000000000000e+00
 2	9.999000051998002e-01
@@ -46,7 +46,7 @@ Iteration: 0
   Circuit: 	RelError: 4.00008e-05	AbsError: 4.79942e-05
 Iteration: 1
   Circuit: 	RelError: 0.00000e+00	AbsError: 0.00000e+00
-Charge Relative Error 3.99996e-05
+Charge Relative Error 4.00008e-10
 Circuit Solution
 1	0.000000000000000e+00
 2	9.998600099994962e-01
@@ -56,7 +56,7 @@ Iteration: 0
   Circuit: 	RelError: 4.00008e-05	AbsError: 4.79923e-05
 Iteration: 1
   Circuit: 	RelError: 0.00000e+00	AbsError: 0.00000e+00
-Charge Relative Error 3.99996e-05
+Charge Relative Error 4.00008e-10
 Circuit Solution
 1	0.000000000000000e+00
 2	9.998200163989683e-01
