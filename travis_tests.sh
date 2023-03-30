@@ -1,13 +1,10 @@
 #!/bin/bash
 set -e
+set -u
 BASEDIR="${PWD}"
 TAG=${1}
 TAGDIR=devsim_linux_${TAG}
-TAGTGZ=${TAGDIR}.tgz
-DEVSIM_LIB=${TAGDIR}/lib
-
-#curl -L -O https://github.com/devsim/devsim/releases/download/${TAG}/${TAGTGZ}
-#tar xzf ${TAGTGZ} 
+DEVSIM_LIB=${TAGDIR}
 
 mkdir -p bin
 cat << EOF > bin/devsim_py37
@@ -22,8 +19,8 @@ export PYTHONPATH="\${curdir}"/../${DEVSIM_LIB}
 python "\$@"
 EOF
 chmod +x bin/devsim_py37
-cp CMakeLists.txt ${TAGDIR}/
+cp CMakeLists.txt ${TAGDIR}/devsim_data
 rm -rf run && mkdir run
-(cd run && cmake -DDEVSIM_TEST_GOLDENDIR=${BASEDIR}/goldenresults -DDEVSIM_PY3_TEST_EXE=${BASEDIR}/bin/devsim_py37 ../${TAGDIR})
+(cd run && cmake -DDEVSIM_TEST_GOLDENDIR=${BASEDIR}/goldenresults -DDEVSIM_PY3_TEST_EXE=${BASEDIR}/bin/devsim_py37 ../${TAGDIR}/devsim_data)
 (cd run && ctest -j4)
 
