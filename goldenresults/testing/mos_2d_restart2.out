@@ -21,20 +21,33 @@ Adding interface gate_oxide with 11, 11 nodes
 Replacing Edge Model Bern01 in region bulk of material Silicon
 Replacing Edge Model Bern01:Potential@n0 in region bulk of material Silicon
 Replacing Edge Model Bern01:Potential@n1 in region bulk of material Silicon
-Replacing Edge Model Bern10 in region bulk of material Silicon
-Replacing Edge Model Bern10:Potential@n0 in region bulk of material Silicon
-Replacing Edge Model Bern10:Potential@n1 in region bulk of material Silicon
 Replacing Node Model BodyDoping in region bulk of material Silicon
 Replacing Node Model DrainDoping in region bulk of material Silicon
 Replacing Edge Model ElectricField in region bulk of material Silicon
 Replacing Edge Model ElectricField:Potential@n0 in region bulk of material Silicon
 Replacing Edge Model ElectricField:Potential@n1 in region bulk of material Silicon
-Replacing Triangle Edge Model ElectricField_x in region bulk of material Silicon
-Replacing Triangle Edge Model ElectricField_y in region bulk of material Silicon
 Replacing Edge Model ElectronCurrent in region bulk of material Silicon
+Replacing Edge Model ElectronCurrent:Electrons@n0 in region bulk of material Silicon
+Replacing Edge Model ElectronCurrent:Electrons@n1 in region bulk of material Silicon
+Replacing Edge Model ElectronCurrent:Holes@n0 in region bulk of material Silicon
+Replacing Edge Model ElectronCurrent:Holes@n1 in region bulk of material Silicon
+Replacing Edge Model ElectronCurrent:Potential@n0 in region bulk of material Silicon
+Replacing Edge Model ElectronCurrent:Potential@n1 in region bulk of material Silicon
+Replacing Node Model ElectronGeneration in region bulk of material Silicon
+Replacing Node Model ElectronGeneration:Electrons in region bulk of material Silicon
+Replacing Node Model ElectronGeneration:Holes in region bulk of material Silicon
 Replacing Edge Model Electrons@n0 in region bulk of material Silicon
 Replacing Edge Model Electrons@n1 in region bulk of material Silicon
 Replacing Edge Model HoleCurrent in region bulk of material Silicon
+Replacing Edge Model HoleCurrent:Electrons@n0 in region bulk of material Silicon
+Replacing Edge Model HoleCurrent:Electrons@n1 in region bulk of material Silicon
+Replacing Edge Model HoleCurrent:Holes@n0 in region bulk of material Silicon
+Replacing Edge Model HoleCurrent:Holes@n1 in region bulk of material Silicon
+Replacing Edge Model HoleCurrent:Potential@n0 in region bulk of material Silicon
+Replacing Edge Model HoleCurrent:Potential@n1 in region bulk of material Silicon
+Replacing Node Model HoleGeneration in region bulk of material Silicon
+Replacing Node Model HoleGeneration:Electrons in region bulk of material Silicon
+Replacing Node Model HoleGeneration:Holes in region bulk of material Silicon
 Replacing Edge Model Holes@n0 in region bulk of material Silicon
 Replacing Edge Model Holes@n1 in region bulk of material Silicon
 Replacing Node Model IntrinsicCharge in region bulk of material Silicon
@@ -53,8 +66,8 @@ Replacing Edge Model Potential@n1 in region bulk of material Silicon
 Replacing Edge Model PotentialEdgeFlux in region bulk of material Silicon
 Replacing Edge Model PotentialEdgeFlux:Potential@n0 in region bulk of material Silicon
 Replacing Edge Model PotentialEdgeFlux:Potential@n1 in region bulk of material Silicon
-Replacing Node Model PotentialIntrinsicNodeCharge in region bulk of material Silicon
-Replacing Node Model PotentialIntrinsicNodeCharge:Potential in region bulk of material Silicon
+Replacing Node Model PotentialIntrinsicCharge in region bulk of material Silicon
+Replacing Node Model PotentialIntrinsicCharge:Potential in region bulk of material Silicon
 Replacing Node Model PotentialNodeCharge in region bulk of material Silicon
 Replacing Node Model PotentialNodeCharge:Electrons in region bulk of material Silicon
 Replacing Node Model PotentialNodeCharge:Holes in region bulk of material Silicon
@@ -68,18 +81,17 @@ Replacing Node Model bodynodeholes in region bulk of material Silicon
 Replacing Node Model bodynodeholes:Holes in region bulk of material Silicon
 Replacing Node Model bodynodemodel in region bulk of material Silicon
 Replacing Node Model bodynodemodel:Potential in region bulk of material Silicon
-Replacing Node Model celec_body in region bulk of material Silicon
-Replacing Node Model celec_drain in region bulk of material Silicon
-Replacing Node Model celec_source in region bulk of material Silicon
-Replacing Node Model chole_body in region bulk of material Silicon
-Replacing Node Model chole_drain in region bulk of material Silicon
-Replacing Node Model chole_source in region bulk of material Silicon
+Replacing Edge Model contactcharge_edge in region bulk of material Silicon
+Replacing Edge Model contactcharge_edge:Potential@n0 in region bulk of material Silicon
+Replacing Edge Model contactcharge_edge:Potential@n1 in region bulk of material Silicon
+Replacing Node Model contactcharge_node in region bulk of material Silicon
 Replacing Node Model drainnodeelectrons in region bulk of material Silicon
 Replacing Node Model drainnodeelectrons:Electrons in region bulk of material Silicon
 Replacing Node Model drainnodeholes in region bulk of material Silicon
 Replacing Node Model drainnodeholes:Holes in region bulk of material Silicon
 Replacing Node Model drainnodemodel in region bulk of material Silicon
 Replacing Node Model drainnodemodel:Potential in region bulk of material Silicon
+Replacing Node Model logElectrons in region bulk of material Silicon
 Replacing Node Model sourcenodeelectrons in region bulk of material Silicon
 Replacing Node Model sourcenodeelectrons:Electrons in region bulk of material Silicon
 Replacing Node Model sourcenodeholes in region bulk of material Silicon
@@ -92,16 +104,31 @@ Replacing Edge Model vdiff:Potential@n1 in region bulk of material Silicon
 Replacing Edge Model Bern01 in region gate of material Silicon
 Replacing Edge Model Bern01:Potential@n0 in region gate of material Silicon
 Replacing Edge Model Bern01:Potential@n1 in region gate of material Silicon
-Replacing Edge Model Bern10 in region gate of material Silicon
-Replacing Edge Model Bern10:Potential@n0 in region gate of material Silicon
-Replacing Edge Model Bern10:Potential@n1 in region gate of material Silicon
 Replacing Edge Model ElectricField in region gate of material Silicon
 Replacing Edge Model ElectricField:Potential@n0 in region gate of material Silicon
 Replacing Edge Model ElectricField:Potential@n1 in region gate of material Silicon
 Replacing Edge Model ElectronCurrent in region gate of material Silicon
+Replacing Edge Model ElectronCurrent:Electrons@n0 in region gate of material Silicon
+Replacing Edge Model ElectronCurrent:Electrons@n1 in region gate of material Silicon
+Replacing Edge Model ElectronCurrent:Holes@n0 in region gate of material Silicon
+Replacing Edge Model ElectronCurrent:Holes@n1 in region gate of material Silicon
+Replacing Edge Model ElectronCurrent:Potential@n0 in region gate of material Silicon
+Replacing Edge Model ElectronCurrent:Potential@n1 in region gate of material Silicon
+Replacing Node Model ElectronGeneration in region gate of material Silicon
+Replacing Node Model ElectronGeneration:Electrons in region gate of material Silicon
+Replacing Node Model ElectronGeneration:Holes in region gate of material Silicon
 Replacing Edge Model Electrons@n0 in region gate of material Silicon
 Replacing Edge Model Electrons@n1 in region gate of material Silicon
 Replacing Edge Model HoleCurrent in region gate of material Silicon
+Replacing Edge Model HoleCurrent:Electrons@n0 in region gate of material Silicon
+Replacing Edge Model HoleCurrent:Electrons@n1 in region gate of material Silicon
+Replacing Edge Model HoleCurrent:Holes@n0 in region gate of material Silicon
+Replacing Edge Model HoleCurrent:Holes@n1 in region gate of material Silicon
+Replacing Edge Model HoleCurrent:Potential@n0 in region gate of material Silicon
+Replacing Edge Model HoleCurrent:Potential@n1 in region gate of material Silicon
+Replacing Node Model HoleGeneration in region gate of material Silicon
+Replacing Node Model HoleGeneration:Electrons in region gate of material Silicon
+Replacing Node Model HoleGeneration:Holes in region gate of material Silicon
 Replacing Edge Model Holes@n0 in region gate of material Silicon
 Replacing Edge Model Holes@n1 in region gate of material Silicon
 Replacing Node Model IntrinsicCharge in region gate of material Silicon
@@ -120,22 +147,25 @@ Replacing Edge Model Potential@n1 in region gate of material Silicon
 Replacing Edge Model PotentialEdgeFlux in region gate of material Silicon
 Replacing Edge Model PotentialEdgeFlux:Potential@n0 in region gate of material Silicon
 Replacing Edge Model PotentialEdgeFlux:Potential@n1 in region gate of material Silicon
-Replacing Node Model PotentialIntrinsicNodeCharge in region gate of material Silicon
-Replacing Node Model PotentialIntrinsicNodeCharge:Potential in region gate of material Silicon
+Replacing Node Model PotentialIntrinsicCharge in region gate of material Silicon
+Replacing Node Model PotentialIntrinsicCharge:Potential in region gate of material Silicon
 Replacing Node Model PotentialNodeCharge in region gate of material Silicon
 Replacing Node Model PotentialNodeCharge:Electrons in region gate of material Silicon
 Replacing Node Model PotentialNodeCharge:Holes in region gate of material Silicon
 Replacing Node Model USRH in region gate of material Silicon
 Replacing Node Model USRH:Electrons in region gate of material Silicon
 Replacing Node Model USRH:Holes in region gate of material Silicon
-Replacing Node Model celec_gate in region gate of material Silicon
-Replacing Node Model chole_gate in region gate of material Silicon
+Replacing Edge Model contactcharge_edge in region gate of material Silicon
+Replacing Edge Model contactcharge_edge:Potential@n0 in region gate of material Silicon
+Replacing Edge Model contactcharge_edge:Potential@n1 in region gate of material Silicon
+Replacing Node Model contactcharge_node in region gate of material Silicon
 Replacing Node Model gatenodeelectrons in region gate of material Silicon
 Replacing Node Model gatenodeelectrons:Electrons in region gate of material Silicon
 Replacing Node Model gatenodeholes in region gate of material Silicon
 Replacing Node Model gatenodeholes:Holes in region gate of material Silicon
 Replacing Node Model gatenodemodel in region gate of material Silicon
 Replacing Node Model gatenodemodel:Potential in region gate of material Silicon
+Replacing Node Model logElectrons in region gate of material Silicon
 Replacing Edge Model vdiff in region gate of material Silicon
 Replacing Edge Model vdiff:Potential@n0 in region gate of material Silicon
 Replacing Edge Model vdiff:Potential@n1 in region gate of material Silicon
@@ -162,59 +192,83 @@ Device: mymos Region: gate  Contact: gate Contact Equation: PotentialEquation ED
 Device: mymos Region: gate  Contact: gate Contact Equation: PotentialEquation EDGE Model: gatenodemodel:Holes MISSING
 Device: mymos Region: gate  Interface: gate_oxide Interface Equation: PotentialEquation INTERFACE Model: continuousPotential:Electrons@r0 MISSING
 Device: mymos Region: gate  Interface: gate_oxide Interface Equation: PotentialEquation INTERFACE Model: continuousPotential:Holes@r0 MISSING
-Could not find a model by the name of EdgeInverseLength:Potential, using 0.0
-Could not find a model by the name of Electrons@n0:Potential, using 0.0
-Could not find a model by the name of Bern01:Potential, using 0.0
-Could not find a model by the name of Electrons@n1:Potential, using 0.0
-Could not find a model by the name of Bern10:Potential, using 0.0
-Device: mymos Region: gate Equation: ElectronContinuityEquation EDGE Model: ElectronCurrent:Electrons@n0 MISSING
-Device: mymos Region: gate Equation: ElectronContinuityEquation EDGE Model: ElectronCurrent:Electrons@n1 MISSING
-Device: mymos Region: gate Equation: ElectronContinuityEquation EDGE Model: ElectronCurrent:Holes@n0 MISSING
-Device: mymos Region: gate Equation: ElectronContinuityEquation EDGE Model: ElectronCurrent:Holes@n1 MISSING
-Device: mymos Region: gate Equation: ElectronContinuityEquation EDGE Model: ElectronCurrent:Potential@n0 MISSING
-Device: mymos Region: gate Equation: ElectronContinuityEquation EDGE Model: ElectronCurrent:Potential@n1 MISSING
+Could not find a model by the name of Bern01:Electrons@n0, using 0.0
+Could not find a model by the name of Electrons@n1:Electrons@n0, using 0.0
+Could not find a model by the name of vdiff:Electrons@n0, using 0.0
+Could not find a model by the name of EdgeInverseLength:Electrons@n0, using 0.0
+Could not find a model by the name of Electrons@n0:Electrons@n1, using 0.0
+Could not find a model by the name of Bern01:Electrons@n1, using 0.0
+Could not find a model by the name of vdiff:Electrons@n1, using 0.0
+Could not find a model by the name of EdgeInverseLength:Electrons@n1, using 0.0
+Could not find a model by the name of Electrons@n0:Holes@n0, using 0.0
+Could not find a model by the name of Bern01:Holes@n0, using 0.0
+Could not find a model by the name of Electrons@n1:Holes@n0, using 0.0
+Could not find a model by the name of vdiff:Holes@n0, using 0.0
+Could not find a model by the name of EdgeInverseLength:Holes@n0, using 0.0
+Could not find a model by the name of Electrons@n0:Holes@n1, using 0.0
+Could not find a model by the name of Bern01:Holes@n1, using 0.0
+Could not find a model by the name of Electrons@n1:Holes@n1, using 0.0
+Could not find a model by the name of vdiff:Holes@n1, using 0.0
+Could not find a model by the name of EdgeInverseLength:Holes@n1, using 0.0
+Could not find a model by the name of Electrons@n0:Potential@n0, using 0.0
+Could not find a model by the name of Electrons@n1:Potential@n0, using 0.0
+Could not find a model by the name of EdgeInverseLength:Potential@n0, using 0.0
+Could not find a model by the name of Electrons@n0:Potential@n1, using 0.0
+Could not find a model by the name of Electrons@n1:Potential@n1, using 0.0
+Could not find a model by the name of EdgeInverseLength:Potential@n1, using 0.0
 Could not find a model by the name of Holes:Electrons, using 0.0
 Could not find a model by the name of Electrons:Holes, using 0.0
-Device: mymos Region: gate Equation: ElectronContinuityEquation NODE Model: USRH:Potential MISSING
-Could not find a model by the name of EdgeInverseLength:Potential, using 0.0
-Could not find a model by the name of Holes@n0:Potential, using 0.0
-Could not find a model by the name of Bern10:Potential, using 0.0
-Could not find a model by the name of Holes@n1:Potential, using 0.0
-Could not find a model by the name of Bern01:Potential, using 0.0
-Device: mymos Region: gate Equation: HoleContinuityEquation EDGE Model: HoleCurrent:Electrons@n0 MISSING
-Device: mymos Region: gate Equation: HoleContinuityEquation EDGE Model: HoleCurrent:Electrons@n1 MISSING
-Device: mymos Region: gate Equation: HoleContinuityEquation EDGE Model: HoleCurrent:Holes@n0 MISSING
-Device: mymos Region: gate Equation: HoleContinuityEquation EDGE Model: HoleCurrent:Holes@n1 MISSING
-Device: mymos Region: gate Equation: HoleContinuityEquation EDGE Model: HoleCurrent:Potential@n0 MISSING
-Device: mymos Region: gate Equation: HoleContinuityEquation EDGE Model: HoleCurrent:Potential@n1 MISSING
-Device: mymos Region: gate Equation: HoleContinuityEquation NODE Model: USRH:Potential MISSING
+Device: mymos Region: gate Equation: ElectronContinuityEquation NODE Model: ElectronGeneration:Potential MISSING
+Could not find a model by the name of Holes@n0:Electrons@n0, using 0.0
+Could not find a model by the name of Bern01:Electrons@n0, using 0.0
+Could not find a model by the name of vdiff:Electrons@n0, using 0.0
+Could not find a model by the name of Holes@n1:Electrons@n0, using 0.0
+Could not find a model by the name of EdgeInverseLength:Electrons@n0, using 0.0
+Could not find a model by the name of Holes@n0:Electrons@n1, using 0.0
+Could not find a model by the name of Bern01:Electrons@n1, using 0.0
+Could not find a model by the name of vdiff:Electrons@n1, using 0.0
+Could not find a model by the name of Holes@n1:Electrons@n1, using 0.0
+Could not find a model by the name of EdgeInverseLength:Electrons@n1, using 0.0
+Could not find a model by the name of Bern01:Holes@n0, using 0.0
+Could not find a model by the name of vdiff:Holes@n0, using 0.0
+Could not find a model by the name of Holes@n1:Holes@n0, using 0.0
+Could not find a model by the name of EdgeInverseLength:Holes@n0, using 0.0
+Could not find a model by the name of Holes@n0:Holes@n1, using 0.0
+Could not find a model by the name of Bern01:Holes@n1, using 0.0
+Could not find a model by the name of vdiff:Holes@n1, using 0.0
+Could not find a model by the name of EdgeInverseLength:Holes@n1, using 0.0
+Could not find a model by the name of Holes@n0:Potential@n0, using 0.0
+Could not find a model by the name of Holes@n1:Potential@n0, using 0.0
+Could not find a model by the name of EdgeInverseLength:Potential@n0, using 0.0
+Could not find a model by the name of Holes@n0:Potential@n1, using 0.0
+Could not find a model by the name of Holes@n1:Potential@n1, using 0.0
+Could not find a model by the name of EdgeInverseLength:Potential@n1, using 0.0
+Device: mymos Region: gate Equation: HoleContinuityEquation NODE Model: HoleGeneration:Potential MISSING
 Device: mymos Region: gate Equation: PotentialEquation EDGE Model: PotentialEdgeFlux:Electrons@n0 MISSING
 Device: mymos Region: gate Equation: PotentialEquation EDGE Model: PotentialEdgeFlux:Electrons@n1 MISSING
 Device: mymos Region: gate Equation: PotentialEquation EDGE Model: PotentialEdgeFlux:Holes@n0 MISSING
 Device: mymos Region: gate Equation: PotentialEquation EDGE Model: PotentialEdgeFlux:Holes@n1 MISSING
+Could not find a model by the name of EdgeInverseLength:Potential@n0, using 0.0
+Could not find a model by the name of Potential@n1:Potential@n0, using 0.0
+Could not find a model by the name of Potential@n0:Potential@n1, using 0.0
+Could not find a model by the name of EdgeInverseLength:Potential@n1, using 0.0
+Could not find a model by the name of Holes:Electrons, using 0.0
+Could not find a model by the name of NetDoping:Electrons, using 0.0
+Could not find a model by the name of Electrons:Holes, using 0.0
+Could not find a model by the name of NetDoping:Holes, using 0.0
 Device: mymos Region: gate Equation: PotentialEquation NODE Model: PotentialNodeCharge:Potential MISSING
 Iteration: 0
-  Device: "mymos"	RelError: 1.27485e-13	AbsError: 4.91520e+04
-    Region: "bulk"	RelError: 2.41656e-14	AbsError: 8.16199e+03
-      Equation: "ElectronContinuityEquation"	RelError: 6.55360e-16	AbsError: 6.55294e+03
-      Equation: "HoleContinuityEquation"	RelError: 6.55360e-16	AbsError: 1.60905e+03
-      Equation: "PotentialEquation"	RelError: 2.28549e-14	AbsError: 2.91542e-15
-    Region: "gate"	RelError: 5.21511e-14	AbsError: 4.91520e+04
-      Equation: "ElectronContinuityEquation"	RelError: 4.91520e-16	AbsError: 4.91520e+04
-	RelErrorNode: 129	AbsErrorNode: 129
-      Equation: "HoleContinuityEquation"	RelError: 4.91520e-16	AbsError: 4.91668e-16
-	RelErrorNode: 47	AbsErrorNode: 47
-      Equation: "PotentialEquation"	RelError: 5.11680e-14	AbsError: 3.04996e-14
-	RelErrorNode: 131	AbsErrorNode: 131
-    Region: "oxide"	RelError: 5.11680e-14	AbsError: 3.04996e-14
-      Equation: "PotentialEquation"	RelError: 5.11680e-14	AbsError: 3.04996e-14
-Could not find a model by the name of EdgeInverseLength:Potential, using 0.0
-Could not find a model by the name of Electrons@n0:Potential, using 0.0
-Could not find a model by the name of Bern01:Potential, using 0.0
-Could not find a model by the name of Electrons@n1:Potential, using 0.0
-Could not find a model by the name of Bern10:Potential, using 0.0
-Could not find a model by the name of EdgeInverseLength:Potential, using 0.0
-Could not find a model by the name of Holes@n0:Potential, using 0.0
-Could not find a model by the name of Bern10:Potential, using 0.0
-Could not find a model by the name of Holes@n1:Potential, using 0.0
-Could not find a model by the name of Bern01:Potential, using 0.0
+  Device: "mymos"	RelError: 1.27306e-14	AbsError: 8.03389e+03
+    Region: "bulk"	RelError: 1.17018e-14	AbsError: 4.41561e+03
+      Equation: "ElectronContinuityEquation"	RelError: 5.87468e-15	AbsError: 2.74201e+03
+      Equation: "HoleContinuityEquation"	RelError: 5.33919e-15	AbsError: 1.67360e+03
+      Equation: "PotentialEquation"	RelError: 4.87922e-16	AbsError: 1.95289e-16
+    Region: "gate"	RelError: 7.37611e-16	AbsError: 8.03389e+03
+      Equation: "ElectronContinuityEquation"	RelError: 8.03389e-17	AbsError: 8.03389e+03
+	RelErrorNode: 17	AbsErrorNode: 17
+      Equation: "HoleContinuityEquation"	RelError: 5.66565e-16	AbsError: 5.66565e-16
+	RelErrorNode: 34	AbsErrorNode: 34
+      Equation: "PotentialEquation"	RelError: 9.07073e-17	AbsError: 5.40683e-17
+	RelErrorNode: 70	AbsErrorNode: 70
+    Region: "oxide"	RelError: 2.91204e-16	AbsError: 1.19836e-16
+      Equation: "PotentialEquation"	RelError: 2.91204e-16	AbsError: 1.19836e-16

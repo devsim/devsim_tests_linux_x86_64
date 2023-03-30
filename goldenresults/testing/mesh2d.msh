@@ -254,6 +254,10 @@ begin_edge_model "EdgeLength"
 BUILTIN
 end_edge_model
 
+begin_edge_model "EdgeNodeVolume"
+BUILTIN
+end_edge_model
+
 begin_edge_model "edge_index"
 BUILTIN
 end_edge_model
@@ -382,6 +386,10 @@ BUILTIN
 end_edge_model
 
 begin_edge_model "EdgeLength"
+BUILTIN
+end_edge_model
+
+begin_edge_model "EdgeNodeVolume"
 BUILTIN
 end_edge_model
 
@@ -660,6 +668,10 @@ begin_edge_model "EdgeLength"
 BUILTIN
 end_edge_model
 
+begin_edge_model "EdgeNodeVolume"
+BUILTIN
+end_edge_model
+
 begin_edge_model "edge_index"
 BUILTIN
 end_edge_model
@@ -832,6 +844,10 @@ BUILTIN
 end_edge_model
 
 begin_edge_model "EdgeLength"
+BUILTIN
+end_edge_model
+
+begin_edge_model "EdgeNodeVolume"
 BUILTIN
 end_edge_model
 
@@ -1115,6 +1131,10 @@ begin_edge_model "EdgeLength"
 BUILTIN
 end_edge_model
 
+begin_edge_model "EdgeNodeVolume"
+BUILTIN
+end_edge_model
+
 begin_edge_model "edge_index"
 BUILTIN
 end_edge_model
@@ -1194,34 +1214,36 @@ end_edges
 end_contact
 
 begin_interface "i0" "r0" "r1"
-begin_edges
-10	11	0	2
-11	17	2	4
-17	23	4	6
-23	29	6	8
-29	35	8	10
-35	41	10	12
-41	47	12	14
-47	53	14	16
-53	59	16	18
-59	65	18	20
-end_edges
+begin_nodes
+10	0
+11	2
+17	4
+23	6
+29	8
+35	10
+41	12
+47	14
+53	16
+59	18
+65	20
+end_nodes
 
 end_interface
 
 begin_interface "i1" "r1" "r2"
-begin_edges
-1	3	0	2
-3	5	2	10
-5	7	10	15
-7	9	15	20
-9	11	20	25
-11	13	25	30
-13	15	30	35
-15	17	35	40
-17	19	40	45
-19	21	45	50
-end_edges
+begin_nodes
+1	0
+3	2
+5	10
+7	15
+9	20
+11	25
+13	30
+15	35
+17	40
+19	45
+21	50
+end_nodes
 
 end_interface
 

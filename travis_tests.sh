@@ -13,7 +13,8 @@ set -e
 progname="\$0"
 curdir=\`dirname "\${progname}"\`
 export PYTHONHASHSEED=0
-# sequential speeds up small examples
+# sequential speeds reduces over all testing time
+export OMP_NUM_THREADS=1
 export MKL_NUM_THREADS=1
 export PYTHONPATH="\${curdir}"/../${DEVSIM_LIB}
 python "\$@"
