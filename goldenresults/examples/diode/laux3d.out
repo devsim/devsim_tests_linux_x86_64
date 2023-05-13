@@ -1,3 +1,8 @@
+Searching DEVSIM_MATH_LIBS="libopenblas.so:liblapack.so:libblas.so"
+Loading "libopenblas.so": ALL BLAS/LAPACK LOADED
+Skipping liblapack.so
+Skipping libblas.so
+loading UMFPACK 5.1 as direct solver
 Adding 1417 nodes
 Adding 8781 edges with 0 duplicates removed
 Adding 14066 triangles  with 0 duplicate removed
@@ -106,7 +111,7 @@ Replacing Tetrahedron Edge Model ElectricField_z in region Bulk of material Sili
 12 ElectricField_x:Potential@en3
 13 ElectricField_y:Potential@en3
 14 ElectricField_z:Potential@en3
-0.0
+2.2351741790771484e-08
 [[ 25.55544512  27.95724793 -81.94344116]
  [ 25.55544512  27.95724793 -81.94344116]
  [ 25.55544512  27.95724793 -81.94344116]
@@ -140,7 +145,7 @@ Replacing Tetrahedron Edge Model ElectricField_z in region Bulk of material Sili
 12 ElectricField_node0_x:Potential@en3
 13 ElectricField_node0_y:Potential@en3
 14 ElectricField_node0_z:Potential@en3
-0.0
+2.7008354663848877e-08
 [[ 25.55544512  27.95724793 -81.94344116]
  [ 25.55544512  27.95724793 -81.94344116]
  [ 25.55544512  27.95724793 -81.94344116]
@@ -174,7 +179,7 @@ Replacing Tetrahedron Edge Model ElectricField_z in region Bulk of material Sili
 12 ElectricField_node1_x:Potential@en3
 13 ElectricField_node1_y:Potential@en3
 14 ElectricField_node1_z:Potential@en3
-0.0
+2.60770320892334e-08
 [[ 25.55544512  27.95724793 -81.94344116]
  [ 25.55544512  27.95724793 -81.94344116]
  [ 25.55544512  27.95724793 -81.94344116]
@@ -221,7 +226,7 @@ Replacing Tetrahedron Edge Model ElectronCurrent_z in region Bulk of material Si
 12 ElectronCurrent_x:Potential@en3
 13 ElectronCurrent_y:Potential@en3
 14 ElectronCurrent_z:Potential@en3
-0.0
+4.842877388000488e-07
 [[ 5.82060697e-05 -1.13368584e-04  1.22693321e-02]
  [ 5.72356456e-05 -1.14354479e-04  1.22671159e-02]
  [ 5.72656544e-05 -1.14324562e-04  1.22672245e-02]
@@ -255,7 +260,7 @@ Replacing Tetrahedron Edge Model ElectronCurrent_z in region Bulk of material Si
 12 ElectronCurrent_node0_x:Potential@en3
 13 ElectronCurrent_node0_y:Potential@en3
 14 ElectronCurrent_node0_z:Potential@en3
-0.0
+5.550682544708252e-07
 [[ 5.51335703e-05 -1.16589852e-04  1.22693321e-02]
  [ 5.51335703e-05 -1.16589852e-04  1.22693321e-02]
  [ 5.51335703e-05 -1.16589852e-04  1.22693321e-02]
@@ -289,7 +294,7 @@ Replacing Tetrahedron Edge Model ElectronCurrent_z in region Bulk of material Si
 12 ElectronCurrent_node1_x:Potential@en3
 13 ElectronCurrent_node1_y:Potential@en3
 14 ElectronCurrent_node1_z:Potential@en3
-0.0
+5.550682544708252e-07
 [[ 6.12785690e-05 -1.10147316e-04  1.22693321e-02]
  [ 5.93377208e-05 -1.12119106e-04  1.22648997e-02]
  [ 5.93977386e-05 -1.12059272e-04  1.22651170e-02]

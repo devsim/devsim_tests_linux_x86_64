@@ -1,3 +1,8 @@
+Searching DEVSIM_MATH_LIBS="libopenblas.so:liblapack.so:libblas.so"
+Loading "libopenblas.so": ALL BLAS/LAPACK LOADED
+Skipping liblapack.so
+Skipping libblas.so
+loading UMFPACK 5.1 as direct solver
 "min(x*b, x+b)"
 "min((x * b), (x + b))"
 "((((b * x) <= (x + b)) * b) + ((b * x) > (x + b)))"

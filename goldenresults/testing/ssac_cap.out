@@ -1,3 +1,8 @@
+Searching DEVSIM_MATH_LIBS="libopenblas.so:liblapack.so:libblas.so"
+Loading "libopenblas.so": ALL BLAS/LAPACK LOADED
+Skipping liblapack.so
+Skipping libblas.so
+loading UMFPACK 5.1 as direct solver
 bot
  (region: MyRegion)
  (contact: top)
@@ -11,16 +16,16 @@ Iteration: 0
       Equation: "PotentialEquation"	RelError: 1.00000e+00	AbsError: 1.00000e+00
   Circuit: 	RelError: 1.00000e+00	AbsError: 2.00000e+00
 Iteration: 1
-  Device: "MyDevice"	RelError: 1.70655e-16	AbsError: 1.02393e-16
-    Region: "MyRegion"	RelError: 1.70655e-16	AbsError: 1.02393e-16
-      Equation: "PotentialEquation"	RelError: 1.70655e-16	AbsError: 1.02393e-16
+  Device: "MyDevice"	RelError: 9.52882e-16	AbsError: 6.67018e-16
+    Region: "MyRegion"	RelError: 9.52882e-16	AbsError: 6.67018e-16
+      Equation: "PotentialEquation"	RelError: 9.52882e-16	AbsError: 6.67018e-16
   Circuit: 	RelError: 0.00000e+00	AbsError: 0.00000e+00
 Circuit Solution
 1	1.000000000000000e+00
 V1.I	0.000000000000000e+00
 topbias	1.000000000000000e+00
 3.451499999999999e-13
--3.4515e-13
+-3.451500000000001e-13
 creating solution ssac_real with 3 nodes
 creating solution ssac_imag with 3 nodes
 Device: MyDevice	Region: MyRegion	Creating: Potential_Real
@@ -29,11 +34,11 @@ AC Iteration:
 number of equations 14
 Circuit AC Solution
 1	1.000000000000000e+00	0.000000000000000e+00
-V1.I	-9.978782117116092e-04	-4.601397942853928e-05
-topbias	2.121788288390788e-03	-4.601397942853928e-02
+V1.I	-9.978782117116092e-04	-4.601397942853949e-05
+topbias	2.121788288390807e-03	-4.601397942853949e-02
 AC Iteration:
 number of equations 14
 Circuit AC Solution
 1	1.000000000000000e+00	0.000000000000000e+00
-V1.I	-9.999999999997873e-04	-4.611181894592538e-10
-topbias	2.126299846502256e-13	-4.611181894592538e-07
+V1.I	-9.999999999997873e-04	-4.611181894592560e-10
+topbias	2.126299846502275e-13	-4.611181894592560e-07

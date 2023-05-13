@@ -1,3 +1,8 @@
+Searching DEVSIM_MATH_LIBS="libopenblas.so:liblapack.so:libblas.so"
+Loading "libopenblas.so": ALL BLAS/LAPACK LOADED
+Skipping liblapack.so
+Skipping libblas.so
+loading UMFPACK 5.1 as direct solver
 Adding 1016 nodes
 Adding 2560 edges with 0 duplicates removed
 Adding 1544 triangles  with 0 duplicate removed
@@ -383,11 +388,11 @@ Warning: Replacing Contact Equation with Contact Equation of the same name.
 Contact: source, Equation: HoleContinuityEquation
 number of equations 7353
 Iteration: 0
-  Device: "mymos"	RelError: 2.47463e-14	AbsError: 2.86061e+05
-    Region: "bulk"	RelError: 1.83248e-14	AbsError: 8.28158e+04
+  Device: "mymos"	RelError: 2.45807e-14	AbsError: 2.86061e+05
+    Region: "bulk"	RelError: 1.81593e-14	AbsError: 8.28158e+04
       Equation: "ElectronContinuityEquation"	RelError: 8.00402e-15	AbsError: 4.58268e+04
-      Equation: "HoleContinuityEquation"	RelError: 9.81796e-15	AbsError: 3.69890e+04
-      Equation: "PotentialEquation"	RelError: 5.02817e-16	AbsError: 2.01251e-16
+      Equation: "HoleContinuityEquation"	RelError: 9.62455e-15	AbsError: 3.69890e+04
+      Equation: "PotentialEquation"	RelError: 5.30685e-16	AbsError: 2.01258e-16
     Region: "gate"	RelError: 6.13262e-15	AbsError: 2.86061e+05
       Equation: "ElectronContinuityEquation"	RelError: 2.86147e-15	AbsError: 2.86061e+05
       Equation: "HoleContinuityEquation"	RelError: 3.18044e-15	AbsError: 3.18140e-15

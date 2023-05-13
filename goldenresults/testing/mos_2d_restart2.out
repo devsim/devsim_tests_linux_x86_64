@@ -1,3 +1,8 @@
+Searching DEVSIM_MATH_LIBS="libopenblas.so:liblapack.so:libblas.so"
+Loading "libopenblas.so": ALL BLAS/LAPACK LOADED
+Skipping liblapack.so
+Skipping libblas.so
+loading UMFPACK 5.1 as direct solver
 Adding 1016 nodes
 Adding 2560 edges with 0 duplicates removed
 Adding 1544 triangles  with 0 duplicate removed
@@ -258,11 +263,11 @@ Could not find a model by the name of Electrons:Holes, using 0.0
 Could not find a model by the name of NetDoping:Holes, using 0.0
 Device: mymos Region: gate Equation: PotentialEquation NODE Model: PotentialNodeCharge:Potential MISSING
 Iteration: 0
-  Device: "mymos"	RelError: 1.27306e-14	AbsError: 8.03389e+03
-    Region: "bulk"	RelError: 1.17018e-14	AbsError: 4.41561e+03
-      Equation: "ElectronContinuityEquation"	RelError: 5.87468e-15	AbsError: 2.74201e+03
-      Equation: "HoleContinuityEquation"	RelError: 5.33919e-15	AbsError: 1.67360e+03
-      Equation: "PotentialEquation"	RelError: 4.87922e-16	AbsError: 1.95289e-16
+  Device: "mymos"	RelError: 1.29650e-14	AbsError: 8.03389e+03
+    Region: "bulk"	RelError: 1.19362e-14	AbsError: 4.41562e+03
+      Equation: "ElectronContinuityEquation"	RelError: 5.87472e-15	AbsError: 2.74201e+03
+      Equation: "HoleContinuityEquation"	RelError: 5.47783e-15	AbsError: 1.67361e+03
+      Equation: "PotentialEquation"	RelError: 5.83679e-16	AbsError: 1.95301e-16
     Region: "gate"	RelError: 7.37611e-16	AbsError: 8.03389e+03
       Equation: "ElectronContinuityEquation"	RelError: 8.03389e-17	AbsError: 8.03389e+03
 	RelErrorNode: 17	AbsErrorNode: 17

@@ -13,3 +13,9 @@ pip install --target devsim_linux_2.5.0 devsim-2.5.0-cp36-abi3-manylinux_2_17_x8
 bash travis_tests.sh 2.5.0
 ```
 
+# without Intel MKL
+
+```
+conda create  -y --name devsim_test python=3 numpy nomkl cmake
+```
+

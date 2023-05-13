@@ -1,3 +1,8 @@
+Searching DEVSIM_MATH_LIBS="libopenblas.so:liblapack.so:libblas.so"
+Loading "libopenblas.so": ALL BLAS/LAPACK LOADED
+Skipping liblapack.so
+Skipping libblas.so
+loading UMFPACK 5.1 as direct solver
 transient_dc
 creating solution dcop with 3 nodes
 number of equations 3
@@ -15,7 +20,7 @@ number of equations 3
 Iteration: 0
   Circuit: 	RelError: 1.00000e+10	AbsError: 1.20003e+00
 Iteration: 1
-  Circuit: 	RelError: 1.81899e-16	AbsError: 2.18270e-16
+  Circuit: 	RelError: 3.20682e-16	AbsError: 2.46026e-16
 Charge Relative Error 1.99996e-05
 Circuit Solution
 1	0.000000000000000e+00
