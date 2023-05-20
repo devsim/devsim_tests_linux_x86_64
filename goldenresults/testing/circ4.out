@@ -89,9 +89,9 @@ Iteration: 1
       Equation: "PotentialEquation"	RelError: 4.11750e-13	AbsError: 4.11856e-23
   Circuit: 	RelError: 8.07794e-19	AbsError: 8.07794e-29
 Circuit Solution
-V1.I	-3.761581698423566e-38
+V1.I	-7.523163396847131e-38
 cnode0	0.000000000000000e+00
-cnode1	-8.204153423015485e-29
+cnode1	-8.204153418901238e-29
 Contact: top
 Electron 0
 Hole 0

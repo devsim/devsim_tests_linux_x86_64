@@ -88,9 +88,9 @@ Iteration: 1
     Region: "MyRegion"	RelError: 4.11750e-13	AbsError: 1.59018e-05
       Equation: "ElectronContinuityEquation"	RelError: 1.59018e-21	AbsError: 1.59018e-05
       Equation: "PotentialEquation"	RelError: 4.11750e-13	AbsError: 4.11856e-23
-  Circuit: 	RelError: 5.92906e-28	AbsError: 5.92906e-38
+  Circuit: 	RelError: 1.81481e-28	AbsError: 1.81481e-38
 Circuit Solution
-cnode1	-8.204153420227580e-29
+cnode1	-8.204153416113334e-29
 Contact: top
 Electron 0
 Hole 0
