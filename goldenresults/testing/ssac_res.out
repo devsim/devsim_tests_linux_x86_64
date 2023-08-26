@@ -48,7 +48,7 @@ Iteration: 1
     Region: "MyRegion"	RelError: 4.11750e-13	AbsError: 1.59018e-05
       Equation: "ElectronContinuityEquation"	RelError: 1.59018e-21	AbsError: 1.59018e-05
       Equation: "PotentialEquation"	RelError: 4.11750e-13	AbsError: 4.11856e-23
-  Circuit: 	RelError: 3.76158e-28	AbsError: 3.76158e-38
+  Circuit: 	RelError: 7.52316e-28	AbsError: 7.52316e-38
 Contact: top
 Electron 0
 Hole 0
