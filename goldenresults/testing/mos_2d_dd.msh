@@ -26412,10 +26412,6 @@ begin_node_model "bodynodemodel:Potential"
 COMMAND contact_node_model -device "mymos" -contact "body" -display_type "scalar" -name "bodynodemodel:Potential" -equation "1;"
 end_node_model
 
-begin_node_model "contactcharge_node"
-COMMAND node_model -device "mymos" -region "bulk" -display_type "scalar" -name "contactcharge_node" -equation "(ElectronCharge * IntrinsicCharge);"
-end_node_model
-
 begin_node_model "coordinate_index"
 DATAPARENT "x"
 end_node_model
@@ -27977,10 +27973,6 @@ begin_node_model "USRH:Holes"
 COMMAND node_model -device "mymos" -region "gate" -display_type "scalar" -name "USRH:Holes" -equation "((((Electrons:Holes * Holes) + Electrons) * pow(((taun * (p1 + Holes)) + (taup * (n1 + Electrons))),(-1))) - ((-pow(n_i,2) + (Electrons * Holes)) * (taun + (taup * Electrons:Holes)) * pow(((taun * (p1 + Holes)) + (taup * (n1 + Electrons))),(-2))));"
 end_node_model
 
-begin_node_model "contactcharge_node"
-COMMAND node_model -device "mymos" -region "gate" -display_type "scalar" -name "contactcharge_node" -equation "(ElectronCharge * IntrinsicCharge);"
-end_node_model
-
 begin_node_model "coordinate_index"
 DATAPARENT "x"
 end_node_model
@@ -29015,7 +29007,7 @@ COMMAND contact_equation -device "mymos" -contact "body" -name "HoleContinuityEq
 end_equation
 
 begin_equation "PotentialEquation"
-COMMAND contact_equation -device "mymos" -contact "body" -name "PotentialEquation" -edge_charge_model "contactcharge_edge" -edge_current_model "" -edge_model "" -edge_volume_model "" -element_charge_model "" -element_current_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -node_charge_model "contactcharge_node" -node_current_model "" -node_model "bodynodemodel" -circuit_node ""
+COMMAND contact_equation -device "mymos" -contact "body" -name "PotentialEquation" -edge_charge_model "contactcharge_edge" -edge_current_model "" -edge_model "" -edge_volume_model "" -element_charge_model "" -element_current_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -node_charge_model "" -node_current_model "" -node_model "bodynodemodel" -circuit_node ""
 end_equation
 
 end_contact
@@ -29045,7 +29037,7 @@ COMMAND contact_equation -device "mymos" -contact "drain" -name "HoleContinuityE
 end_equation
 
 begin_equation "PotentialEquation"
-COMMAND contact_equation -device "mymos" -contact "drain" -name "PotentialEquation" -edge_charge_model "contactcharge_edge" -edge_current_model "" -edge_model "" -edge_volume_model "" -element_charge_model "" -element_current_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -node_charge_model "contactcharge_node" -node_current_model "" -node_model "drainnodemodel" -circuit_node ""
+COMMAND contact_equation -device "mymos" -contact "drain" -name "PotentialEquation" -edge_charge_model "contactcharge_edge" -edge_current_model "" -edge_model "" -edge_volume_model "" -element_charge_model "" -element_current_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -node_charge_model "" -node_current_model "" -node_model "drainnodemodel" -circuit_node ""
 end_equation
 
 end_contact
@@ -29073,7 +29065,7 @@ COMMAND contact_equation -device "mymos" -contact "gate" -name "HoleContinuityEq
 end_equation
 
 begin_equation "PotentialEquation"
-COMMAND contact_equation -device "mymos" -contact "gate" -name "PotentialEquation" -edge_charge_model "contactcharge_edge" -edge_current_model "" -edge_model "" -edge_volume_model "" -element_charge_model "" -element_current_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -node_charge_model "contactcharge_node" -node_current_model "" -node_model "gatenodemodel" -circuit_node ""
+COMMAND contact_equation -device "mymos" -contact "gate" -name "PotentialEquation" -edge_charge_model "contactcharge_edge" -edge_current_model "" -edge_model "" -edge_volume_model "" -element_charge_model "" -element_current_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -node_charge_model "" -node_current_model "" -node_model "gatenodemodel" -circuit_node ""
 end_equation
 
 end_contact
@@ -29103,7 +29095,7 @@ COMMAND contact_equation -device "mymos" -contact "source" -name "HoleContinuity
 end_equation
 
 begin_equation "PotentialEquation"
-COMMAND contact_equation -device "mymos" -contact "source" -name "PotentialEquation" -edge_charge_model "contactcharge_edge" -edge_current_model "" -edge_model "" -edge_volume_model "" -element_charge_model "" -element_current_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -node_charge_model "contactcharge_node" -node_current_model "" -node_model "sourcenodemodel" -circuit_node ""
+COMMAND contact_equation -device "mymos" -contact "source" -name "PotentialEquation" -edge_charge_model "contactcharge_edge" -edge_current_model "" -edge_model "" -edge_volume_model "" -element_charge_model "" -element_current_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -node_charge_model "" -node_current_model "" -node_model "sourcenodemodel" -circuit_node ""
 end_equation
 
 end_contact

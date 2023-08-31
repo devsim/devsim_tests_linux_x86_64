@@ -78,7 +78,6 @@ Replacing Node Model botnodemodel:Potential in region Bulk of material Silicon
 Replacing Edge Model contactcharge_edge in region Bulk of material Silicon
 Replacing Edge Model contactcharge_edge:Potential@n0 in region Bulk of material Silicon
 Replacing Edge Model contactcharge_edge:Potential@n1 in region Bulk of material Silicon
-Replacing Node Model contactcharge_node in region Bulk of material Silicon
 Replacing Node Model topnodeelectrons in region Bulk of material Silicon
 Replacing Node Model topnodeelectrons:Electrons in region Bulk of material Silicon
 Replacing Node Model topnodeholes in region Bulk of material Silicon
