@@ -35,8 +35,8 @@ Contact top in region solution with 98 nodes
 Adding interface dielectric_solution with 729, 729 nodes
 Adding interface dna_solution with 641, 641 nodes
 Volume dna 6.795481370253293e-20
-Volume dielectric 1.1538732309160458e-11
-Volume solution 7.399245220585698e-11
+Volume dielectric 1.1538732309160452e-11
+Volume solution 7.3992452205857e-11
 number of equations 9940
 Iteration: 0
   Device: "disk"	RelError: 3.14199e+00	AbsError: 8.50503e+16

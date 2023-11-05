@@ -34,9 +34,9 @@ Contact bot in region solution with 25 nodes
 Contact top in region solution with 25 nodes
 Adding interface dielectric_solution with 119, 119 nodes
 Adding interface dna_solution with 440, 440 nodes
-Volume dna 6.373529476563929e-20 2.0052545537930616e-13
-Volume dielectric 9.756678569823221e-12 1.1035733974877949e-08
-Volume solution 3.977731347627863e-11 5.160562609001867e-08
+Volume dna 6.373529476563925e-20 2.0052545537930618e-13
+Volume dielectric 9.756678569823232e-12 1.103573397487795e-08
+Volume solution 3.977731347627853e-11 5.1605626090018564e-08
 number of equations 44103
 Iteration: 0
   Device: "disk"	RelError: 3.38649e+00	AbsError: 2.02298e+17

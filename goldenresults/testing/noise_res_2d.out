@@ -141,4 +141,4 @@ Device: MyDevice	Region: MyRegion	Creating: V1.I_PotentialEquation_real
 Device: MyDevice	Region: MyRegion	Creating: V1.I_PotentialEquation_imag
 Noise Iteration:
 number of equations 244
-9.547760076195741e-20
+9.547760076195746e-20
