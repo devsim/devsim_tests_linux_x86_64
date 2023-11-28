@@ -18,6 +18,8 @@ inf
 
 while evaluating node model d_erf_inv_dx on Device: MyDevice on Region: MyRegion
 There was a Divide-by-zero floating point exception while evaluating derf_invdx(x)
+while evaluating node model d_erf_inv_dx on Device: MyDevice on Region: MyRegion
+There was a Divide-by-zero floating point exception while evaluating derf_invdx(x)
 while evaluating model d_erf_inv_dx: expression derf_invdx(x) evaluates to invalid
 
 erfc_inv
@@ -33,6 +35,8 @@ inf
 8.88560e-02
 0.00000e+00
 
+while evaluating node model d_erfc_inv_dx on Device: MyDevice on Region: MyRegion
+There was a Divide-by-zero floating point exception while evaluating derfc_invdx(x)
 while evaluating node model d_erfc_inv_dx on Device: MyDevice on Region: MyRegion
 There was a Divide-by-zero floating point exception while evaluating derfc_invdx(x)
 while evaluating model d_erfc_inv_dx: expression derfc_invdx(x) evaluates to invalid
