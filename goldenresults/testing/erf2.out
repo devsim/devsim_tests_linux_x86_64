@@ -21,6 +21,10 @@ There was a Divide-by-zero floating point exception while evaluating derf_invdx(
 while evaluating node model d_erf_inv_dx on Device: MyDevice on Region: MyRegion
 There was a Divide-by-zero floating point exception while evaluating derf_invdx(x)
 while evaluating model d_erf_inv_dx: expression derf_invdx(x) evaluates to invalid
+Failed to print node values for d_erf_inv_dx: DEVSIM FATAL: while evaluating node model d_erf_inv_dx on Device: MyDevice on Region: MyRegion
+There was a Divide-by-zero floating point exception while evaluating derf_invdx(x)
+while evaluating model d_erf_inv_dx: expression derf_invdx(x) evaluates to invalid
+
 
 erfc_inv
 inf
@@ -40,6 +44,10 @@ There was a Divide-by-zero floating point exception while evaluating derfc_invdx
 while evaluating node model d_erfc_inv_dx on Device: MyDevice on Region: MyRegion
 There was a Divide-by-zero floating point exception while evaluating derfc_invdx(x)
 while evaluating model d_erfc_inv_dx: expression derfc_invdx(x) evaluates to invalid
+Failed to print node values for d_erfc_inv_dx: DEVSIM FATAL: while evaluating node model d_erfc_inv_dx on Device: MyDevice on Region: MyRegion
+There was a Divide-by-zero floating point exception while evaluating derfc_invdx(x)
+while evaluating model d_erfc_inv_dx: expression derfc_invdx(x) evaluates to invalid
+
 Replacing Node Model erf_inv in region MyRegion of material Si
 
 erf_inv
