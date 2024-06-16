@@ -9,8 +9,8 @@ All tests pass on Centos 7 running in a docker image on a Ubuntu 20.04 machine w
 Trial run from a Anaconda Python environment:
 ```
 source preinstall.sh
-pip install --target devsim_linux_2.8.0 devsim-2.8.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-chmod u+x devsim_linux_2.8.0/devsim_data/testing/rundifftest.py
-bash travis_tests.sh 2.8.0
+pip install --target devsim_linux_2.8.1 devsim-2.8.1-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+chmod u+x devsim_linux_2.8.1/devsim_data/testing/rundifftest.py
+bash travis_tests.sh 2.8.1
 ```
 
