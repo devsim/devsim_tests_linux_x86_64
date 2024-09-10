@@ -128,10 +128,10 @@ Potential
 -5.10822e-13
 Region: MyOxRegion
 Equation: PotentialEquation
-Options: {'device': 'MyDevice', 'edge_model': 'PotentialEdgeFlux', 'edge_volume_model': '', 'element_model': '', 'name': 'PotentialEquation', 'node_model': '', 'region': 'MyOxRegion', 'time_node_model': '', 'variable_name': 'Potential', 'volume_node0_model': '', 'volume_node1_model': ''}
+Options: {'device': 'MyDevice', 'edge_model': 'PotentialEdgeFlux', 'edge_volume_model': '', 'element_model': '', 'name': 'PotentialEquation', 'node_model': '', 'region': 'MyOxRegion', 'time_node_model': '', 'variable_name': 'Potential', 'variable_update': 'default', 'volume_node0_model': '', 'volume_node1_model': ''}
 Region: MySiRegion
 Equation: PotentialEquation
-Options: {'device': 'MyDevice', 'edge_model': 'PotentialEdgeFlux', 'edge_volume_model': '', 'element_model': '', 'name': 'PotentialEquation', 'node_model': '', 'region': 'MySiRegion', 'time_node_model': '', 'variable_name': 'Potential', 'volume_node0_model': '', 'volume_node1_model': ''}
+Options: {'device': 'MyDevice', 'edge_model': 'PotentialEdgeFlux', 'edge_volume_model': '', 'element_model': '', 'name': 'PotentialEquation', 'node_model': '', 'region': 'MySiRegion', 'time_node_model': '', 'variable_name': 'Potential', 'variable_update': 'default', 'volume_node0_model': '', 'volume_node1_model': ''}
 Contact: bot
 Contact Equation: PotentialEquation
 Options: {'circuit_node': '', 'contact': 'bot', 'device': 'MyDevice', 'edge_charge_model': 'contactcharge_edge_bottom', 'edge_current_model': '', 'edge_model': '', 'edge_volume_model': '', 'element_charge_model': '', 'element_current_model': '', 'element_model': '', 'name': 'PotentialEquation', 'node_charge_model': '', 'node_current_model': '', 'node_model': 'botnode_model', 'volume_node0_model': '', 'volume_node1_model': ''}

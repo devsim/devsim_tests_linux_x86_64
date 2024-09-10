@@ -258,11 +258,11 @@ Warning: Replacing equation with equation of the same name.
 Region: bulk, Equation: PotentialEquation, Variable: Potential
 number of equations 7353
 Iteration: 0
-  Device: "mymos"	RelError: 2.78167e-14	AbsError: 4.78543e+05
-    Region: "bulk"	RelError: 1.77854e-14	AbsError: 8.51321e+04
-      Equation: "ElectronContinuityEquation"	RelError: 7.59901e-15	AbsError: 4.81379e+04
-      Equation: "HoleContinuityEquation"	RelError: 9.63419e-15	AbsError: 3.69942e+04
-      Equation: "PotentialEquation"	RelError: 5.52192e-16	AbsError: 1.24488e-16
+  Device: "mymos"	RelError: 2.78155e-14	AbsError: 4.78543e+05
+    Region: "bulk"	RelError: 1.77842e-14	AbsError: 8.51321e+04
+      Equation: "ElectronContinuityEquation"	RelError: 7.59903e-15	AbsError: 4.81379e+04
+      Equation: "HoleContinuityEquation"	RelError: 9.63308e-15	AbsError: 3.69942e+04
+      Equation: "PotentialEquation"	RelError: 5.52069e-16	AbsError: 1.24488e-16
     Region: "gate"	RelError: 9.87942e-15	AbsError: 4.78543e+05
       Equation: "ElectronContinuityEquation"	RelError: 4.78543e-15	AbsError: 4.78543e+05
       Equation: "HoleContinuityEquation"	RelError: 4.93820e-15	AbsError: 4.93820e-15
