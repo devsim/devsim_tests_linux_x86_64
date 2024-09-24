@@ -26661,15 +26661,15 @@ BUILTIN
 end_triangle_edge_model
 
 begin_equation "ElectronContinuityEquation"
-COMMAND equation -device "mymos" -region "bulk" -name "ElectronContinuityEquation" -variable_name "Electrons" -node_model "ElectronGeneration" -edge_model "ElectronCurrent" -edge_volume_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -time_node_model "NCharge"
+COMMAND equation -device "mymos" -region "bulk" -name "ElectronContinuityEquation" -variable_name "Electrons" -variable_update "positive" -node_model "ElectronGeneration" -edge_model "ElectronCurrent" -edge_volume_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -time_node_model "NCharge"
 end_equation
 
 begin_equation "HoleContinuityEquation"
-COMMAND equation -device "mymos" -region "bulk" -name "HoleContinuityEquation" -variable_name "Holes" -node_model "HoleGeneration" -edge_model "HoleCurrent" -edge_volume_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -time_node_model "PCharge"
+COMMAND equation -device "mymos" -region "bulk" -name "HoleContinuityEquation" -variable_name "Holes" -variable_update "positive" -node_model "HoleGeneration" -edge_model "HoleCurrent" -edge_volume_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -time_node_model "PCharge"
 end_equation
 
 begin_equation "PotentialEquation"
-COMMAND equation -device "mymos" -region "bulk" -name "PotentialEquation" -variable_name "Potential" -node_model "PotentialNodeCharge" -edge_model "PotentialEdgeFlux" -edge_volume_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -time_node_model ""
+COMMAND equation -device "mymos" -region "bulk" -name "PotentialEquation" -variable_name "Potential" -variable_update "log_damp" -node_model "PotentialNodeCharge" -edge_model "PotentialEdgeFlux" -edge_volume_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -time_node_model ""
 end_equation
 
 end_region
@@ -28198,15 +28198,15 @@ BUILTIN
 end_triangle_edge_model
 
 begin_equation "ElectronContinuityEquation"
-COMMAND equation -device "mymos" -region "gate" -name "ElectronContinuityEquation" -variable_name "Electrons" -node_model "ElectronGeneration" -edge_model "ElectronCurrent" -edge_volume_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -time_node_model "NCharge"
+COMMAND equation -device "mymos" -region "gate" -name "ElectronContinuityEquation" -variable_name "Electrons" -variable_update "positive" -node_model "ElectronGeneration" -edge_model "ElectronCurrent" -edge_volume_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -time_node_model "NCharge"
 end_equation
 
 begin_equation "HoleContinuityEquation"
-COMMAND equation -device "mymos" -region "gate" -name "HoleContinuityEquation" -variable_name "Holes" -node_model "HoleGeneration" -edge_model "HoleCurrent" -edge_volume_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -time_node_model "PCharge"
+COMMAND equation -device "mymos" -region "gate" -name "HoleContinuityEquation" -variable_name "Holes" -variable_update "positive" -node_model "HoleGeneration" -edge_model "HoleCurrent" -edge_volume_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -time_node_model "PCharge"
 end_equation
 
 begin_equation "PotentialEquation"
-COMMAND equation -device "mymos" -region "gate" -name "PotentialEquation" -variable_name "Potential" -node_model "PotentialNodeCharge" -edge_model "PotentialEdgeFlux" -edge_volume_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -time_node_model ""
+COMMAND equation -device "mymos" -region "gate" -name "PotentialEquation" -variable_name "Potential" -variable_update "log_damp" -node_model "PotentialNodeCharge" -edge_model "PotentialEdgeFlux" -edge_volume_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -time_node_model ""
 end_equation
 
 end_region
@@ -28955,7 +28955,7 @@ BUILTIN
 end_triangle_edge_model
 
 begin_equation "PotentialEquation"
-COMMAND equation -device "mymos" -region "oxide" -name "PotentialEquation" -variable_name "Potential" -node_model "" -edge_model "PotentialEdgeFlux" -edge_volume_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -time_node_model ""
+COMMAND equation -device "mymos" -region "oxide" -name "PotentialEquation" -variable_name "Potential" -variable_update "log_damp" -node_model "" -edge_model "PotentialEdgeFlux" -edge_volume_model "" -element_model "" -volume_node0_model "" -volume_node1_model "" -time_node_model ""
 end_equation
 
 end_region
