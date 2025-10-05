@@ -22,6 +22,12 @@ AQAAAACAAABAXwAAEQ4AAA==eJx13HuQlXUdx/FDi4hoAi2iS2ohcpFBREQylYtDEIGiptyM1ExLNDVi
 <DataArray type="Float64" Name="AtContactNode" format="binary">
 AQAAAACAAADAHwAAHwAAAA==eJztwTEBAAAAwqD1T20MH6AAAAAAAAAAgLcBH8AAAQ==
 </DataArray>
+<DataArray type="Float64" Name="ContactNSurfaceNormal_x" format="binary">
+AQAAAACAAADAHwAAHwAAAA==eJztwTEBAAAAwqD1T20MH6AAAAAAAAAAgLcBH8AAAQ==
+</DataArray>
+<DataArray type="Float64" Name="ContactNSurfaceNormal_y" format="binary">
+AQAAAACAAADAHwAAHwAAAA==eJztwTEBAAAAwqD1T20MH6AAAAAAAAAAgLcBH8AAAQ==
+</DataArray>
 <DataArray type="Float64" Name="ContactSurfaceArea" format="binary">
 AQAAAACAAADAHwAAHwAAAA==eJztwTEBAAAAwqD1T20MH6AAAAAAAAAAgLcBH8AAAQ==
 </DataArray>

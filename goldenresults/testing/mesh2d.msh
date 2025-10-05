@@ -198,6 +198,14 @@ begin_node_model "AtContactNode"
 BUILTIN
 end_node_model
 
+begin_node_model "ContactNSurfaceNormal_x"
+DATAPARENT "SurfaceArea"
+end_node_model
+
+begin_node_model "ContactNSurfaceNormal_y"
+DATAPARENT "SurfaceArea"
+end_node_model
+
 begin_node_model "ContactSurfaceArea"
 DATAPARENT "SurfaceArea"
 end_node_model
@@ -331,6 +339,14 @@ end_triangles
 
 begin_node_model "AtContactNode"
 BUILTIN
+end_node_model
+
+begin_node_model "ContactNSurfaceNormal_x"
+DATAPARENT "SurfaceArea"
+end_node_model
+
+begin_node_model "ContactNSurfaceNormal_y"
+DATAPARENT "SurfaceArea"
 end_node_model
 
 begin_node_model "ContactSurfaceArea"
@@ -592,6 +608,14 @@ begin_node_model "AtContactNode"
 BUILTIN
 end_node_model
 
+begin_node_model "ContactNSurfaceNormal_x"
+DATAPARENT "SurfaceArea"
+end_node_model
+
+begin_node_model "ContactNSurfaceNormal_y"
+DATAPARENT "SurfaceArea"
+end_node_model
+
 begin_node_model "ContactSurfaceArea"
 DATAPARENT "SurfaceArea"
 end_node_model
@@ -769,6 +793,14 @@ end_triangles
 
 begin_node_model "AtContactNode"
 BUILTIN
+end_node_model
+
+begin_node_model "ContactNSurfaceNormal_x"
+DATAPARENT "SurfaceArea"
+end_node_model
+
+begin_node_model "ContactNSurfaceNormal_y"
+DATAPARENT "SurfaceArea"
 end_node_model
 
 begin_node_model "ContactSurfaceArea"
@@ -1053,6 +1085,14 @@ end_triangles
 
 begin_node_model "AtContactNode"
 BUILTIN
+end_node_model
+
+begin_node_model "ContactNSurfaceNormal_x"
+DATAPARENT "SurfaceArea"
+end_node_model
+
+begin_node_model "ContactNSurfaceNormal_y"
+DATAPARENT "SurfaceArea"
 end_node_model
 
 begin_node_model "ContactSurfaceArea"
