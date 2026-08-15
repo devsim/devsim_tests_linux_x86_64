@@ -9,8 +9,8 @@ All tests pass on a Ubuntu 24.04 machine with an Intel I9 processor.
 Trial run from a Anaconda Python environment:
 ```
 source preinstall.sh
-pip install --target devsim_linux_2.10.1 devsim-2.10.1-cp39-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
-chmod u+x devsim_linux_2.10.1/devsim_data/testing/rundifftest.py
-bash travis_tests.sh 2.10.1
+pip install --target devsim_linux_2.11.0 devsim-2.11.0-cp39-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+chmod u+x devsim_linux_2.11.0/devsim_data/testing/rundifftest.py
+bash travis_tests.sh 2.11.0
 ```
 
